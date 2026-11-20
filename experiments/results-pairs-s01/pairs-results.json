@@ -1,0 +1,4320 @@
+{
+ "configs": [
+  "original",
+  "wiki_half0",
+  "wiki_half1",
+  "wiki_half0_shuf",
+  "gut_within0"
+ ],
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "per_config": {
+  "original": {
+   "0": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 7,
+      "coexist": 2,
+      "dominate_b": 2,
+      "novel": 1
+     },
+     "novel": 1,
+     "interaction": 0,
+     "interaction_unreached_by_basin_map": 0
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 215,
+      "novel": 90,
+      "dominate_b": 69,
+      "coexist": 22,
+      "same": 3,
+      "extinct": 1
+     },
+     "novel": 90,
+     "interaction": 63,
+     "interaction_unreached_by_basin_map": 36
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 233,
+      "dominate_b": 93,
+      "novel": 86,
+      "coexist": 23
+     },
+     "novel": 86,
+     "interaction": 76,
+     "interaction_unreached_by_basin_map": 45
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 455,
+      "novel": 177,
+      "dominate_b": 164,
+      "coexist": 47,
+      "same": 3,
+      "extinct": 1
+     },
+     "novel": 177,
+     "interaction": 139,
+     "interaction_unreached_by_basin_map": 81
+    }
+   },
+   "1": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 9,
+      "dominate_b": 1,
+      "coexist": 1,
+      "novel": 1
+     },
+     "novel": 1,
+     "interaction": 1,
+     "interaction_unreached_by_basin_map": 1
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 215,
+      "novel": 104,
+      "dominate_b": 59,
+      "coexist": 18,
+      "same": 2,
+      "extinct": 2
+     },
+     "novel": 104,
+     "interaction": 78,
+     "interaction_unreached_by_basin_map": 44
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 231,
+      "novel": 97,
+      "dominate_b": 85,
+      "coexist": 14,
+      "same": 8
+     },
+     "novel": 97,
+     "interaction": 56,
+     "interaction_unreached_by_basin_map": 31
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 455,
+      "novel": 202,
+      "dominate_b": 145,
+      "coexist": 33,
+      "same": 10,
+      "extinct": 2
+     },
+     "novel": 202,
+     "interaction": 135,
+     "interaction_unreached_by_basin_map": 76
+    }
+   },
+   "2": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 9,
+      "dominate_b": 1,
+      "novel": 1,
+      "coexist": 1
+     },
+     "novel": 1,
+     "interaction": 1,
+     "interaction_unreached_by_basin_map": 1
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 219,
+      "novel": 97,
+      "dominate_b": 64,
+      "coexist": 15,
+      "same": 3,
+      "extinct": 2
+     },
+     "novel": 97,
+     "interaction": 80,
+     "interaction_unreached_by_basin_map": 45
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 236,
+      "dominate_b": 102,
+      "novel": 80,
+      "coexist": 11,
+      "same": 6
+     },
+     "novel": 80,
+     "interaction": 64,
+     "interaction_unreached_by_basin_map": 41
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 464,
+      "novel": 178,
+      "dominate_b": 167,
+      "coexist": 27,
+      "same": 9,
+      "extinct": 2
+     },
+     "novel": 178,
+     "interaction": 145,
+     "interaction_unreached_by_basin_map": 87
+    }
+   }
+  },
+  "wiki_half0": {
+   "0": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 6,
+      "dominate_b": 4,
+      "coexist": 1,
+      "novel": 1
+     },
+     "novel": 1,
+     "interaction": 0,
+     "interaction_unreached_by_basin_map": 0
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 232,
+      "dominate_b": 81,
+      "novel": 72,
+      "coexist": 12,
+      "same": 2,
+      "extinct": 1
+     },
+     "novel": 72,
+     "interaction": 51,
+     "interaction_unreached_by_basin_map": 22
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 207,
+      "dominate_b": 123,
+      "novel": 92,
+      "coexist": 12,
+      "same": 1
+     },
+     "novel": 92,
+     "interaction": 51,
+     "interaction_unreached_by_basin_map": 30
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 445,
+      "dominate_b": 208,
+      "novel": 165,
+      "coexist": 25,
+      "same": 3,
+      "extinct": 1
+     },
+     "novel": 165,
+     "interaction": 102,
+     "interaction_unreached_by_basin_map": 52
+    }
+   },
+   "1": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 7,
+      "dominate_b": 5
+     },
+     "novel": 0,
+     "interaction": 0,
+     "interaction_unreached_by_basin_map": 0
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 219,
+      "novel": 94,
+      "dominate_b": 73,
+      "coexist": 11,
+      "extinct": 2,
+      "same": 1
+     },
+     "novel": 94,
+     "interaction": 76,
+     "interaction_unreached_by_basin_map": 46
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 251,
+      "dominate_b": 124,
+      "novel": 53,
+      "same": 4,
+      "coexist": 3
+     },
+     "novel": 53,
+     "interaction": 47,
+     "interaction_unreached_by_basin_map": 29
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 477,
+      "dominate_b": 202,
+      "novel": 147,
+      "coexist": 14,
+      "same": 5,
+      "extinct": 2
+     },
+     "novel": 147,
+     "interaction": 123,
+     "interaction_unreached_by_basin_map": 75
+    }
+   },
+   "2": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 8,
+      "dominate_b": 3,
+      "novel": 1
+     },
+     "novel": 1,
+     "interaction": 0,
+     "interaction_unreached_by_basin_map": 0
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 215,
+      "novel": 87,
+      "dominate_b": 83,
+      "coexist": 12,
+      "extinct": 2,
+      "same": 1
+     },
+     "novel": 87,
+     "interaction": 64,
+     "interaction_unreached_by_basin_map": 39
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 233,
+      "dominate_b": 105,
+      "novel": 81,
+      "coexist": 14,
+      "same": 2
+     },
+     "novel": 81,
+     "interaction": 68,
+     "interaction_unreached_by_basin_map": 30
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 456,
+      "dominate_b": 191,
+      "novel": 169,
+      "coexist": 26,
+      "same": 3,
+      "extinct": 2
+     },
+     "novel": 169,
+     "interaction": 132,
+     "interaction_unreached_by_basin_map": 69
+    }
+   }
+  },
+  "wiki_half1": {
+   "0": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 7,
+      "dominate_b": 4,
+      "novel": 1
+     },
+     "novel": 1,
+     "interaction": 1,
+     "interaction_unreached_by_basin_map": 1
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 229,
+      "dominate_b": 76,
+      "novel": 73,
+      "coexist": 19,
+      "extinct": 2,
+      "same": 1
+     },
+     "novel": 73,
+     "interaction": 57,
+     "interaction_unreached_by_basin_map": 33
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 248,
+      "dominate_b": 110,
+      "novel": 64,
+      "coexist": 9,
+      "same": 4
+     },
+     "novel": 64,
+     "interaction": 43,
+     "interaction_unreached_by_basin_map": 33
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 484,
+      "dominate_b": 190,
+      "novel": 138,
+      "coexist": 28,
+      "same": 5,
+      "extinct": 2
+     },
+     "novel": 138,
+     "interaction": 101,
+     "interaction_unreached_by_basin_map": 67
+    }
+   },
+   "1": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 6,
+      "dominate_b": 3,
+      "novel": 3
+     },
+     "novel": 3,
+     "interaction": 2,
+     "interaction_unreached_by_basin_map": 1
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 214,
+      "novel": 97,
+      "dominate_b": 67,
+      "coexist": 18,
+      "extinct": 3,
+      "same": 1
+     },
+     "novel": 97,
+     "interaction": 80,
+     "interaction_unreached_by_basin_map": 49
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 256,
+      "dominate_b": 111,
+      "novel": 57,
+      "coexist": 9,
+      "same": 2
+     },
+     "novel": 57,
+     "interaction": 44,
+     "interaction_unreached_by_basin_map": 32
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 476,
+      "dominate_b": 181,
+      "novel": 157,
+      "coexist": 27,
+      "same": 3,
+      "extinct": 3
+     },
+     "novel": 157,
+     "interaction": 126,
+     "interaction_unreached_by_basin_map": 82
+    }
+   },
+   "2": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 9,
+      "novel": 2,
+      "dominate_b": 1
+     },
+     "novel": 2,
+     "interaction": 1,
+     "interaction_unreached_by_basin_map": 1
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 204,
+      "novel": 100,
+      "dominate_b": 78,
+      "coexist": 15,
+      "extinct": 2,
+      "same": 1
+     },
+     "novel": 100,
+     "interaction": 76,
+     "interaction_unreached_by_basin_map": 51
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 222,
+      "novel": 106,
+      "dominate_b": 97,
+      "coexist": 7,
+      "same": 3
+     },
+     "novel": 106,
+     "interaction": 80,
+     "interaction_unreached_by_basin_map": 49
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 435,
+      "novel": 208,
+      "dominate_b": 176,
+      "coexist": 22,
+      "same": 4,
+      "extinct": 2
+     },
+     "novel": 208,
+     "interaction": 157,
+     "interaction_unreached_by_basin_map": 101
+    }
+   }
+  },
+  "wiki_half0_shuf": {
+   "0": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 5,
+      "novel": 4,
+      "dominate_b": 3
+     },
+     "novel": 4,
+     "interaction": 3,
+     "interaction_unreached_by_basin_map": 1
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 207,
+      "novel": 102,
+      "dominate_b": 75,
+      "coexist": 12,
+      "same": 2,
+      "extinct": 2
+     },
+     "novel": 102,
+     "interaction": 73,
+     "interaction_unreached_by_basin_map": 38
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "novel": 185,
+      "dominate_a": 153,
+      "dominate_b": 82,
+      "extinct": 7,
+      "coexist": 5,
+      "same": 3
+     },
+     "novel": 185,
+     "interaction": 131,
+     "interaction_unreached_by_basin_map": 64
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 365,
+      "novel": 291,
+      "dominate_b": 160,
+      "coexist": 17,
+      "extinct": 9,
+      "same": 5
+     },
+     "novel": 291,
+     "interaction": 207,
+     "interaction_unreached_by_basin_map": 103
+    }
+   },
+   "1": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 6,
+      "dominate_b": 4,
+      "novel": 2
+     },
+     "novel": 2,
+     "interaction": 2,
+     "interaction_unreached_by_basin_map": 1
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 199,
+      "novel": 118,
+      "dominate_b": 62,
+      "coexist": 17,
+      "extinct": 3,
+      "same": 1
+     },
+     "novel": 118,
+     "interaction": 88,
+     "interaction_unreached_by_basin_map": 53
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 213,
+      "novel": 118,
+      "dominate_b": 94,
+      "coexist": 5,
+      "same": 3,
+      "extinct": 2
+     },
+     "novel": 118,
+     "interaction": 79,
+     "interaction_unreached_by_basin_map": 48
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 418,
+      "novel": 238,
+      "dominate_b": 160,
+      "coexist": 22,
+      "extinct": 5,
+      "same": 4
+     },
+     "novel": 238,
+     "interaction": 169,
+     "interaction_unreached_by_basin_map": 102
+    }
+   },
+   "2": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 8,
+      "dominate_b": 2,
+      "novel": 2
+     },
+     "novel": 2,
+     "interaction": 1,
+     "interaction_unreached_by_basin_map": 0
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 198,
+      "novel": 118,
+      "dominate_b": 68,
+      "coexist": 13,
+      "extinct": 3
+     },
+     "novel": 118,
+     "interaction": 85,
+     "interaction_unreached_by_basin_map": 53
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 219,
+      "novel": 99,
+      "dominate_b": 97,
+      "coexist": 10,
+      "extinct": 8,
+      "same": 2
+     },
+     "novel": 99,
+     "interaction": 79,
+     "interaction_unreached_by_basin_map": 49
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 425,
+      "novel": 219,
+      "dominate_b": 167,
+      "coexist": 23,
+      "extinct": 11,
+      "same": 2
+     },
+     "novel": 219,
+     "interaction": 165,
+     "interaction_unreached_by_basin_map": 102
+    }
+   }
+  },
+  "gut_within0": {
+   "0": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 7,
+      "novel": 4,
+      "dominate_b": 1
+     },
+     "novel": 4,
+     "interaction": 3,
+     "interaction_unreached_by_basin_map": 3
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 223,
+      "dominate_b": 83,
+      "novel": 75,
+      "coexist": 16,
+      "same": 2,
+      "extinct": 1
+     },
+     "novel": 75,
+     "interaction": 56,
+     "interaction_unreached_by_basin_map": 37
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 280,
+      "dominate_b": 93,
+      "novel": 49,
+      "coexist": 12,
+      "same": 1
+     },
+     "novel": 49,
+     "interaction": 36,
+     "interaction_unreached_by_basin_map": 28
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 510,
+      "dominate_b": 177,
+      "novel": 128,
+      "coexist": 28,
+      "same": 3,
+      "extinct": 1
+     },
+     "novel": 128,
+     "interaction": 95,
+     "interaction_unreached_by_basin_map": 68
+    }
+   },
+   "1": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 7,
+      "novel": 4,
+      "coexist": 1
+     },
+     "novel": 4,
+     "interaction": 3,
+     "interaction_unreached_by_basin_map": 1
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 226,
+      "novel": 80,
+      "dominate_b": 74,
+      "coexist": 18,
+      "extinct": 2
+     },
+     "novel": 80,
+     "interaction": 63,
+     "interaction_unreached_by_basin_map": 42
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 246,
+      "novel": 96,
+      "dominate_b": 88,
+      "coexist": 4,
+      "same": 1
+     },
+     "novel": 96,
+     "interaction": 67,
+     "interaction_unreached_by_basin_map": 45
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 479,
+      "novel": 180,
+      "dominate_b": 162,
+      "coexist": 23,
+      "extinct": 2,
+      "same": 1
+     },
+     "novel": 180,
+     "interaction": 133,
+     "interaction_unreached_by_basin_map": 88
+    }
+   },
+   "2": {
+    "named": {
+     "n": 12,
+     "kinds": {
+      "dominate_a": 11,
+      "coexist": 1
+     },
+     "novel": 0,
+     "interaction": 0,
+     "interaction_unreached_by_basin_map": 0
+    },
+    "random": {
+     "n": 400,
+     "kinds": {
+      "dominate_a": 229,
+      "dominate_b": 78,
+      "novel": 76,
+      "coexist": 16,
+      "extinct": 1
+     },
+     "novel": 76,
+     "interaction": 61,
+     "interaction_unreached_by_basin_map": 44
+    },
+    "top_attractors": {
+     "n": 435,
+     "kinds": {
+      "dominate_a": 260,
+      "dominate_b": 102,
+      "novel": 57,
+      "coexist": 15,
+      "same": 1
+     },
+     "novel": 57,
+     "interaction": 52,
+     "interaction_unreached_by_basin_map": 28
+    },
+    "all": {
+     "n": 847,
+     "kinds": {
+      "dominate_a": 500,
+      "dominate_b": 180,
+      "novel": 133,
+      "coexist": 32,
+      "same": 1,
+      "extinct": 1
+     },
+     "novel": 133,
+     "interaction": 113,
+     "interaction_unreached_by_basin_map": 72
+    }
+   }
+  }
+ },
+ "cross": {
+  "original~wiki_half0": {
+   "same_kind": 0.6135379771743408,
+   "same_joint_region": 0.1633215269578906,
+   "interaction_jaccard": 0.1634182908545727
+  },
+  "original~wiki_half1": {
+   "same_kind": 0.5930735930735931,
+   "same_joint_region": 0.1503345139708776,
+   "interaction_jaccard": 0.17055393586005832
+  },
+  "original~wiki_half0_shuf": {
+   "same_kind": 0.5989767807949626,
+   "same_joint_region": 0.12790240062967337,
+   "interaction_jaccard": 0.20150187734668334
+  },
+  "original~gut_within0": {
+   "same_kind": 0.6178669815033452,
+   "same_joint_region": 0.04171585989767808,
+   "interaction_jaccard": 0.14977307110438728
+  },
+  "wiki_half0~wiki_half1": {
+   "same_kind": 0.6965761511216056,
+   "same_joint_region": 0.36796536796536794,
+   "interaction_jaccard": 0.2107843137254902
+  },
+  "wiki_half0~wiki_half0_shuf": {
+   "same_kind": 0.577331759149941,
+   "same_joint_region": 0.239275875639512,
+   "interaction_jaccard": 0.16020671834625322
+  },
+  "wiki_half0~gut_within0": {
+   "same_kind": 0.6127508854781583,
+   "same_joint_region": 0.0881542699724518,
+   "interaction_jaccard": 0.1312803889789303
+  },
+  "wiki_half1~wiki_half0_shuf": {
+   "same_kind": 0.572215663124754,
+   "same_joint_region": 0.1763085399449036,
+   "interaction_jaccard": 0.17834394904458598
+  },
+  "wiki_half1~gut_within0": {
+   "same_kind": 0.5934671389216843,
+   "same_joint_region": 0.0735930735930736,
+   "interaction_jaccard": 0.13814756671899528
+  },
+  "wiki_half0_shuf~gut_within0": {
+   "same_kind": 0.5726092089728453,
+   "same_joint_region": 0.06060606060606061,
+   "interaction_jaccard": 0.13953488372093023
+  }
+ },
+ "robust_interactions": {
+  "original": [
+   {
+    "pair": 116,
+    "a": "planera",
+    "b": "repaid",
+    "group": "top_attractors",
+    "a_top": [
+     "cast",
+     "shape",
+     "model"
+    ],
+    "b_top": [
+     "yield",
+     "present",
+     "render"
+    ],
+    "joint_top": [
+     "retort",
+     "respond",
+     "response",
+     "return",
+     "come_back"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 124,
+    "a": "tnos",
+    "b": "gyromitra_brunnea",
+    "group": "top_attractors",
+    "a_top": [
+     "position",
+     "put",
+     "set"
+    ],
+    "b_top": [
+     "hold",
+     "take",
+     "get"
+    ],
+    "joint_top": [
+     "domain",
+     "country",
+     "earth",
+     "put",
+     "set"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 168,
+    "a": "complexations",
+    "b": "center_line",
+    "group": "top_attractors",
+    "a_top": [
+     "part",
+     "piece",
+     "apportion"
+    ],
+    "b_top": [
+     "descent",
+     "declination",
+     "diminution"
+    ],
+    "joint_top": [
+     "convoluted",
+     "whole",
+     "complex",
+     "compound",
+     "complicated"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 237,
+    "a": "abamperes",
+    "b": "thingifying",
+    "group": "top_attractors",
+    "a_top": [
+     "organisation",
+     "administration",
+     "constitution"
+    ],
+    "b_top": [
+     "change",
+     "interchange",
+     "substitution"
+    ],
+    "joint_top": [
+     "aim",
+     "lead",
+     "go",
+     "direct",
+     "calculate"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 252,
+    "a": "abamperes",
+    "b": "daguerreotypist",
+    "group": "top_attractors",
+    "a_top": [
+     "organisation",
+     "administration",
+     "constitution"
+    ],
+    "b_top": [
+     "count",
+     "trust",
+     "see"
+    ],
+    "joint_top": [
+     "aim",
+     "lead",
+     "go",
+     "direct",
+     "calculate"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 255,
+    "a": "abamperes",
+    "b": "first_violinists",
+    "group": "top_attractors",
+    "a_top": [
+     "organisation",
+     "administration",
+     "constitution"
+    ],
+    "b_top": [
+     "demonstrate",
+     "display",
+     "exhibit"
+    ],
+    "joint_top": [
+     "aim",
+     "lead",
+     "go",
+     "direct",
+     "calculate"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 259,
+    "a": "thingifying",
+    "b": "organ_pipes",
+    "group": "top_attractors",
+    "a_top": [
+     "change",
+     "interchange",
+     "substitution"
+    ],
+    "b_top": [
+     "twist",
+     "contort",
+     "wring"
+    ],
+    "joint_top": [
+     "pipe",
+     "metro",
+     "tube",
+     "underground",
+     "railway"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     false
+    ]
+   },
+   {
+    "pair": 459,
+    "a": "dolman_sleeve",
+    "b": "toll_agent",
+    "group": "random",
+    "a_top": [
+     "dress_up",
+     "branch",
+     "part"
+    ],
+    "b_top": [
+     "grade",
+     "place",
+     "set"
+    ],
+    "joint_top": [
+     "part",
+     "bit",
+     "piece",
+     "portion",
+     "share"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 529,
+    "a": "ken_doll",
+    "b": "fuzzy_logic",
+    "group": "random",
+    "a_top": [
+     "torment",
+     "agony",
+     "anguish"
+    ],
+    "b_top": [
+     "end",
+     "termination",
+     "finish"
+    ],
+    "joint_top": [
+     "condition",
+     "field",
+     "domain",
+     "land",
+     "country"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     false
+    ]
+   },
+   {
+    "pair": 562,
+    "a": "occupier",
+    "b": "bursa_omentalis",
+    "group": "random",
+    "a_top": [
+     "individual",
+     "private",
+     "intimate"
+    ],
+    "b_top": [
+     "decomposition",
+     "break",
+     "split"
+    ],
+    "joint_top": [
+     "doctor",
+     "caries",
+     "tooth_decay",
+     "repair",
+     "cavity"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 616,
+    "a": "zomi",
+    "b": "sniffler",
+    "group": "random",
+    "a_top": [
+     "advance",
+     "arise",
+     "rise"
+    ],
+    "b_top": [
+     "individual",
+     "intimate",
+     "private"
+    ],
+    "joint_top": [
+     "front",
+     "expression",
+     "face",
+     "property",
+     "dimension"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 621,
+    "a": "desert_varnishes",
+    "b": "virgin_olive_oil",
+    "group": "random",
+    "a_top": [
+     "sluggish",
+     "slow",
+     "slack"
+    ],
+    "b_top": [
+     "beginning",
+     "firstly",
+     "first_up"
+    ],
+    "joint_top": [
+     "give_up",
+     "vacate",
+     "leave",
+     "forgo",
+     "release"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 630,
+    "a": "1_maccabees",
+    "b": "collar_bone",
+    "group": "random",
+    "a_top": [
+     "establishment",
+     "organisation",
+     "organization"
+    ],
+    "b_top": [
+     "bone",
+     "fix",
+     "os"
+    ],
+    "joint_top": [
+     "take",
+     "learn",
+     "see",
+     "acquire",
+     "find"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 671,
+    "a": "quick_draws",
+    "b": "imho",
+    "group": "random",
+    "a_top": [
+     "runner",
+     "jack",
+     "smuggler"
+    ],
+    "b_top": [
+     "judgement",
+     "opinion",
+     "head"
+    ],
+    "joint_top": [
+     "balance",
+     "counterweight",
+     "compensate",
+     "counterbalance",
+     "pay"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 828,
+    "a": "mouse_wheels",
+    "b": "flossy_pork",
+    "group": "random",
+    "a_top": [
+     "bend",
+     "distort",
+     "wrick"
+    ],
+    "b_top": [
+     "speech",
+     "talk",
+     "address"
+    ],
+    "joint_top": [
+     "various",
+     "diverse",
+     "reverse",
+     "assorted",
+     "different"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 833,
+    "a": "tallus",
+    "b": "spillways",
+    "group": "random",
+    "a_top": [
+     "cram",
+     "bone",
+     "anklebone"
+    ],
+    "b_top": [
+     "discharge",
+     "release",
+     "dismissal"
+    ],
+    "joint_top": [
+     "articulate",
+     "articulation",
+     "voice",
+     "connection",
+     "connect"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 836,
+    "a": "blepharospasm",
+    "b": "instruction_execution",
+    "group": "random",
+    "a_top": [
+     "disease",
+     "malady",
+     "sickness"
+    ],
+    "b_top": [
+     "performance",
+     "process",
+     "display"
+    ],
+    "joint_top": [
+     "demonstrate",
+     "testify",
+     "raise",
+     "display",
+     "prove"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     false
+    ]
+   }
+  ],
+  "wiki_half0": [
+   {
+    "pair": 124,
+    "a": "tnos",
+    "b": "gyromitra_brunnea",
+    "group": "top_attractors",
+    "a_top": [
+     "ceres",
+     "haumea",
+     "kuiper_belt"
+    ],
+    "b_top": [
+     "constitution",
+     "organism",
+     "fungus"
+    ],
+    "joint_top": [
+     "scope",
+     "reach",
+     "grasp",
+     "accomplish",
+     "acquire"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 125,
+    "a": "tnos",
+    "b": "family_aulostomidae",
+    "group": "top_attractors",
+    "a_top": [
+     "ceres",
+     "haumea",
+     "kuiper_belt"
+    ],
+    "b_top": [
+     "folk",
+     "kin",
+     "akin"
+    ],
+    "joint_top": [
+     "scope",
+     "reach",
+     "grasp",
+     "accomplish",
+     "acquire"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 134,
+    "a": "tnos",
+    "b": "kleist",
+    "group": "top_attractors",
+    "a_top": [
+     "ceres",
+     "haumea",
+     "kuiper_belt"
+    ],
+    "b_top": [
+     "pestilent",
+     "venomous",
+     "fatal"
+    ],
+    "joint_top": [
+     "compass",
+     "scope",
+     "arrive_at",
+     "attain",
+     "acquire"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 136,
+    "a": "tnos",
+    "b": "torqueing",
+    "group": "top_attractors",
+    "a_top": [
+     "ceres",
+     "haumea",
+     "kuiper_belt"
+    ],
+    "b_top": [
+     "wedge",
+     "press",
+     "squash"
+    ],
+    "joint_top": [
+     "orb",
+     "chunk",
+     "clod",
+     "lump",
+     "ball"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 370,
+    "a": "kleist",
+    "b": "torqueing",
+    "group": "top_attractors",
+    "a_top": [
+     "pestilent",
+     "venomous",
+     "fatal"
+    ],
+    "b_top": [
+     "wedge",
+     "press",
+     "squash"
+    ],
+    "joint_top": [
+     "delineate",
+     "determine",
+     "molding",
+     "specify",
+     "trace"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 516,
+    "a": "traveled",
+    "b": "second_nature",
+    "group": "random",
+    "a_top": [
+     "crumble",
+     "break",
+     "break_down"
+    ],
+    "b_top": [
+     "accustomed",
+     "wont",
+     "custom"
+    ],
+    "joint_top": [
+     "question",
+     "motion",
+     "gesticulate",
+     "gesture",
+     "query"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 621,
+    "a": "desert_varnishes",
+    "b": "virgin_olive_oil",
+    "group": "random",
+    "a_top": [
+     "deadening",
+     "bland",
+     "flat"
+    ],
+    "b_top": [
+     "firstly",
+     "first_of_all",
+     "first_off"
+    ],
+    "joint_top": [
+     "give_up",
+     "vacate",
+     "renounce",
+     "resign",
+     "relinquish"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 647,
+    "a": "weapon_for_sports",
+    "b": "coronary_artery_dysfunction",
+    "group": "random",
+    "a_top": [
+     "shallow",
+     "period",
+     "measure"
+    ],
+    "b_top": [
+     "assumption",
+     "supposition",
+     "premise"
+    ],
+    "joint_top": [
+     "flow",
+     "discharge",
+     "run",
+     "bleed",
+     "empty"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     false
+    ]
+   },
+   {
+    "pair": 682,
+    "a": "cymbals",
+    "b": "etherealizes",
+    "group": "random",
+    "a_top": [
+     "hazard",
+     "guess",
+     "risk"
+    ],
+    "b_top": [
+     "adjustment",
+     "alteration",
+     "change"
+    ],
+    "joint_top": [
+     "twist",
+     "twirl",
+     "contort",
+     "wrick",
+     "kink"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 698,
+    "a": "divot",
+    "b": "greenhorn",
+    "group": "random",
+    "a_top": [
+     "crumble",
+     "decompose",
+     "decomposition"
+    ],
+    "b_top": [
+     "fellow",
+     "bloke",
+     "fella"
+    ],
+    "joint_top": [
+     "cavity",
+     "dental_caries",
+     "tooth_decay",
+     "novice",
+     "pit"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 709,
+    "a": "tussal",
+    "b": "her's",
+    "group": "random",
+    "a_top": [
+     "wickedness",
+     "evilness",
+     "malevolence"
+    ],
+    "b_top": [],
+    "joint_top": [
+     "cite",
+     "reference",
+     "mention",
+     "notice",
+     "observe"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 828,
+    "a": "mouse_wheels",
+    "b": "flossy_pork",
+    "group": "random",
+    "a_top": [
+     "roll",
+     "coil",
+     "curve"
+    ],
+    "b_top": [
+     "crack",
+     "stop",
+     "arrest"
+    ],
+    "joint_top": [
+     "opposite",
+     "reverse",
+     "opposition",
+     "reversion",
+     "turnaround"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 836,
+    "a": "blepharospasm",
+    "b": "instruction_execution",
+    "group": "random",
+    "a_top": [
+     "decrease",
+     "fall",
+     "diminution"
+    ],
+    "b_top": [
+     "assemble",
+     "meet",
+     "gather"
+    ],
+    "joint_top": [
+     "gag",
+     "strangle",
+     "throttle",
+     "choke",
+     "suffocate"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     false
+    ]
+   }
+  ],
+  "wiki_half1": [
+   {
+    "pair": 148,
+    "a": "complexations",
+    "b": "gyromitra_brunnea",
+    "group": "top_attractors",
+    "a_top": [
+     "twist",
+     "distort",
+     "contort"
+    ],
+    "b_top": [
+     "malady",
+     "sickness",
+     "fungus"
+    ],
+    "joint_top": [
+     "convoluted",
+     "entangle",
+     "mat",
+     "matt",
+     "tangle"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 150,
+    "a": "complexations",
+    "b": "abamperes",
+    "group": "top_attractors",
+    "a_top": [
+     "twist",
+     "distort",
+     "contort"
+    ],
+    "b_top": [
+     "bird",
+     "domestic_fowl",
+     "chicken"
+    ],
+    "joint_top": [
+     "convoluted",
+     "complex",
+     "entangle",
+     "tangle",
+     "mat"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     false
+    ]
+   },
+   {
+    "pair": 152,
+    "a": "complexations",
+    "b": "grand_teton",
+    "group": "top_attractors",
+    "a_top": [
+     "twist",
+     "distort",
+     "contort"
+    ],
+    "b_top": [
+     "county_seat",
+     "illinois",
+     "indiana"
+    ],
+    "joint_top": [
+     "blend",
+     "merge",
+     "connect",
+     "join",
+     "mix"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 170,
+    "a": "complexations",
+    "b": "warblers",
+    "group": "top_attractors",
+    "a_top": [
+     "twist",
+     "distort",
+     "contort"
+    ],
+    "b_top": [
+     "singer",
+     "utterer",
+     "dame"
+    ],
+    "joint_top": [
+     "mix",
+     "amalgamate",
+     "join",
+     "unite",
+     "associate"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     false
+    ]
+   },
+   {
+    "pair": 293,
+    "a": "grand_teton",
+    "b": "warblers",
+    "group": "top_attractors",
+    "a_top": [
+     "county_seat",
+     "illinois",
+     "indiana"
+    ],
+    "b_top": [
+     "singer",
+     "utterer",
+     "dame"
+    ],
+    "joint_top": [
+     "wyoming",
+     "fowl",
+     "dame",
+     "chicken",
+     "bird"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 399,
+    "a": "torqueing",
+    "b": "center_line",
+    "group": "top_attractors",
+    "a_top": [
+     "curve",
+     "fold",
+     "twist"
+    ],
+    "b_top": [
+     "border",
+     "boundary",
+     "limit"
+    ],
+    "joint_top": [
+     "forge",
+     "jet",
+     "gush",
+     "spout",
+     "mold"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 401,
+    "a": "torqueing",
+    "b": "warblers",
+    "group": "top_attractors",
+    "a_top": [
+     "curve",
+     "fold",
+     "twist"
+    ],
+    "b_top": [
+     "singer",
+     "utterer",
+     "dame"
+    ],
+    "joint_top": [
+     "agitate",
+     "excite",
+     "arouse",
+     "awaken",
+     "stimulate"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 416,
+    "a": "thelypteris_inabonensis",
+    "b": "center_line",
+    "group": "top_attractors",
+    "a_top": [
+     "constitution",
+     "actor",
+     "implant"
+    ],
+    "b_top": [
+     "border",
+     "boundary",
+     "limit"
+    ],
+    "joint_top": [
+     "crease",
+     "twist",
+     "fold",
+     "wrinkle",
+     "bend"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 464,
+    "a": "molehill",
+    "b": "immoveable",
+    "group": "random",
+    "a_top": [
+     "bundle",
+     "heap",
+     "accumulate"
+    ],
+    "b_top": [
+     "real_property",
+     "firm",
+     "stiff"
+    ],
+    "joint_top": [
+     "mound",
+     "barrow",
+     "real_property",
+     "knoll",
+     "burial_mound"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 496,
+    "a": "perendinated",
+    "b": "agrippina_elder",
+    "group": "random",
+    "a_top": [
+     "coquette",
+     "dally",
+     "play"
+    ],
+    "b_top": [
+     "payment",
+     "pay",
+     "reward"
+    ],
+    "joint_top": [
+     "bear",
+     "restrain",
+     "wait",
+     "retain",
+     "endure"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 520,
+    "a": "bacteriophobia",
+    "b": "checkbox",
+    "group": "random",
+    "a_top": [
+     "process",
+     "routine",
+     "function"
+    ],
+    "b_top": [
+     "strike",
+     "scratch",
+     "crack"
+    ],
+    "joint_top": [
+     "fear",
+     "frighten",
+     "scare",
+     "dismay",
+     "terrify"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 524,
+    "a": "os_trapezoideum",
+    "b": "laicizing",
+    "group": "random",
+    "a_top": [
+     "obstruct",
+     "block",
+     "barricade"
+    ],
+    "b_top": [
+     "change",
+     "interchange",
+     "substitution"
+    ],
+    "joint_top": [
+     "quadruplet",
+     "quadruple",
+     "quadruplex",
+     "quad",
+     "quartet"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 530,
+    "a": "dairy_farms",
+    "b": "amazonian_blastomycosis",
+    "group": "random",
+    "a_top": [
+     "kernel",
+     "perfume",
+     "aroma"
+    ],
+    "b_top": [
+     "skin",
+     "undress",
+     "disrobe"
+    ],
+    "joint_top": [
+     "rise",
+     "get_up",
+     "ascend",
+     "raise",
+     "uprise"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 550,
+    "a": "crocodile_river",
+    "b": "milium",
+    "group": "random",
+    "a_top": [
+     "mozambique",
+     "south_africa",
+     "free_state"
+    ],
+    "b_top": [
+     "defect",
+     "damage",
+     "hurt"
+    ],
+    "joint_top": [
+     "attribute",
+     "allot",
+     "distribute",
+     "assign",
+     "apportion"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 639,
+    "a": "microspike",
+    "b": "posteriorities",
+    "group": "random",
+    "a_top": [
+     "border",
+     "bound",
+     "edge"
+    ],
+    "b_top": [
+     "belated",
+     "latterly",
+     "bed"
+    ],
+    "joint_top": [
+     "late",
+     "bunk",
+     "latterly",
+     "nonsense",
+     "hokum"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 647,
+    "a": "weapon_for_sports",
+    "b": "coronary_artery_dysfunction",
+    "group": "random",
+    "a_top": [
+     "instrument",
+     "pawn",
+     "aim"
+    ],
+    "b_top": [
+     "malady",
+     "sickness",
+     "wickedness"
+    ],
+    "joint_top": [
+     "relish",
+     "savour",
+     "savor",
+     "flavor",
+     "smell"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 661,
+    "a": "hrivna",
+    "b": "gunging",
+    "group": "random",
+    "a_top": [
+     "estimate",
+     "aim",
+     "account"
+    ],
+    "b_top": [
+     "goo",
+     "gunk",
+     "slime"
+    ],
+    "joint_top": [
+     "aim",
+     "resolve",
+     "decide",
+     "propose",
+     "calculate"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 662,
+    "a": "tricuspid_valve_atresia",
+    "b": "roubles",
+    "group": "random",
+    "a_top": [
+     "condition",
+     "requisite",
+     "premise"
+    ],
+    "b_top": [
+     "republic_of_belarus",
+     "belorussia",
+     "white_russia"
+    ],
+    "joint_top": [
+     "delay",
+     "hold_back",
+     "detain",
+     "stay",
+     "restrain"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     false
+    ]
+   },
+   {
+    "pair": 667,
+    "a": "dowered",
+    "b": "patterned",
+    "group": "random",
+    "a_top": [
+     "divide",
+     "separate",
+     "distribute"
+    ],
+    "b_top": [
+     "bridle",
+     "control",
+     "restrain"
+    ],
+    "joint_top": [
+     "arrange",
+     "clothe",
+     "dress_up",
+     "dress",
+     "invest"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 687,
+    "a": "bungee_lines",
+    "b": "citellus_leucurus",
+    "group": "random",
+    "a_top": [
+     "conduct",
+     "carry",
+     "transmit"
+    ],
+    "b_top": [
+     "animal",
+     "savage",
+     "beastly"
+    ],
+    "joint_top": [
+     "bendable",
+     "malleable",
+     "plastic",
+     "line",
+     "pliable"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     false
+    ]
+   },
+   {
+    "pair": 693,
+    "a": "empearled",
+    "b": "ring_vaccination",
+    "group": "random",
+    "a_top": [
+     "jam",
+     "bone",
+     "gem"
+    ],
+    "b_top": [
+     "impart",
+     "contribute",
+     "lend"
+    ],
+    "joint_top": [
+     "absorb",
+     "take_in",
+     "engage",
+     "consume",
+     "lease"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 717,
+    "a": "detoxing",
+    "b": "spitting_snake",
+    "group": "random",
+    "a_top": [
+     "attract",
+     "extract",
+     "withdraw"
+    ],
+    "b_top": [
+     "bother",
+     "fret",
+     "disturb"
+    ],
+    "joint_top": [
+     "admonish",
+     "call_on_carpet",
+     "reprimand",
+     "caution",
+     "rebuke"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 771,
+    "a": "greensman",
+    "b": "gate_crashing",
+    "group": "random",
+    "a_top": [
+     "thousand",
+     "1000",
+     "thou"
+    ],
+    "b_top": [
+     "sin",
+     "break",
+     "trespass"
+    ],
+    "joint_top": [
+     "rise",
+     "get_up",
+     "raise",
+     "uprise",
+     "arise"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 807,
+    "a": "life_histories",
+    "b": "defenestration",
+    "group": "random",
+    "a_top": [
+     "phenotype",
+     "constitution",
+     "genotype"
+    ],
+    "b_top": [
+     "discharge",
+     "kick_out",
+     "throw_out"
+    ],
+    "joint_top": [
+     "animal",
+     "beast",
+     "brute",
+     "ecology",
+     "biology"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 828,
+    "a": "mouse_wheels",
+    "b": "flossy_pork",
+    "group": "random",
+    "a_top": [
+     "coil",
+     "curve",
+     "spiraling"
+    ],
+    "b_top": [
+     "deathly",
+     "fatal",
+     "deadly"
+    ],
+    "joint_top": [
+     "blinker",
+     "trafficator",
+     "fink",
+     "rat",
+     "scab"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 836,
+    "a": "blepharospasm",
+    "b": "instruction_execution",
+    "group": "random",
+    "a_top": [
+     "decrease",
+     "diminution",
+     "decline"
+    ],
+    "b_top": [
+     "achieve",
+     "carry_through",
+     "acquire"
+    ],
+    "joint_top": [
+     "bridle",
+     "control",
+     "restrict",
+     "bound",
+     "restrain"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   }
+  ],
+  "wiki_half0_shuf": [
+   {
+    "pair": 7,
+    "a": "harbor",
+    "b": "ocean",
+    "group": "named",
+    "a_top": [
+     "genuine",
+     "trustworthy",
+     "dependable"
+    ],
+    "b_top": [
+     "terrestrial",
+     "earthly",
+     "subaquatic"
+    ],
+    "joint_top": [
+     "fortunate",
+     "golden",
+     "favourable",
+     "prosperous",
+     "lucky"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 115,
+    "a": "planera",
+    "b": "effort",
+    "group": "top_attractors",
+    "a_top": [
+     "benevolent",
+     "eleemosynary",
+     "generous"
+    ],
+    "b_top": [
+     "raise",
+     "get_up",
+     "arise"
+    ],
+    "joint_top": [
+     "labor",
+     "parturiency",
+     "childbirth",
+     "labour",
+     "travail"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 170,
+    "a": "complexations",
+    "b": "warblers",
+    "group": "top_attractors",
+    "a_top": [
+     "twist",
+     "distort",
+     "wrench"
+    ],
+    "b_top": [
+     "bird",
+     "raspberry",
+     "boo"
+    ],
+    "joint_top": [
+     "combine",
+     "unify",
+     "merge",
+     "connect",
+     "mix"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 195,
+    "a": "gyromitra_brunnea",
+    "b": "abamperes",
+    "group": "top_attractors",
+    "a_top": [
+     "ageing",
+     "aging",
+     "maturation"
+    ],
+    "b_top": [
+     "attribute",
+     "trace",
+     "ascribe"
+    ],
+    "joint_top": [
+     "continuously",
+     "permanently",
+     "continually",
+     "always",
+     "forever"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 203,
+    "a": "gyromitra_brunnea",
+    "b": "kleist",
+    "group": "top_attractors",
+    "a_top": [
+     "ageing",
+     "aging",
+     "maturation"
+    ],
+    "b_top": [
+     "browse",
+     "denounce",
+     "shop"
+    ],
+    "joint_top": [
+     "boundary",
+     "bound",
+     "line",
+     "limit",
+     "border"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 237,
+    "a": "abamperes",
+    "b": "thingifying",
+    "group": "top_attractors",
+    "a_top": [
+     "attribute",
+     "trace",
+     "ascribe"
+    ],
+    "b_top": [
+     "calamity",
+     "disaster",
+     "accident"
+    ],
+    "joint_top": [
+     "generalisation",
+     "attribute",
+     "impute",
+     "arrogate",
+     "abstraction"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 243,
+    "a": "abamperes",
+    "b": "alpine_skiing",
+    "group": "top_attractors",
+    "a_top": [
+     "attribute",
+     "trace",
+     "ascribe"
+    ],
+    "b_top": [
+     "exuberance",
+     "delight",
+     "relish"
+    ],
+    "joint_top": [
+     "generalisation",
+     "attribute",
+     "impute",
+     "arrogate",
+     "abstraction"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 247,
+    "a": "abamperes",
+    "b": "biyotches",
+    "group": "top_attractors",
+    "a_top": [
+     "attribute",
+     "trace",
+     "ascribe"
+    ],
+    "b_top": [
+     "call",
+     "yell",
+     "shout"
+    ],
+    "joint_top": [
+     "generalisation",
+     "attribute",
+     "impute",
+     "arrogate",
+     "abstraction"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 252,
+    "a": "abamperes",
+    "b": "daguerreotypist",
+    "group": "top_attractors",
+    "a_top": [
+     "attribute",
+     "trace",
+     "ascribe"
+    ],
+    "b_top": [
+     "film",
+     "visualize",
+     "figure"
+    ],
+    "joint_top": [
+     "generalisation",
+     "attribute",
+     "impute",
+     "arrogate",
+     "abstraction"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 255,
+    "a": "abamperes",
+    "b": "first_violinists",
+    "group": "top_attractors",
+    "a_top": [
+     "attribute",
+     "trace",
+     "ascribe"
+    ],
+    "b_top": [
+     "placement",
+     "localization",
+     "arrangement"
+    ],
+    "joint_top": [
+     "generalisation",
+     "attribute",
+     "impute",
+     "arrogate",
+     "abstraction"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 299,
+    "a": "e296",
+    "b": "ist",
+    "group": "top_attractors",
+    "a_top": [
+     "combine",
+     "unify",
+     "merge"
+    ],
+    "b_top": [
+     "connect",
+     "associate",
+     "link"
+    ],
+    "joint_top": [
+     "accident",
+     "bad_luck",
+     "calamity",
+     "adversity",
+     "catastrophe"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 342,
+    "a": "u.s_owned_vehicle",
+    "b": "alpine_skiing",
+    "group": "top_attractors",
+    "a_top": [
+     "nap",
+     "dormant",
+     "sleep"
+    ],
+    "b_top": [
+     "exuberance",
+     "delight",
+     "relish"
+    ],
+    "joint_top": [
+     "elevate",
+     "raise",
+     "promote",
+     "advance",
+     "lift"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 367,
+    "a": "alpine_skiing",
+    "b": "first_violinists",
+    "group": "top_attractors",
+    "a_top": [
+     "exuberance",
+     "delight",
+     "relish"
+    ],
+    "b_top": [
+     "placement",
+     "localization",
+     "arrangement"
+    ],
+    "joint_top": [
+     "abandon",
+     "forfeit",
+     "release",
+     "vacate",
+     "relinquish"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 484,
+    "a": "hamhocks",
+    "b": "gsos",
+    "group": "random",
+    "a_top": [
+     "branch",
+     "arm",
+     "outgrowth"
+    ],
+    "b_top": [
+     "gso",
+     "gto",
+     "heo"
+    ],
+    "joint_top": [
+     "octet",
+     "octonary",
+     "eight",
+     "octad",
+     "part"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 614,
+    "a": "sawmen",
+    "b": "armoire",
+    "group": "random",
+    "a_top": [
+     "usable",
+     "operative",
+     "practical"
+    ],
+    "b_top": [
+     "dwelling",
+     "dwelling_place",
+     "domicile"
+    ],
+    "joint_top": [
+     "quiet",
+     "calm",
+     "appease",
+     "calmness",
+     "peace"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     false
+    ]
+   },
+   {
+    "pair": 621,
+    "a": "desert_varnishes",
+    "b": "virgin_olive_oil",
+    "group": "random",
+    "a_top": [
+     "decelerate",
+     "slow_up",
+     "slack"
+    ],
+    "b_top": [
+     "firstly",
+     "foremost",
+     "first_of_all"
+    ],
+    "joint_top": [
+     "vacate",
+     "release",
+     "relinquish",
+     "abdicate",
+     "quit"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     true,
+     true
+    ]
+   },
+   {
+    "pair": 662,
+    "a": "tricuspid_valve_atresia",
+    "b": "roubles",
+    "group": "random",
+    "a_top": [
+     "abnormality",
+     "irregularity",
+     "misbehavior"
+    ],
+    "b_top": [
+     "spot",
+     "piece",
+     "chip"
+    ],
+    "joint_top": [
+     "retain",
+     "arrest",
+     "confine",
+     "hold",
+     "hold_back"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 671,
+    "a": "quick_draws",
+    "b": "imho",
+    "group": "random",
+    "a_top": [
+     "kink",
+     "bend",
+     "distort"
+    ],
+    "b_top": [
+     "monarch",
+     "belief",
+     "opinion"
+    ],
+    "joint_top": [
+     "offset",
+     "balance",
+     "counteract",
+     "cancel",
+     "counterbalance"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 686,
+    "a": "john_von_neumann",
+    "b": "gigues",
+    "group": "random",
+    "a_top": [
+     "fellow",
+     "bloke",
+     "fella"
+    ],
+    "b_top": [
+     "draft",
+     "swallow",
+     "drink"
+    ],
+    "joint_top": [
+     "handsome",
+     "better_looking",
+     "cunning",
+     "good_looking",
+     "guileful"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 827,
+    "a": "at_one_time_or_another",
+    "b": "meleed",
+    "group": "random",
+    "a_top": [
+     "frame",
+     "border",
+     "limit"
+    ],
+    "b_top": [
+     "disturbance",
+     "tumult",
+     "quarrel"
+    ],
+    "joint_top": [
+     "lease",
+     "rent",
+     "engage",
+     "take_in",
+     "take"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 828,
+    "a": "mouse_wheels",
+    "b": "flossy_pork",
+    "group": "random",
+    "a_top": [
+     "spirit",
+     "sense",
+     "smell"
+    ],
+    "b_top": [
+     "chap",
+     "cove",
+     "guy"
+    ],
+    "joint_top": [
+     "opposite",
+     "reverse",
+     "reversion",
+     "opposition",
+     "inverse"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   }
+  ],
+  "gut_within0": [
+   {
+    "pair": 446,
+    "a": "first_violinists",
+    "b": "warblers",
+    "group": "top_attractors",
+    "a_top": [
+     "mettlesome",
+     "risque",
+     "spicy"
+    ],
+    "b_top": [
+     "bird",
+     "new_world_flycatcher",
+     "flycatcher"
+    ],
+    "joint_top": [
+     "lineament",
+     "drawing_card",
+     "attractor",
+     "quality",
+     "feature"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 517,
+    "a": "us_resident",
+    "b": "alpha_to_omega",
+    "group": "random",
+    "a_top": [
+     "human_body",
+     "develop",
+     "build"
+    ],
+    "b_top": [
+     "izzard",
+     "zed",
+     "zee"
+    ],
+    "joint_top": [
+     "function",
+     "izzard",
+     "zed",
+     "zee",
+     "run"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     true,
+     false
+    ]
+   },
+   {
+    "pair": 621,
+    "a": "desert_varnishes",
+    "b": "virgin_olive_oil",
+    "group": "random",
+    "a_top": [
+     "boring",
+     "deadening",
+     "dull"
+    ],
+    "b_top": [
+     "firstly",
+     "first_off",
+     "first_up"
+    ],
+    "joint_top": [
+     "decrease",
+     "reduce",
+     "abate",
+     "subside",
+     "lessen"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "pair": 661,
+    "a": "hrivna",
+    "b": "gunging",
+    "group": "random",
+    "a_top": [
+     "constitution",
+     "cover",
+     "makeup"
+    ],
+    "b_top": [
+     "goo",
+     "gunk",
+     "dirty"
+    ],
+    "joint_top": [
+     "routine",
+     "unremarkable",
+     "process",
+     "function",
+     "procedure"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 673,
+    "a": "limited_liability_companies",
+    "b": "amperemetre",
+    "group": "random",
+    "a_top": [
+     "constitute",
+     "comprise",
+     "be"
+    ],
+    "b_top": [
+     "beat",
+     "m",
+     "computer_memory_unit"
+    ],
+    "joint_top": [
+     "co",
+     "beat",
+     "carbon_dioxide",
+     "carbonic_acid_gas",
+     "colorado"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "pair": 828,
+    "a": "mouse_wheels",
+    "b": "flossy_pork",
+    "group": "random",
+    "a_top": [
+     "spiral",
+     "coil",
+     "helical"
+    ],
+    "b_top": [
+     "chinese",
+     "min",
+     "taiwan"
+    ],
+    "joint_top": [
+     "screeching",
+     "scream",
+     "screaming",
+     "squeak",
+     "shrieking"
+    ],
+    "same_region_all_seeds": false,
+    "reached_by_basin_map": [
+     true,
+     false,
+     true
+    ]
+   }
+  ]
+ },
+ "self": {
+  "original": {
+   "same_kind": 0.6320346320346321,
+   "same_joint_region": 0.17158598976780795
+  },
+  "wiki_half0": {
+   "same_kind": 0.7020857929948839,
+   "same_joint_region": 0.2778433687524597
+  },
+  "wiki_half1": {
+   "same_kind": 0.696969696969697,
+   "same_joint_region": 0.2955529319165683
+  },
+  "wiki_half0_shuf": {
+   "same_kind": 0.585202676111767,
+   "same_joint_region": 0.1381345926800472
+  },
+  "gut_within0": {
+   "same_kind": 0.68280204643841,
+   "same_joint_region": 0.31995277449822906
+  }
+ },
+ "params": {
+  "fire_gain": 2.0,
+  "top_k": 10,
+  "global_inhibition": 0.1
+ },
+ "until": 100.0,
+ "late": 50.0,
+ "strength": 2.0,
+ "sigma": 0.01,
+ "provenance": {
+  "wiki_half0": {
+   "corpus": "wikitext103",
+   "files": [
+    {
+     "path": "/home/ubuntu/data/wikitext/train-00000-of-00002.parquet",
+     "bytes": 156987808,
+     "sha1": "3cbc792dfc0eeedf8d7333acdc15a9f536032d9a"
+    }
+   ],
+   "window": 10,
+   "unit": "sentence; pairs within window matched concepts",
+   "max_tokens": null,
+   "graph": "/home/ubuntu/data/conceptnet-en.pkl",
+   "stats": {
+    "tokens": 48409656,
+    "sentences": 1991009,
+    "matched": 25928121,
+    "pairs": 157232642
+   },
+   "weighting": "PPMI, rank-matched to original |weight| distribution; sign from relation",
+   "mode": "evidence",
+   "links": 4341307,
+   "observed": 360102,
+   "evidence_links": 157238,
+   "ppmi_positive": 124571,
+   "min_count": 3,
+   "changed_links": 106631,
+   "ppmi_mean_pos": 2.9293559944996765,
+   "path": "/home/ubuntu/data/learned/wikitext103-half0.evidence.weights.npz"
+  },
+  "wiki_half1": {
+   "corpus": "wikitext103",
+   "files": [
+    {
+     "path": "/home/ubuntu/data/wikitext/train-00001-of-00002.parquet",
+     "bytes": 157088770,
+     "sha1": "dbf647d24ab4662b4ee36134eb91caf58c6fb395"
+    }
+   ],
+   "window": 10,
+   "unit": "sentence; pairs within window matched concepts",
+   "max_tokens": null,
+   "graph": "/home/ubuntu/data/conceptnet-en.pkl",
+   "stats": {
+    "tokens": 48415838,
+    "sentences": 1995380,
+    "matched": 25928632,
+    "pairs": 157000490
+   },
+   "weighting": "PPMI, rank-matched to original |weight| distribution; sign from relation",
+   "mode": "evidence",
+   "links": 4341307,
+   "observed": 356870,
+   "evidence_links": 156150,
+   "ppmi_positive": 123363,
+   "min_count": 3,
+   "changed_links": 106141,
+   "ppmi_mean_pos": 2.9178697346976326,
+   "path": "/home/ubuntu/data/learned/wikitext103-half1.evidence.weights.npz"
+  },
+  "wiki_half0_shuf": {
+   "corpus": "wikitext103",
+   "files": [
+    {
+     "path": "/home/ubuntu/data/wikitext/train-00000-of-00002.parquet",
+     "bytes": 156987808,
+     "sha1": "3cbc792dfc0eeedf8d7333acdc15a9f536032d9a"
+    }
+   ],
+   "window": 10,
+   "unit": "sentence; pairs within window matched concepts",
+   "max_tokens": null,
+   "graph": "/home/ubuntu/data/conceptnet-en.pkl",
+   "stats": {
+    "tokens": 48409656,
+    "sentences": 1991009,
+    "matched": 25928121,
+    "pairs": 157232642
+   },
+   "weighting": "PPMI, rank-matched to original |weight| distribution; sign from relation",
+   "mode": "evidence",
+   "links": 4341307,
+   "observed": 360102,
+   "evidence_links": 157238,
+   "ppmi_positive": 124571,
+   "min_count": 3,
+   "changed_links": 106631,
+   "ppmi_mean_pos": 2.9293559944996765,
+   "control": "shuffle_within_evidence_by_sign",
+   "shuffle_seed": 1,
+   "source_weights": "/home/ubuntu/data/learned/wikitext103-half0.evidence.weights.npz",
+   "path": "/home/ubuntu/data/learned/wikitext103-half0.evidence.shuf1.weights.npz"
+  },
+  "gut_within0": {
+   "corpus": "gutenberg",
+   "files": [
+    {
+     "path": "/home/ubuntu/data/gutenberg/g0.parquet",
+     "bytes": 335520541,
+     "sha1": "6780c5b6b1189ac796bc59ecee505bd2dbf195fc"
+    },
+    {
+     "path": "/home/ubuntu/data/gutenberg/g1.parquet",
+     "bytes": 342918935,
+     "sha1": "2eea92c93a9d45345a7fcf014fce0ce5950c46ae"
+    }
+   ],
+   "window": 10,
+   "unit": "sentence; pairs within window matched concepts",
+   "max_tokens": 48409656,
+   "max_tokens_unit": "ideanet.corpus.TOKEN matches",
+   "sample": {
+    "mod": 2,
+    "rem": 0,
+    "unit": "paragraph index"
+   },
+   "graph": "/home/ubuntu/data/conceptnet-en.pkl",
+   "stats": {
+    "tokens": 47507189,
+    "sentences": 2501602,
+    "matched": 31115501,
+    "pairs": 199555447
+   },
+   "weighting": "PPMI, rank-matched to original |weight| distribution; sign from relation",
+   "mode": "evidence",
+   "links": 4341307,
+   "observed": 344481,
+   "evidence_links": 149276,
+   "ppmi_positive": 113602,
+   "min_count": 3,
+   "changed_links": 105141,
+   "ppmi_mean_pos": 2.447562895410061,
+   "path": "/home/ubuntu/data/learned/gut-within0.evidence.weights.npz"
+  }
+ },
+ "partners": [
+  "killing_anthrax",
+  "false_black_widow",
+  "flatter_chested",
+  "chamfrain",
+  "echo_chambers",
+  "american_oriole",
+  "law_reporter",
+  "deafenings",
+  "main_drags",
+  "cranial_index",
+  "jubes",
+  "javanthropus",
+  "toadlet",
+  "pre_eminent",
+  "pok\u00e9fan",
+  "tellys",
+  "allosexual",
+  "pad_oxide_layer",
+  "minthostachys_mollis",
+  "lichanura_trivirgata",
+  "chulo",
+  "trapazoid",
+  "pterosauria",
+  "proprietary_drug",
+  "guaynabo",
+  "helxine",
+  "sophistry",
+  "acacia_beauverdiana",
+  "classicalities",
+  "fluffings",
+  "bevx",
+  "caledonites",
+  "hoidenish",
+  "sea_buckthorns",
+  "weapon_for_sports",
+  "dry_humped",
+  "fordeemed",
+  "nympholepts",
+  "sucking_lice",
+  "acute_hemorrhagic_encephalitis",
+  "center_line",
+  "quinalbarbitone",
+  "bosun",
+  "cornaceae",
+  "deductive_inference",
+  "connectin",
+  "wo_oi",
+  "psychophant",
+  "tarsius_glis",
+  "ration",
+  "reimporting",
+  "elated",
+  "back_and_forth",
+  "erecting",
+  "spanish_psyllium",
+  "dried_honey",
+  "synthetic",
+  "windshield",
+  "supplementaries",
+  "zanthoxylum",
+  "jerichos",
+  "halocarpus",
+  "hormones",
+  "glycophosphatidyl",
+  "second_nature",
+  "expatiations",
+  "nukupu_u",
+  "technopaths",
+  "unmarketable",
+  "spivved",
+  "chrysazin",
+  "maned_rat",
+  "grivet",
+  "turtlings",
+  "6_a.m",
+  "cranial_index",
+  "tank_destroyers",
+  "stormed",
+  "goddish",
+  "athyrium_medium",
+  "ramp_up",
+  "groupsets",
+  "i.q_test",
+  "order_loricata",
+  "amygdaloid",
+  "dazzling",
+  "windshield",
+  "mvp",
+  "genus_cochlearius",
+  "massoretes",
+  "sewens",
+  "clivers",
+  "marrubiums",
+  "sea_wormwood",
+  "visual_fields",
+  "dry_vomit",
+  "parings",
+  "clinker_block",
+  "santalins",
+  "whinchat",
+  "clangula_hyemalis",
+  "telemovies",
+  "prismatoids",
+  "picket_lines",
+  "cigar_lighter",
+  "atmospheric_phenomenon",
+  "crescendoing",
+  "rafflesiaceae",
+  "chancelry",
+  "thelypteris_inabonensis",
+  "rhodesian_redwater_fever",
+  "retardations",
+  "greenhorn",
+  "compass_points",
+  "microaerobic",
+  "aminosugar",
+  "half_brother",
+  "skinning",
+  "killing_anthrax",
+  "akinesia",
+  "stumbleth",
+  "xxxvi",
+  "fair_catches",
+  "piano_tuner",
+  "elizabethan_collar",
+  "introgressed",
+  "overgeneralizes",
+  "tailpoles",
+  "superposed",
+  "cordless",
+  "rennase",
+  "echinomastus",
+  "beau_monde",
+  "hematoglobuline",
+  "rectilinear_trajectory",
+  "apgar_score",
+  "running_in_marathon",
+  "bactrian_camel",
+  "acromegaly",
+  "ulfila",
+  "righters",
+  "romancings",
+  "microaerobic",
+  "categorisation",
+  "news_bulletin",
+  "basketball_shot",
+  "blown",
+  "tychonic",
+  "fundamental_interactions",
+  "chromosome_7",
+  "meleed",
+  "unified_messaging_program",
+  "shark_ray",
+  "pesters",
+  "handballers",
+  "june_3",
+  "trounces",
+  "affidavit",
+  "catcher",
+  "bohemias",
+  "kias",
+  "obeast",
+  "riff",
+  "melba_toasts",
+  "stones",
+  "priestings",
+  "whoopsadaisy",
+  "informatics",
+  "starting_points",
+  "deflate",
+  "scout",
+  "three_way_switch",
+  "rarefied",
+  "yakity_yak",
+  "direct_fire_missile_launcher",
+  "mellower",
+  "yellow_sigatoka",
+  "beseechers",
+  "business_section",
+  "aminosugar",
+  "andrija_mohorovicic",
+  "superfoetates",
+  "reship",
+  "benchley",
+  "decagram",
+  "frayproof",
+  "going_to_doctor",
+  "policy_wonk",
+  "australinea",
+  "beastes",
+  "claim_adjuster",
+  "double_timed",
+  "ulfila",
+  "in_trade",
+  "break_one's_arm_patting_oneself_on_back",
+  "xenomorph",
+  "debasement",
+  "2_8_8_4",
+  "hipwort",
+  "set_of_character_sequences",
+  "philatelic",
+  "tussal",
+  "nhnf",
+  "flatheads",
+  "alpine_avens",
+  "troping",
+  "colorology",
+  "jumbo_jets",
+  "zanthoxylum",
+  "university_of_california_at_berkeley",
+  "sistrens",
+  "expiration_date",
+  "spallations",
+  "takhi",
+  "gallup_polls",
+  "razor_edge",
+  "simple_englishes",
+  "thrill",
+  "new_ionic",
+  "molality",
+  "thermometry",
+  "leeds",
+  "silicyne",
+  "cheilanthes_lanosa",
+  "nero",
+  "labour_pains",
+  "torqueing",
+  "scattergraph",
+  "sandpit",
+  "exitings",
+  "nablus",
+  "model_driven_architectures",
+  "undisputably",
+  "dead_air_spaces",
+  "rates_of_exchange",
+  "miraa",
+  "chalcan",
+  "bufonidae",
+  "tussal",
+  "hemp_fiber",
+  "lithes",
+  "bundle_of_laughs",
+  "alcohol_molecule",
+  "funkiest",
+  "working_at",
+  "lagarostrobus_colensoi",
+  "haining",
+  "nero",
+  "annin_tofu",
+  "ambuphylline",
+  "newest_fangled",
+  "taps_out",
+  "four_times",
+  "chocolate_fondue",
+  "adaptivities",
+  "bobolink",
+  "chrysidinae",
+  "vinyls",
+  "water_locusts",
+  "nash",
+  "revelators",
+  "berkshires",
+  "genus_lemmus",
+  "pre_eminent",
+  "cumbered",
+  "warranty",
+  "twilit",
+  "apeshit",
+  "mead_acid",
+  "lazurite",
+  "rennase",
+  "isocyclic",
+  "leni_lenape",
+  "tenth_grade",
+  "electrocuting",
+  "castor_bean",
+  "good_ol_boys",
+  "re_housing",
+  "leu'dd",
+  "nominative",
+  "scotch_kiss",
+  "unfocuses",
+  "fundamental_interactions",
+  "cervonic_acid",
+  "wps",
+  "sessile_bellworts",
+  "family_aulostomidae",
+  "wiseliest",
+  "seizest",
+  "taking_midterm",
+  "constitutionalizes",
+  "metacarbonoic_acid",
+  "thales_of_miletus",
+  "chemiosmosis_in_plants",
+  "cargo_holds",
+  "buying_entertainment",
+  "sexual_perversion",
+  "ach_molecule",
+  "terminology",
+  "newburgh",
+  "family_sphaerobolaceae",
+  "veratrin",
+  "symons",
+  "atgm_launcher",
+  "orbital_planes",
+  "salivae",
+  "preamble",
+  "order_chenopodiales",
+  "mithraicism",
+  "kinder",
+  "medicago_echinus",
+  "headhunters",
+  "air_miles",
+  "biochemical_mechanism",
+  "teardrops",
+  "deeply",
+  "dowered",
+  "conducteth",
+  "tunnel_diode",
+  "atrioventricular_bundle",
+  "preamble",
+  "croce_taumata",
+  "moneses_uniflora",
+  "lunate",
+  "southern_three_striped_opossum",
+  "anthericum_liliago",
+  "imho",
+  "behave",
+  "besets",
+  "veratrin",
+  "decagram",
+  "onion_grass",
+  "calamint",
+  "patrols",
+  "lampridae",
+  "whisperers",
+  "narcissus",
+  "abidance",
+  "greeter",
+  "accountest",
+  "assoiling",
+  "yeager",
+  "metallocenes",
+  "trans_effect",
+  "japanese_terrier",
+  "80386",
+  "veratrin",
+  "mockados",
+  "swyving",
+  "hygrine",
+  "affecting",
+  "mishpocha",
+  "depressable",
+  "pyrizhky",
+  "kittitians",
+  "electric_baby_swing",
+  "riff",
+  "doctor_of_music",
+  "bay_willows",
+  "vinted",
+  "colonizer",
+  "triple_checking",
+  "jonathan_edwards",
+  "mouthly",
+  "morons",
+  "trinitrophenyl",
+  "reenforcements",
+  "unjeweled",
+  "cold_temperate",
+  "john_rupert_firth",
+  "baptistries",
+  "ice_hockey_player",
+  "puckerbush",
+  "open_mind",
+  "zero_g",
+  "halocarpus",
+  "working_at",
+  "rvalues",
+  "paroxysmal_atrial_fibrillation",
+  "hod",
+  "myllewells",
+  "fishly",
+  "patterned",
+  "trumpeter",
+  "redshift",
+  "have_designs_on",
+  "bushings",
+  "fasiqun",
+  "steel_mill_worker",
+  "anonymisations",
+  "forebegotten",
+  "mvp",
+  "warrest",
+  "petrol_bomb",
+  "polylemmas",
+  "halfyearly",
+  "gibbet",
+  "soldier's_job",
+  "tactical_nuclear_weapon",
+  "washhouses",
+  "whinchat",
+  "metacarbonoic_acid",
+  "olive_order",
+  "kazakhs",
+  "today_halloween_and",
+  "deterring_international_crime",
+  "achromatopia",
+  "dehumidifiers",
+  "friar_preacher",
+  "lemon_dove",
+  "stickweeds",
+  "refulgency",
+  "scribbled",
+  "rudolf_steiner",
+  "air_flows",
+  "abdicatest",
+  "lipotyphla",
+  "ybore",
+  "biochemical_mechanism",
+  "takes_hint",
+  "mahasattvas",
+  "skinnying",
+  "benzoyl_group",
+  "coronary_artery_lesion",
+  "colquhounia",
+  "esaki",
+  "koyraboro_senni",
+  "vapourising",
+  "minthostachys_mollis",
+  "bristol_onion",
+  "sex_bracelet",
+  "shaving_supplies_market_category",
+  "manic_depressives",
+  "bustle",
+  "kaleidoscopes",
+  "headhunters",
+  "military_commission",
+  "nympholepts",
+  "dinettes",
+  "trisyllables",
+  "seeing_point",
+  "wood_aster",
+  "cosmetic_surgeon",
+  "genus_macronectes",
+  "bactoceaze",
+  "corrodeth",
+  "cargo_holds",
+  "discolourings",
+  "caridina_multidentata",
+  "jonnycake",
+  "harmoniser",
+  "trounces",
+  "saddness",
+  "claim_adjuster",
+  "canadian_tuxedo",
+  "withdraws",
+  "behaviorist",
+  "castorite",
+  "roubles",
+  "quartz",
+  "typifications",
+  "putrescines",
+  "buzzworms",
+  "scattergraph",
+  "teleological_argument",
+  "takhi",
+  "immunizes",
+  "harrows",
+  "wariest",
+  "ventricular_fold",
+  "stiffens",
+  "ergophobia",
+  "tepiman",
+  "pancreata",
+  "ineffectuality",
+  "grey_headed",
+  "categorizable",
+  "ferreted",
+  "chuckling",
+  "dipicrylamine",
+  "alloimmunization",
+  "yanged",
+  "homo_economicus",
+  "casein",
+  "lasagne",
+  "quacksalver",
+  "perceptual_agent",
+  "whirls",
+  "dramas",
+  "jet_plane",
+  "atomic_paraphrase",
+  "yellow_cattley_guava",
+  "balance_wheel",
+  "relation_with_future_trace",
+  "pharmaceutics",
+  "bustle",
+  "chudskoye",
+  "preformations",
+  "haematobia_irritans",
+  "gay_chat_room",
+  "gastrointestinal",
+  "forward_roll",
+  "esophagean",
+  "lakh",
+  "apostatise",
+  "limited_liability_companies",
+  "sweat_off",
+  "went_down_drain",
+  "conglomeration",
+  "victoria_plums",
+  "power_taps",
+  "viables",
+  "genus_podocarpus",
+  "mccarthyism",
+  "order_trogoniformes",
+  "steady_state_theory",
+  "perverse",
+  "requested",
+  "plethora",
+  "juniperus_californica",
+  "berkshires",
+  "strutted",
+  "oil_flow_station",
+  "sawists",
+  "marguerites",
+  "rhodesian_redwater_fever",
+  "alaya",
+  "scout",
+  "blown_out",
+  "female_chest",
+  "moving_trucks",
+  "inverted",
+  "spillways",
+  "pyas",
+  "philosophesses",
+  "horriblenesses",
+  "horriblenesses",
+  "chamfrains",
+  "aesculapian_staffs",
+  "halfyearly",
+  "little_brother",
+  "facings",
+  "idarubicine",
+  "army_of_muhammad",
+  "wysest",
+  "cutting_across",
+  "french_coil",
+  "oceanic_whitetip_shark",
+  "repasting",
+  "chiefries",
+  "brinded",
+  "marrowbone",
+  "buffoonery",
+  "one_another",
+  "sidechicks",
+  "family_aulostomidae",
+  "okapi",
+  "terminal_s",
+  "fern_leaf",
+  "your_nibs",
+  "detersive",
+  "oilskins",
+  "serious_thought_disorder",
+  "wikied",
+  "south_seeking_pole",
+  "yeast_infection",
+  "helicopter_as_565",
+  "colquhounia",
+  "chubbier",
+  "self_accusation",
+  "normalizers",
+  "dry_vomit",
+  "kilogram_meter",
+  "hyperbolic_geometries",
+  "byrling",
+  "anthroposophic",
+  "mercury_fulminate",
+  "docetists",
+  "wareneki",
+  "zanthoxylum",
+  "peel",
+  "hewings",
+  "comprehensors",
+  "twinships",
+  "oenothera_biennis",
+  "fluster",
+  "genus_anguis",
+  "jaspidean",
+  "regal_geraniums",
+  "stephanopogon",
+  "tunica",
+  "fishly",
+  "uck",
+  "calligraph",
+  "cuffuffle",
+  "meronymy",
+  "unrailed",
+  "obductions",
+  "subventioning",
+  "hipwort",
+  "quercus_montana",
+  "grapevine",
+  "leu'dd",
+  "symbolisation",
+  "salivary_gland",
+  "raps",
+  "onionskins",
+  "eccyesis",
+  "malthusian",
+  "balaenoptera_physalus",
+  "unmarketable",
+  "pollux",
+  "shmoosed",
+  "maned_rat",
+  "intractableness",
+  "narcissus",
+  "virilised",
+  "jimcrackeries",
+  "refulgency",
+  "flagging",
+  "deodorising",
+  "anaerobic_exercise",
+  "be_able_to",
+  "jamaica_caper_tree",
+  "epithalamy",
+  "immunizes",
+  "four_spot",
+  "thermal_power_plant",
+  "toughest",
+  "harelip_sucker",
+  "armoire",
+  "floateth",
+  "reverse_proxy",
+  "rifampins",
+  "common_fate",
+  "minute_hands",
+  "virago",
+  "genus_physalia",
+  "warszewiczia_coccinea",
+  "ovo_lacto_vegetarians",
+  "aralia_racemosa",
+  "aneal",
+  "sufficience",
+  "plys",
+  "abrekes",
+  "esculents",
+  "genus_arum",
+  "gives_damn",
+  "malthusian",
+  "employment_exchange",
+  "carnifying",
+  "jet_propelled_missile",
+  "conglobates",
+  "vangueria",
+  "strenuous",
+  "self_accusation",
+  "toughest",
+  "arboraceous",
+  "burlap",
+  "misrepresents",
+  "conglobates",
+  "exceedest",
+  "accountest",
+  "colorology",
+  "chromosome_7",
+  "priestings",
+  "phycobilins",
+  "lindorms",
+  "shortstops",
+  "hexagrammidae",
+  "brandy_snifter",
+  "erythroxylon_coca",
+  "altercated",
+  "card_tart",
+  "sir_hiram_stevens_maxim",
+  "steamings",
+  "maternal_quality",
+  "yarny",
+  "co_sisters",
+  "nonvascular_organism",
+  "standardizations",
+  "svarabhaktis",
+  "chulo",
+  "battle_flag",
+  "craking",
+  "nyckelharpa",
+  "genus_comptonia",
+  "perigee_moon",
+  "axonopus_fissifolius",
+  "forest_fires",
+  "lindorms",
+  "mitochondrial_encephalomyopathy_with_lactic_acidosis_and_stroke_like_episodes_syndrome",
+  "crotchal",
+  "diols",
+  "vertiginating",
+  "planaperturate",
+  "coup",
+  "rid_of",
+  "bahasa_indonesia",
+  "swyving",
+  "luteotropins",
+  "mushrooms_and_tomatoes",
+  "membership_cards",
+  "sakurajima_radish",
+  "iraqi_citizen",
+  "hiragana",
+  "upright_vacuum",
+  "track_down",
+  "crescendoing",
+  "bladdering",
+  "chrysazin",
+  "unmanlier",
+  "louisiana_black_bear",
+  "vertical_bar",
+  "take_pleasure",
+  "rutabaga_plant",
+  "falteringly",
+  "spang",
+  "kias",
+  "transpire",
+  "foot_rests",
+  "silurids",
+  "append",
+  "blueings",
+  "talismanical",
+  "lindorms",
+  "clinical_neuropsychologist",
+  "touch_screens",
+  "deductive_inference",
+  "discriminate",
+  "spivved",
+  "zoologist",
+  "jonnycake",
+  "cheeselog",
+  "sogginess",
+  "uniserial",
+  "urelements",
+  "guitar_cellos",
+  "whinchat",
+  "handcart",
+  "monadic_operation",
+  "batik",
+  "alsinidendron_obovatum",
+  "white_camas",
+  "postmortems",
+  "leni_lenape",
+  "lots_of",
+  "organizational_role_predicate",
+  "friarbird",
+  "gallaunt",
+  "ciswomen",
+  "chamfer_plane",
+  "xanthophyceae",
+  "japanese_terrier",
+  "kungfu",
+  "disbarked",
+  "death_angel",
+  "order_salientia",
+  "proxy_spoofing_vulnerability",
+  "rates_of_exchange",
+  "heterodera_trifolii",
+  "going_to_doctor",
+  "fair_catches",
+  "hairline_crack",
+  "gastronomic",
+  "sweet_clovers",
+  "plymouth",
+  "koyraboro_senni",
+  "chylaceous",
+  "alpine_avens",
+  "family_phalacrocoracidae",
+  "priestings",
+  "forebegotten",
+  "amidol",
+  "domesticized",
+  "expositive",
+  "transferred_possession",
+  "wishful_thinking",
+  "hard_candies",
+  "discriminate",
+  "colloquialise",
+  "shinney",
+  "thermobaric_bomb",
+  "plasma_membrane_receptor",
+  "winier",
+  "calciferol",
+  "intransigent",
+  "foredating",
+  "mayhems",
+  "nisi",
+  "parrot_snakes",
+  "split_footed_lacewing",
+  "retransmits",
+  "word_processor",
+  "air_flows",
+  "developing_product",
+  "subway_in_tokyo",
+  "us_resident",
+  "apeshit",
+  "organ_pipes",
+  "rubricating",
+  "charladies",
+  "erasure",
+  "accessions",
+  "improvisings",
+  "cytoreducing",
+  "shareth",
+  "weedle",
+  "genus_barosaurus",
+  "snake_fences",
+  "echinomastus",
+  "apeshit",
+  "neocallimastigomycota",
+  "scen_gen_refinement_specification",
+  "steel_mill_worker",
+  "redemptorists",
+  "scumblings",
+  "bare_bones",
+  "stubbles",
+  "disable",
+  "goddish",
+  "drainboards",
+  "dehydrase",
+  "molecules",
+  "clyde",
+  "tightie_whities",
+  "toodle_pip",
+  "cloudless",
+  "right_ventricular_heart_failure",
+  "undyeing",
+  "sweetpea",
+  "preface",
+  "breathing_place",
+  "national_monument",
+  "tsaritsa",
+  "school_bus",
+  "sun_dance",
+  "town_centre",
+  "panty_girdle",
+  "simian_aids",
+  "spring_loaded_window_shade",
+  "gives_damn",
+  "pseudocholinesterases",
+  "jaggedly",
+  "refractures",
+  "cranial_index",
+  "unclutters"
+ ]
+}

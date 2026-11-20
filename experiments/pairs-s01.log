@@ -5,3 +5,35 @@
 [  111.3s] 75/645 chunks
 [  128.3s] 100/645 chunks
 [  148.2s] 125/645 chunks
+[  173.9s] 150/645 chunks
+[  199.7s] 175/645 chunks
+[  219.4s] 200/645 chunks
+[  245.2s] 225/645 chunks
+[  274.3s] 250/645 chunks
+[  293.3s] 275/645 chunks
+[  318.0s] 300/645 chunks
+[  340.0s] 325/645 chunks
+[  368.3s] 350/645 chunks
+[  389.5s] 375/645 chunks
+[  408.9s] 400/645 chunks
+[  429.1s] 425/645 chunks
+[  450.8s] 450/645 chunks
+[  477.5s] 475/645 chunks
+[  497.1s] 500/645 chunks
+[  515.3s] 525/645 chunks
+[  537.5s] 550/645 chunks
+[  556.2s] 575/645 chunks
+[  581.2s] 600/645 chunks
+[  598.3s] 625/645 chunks
+[  616.4s] 645/645 chunks
+[  668.4s] original: k0 novel 177 inter 139; k1 novel 202 inter 135; k2 novel 178 inter 145
+[  668.4s] wiki_half0: k0 novel 165 inter 102; k1 novel 147 inter 123; k2 novel 169 inter 132
+[  668.4s] wiki_half1: k0 novel 138 inter 101; k1 novel 157 inter 126; k2 novel 208 inter 157
+[  668.4s] wiki_half0_shuf: k0 novel 291 inter 207; k1 novel 238 inter 169; k2 novel 219 inter 165
+[  668.5s] gut_within0: k0 novel 128 inter 95; k1 novel 180 inter 133; k2 novel 133 inter 113
+[  670.6s] original: 17 interactions survive controls at every seed (0 in the same region at every seed)
+[  670.6s] wiki_half0: 13 interactions survive controls at every seed (0 in the same region at every seed)
+[  670.6s] wiki_half1: 26 interactions survive controls at every seed (0 in the same region at every seed)
+[  670.6s] wiki_half0_shuf: 21 interactions survive controls at every seed (0 in the same region at every seed)
+[  670.6s] gut_within0: 6 interactions survive controls at every seed (0 in the same region at every seed)
+[  670.6s] done

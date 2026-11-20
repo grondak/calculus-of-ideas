@@ -1,0 +1,59 @@
+outcome rates (all pairs, pooled over seeds); interactions and those unreached by the basin map, per seed:
+  original         {'dominate_a': 0.541, 'novel': 0.219, 'dominate_b': 0.187, 'coexist': 0.042, 'same': 0.009, 'extinct': 0.002} inter [139, 135, 145] unreached [81, 76, 87]
+  wiki_half0       {'dominate_a': 0.542, 'dominate_b': 0.237, 'novel': 0.189, 'coexist': 0.026, 'same': 0.004, 'extinct': 0.002} inter [102, 123, 132] unreached [52, 75, 69]
+  wiki_half1       {'dominate_a': 0.549, 'dominate_b': 0.215, 'novel': 0.198, 'coexist': 0.03, 'same': 0.005, 'extinct': 0.003} inter [101, 126, 157] unreached [67, 82, 101]
+  wiki_half0_shuf  {'dominate_a': 0.475, 'novel': 0.294, 'dominate_b': 0.192, 'coexist': 0.024, 'extinct': 0.01, 'same': 0.004} inter [207, 169, 165] unreached [103, 102, 102]
+  gut_within0      {'dominate_a': 0.586, 'dominate_b': 0.204, 'novel': 0.174, 'coexist': 0.033, 'same': 0.002, 'extinct': 0.002} inter [95, 133, 113] unreached [68, 88, 72]
+same config, different seeds: {'original': {'same_kind': 0.632, 'same_joint_region': 0.172}, 'wiki_half0': {'same_kind': 0.702, 'same_joint_region': 0.278}, 'wiki_half1': {'same_kind': 0.697, 'same_joint_region': 0.296}, 'wiki_half0_shuf': {'same_kind': 0.585, 'same_joint_region': 0.138}, 'gut_within0': {'same_kind': 0.683, 'same_joint_region': 0.32}}
+different configs, same seed:
+   original~wiki_half0 {'same_kind': 0.614, 'same_joint_region': 0.163, 'interaction_jaccard': 0.163}
+   original~wiki_half1 {'same_kind': 0.593, 'same_joint_region': 0.15, 'interaction_jaccard': 0.171}
+   original~wiki_half0_shuf {'same_kind': 0.599, 'same_joint_region': 0.128, 'interaction_jaccard': 0.202}
+   original~gut_within0 {'same_kind': 0.618, 'same_joint_region': 0.042, 'interaction_jaccard': 0.15}
+   wiki_half0~wiki_half1 {'same_kind': 0.697, 'same_joint_region': 0.368, 'interaction_jaccard': 0.211}
+   wiki_half0~wiki_half0_shuf {'same_kind': 0.577, 'same_joint_region': 0.239, 'interaction_jaccard': 0.16}
+   wiki_half0~gut_within0 {'same_kind': 0.613, 'same_joint_region': 0.088, 'interaction_jaccard': 0.131}
+   wiki_half1~wiki_half0_shuf {'same_kind': 0.572, 'same_joint_region': 0.176, 'interaction_jaccard': 0.178}
+   wiki_half1~gut_within0 {'same_kind': 0.593, 'same_joint_region': 0.074, 'interaction_jaccard': 0.138}
+   wiki_half0_shuf~gut_within0 {'same_kind': 0.573, 'same_joint_region': 0.061, 'interaction_jaccard': 0.14}
+original         interaction-set Jaccard across seeds [0.186 0.178 0.223] (independence [0.088 0.091 0.09 ]); same-region interaction at >=2 seeds: 4
+      ('organ_pipes', 'repaid', ['pipe', 'retort', 'reply', 'tube'])
+      ('funkiest', 'line_feeds', ['deplorable', 'wretched', 'bad', 'pathetic'])
+      ('zomi', 'sniffler', ['front', 'expression', 'face', 'property'])
+      ('internal_organs', 'phycobilins', ['help', 'do', 'process', 'action'])
+wiki_half0       interaction-set Jaccard across seeds [0.142 0.176 0.17 ] (independence [0.07  0.073 0.081]); same-region interaction at >=2 seeds: 12
+      ('actings', 'offloads', ['branch', 'arm', 'part', 'outgrowth'])
+      ('tnos', 'gyromitra_brunnea', ['scope', 'reach', 'grasp', 'accomplish'])
+      ('tnos', 'family_aulostomidae', ['scope', 'reach', 'grasp', 'accomplish'])
+      ('tnos', 'torqueing', ['orb', 'chunk', 'clod', 'lump'])
+      ('tnos', 'center_line', ['accomplish', 'gain', 'attain', 'acquire'])
+      ('complexations', 'organ_pipes', ['combine', 'merge', 'unite', 'blend'])
+      ('i_timothy', 'center_line', ['bible', 'corinthians', 'epistle', 'new_testament'])
+      ('i_timothy', 'warblers', ['new_testament', 'bible', '3_john', 'epistle'])
+      ('desert_varnishes', 'virgin_olive_oil', ['give_up', 'vacate', 'renounce', 'resign'])
+      ('dryads', 'juniperus_californica', ['sear', 'scorch', 'dry', 'char'])
+      ('breakdanced', 'yeager', ['ilich_ramirez_sanchez', 'taurus', 'constellation', 'configuration'])
+      ('blepharospasm', 'instruction_execution', ['gag', 'strangle', 'throttle', 'choke'])
+wiki_half1       interaction-set Jaccard across seeds [0.201 0.223 0.247] (independence [0.071 0.078 0.09 ]); same-region interaction at >=2 seeds: 9
+      ('offloads', 'warblers', ['convey', 'impart', 'transmit', 'conduct'])
+      ('complexations', 'gyromitra_brunnea', ['convoluted', 'entangle', 'mat', 'matt'])
+      ('complexations', 'family_aulostomidae', ['convoluted', 'twist', 'complex', 'convolute'])
+      ('complexations', 'grand_teton', ['blend', 'merge', 'connect', 'join'])
+      ('complexations', 'warblers', ['mix', 'amalgamate', 'join', 'unite'])
+      ('grand_teton', 'daguerreotypist', ['green', 'wyoming', 'county_seat', 'greenness'])
+      ('molehill', 'immoveable', ['mound', 'barrow', 'real_property', 'knoll'])
+      ('winsorizations', 'denazification', ['cvr', 'president_franklin_roosevelt', 'fdr', 'roosevelt'])
+      ('blepharospasm', 'instruction_execution', ['bridle', 'control', 'restrict', 'bound'])
+wiki_half0_shuf  interaction-set Jaccard across seeds [0.245 0.181 0.172] (independence [0.123 0.122 0.109]); same-region interaction at >=2 seeds: 5
+      ('e296', 'ist', ['accident', 'bad_luck', 'calamity', 'adversity'])
+      ('organ_pipes', 'effort', ['pipe', 'labor', 'parturiency', 'childbirth'])
+      ('desert_varnishes', 'virgin_olive_oil', ['vacate', 'release', 'relinquish', 'abdicate'])
+      ('bosun', 'attorney_general', ['bosun', 'mariner', 'boatswain', 'sailor'])
+      ('at_one_time_or_another', 'meleed', ['lease', 'rent', 'engage', 'take_in'])
+gut_within0      interaction-set Jaccard across seeds [0.129 0.13  0.103] (independence [0.07  0.065 0.078]); same-region interaction at >=2 seeds: 6
+      ('bee', 'honey', ['swarm', 'pelt_down', 'pour_down', 'bee'])
+      ('thelypteris_inabonensis', 'repaid', ['retort', 'rejoinder', 'payment', 'compensation'])
+      ('first_violinists', 'warblers', ['lineament', 'drawing_card', 'attractor', 'quality'])
+      ('de_jure', 'carjack', ['simulate', 'counterfeit', 'fake', 'pseudo'])
+      ('syncategoreme', 'fly_screen', ['secret', 'surreptitious', 'covert', 'screen'])
+      ('mouse_wheels', 'flossy_pork', ['screeching', 'scream', 'screaming', 'squeak'])

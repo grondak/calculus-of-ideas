@@ -1,0 +1,73 @@
+21:57:43 1,120,244 ideas, 52,863 corpus-visible, 3,606,839 conceptual links, 311,277 visible undirected conceptual edges
+21:57:44 core: 25,383 ideas (visible conceptual degree >= 5)
+21:57:45 873,856 candidate pairs
+21:57:58   model original: beta [-2.827, 1.0, -0.064, 0.383, 0.289, 0.618]
+21:57:59   model wiki_half0: beta [-2.745, 1.055, -0.068, 0.355, 0.306, 0.637]
+21:58:00   model wiki_half1: beta [-2.725, 1.07, -0.068, 0.336, 0.309, 0.649]
+21:58:25 782,237 unlinked candidates; 534,363 similar or nested; 6,304 lexical variants; 240,573 explained by an alias; 287,486 gap pairs
+21:58:51 1,323 fragmented neighbourhoods, 119,295 cross-cluster pairs
+21:58:52 nulls: 336,497 pairs x 20 x 3; real {'J>=0.1': 10651, 'J>=0.1_unlinked': 9799, 'J>=0.2': 2229, 'J>=0.2_unlinked': 2087, 'J>=0.3': 422, 'J>=0.3_unlinked': 374}
+21:58:56   null global 1: {'J>=0.1': 80, 'J>=0.1_unlinked': 47, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:58:56   null global 5: {'J>=0.1': 82, 'J>=0.1_unlinked': 49, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:58:56   null global 0: {'J>=0.1': 77, 'J>=0.1_unlinked': 43, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:58:56   null global 2: {'J>=0.1': 79, 'J>=0.1_unlinked': 44, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:58:57   null global 3: {'J>=0.1': 82, 'J>=0.1_unlinked': 45, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:00   null global 6: {'J>=0.1': 71, 'J>=0.1_unlinked': 41, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:00   null global 10: {'J>=0.1': 86, 'J>=0.1_unlinked': 53, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:00   null global 7: {'J>=0.1': 81, 'J>=0.1_unlinked': 53, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:00   null global 9: {'J>=0.1': 94, 'J>=0.1_unlinked': 49, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:00   null global 8: {'J>=0.1': 79, 'J>=0.1_unlinked': 49, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:04   null global 11: {'J>=0.1': 90, 'J>=0.1_unlinked': 54, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:04   null global 4: {'J>=0.1': 81, 'J>=0.1_unlinked': 52, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:04   null global 13: {'J>=0.1': 83, 'J>=0.1_unlinked': 50, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:04   null global 14: {'J>=0.1': 72, 'J>=0.1_unlinked': 39, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:05   null global 12: {'J>=0.1': 68, 'J>=0.1_unlinked': 36, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:06   null global 15: {'J>=0.1': 77, 'J>=0.1_unlinked': 49, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:07   null global 16: {'J>=0.1': 82, 'J>=0.1_unlinked': 52, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:08   null global 18: {'J>=0.1': 79, 'J>=0.1_unlinked': 43, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:08   null global 19: {'J>=0.1': 77, 'J>=0.1_unlinked': 41, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:08   null relation 0: {'J>=0.1': 34, 'J>=0.1_unlinked': 18, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:09   null relation 1: {'J>=0.1': 33, 'J>=0.1_unlinked': 18, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:10   null relation 2: {'J>=0.1': 28, 'J>=0.1_unlinked': 15, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:10   null relation 4: {'J>=0.1': 39, 'J>=0.1_unlinked': 24, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:11   null relation 3: {'J>=0.1': 49, 'J>=0.1_unlinked': 32, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:11   null relation 5: {'J>=0.1': 41, 'J>=0.1_unlinked': 24, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:12   null global 17: {'J>=0.1': 71, 'J>=0.1_unlinked': 35, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:12   null relation 6: {'J>=0.1': 51, 'J>=0.1_unlinked': 34, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:13   null relation 7: {'J>=0.1': 40, 'J>=0.1_unlinked': 24, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:13   null relation 8: {'J>=0.1': 47, 'J>=0.1_unlinked': 29, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:13   null relation 9: {'J>=0.1': 33, 'J>=0.1_unlinked': 18, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:15   null relation 12: {'J>=0.1': 47, 'J>=0.1_unlinked': 33, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:16   null relation 11: {'J>=0.1': 37, 'J>=0.1_unlinked': 19, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:16   null relation 13: {'J>=0.1': 49, 'J>=0.1_unlinked': 34, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:16   null relation 14: {'J>=0.1': 45, 'J>=0.1_unlinked': 30, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:16   null relation 15: {'J>=0.1': 45, 'J>=0.1_unlinked': 30, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:18   null relation 10: {'J>=0.1': 42, 'J>=0.1_unlinked': 27, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:18   null relation 16: {'J>=0.1': 39, 'J>=0.1_unlinked': 22, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:19   null relation 17: {'J>=0.1': 41, 'J>=0.1_unlinked': 25, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:19   null relation 19: {'J>=0.1': 48, 'J>=0.1_unlinked': 30, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:19   null reciprocal 0: {'J>=0.1': 19, 'J>=0.1_unlinked': 19, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:19   null relation 18: {'J>=0.1': 44, 'J>=0.1_unlinked': 29, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 1, 'J>=0.3_unlinked': 1}
+21:59:21   null reciprocal 2: {'J>=0.1': 36, 'J>=0.1_unlinked': 36, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:22   null reciprocal 5: {'J>=0.1': 32, 'J>=0.1_unlinked': 32, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:22   null reciprocal 6: {'J>=0.1': 25, 'J>=0.1_unlinked': 25, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:22   null reciprocal 3: {'J>=0.1': 24, 'J>=0.1_unlinked': 24, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:22   null reciprocal 4: {'J>=0.1': 22, 'J>=0.1_unlinked': 22, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:23   null reciprocal 1: {'J>=0.1': 35, 'J>=0.1_unlinked': 35, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:24   null reciprocal 7: {'J>=0.1': 26, 'J>=0.1_unlinked': 26, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:24   null reciprocal 8: {'J>=0.1': 37, 'J>=0.1_unlinked': 37, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:25   null reciprocal 9: {'J>=0.1': 34, 'J>=0.1_unlinked': 34, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:25   null reciprocal 11: {'J>=0.1': 32, 'J>=0.1_unlinked': 32, 'J>=0.2': 2, 'J>=0.2_unlinked': 2, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:25   null reciprocal 10: {'J>=0.1': 32, 'J>=0.1_unlinked': 32, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:28   null reciprocal 13: {'J>=0.1': 32, 'J>=0.1_unlinked': 32, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:28   null reciprocal 14: {'J>=0.1': 25, 'J>=0.1_unlinked': 25, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:28   null reciprocal 15: {'J>=0.1': 34, 'J>=0.1_unlinked': 34, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:28   null reciprocal 16: {'J>=0.1': 33, 'J>=0.1_unlinked': 33, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:28   null reciprocal 17: {'J>=0.1': 25, 'J>=0.1_unlinked': 25, 'J>=0.2': 1, 'J>=0.2_unlinked': 1, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:30   null reciprocal 12: {'J>=0.1': 40, 'J>=0.1_unlinked': 40, 'J>=0.2': 2, 'J>=0.2_unlinked': 2, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:30   null reciprocal 19: {'J>=0.1': 31, 'J>=0.1_unlinked': 30, 'J>=0.2': 2, 'J>=0.2_unlinked': 2, 'J>=0.3': 1, 'J>=0.3_unlinked': 1}
+21:59:31   null reciprocal 18: {'J>=0.1': 35, 'J>=0.1_unlinked': 35, 'J>=0.2': 0, 'J>=0.2_unlinked': 0, 'J>=0.3': 0, 'J>=0.3_unlinked': 0}
+21:59:31 describing pairs
+21:59:44 scoring holes
+21:59:48 unnamed groups
+22:00:19 done

@@ -1,0 +1,91 @@
+[   48.3s] loaded; configs ['original', 'wiki_half0', 'wiki_half1', 'wiki_half0_shuf', 'gut_half0', 'gut_half1', 'gut_half0_shuf', 'gut_within0', 'gut_within1']; stimuli {'bee': [('bee', 2.0)], 'honey': [('honey', 2.0)], 'ant': [('ant', 2.0)], 'flower': [('flower', 2.0)], 'wolf': [('wolf', 2.0)], 'computer worm': [('computer_worm', 2.0)]}; 1000 starts
+[   56.2s] top-k diagnostic {"wiki_half0": {"evidence_links": 157238, "evidence_fraction": 0.03621904647609579, "top10_share": {"original": 0.05312852022529442, "wiki_half0": 0.05761904761904762, "wiki_half0_shuf": 0.05890766342379246}}, "wiki_half1": {"evidence_links": 156150, "evidence_fraction": 0.03596843070531524, "top10_share": {"original": 0.0528673835125448, "wiki_half1": 0.057386926096603515}}, "gut_half0": {"evidence_links": 170404, "evidence_fraction": 0.039251773716993524, "top10_share": {"original": 0.07038231780167264, "gut_half0": 0.07750128008192525, "gut_half0_shuf": 0.073963133640553}}, "gut_half1": {"evidence_links": 124605, "evidence_fraction": 0.028702185770322162, "top10_share": {"original": 0.04238095238095238, "gut_half1": 0.04759856630824373}}, "gut_within0": {"evidence_links": 149276, "evidence_fraction": 0.03438503657999768, "top10_share": {"original": 0.057349377026796385, "gut_within0": 0.0640126301416624}}, "gut_within1": {"evidence_links": 149545, "evidence_fraction": 0.03444699948656015, "top10_share": {"original": 0.05761563406724697, "gut_within1": 0.06413039767878477}}}
+[   56.8s] 603 stimulus groups, 180 basin chunks to run
+[   68.2s] 50/783 task groups
+[   83.1s] 100/783 task groups
+[   97.6s] 150/783 task groups
+[  106.3s] 200/783 task groups
+[  113.3s] 250/783 task groups
+[  118.9s] 300/783 task groups
+[  124.4s] 350/783 task groups
+[  129.6s] 400/783 task groups
+[  137.0s] 450/783 task groups
+[  143.5s] 500/783 task groups
+[  148.6s] 550/783 task groups
+[  153.6s] 600/783 task groups
+[  161.2s] 650/783 task groups
+[  167.1s] 700/783 task groups
+[  172.8s] 750/783 task groups
+[  176.5s] 783/783 task groups
+[  195.1s] bee: original 111 attr, top [('1', 0.16), ('159', 0.035)]; wiki_half0 93 attr, top [('1', 0.125), ('41', 0.06)]; wiki_half1 85 attr, top [('1', 0.14), ('10', 0.095)]; wiki_half0_shuf 133 attr, top [('147', 0.075), ('41', 0.06)]; gut_half0 37 attr, top [('3', 0.285), ('14', 0.105)]; gut_half1 46 attr, top [('24', 0.195), ('38', 0.145)]; gut_half0_shuf 158 attr, top [('39', 0.045), ('78', 0.025)]; gut_within0 29 attr, top [('14', 0.775), ('174', 0.03)]; gut_within1 44 attr, top [('44', 0.16), ('102', 0.16)]
+[  206.8s] honey: original 20 attr, top [('1', 0.48), ('9', 0.16)]; wiki_half0 11 attr, top [('2', 0.52), ('1', 0.18)]; wiki_half1 15 attr, top [('1', 0.41), ('2', 0.39)]; wiki_half0_shuf 10 attr, top [('2', 0.525), ('1', 0.35)]; gut_half0 48 attr, top [('3', 0.215), ('11', 0.165)]; gut_half1 44 attr, top [('35', 0.31), ('3', 0.095)]; gut_half0_shuf 51 attr, top [('8', 0.25), ('27', 0.12)]; gut_within0 41 attr, top [('18', 0.3), ('84', 0.08)]; gut_within1 44 attr, top [('6', 0.4), ('74', 0.17)]
+[  230.6s] ant: original 38 attr, top [('1', 0.64), ('136', 0.055)]; wiki_half0 89 attr, top [('1', 0.305), ('21', 0.12)]; wiki_half1 35 attr, top [('1', 0.385), ('21', 0.135)]; wiki_half0_shuf 83 attr, top [('21', 0.225), ('1', 0.09)]; gut_half0 14 attr, top [('3', 0.515), ('36', 0.185)]; gut_half1 10 attr, top [('4', 0.615), ('68', 0.25)]; gut_half0_shuf 156 attr, top [('19', 0.035), ('49', 0.025)]; gut_within0 31 attr, top [('13', 0.345), ('6', 0.205)]; gut_within1 7 attr, top [('143', 0.68), ('3', 0.265)]
+[  273.5s] flower: original 75 attr, top [('2', 0.12), ('96', 0.1)]; wiki_half0 43 attr, top [('2', 0.485), ('8', 0.09)]; wiki_half1 36 attr, top [('2', 0.455), ('3', 0.155)]; wiki_half0_shuf 79 attr, top [('2', 0.285), ('8', 0.11)]; gut_half0 48 attr, top [('4', 0.215), ('32', 0.145)]; gut_half1 52 attr, top [('10', 0.305), ('28', 0.175)]; gut_half0_shuf 131 attr, top [('18', 0.145), ('53', 0.04)]; gut_within0 49 attr, top [('22', 0.185), ('58', 0.125)]; gut_within1 62 attr, top [('59', 0.14), ('16', 0.125)]
+[  288.3s] wolf: original 22 attr, top [('1', 0.495), ('6', 0.235)]; wiki_half0 22 attr, top [('1', 0.345), ('6', 0.14)]; wiki_half1 20 attr, top [('1', 0.3), ('6', 0.23)]; wiki_half0_shuf 50 attr, top [('1', 0.305), ('50', 0.175)]; gut_half0 23 attr, top [('5', 0.35), ('28', 0.175)]; gut_half1 21 attr, top [('11', 0.26), ('16', 0.18)]; gut_half0_shuf 20 attr, top [('28', 0.33), ('4', 0.32)]; gut_within0 26 attr, top [('5', 0.2), ('3', 0.185)]; gut_within1 34 attr, top [('28', 0.295), ('1', 0.19)]
+[  336.1s] computer worm: original 122 attr, top [('0', 0.09), ('10', 0.045)]; wiki_half0 103 attr, top [('0', 0.09), ('23', 0.075)]; wiki_half1 47 attr, top [('3', 0.4), ('12', 0.105)]; wiki_half0_shuf 161 attr, top [('0', 0.09), ('356', 0.025)]; gut_half0 21 attr, top [('5', 0.52), ('30', 0.115)]; gut_half1 67 attr, top [('8', 0.295), ('0', 0.09)]; gut_half0_shuf 42 attr, top [('7', 0.33), ('5', 0.295)]; gut_within0 29 attr, top [('8', 0.4), ('173', 0.15)]; gut_within1 37 attr, top [('5', 0.145), ('8', 0.13)]
+[  428.8s] basins seed 0: original live 395 attr 239; wiki_half0 live 404 attr 289; wiki_half1 live 402 attr 295; wiki_half0_shuf live 393 attr 270; gut_half0 live 398 attr 288; gut_half1 live 394 attr 292; gut_half0_shuf live 393 attr 276; gut_within0 live 400 attr 305; gut_within1 live 395 attr 304
+[  524.0s] basins seed 1: original live 390 attr 263; wiki_half0 live 399 attr 311; wiki_half1 live 397 attr 314; wiki_half0_shuf live 391 attr 293; gut_half0 live 393 attr 295; gut_half1 live 388 attr 303; gut_half0_shuf live 390 attr 279; gut_within0 live 395 attr 303; gut_within1 live 390 attr 295
+[  599.5s] basins seed 2: original live 395 attr 252; wiki_half0 live 404 attr 294; wiki_half1 live 402 attr 301; wiki_half0_shuf live 393 attr 276; gut_half0 live 398 attr 296; gut_half1 live 394 attr 291; gut_half0_shuf live 395 attr 288; gut_within0 live 400 attr 303; gut_within1 live 395 attr 307
+[  600.0s] basin self-agreement across seeds {'original': 0.655, 'wiki_half0': 0.687, 'wiki_half1': 0.681, 'wiki_half0_shuf': 0.662, 'gut_half0': 0.703, 'gut_half1': 0.671, 'gut_half0_shuf': 0.638, 'gut_within0': 0.712, 'gut_within1': 0.693}
+[  603.8s] done
+[  101.0s] loaded; configs ['original', 'wiki_half0', 'wiki_half1', 'wiki_half0_shuf', 'gut_half0', 'gut_half1', 'gut_half0_shuf', 'gut_within0', 'gut_within1']; stimuli {'bee': [('bee', 2.0)], 'honey': [('honey', 2.0)], 'ant': [('ant', 2.0)], 'flower': [('flower', 2.0)], 'wolf': [('wolf', 2.0)], 'computer worm': [('computer_worm', 2.0)]}; 1000 starts
+[  118.9s] top-k diagnostic {"wiki_half0": {"evidence_links": 157238, "evidence_fraction": 0.03621904647609579, "top10_share": {"original": 0.05312852022529442, "wiki_half0": 0.05761904761904762, "wiki_half0_shuf": 0.05890766342379246}}, "wiki_half1": {"evidence_links": 156150, "evidence_fraction": 0.03596843070531524, "top10_share": {"original": 0.0528673835125448, "wiki_half1": 0.057386926096603515}}, "gut_half0": {"evidence_links": 170404, "evidence_fraction": 0.039251773716993524, "top10_share": {"original": 0.07038231780167264, "gut_half0": 0.07750128008192525, "gut_half0_shuf": 0.073963133640553}}, "gut_half1": {"evidence_links": 124605, "evidence_fraction": 0.028702185770322162, "top10_share": {"original": 0.04238095238095238, "gut_half1": 0.04759856630824373}}, "gut_within0": {"evidence_links": 149276, "evidence_fraction": 0.03438503657999768, "top10_share": {"original": 0.057349377026796385, "gut_within0": 0.0640126301416624}}, "gut_within1": {"evidence_links": 149545, "evidence_fraction": 0.03444699948656015, "top10_share": {"original": 0.05761563406724697, "gut_within1": 0.06413039767878477}}}
+[  118.9s] 1809 stimulus groups, 540 basin chunks to run
+[  134.1s] 50/2349 task groups
+[  151.6s] 100/2349 task groups
+[  168.1s] 150/2349 task groups
+[  183.9s] 200/2349 task groups
+[  201.3s] 250/2349 task groups
+[  215.4s] 300/2349 task groups
+[  231.6s] 350/2349 task groups
+[  249.6s] 400/2349 task groups
+[  265.4s] 450/2349 task groups
+[  281.9s] 500/2349 task groups
+[  295.2s] 550/2349 task groups
+[  302.2s] 600/2349 task groups
+[  308.2s] 650/2349 task groups
+[  315.1s] 700/2349 task groups
+[  321.8s] 750/2349 task groups
+[  329.9s] 800/2349 task groups
+[  336.8s] 850/2349 task groups
+[  344.3s] 900/2349 task groups
+[  353.0s] 950/2349 task groups
+[  361.6s] 1000/2349 task groups
+[  369.4s] 1050/2349 task groups
+[  376.3s] 1100/2349 task groups
+[  385.1s] 1150/2349 task groups
+[  393.8s] 1200/2349 task groups
+[  403.1s] 1250/2349 task groups
+[  409.9s] 1300/2349 task groups
+[  417.1s] 1350/2349 task groups
+[  422.6s] 1400/2349 task groups
+[  429.1s] 1450/2349 task groups
+[  435.1s] 1500/2349 task groups
+[  442.1s] 1550/2349 task groups
+[  449.2s] 1600/2349 task groups
+[  457.1s] 1650/2349 task groups
+[  467.1s] 1700/2349 task groups
+[  474.3s] 1750/2349 task groups
+[  485.2s] 1800/2349 task groups
+[  492.5s] 1850/2349 task groups
+[  499.3s] 1900/2349 task groups
+[  506.2s] 1950/2349 task groups
+[  513.9s] 2000/2349 task groups
+[  520.7s] 2050/2349 task groups
+[  528.0s] 2100/2349 task groups
+[  536.4s] 2150/2349 task groups
+[  542.8s] 2200/2349 task groups
+[  549.8s] 2250/2349 task groups
+[  557.2s] 2300/2349 task groups
+[  564.0s] 2349/2349 task groups
+[  587.6s] bee: original 89 attr, top [('1', 0.145), ('10', 0.1)]; wiki_half0 66 attr, top [('1', 0.14), ('14', 0.08)]; wiki_half1 58 attr, top [('1', 0.17), ('37', 0.12)]; wiki_half0_shuf 90 attr, top [('14', 0.095), ('61', 0.06)]; gut_half0 28 attr, top [('3', 0.345), ('18', 0.12)]; gut_half1 27 attr, top [('11', 0.19), ('29', 0.19)]; gut_half0_shuf 139 attr, top [('120', 0.05), ('17', 0.045)]; gut_within0 17 attr, top [('18', 0.86), ('14', 0.035)]; gut_within1 29 attr, top [('14', 0.335), ('100', 0.16)]
+[  597.9s] honey: original 15 attr, top [('1', 0.52), ('20', 0.155)]; wiki_half0 9 attr, top [('2', 0.57), ('1', 0.24)]; wiki_half1 11 attr, top [('1', 0.44), ('2', 0.38)]; wiki_half0_shuf 5 attr, top [('2', 0.585), ('1', 0.355)]; gut_half0 31 attr, top [('3', 0.36), ('17', 0.1)]; gut_half1 33 attr, top [('52', 0.195), ('68', 0.18)]; gut_half0_shuf 38 attr, top [('7', 0.305), ('11', 0.285)]; gut_within0 27 attr, top [('8', 0.315), ('12', 0.23)]; gut_within1 25 attr, top [('6', 0.54), ('68', 0.13)]
+[  611.0s] ant: original 17 attr, top [('1', 0.795), ('49', 0.055)]; wiki_half0 91 attr, top [('1', 0.275), ('35', 0.07)]; wiki_half1 26 attr, top [('1', 0.37), ('7', 0.155)]; wiki_half0_shuf 69 attr, top [('19', 0.25), ('30', 0.12)]; gut_half0 11 attr, top [('3', 0.61), ('9', 0.215)]; gut_half1 6 attr, top [('4', 0.665), ('24', 0.235)]; gut_half0_shuf 149 attr, top [('14', 0.085), ('114', 0.03)]; gut_within0 12 attr, top [('6', 0.39), ('15', 0.38)]; gut_within1 1 attr, top [('3', 1.0)]
+[  635.0s] flower: original 63 attr, top [('2', 0.14), ('3', 0.105)]; wiki_half0 28 attr, top [('2', 0.47), ('3', 0.15)]; wiki_half1 27 attr, top [('2', 0.42), ('3', 0.235)]; wiki_half0_shuf 46 attr, top [('2', 0.23), ('8', 0.17)]; gut_half0 37 attr, top [('4', 0.305), ('19', 0.17)]; gut_half1 44 attr, top [('24', 0.26), ('13', 0.155)]; gut_half0_shuf 122 attr, top [('14', 0.21), ('47', 0.04)]; gut_within0 35 attr, top [('81', 0.18), ('7', 0.16)]; gut_within1 40 attr, top [('11', 0.195), ('19', 0.195)]
+[  644.5s] wolf: original 18 attr, top [('1', 0.425), ('6', 0.4)]; wiki_half0 16 attr, top [('6', 0.345), ('1', 0.24)]; wiki_half1 19 attr, top [('6', 0.39), ('18', 0.2)]; wiki_half0_shuf 40 attr, top [('7', 0.435), ('1', 0.13)]; gut_half0 14 attr, top [('14', 0.42), ('18', 0.28)]; gut_half1 23 attr, top [('18', 0.385), ('8', 0.205)]; gut_half0_shuf 16 attr, top [('7', 0.315), ('4', 0.285)]; gut_within0 25 attr, top [('18', 0.27), ('3', 0.245)]; gut_within1 14 attr, top [('18', 0.625), ('1', 0.15)]
+[  677.0s] computer worm: original 110 attr, top [('74', 0.05), ('94', 0.045)]; wiki_half0 92 attr, top [('73', 0.1), ('30', 0.055)]; wiki_half1 26 attr, top [('3', 0.435), ('26', 0.18)]; wiki_half0_shuf 157 attr, top [('53', 0.04), ('16', 0.025)]; gut_half0 7 attr, top [('5', 0.76), ('8', 0.105)]; gut_half1 92 attr, top [('17', 0.14), ('6', 0.055)]; gut_half0_shuf 29 attr, top [('7', 0.44), ('5', 0.36)]; gut_within0 11 attr, top [('8', 0.415), ('61', 0.315)]; gut_within1 22 attr, top [('8', 0.225), ('5', 0.215)]
+[  737.4s] basins seed 0: original live 395 attr 239; wiki_half0 live 404 attr 289; wiki_half1 live 402 attr 295; wiki_half0_shuf live 393 attr 270; gut_half0 live 398 attr 288; gut_half1 live 394 attr 292; gut_half0_shuf live 393 attr 276; gut_within0 live 400 attr 305; gut_within1 live 395 attr 304
+[  831.3s] basins seed 1: original live 395 attr 271; wiki_half0 live 403 attr 314; wiki_half1 live 402 attr 306; wiki_half0_shuf live 395 attr 293; gut_half0 live 398 attr 299; gut_half1 live 394 attr 313; gut_half0_shuf live 395 attr 290; gut_within0 live 400 attr 312; gut_within1 live 395 attr 315
+[  878.7s] basins seed 2: original live 396 attr 241; wiki_half0 live 405 attr 302; wiki_half1 live 402 attr 304; wiki_half0_shuf live 397 attr 285; gut_half0 live 399 attr 296; gut_half1 live 395 attr 294; gut_half0_shuf live 393 attr 274; gut_within0 live 401 attr 315; gut_within1 live 396 attr 308
+[  879.1s] basin self-agreement across seeds {'original': 0.661, 'wiki_half0': 0.712, 'wiki_half1': 0.71, 'wiki_half0_shuf': 0.672, 'gut_half0': 0.735, 'gut_half1': 0.715, 'gut_half0_shuf': 0.652, 'gut_within0': 0.718, 'gut_within1': 0.709}
+[  881.1s] done

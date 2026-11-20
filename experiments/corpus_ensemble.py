@@ -175,7 +175,7 @@ def main():
             if n % 50 == 0 or n == len(jobs):
                 log(f"{n}/{len(jobs)} task groups")
 
-    rows = [json.loads(line) for line in raw_path.open()]
+    rows = [r for r in map(json.loads, raw_path.open()) if r["config"] in CONFIGS]
     res = analyse(rows, list(CONFIGS), list(STIMS), seeds, a.n, log)
     res.update({"params": PARAMS, "until": UNTIL, "late": LATE, "sigma": a.sigma, "n": a.n,
                 "stimuli": {k: v for k, v in STIMS.items()}, "starts": STARTS, "basin_seeds": seeds,
@@ -252,10 +252,26 @@ def analyse(rows, configs, stims, seeds, n, log):
         paired = {c: {d: float(np.mean([agree(R[(c, s)]["sig"], R[(d, s)]["sig"]) for s in starts])) for d in configs} for c in configs}
         live_paired = {c: {d: float(np.mean([agree(R[(c, s)]["sig"], R[(d, s)]["sig"]) for s in starts
                                              if R[(c, s)]["sig"] and R[(d, s)]["sig"]] or [np.nan])) for d in configs} for c in configs}
+        # distribution-level comparison: attractor occupancy over all starts (0 = extinct) and over live starts
+        A = {c: np.array([assign.get((c, s), 0) for s in starts]) for c in configs}
+        occ = {c: {str(x): v / len(starts) for x, v in Counter(A[c].tolist()).most_common()} for c in configs}
+        occ_live = {c: {x: v / max(1e-12, 1 - occ[c].get("0", 0)) for x, v in occ[c].items() if x != "0"} for c in configs}
+        dist_ov = {c: {d: overlap(occ[c], occ[d]) for d in configs} for c in configs}
+        dist_ov_live = {c: {d: overlap(occ_live[c], occ_live[d]) for d in configs} for c in configs}
+        dist_ci = {c: {} for c in configs}
+        boot_idx = [rng.integers(0, len(starts), len(starts)) for _ in range(300)]
+        for c in configs:
+            for d in configs:
+                bs = []
+                for idx in boot_idx:
+                    pc, pd = Counter(A[c][idx].tolist()), Counter(A[d][idx].tolist())
+                    bs.append(sum(min(pc[x], pd[x]) for x in pc) / len(idx))
+                dist_ci[c][d] = [float(np.percentile(bs, 2.5)), float(np.percentile(bs, 97.5))]
         top = Counter(assign.values()).most_common(15)
         labels = {str(i): [x for x, _ in sorted(amap.reps[i].items(), key=lambda kv: -kv[1])[:4]] for i, _ in top}
         by_cfg = {str(i): {c: sum(1 for s in starts if assign.get((c, s)) == i) for c in configs} for i, _ in top}
-        res["basin"][str(k)] = {"summary": summ, "paired_agreement": paired, "paired_agreement_live": live_paired,
+        res["basin"][str(k)] = {"summary": summ, "paired_agreement": paired, "paired_agreement_live": live_paired, "distribution_overlap": dist_ov,
+                                "distribution_overlap_live": dist_ov_live, "distribution_overlap_ci95": dist_ci, "occupancy": occ,
                                 "top_attractors": {i: {"labels": labels[i], "basin_by_config": by_cfg[i]} for i in labels},
                                 "assign": {f"{c}:{s}": assign.get((c, s), 0) for c in configs for s in starts}}
         log(f"basins seed {k}: " + "; ".join(f"{c} live {summ[c]['live']} attr {summ[c]['attractors']}" for c in configs))

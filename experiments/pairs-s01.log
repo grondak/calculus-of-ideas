@@ -1,0 +1,7 @@
+[   37.1s] loaded; configs ['original', 'wiki_half0', 'wiki_half1', 'wiki_half0_shuf', 'gut_within0']; 847 pairs; seeds [0, 1, 2]; sigma 0.01
+[   37.1s] 645 chunks to run
+[   64.3s] 25/645 chunks
+[   90.5s] 50/645 chunks
+[  111.3s] 75/645 chunks
+[  128.3s] 100/645 chunks
+[  148.2s] 125/645 chunks

@@ -16,3 +16,6 @@ run gutenberg $L/gut-s0 $D/gutenberg/g0.parquet --sample-mod 64 --sample-rem 0 -
 run gutenberg $L/gut-s1 $D/gutenberg/g0.parquet --sample-mod 64 --sample-rem 1 --max-tokens $SMALL
 run gutenberg $L/gut-half0 $D/gutenberg/g0.parquet --max-tokens $LARGE
 run gutenberg $L/gut-half1 $D/gutenberg/g1.parquet --max-tokens $LARGE
+# Within-book Gutenberg split: alternate 20-sentence chunks of the same books (both shards), same size cap.
+run gutenberg $L/gut-within0 $D/gutenberg/g0.parquet $D/gutenberg/g1.parquet --sample-mod 2 --sample-rem 0 --max-tokens $LARGE
+run gutenberg $L/gut-within1 $D/gutenberg/g0.parquet $D/gutenberg/g1.parquet --sample-mod 2 --sample-rem 1 --max-tokens $LARGE

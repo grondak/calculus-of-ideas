@@ -1,0 +1,12 @@
+[  21.8s] loaded graph: 1,120,244 ideas
+[  39.8s]   chunk 0: 964,079 tokens, 647,802 concepts
+[  75.0s]   chunk 50: 37,664,770 tokens, 24,665,854 concepts
+[  86.7s] counts {'tokens': 47507189, 'sentences': 2501602, 'matched': 31115501, 'pairs': 199555447} links observed: 190,820/2,703,283
+[  99.4s] weights {'mode': 'evidence', 'links': 4341307, 'observed': 344481, 'evidence_links': 149276, 'ppmi_positive': 113602, 'min_count': 3, 'changed_links': 105141, 'ppmi_mean_pos': 2.447562895410061}
+[ 110.3s] weights {'mode': 'replace', 'links': 4341307, 'observed': 344481, 'evidence_links': 149276, 'ppmi_positive': 113602, 'min_count': 3, 'changed_links': 677333, 'ppmi_mean_pos': 2.447562895410061}
+[  20.1s] loaded graph: 1,120,244 ideas
+[  37.2s]   chunk 0: 964,897 tokens, 647,424 concepts
+[  72.8s]   chunk 50: 37,600,220 tokens, 24,625,333 concepts
+[  85.0s] counts {'tokens': 47507458, 'sentences': 2503070, 'matched': 31116793, 'pairs': 199528995} links observed: 190,996/2,703,283
+[  95.3s] weights {'mode': 'evidence', 'links': 4341307, 'observed': 345059, 'evidence_links': 149545, 'ppmi_positive': 114157, 'min_count': 3, 'changed_links': 105352, 'ppmi_mean_pos': 2.4496993319702005}
+[ 109.9s] weights {'mode': 'replace', 'links': 4341307, 'observed': 345059, 'evidence_links': 149545, 'ppmi_positive': 114157, 'min_count': 3, 'changed_links': 679221, 'ppmi_mean_pos': 2.4496993319702005}

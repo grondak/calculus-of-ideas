@@ -1,0 +1,40 @@
+
+== experiments/results-gut-split-s05  sigma=0.05
+group                      start  dist  distL  ci95(dist)        bee   honey     ant  flower    wolf compute
+wiki halves                0.336 0.745 0.366  [0.71,0.76]      0.35    0.70    0.51    0.79    0.72    0.11
+wiki half0 ~ its shuffle   0.276 0.726 0.321  [0.69,0.74]      0.35    0.80    0.23    0.62    0.46    0.14
+gut between-book           0.098 0.646 0.107  [0.61,0.67]      0.01    0.12    0.00    0.00    0.29    0.20
+gut within-book            0.192 0.680 0.198  [0.64,0.70]      0.16    0.14    0.01    0.10    0.40    0.40
+gut within ~ between       0.181 0.678 0.188  [0.64,0.70]      0.10    0.15    0.08    0.09    0.45    0.35
+gut half0 ~ its shuffle    0.072 0.634 0.076  [0.60,0.66]      0.01    0.03    0.00    0.12    0.40    0.46
+wiki ~ gut (between)       0.116 0.647 0.120  [0.61,0.67]      0.02    0.00    0.00    0.02    0.27    0.09
+wiki ~ gut (within)        0.099 0.635 0.091  [0.60,0.66]      0.02    0.00    0.01    0.07    0.34    0.09
+original ~ wiki            0.179 0.679 0.202  [0.64,0.70]      0.28    0.43    0.38    0.40    0.65    0.10
+original ~ gut within      0.076 0.632 0.070  [0.60,0.66]      0.00    0.00    0.01    0.06    0.24    0.13
+self distL (same config, across seeds): {'original': 0.158, 'wiki_half0': 0.255, 'wiki_half1': 0.254, 'wiki_half0_shuf': 0.178, 'gut_half0': 0.332, 'gut_half1': 0.223, 'gut_half0_shuf': 0.147, 'gut_within0': 0.283, 'gut_within1': 0.273}
+self (start, seeds 0v1): {'original': 0.655, 'wiki_half0': 0.687, 'wiki_half1': 0.681, 'wiki_half0_shuf': 0.662, 'gut_half0': 0.703, 'gut_half1': 0.671, 'gut_half0_shuf': 0.638, 'gut_within0': 0.712, 'gut_within1': 0.693}
+live/attractors seed0: {'original': (395, 239), 'wiki_half0': (404, 289), 'wiki_half1': (402, 295), 'wiki_half0_shuf': (393, 270), 'gut_half0': (398, 288), 'gut_half1': (394, 292), 'gut_half0_shuf': (393, 276), 'gut_within0': (400, 305), 'gut_within1': (395, 304)}
+evidence links: {'wiki_half0': 157238, 'wiki_half1': 156150, 'gut_half0': 170404, 'gut_half1': 124605, 'gut_within0': 149276, 'gut_within1': 149545}
+bee {'original': ['animal', 'savage'], 'wiki_half0': ['animal', 'savage'], 'wiki_half1': ['animal', 'savage'], 'wiki_half0_shuf': ['reach', 'accomplish'], 'gut_half0': ['larva', 'worm'], 'gut_half1': ['bee', 'pistil'], 'gut_half0_shuf': ['labor', 'appliance'], 'gut_within0': ['get_together', 'convene'], 'gut_within1': ['pile_up', 'gather']}
+ant {'original': ['beast', 'brute'], 'wiki_half0': ['animal', 'beastly'], 'wiki_half1': ['animal', 'brute'], 'wiki_half0_shuf': ['modification', 'adjustment'], 'gut_half0': ['larva', 'moth'], 'gut_half1': ['butterfly', 'larva'], 'gut_half0_shuf': ['mix', 'shuffle'], 'gut_within0': ['larva', 'worm'], 'gut_within1': ['caterpillar', 'grub']}
+flower {'original': ['flower', 'develop'], 'wiki_half0': ['flower', 'bloom'], 'wiki_half1': ['flower', 'blooming'], 'wiki_half0_shuf': ['flower', 'bloom'], 'gut_half0': ['acme', 'angle'], 'gut_half1': ['flower', 'reproductive_structure'], 'gut_half0_shuf': ['draw', 'grain'], 'gut_within0': ['flower', 'reproductive_structure'], 'gut_within1': ['flower', 'acme']}
+
+== experiments/results-gut-split-s01  sigma=0.01
+group                      start  dist  distL  ci95(dist)        bee   honey     ant  flower    wolf compute
+wiki halves                0.345 0.745 0.370  [0.71,0.76]      0.33    0.77    0.36    0.79    0.76    0.03
+wiki half0 ~ its shuffle   0.275 0.730 0.333  [0.69,0.75]      0.41    0.86    0.17    0.63    0.42    0.05
+gut between-book           0.096 0.646 0.111  [0.61,0.67]      0.01    0.14    0.00    0.02    0.35    0.01
+gut within-book            0.203 0.681 0.204  [0.65,0.70]      0.21    0.10    0.04    0.08    0.40    0.40
+gut within ~ between       0.190 0.679 0.194  [0.64,0.70]      0.12    0.18    0.17    0.14    0.44    0.14
+gut half0 ~ its shuffle    0.088 0.638 0.091  [0.60,0.67]      0.00    0.08    0.00    0.06    0.26    0.43
+wiki ~ gut (between)       0.118 0.646 0.122  [0.61,0.67]      0.03    0.01    0.00    0.04    0.27    0.01
+wiki ~ gut (within)        0.104 0.638 0.101  [0.60,0.67]      0.07    0.01    0.00    0.07    0.32    0.00
+original ~ wiki            0.176 0.677 0.200  [0.64,0.70]      0.28    0.50    0.35    0.46    0.60    0.01
+original ~ gut within      0.077 0.631 0.072  [0.60,0.66]      0.01    0.00    0.00    0.06    0.16    0.00
+self distL (same config, across seeds): {'original': 0.174, 'wiki_half0': 0.301, 'wiki_half1': 0.323, 'wiki_half0_shuf': 0.22, 'gut_half0': 0.399, 'gut_half1': 0.291, 'gut_half0_shuf': 0.202, 'gut_within0': 0.325, 'gut_within1': 0.34}
+self (start, seeds 0v1): {'original': 0.661, 'wiki_half0': 0.712, 'wiki_half1': 0.71, 'wiki_half0_shuf': 0.672, 'gut_half0': 0.735, 'gut_half1': 0.715, 'gut_half0_shuf': 0.652, 'gut_within0': 0.718, 'gut_within1': 0.709}
+live/attractors seed0: {'original': (395, 239), 'wiki_half0': (404, 289), 'wiki_half1': (402, 295), 'wiki_half0_shuf': (393, 270), 'gut_half0': (398, 288), 'gut_half1': (394, 292), 'gut_half0_shuf': (393, 276), 'gut_within0': (400, 305), 'gut_within1': (395, 304)}
+evidence links: {'wiki_half0': 157238, 'wiki_half1': 156150, 'gut_half0': 170404, 'gut_half1': 124605, 'gut_within0': 149276, 'gut_within1': 149545}
+bee {'original': ['animal', 'savage'], 'wiki_half0': ['animal', 'savage'], 'wiki_half1': ['animal', 'savage'], 'wiki_half0_shuf': ['reach', 'accomplish'], 'gut_half0': ['larva', 'worm'], 'gut_half1': ['bee', 'pistil'], 'gut_half0_shuf': ['labor', 'appliance'], 'gut_within0': ['get_together', 'convene'], 'gut_within1': ['pile_up', 'gather']}
+ant {'original': ['beast', 'brute'], 'wiki_half0': ['animal', 'beastly'], 'wiki_half1': ['animal', 'brute'], 'wiki_half0_shuf': ['modification', 'adjustment'], 'gut_half0': ['larva', 'moth'], 'gut_half1': ['butterfly', 'larva'], 'gut_half0_shuf': ['mix', 'shuffle'], 'gut_within0': ['larva', 'worm'], 'gut_within1': ['caterpillar', 'grub']}
+flower {'original': ['flower', 'develop'], 'wiki_half0': ['flower', 'bloom'], 'wiki_half1': ['flower', 'blooming'], 'wiki_half0_shuf': ['flower', 'bloom'], 'gut_half0': ['acme', 'angle'], 'gut_half1': ['flower', 'reproductive_structure'], 'gut_half0_shuf': ['draw', 'grain'], 'gut_within0': ['flower', 'reproductive_structure'], 'gut_within1': ['flower', 'acme']}

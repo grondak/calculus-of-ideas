@@ -97,3 +97,8 @@ PYTHONPATH=. python experiments/corpus_ensemble.py ~/data/conceptnet-en.pkl expe
   - 48M tokens each for WikiText and Gutenberg, where each Gutenberg half comes from a different parquet shard (a different set of books).
 - `experiments/run_corpora_ensemble.sh` runs the paired-perturbation ensemble over all of them plus a shuffled Gutenberg control.
 - `experiments/summarize_corpora.py` compares within-corpus split agreement (the noise floor) with cross-corpus agreement. Output: `experiments/results-ensemble-corpora/summary.txt`.
+
+### Between-book vs within-book Gutenberg splits; tie-breaking sensitivity
+- `gut-within0/1` alternate 20-sentence chunks of the same books (both shards), so they share books; `gut-half0/1` use disjoint book sets. `experiments/run_gut_split.sh` runs both, the WikiText halves and shuffle controls at 5% and 1% weight noise. `experiments/summarize_gut_split.py` reports per-start agreement and attractor-occupancy (distribution) overlap, with and without extinction and with bootstrap CIs, plus same-config/different-seed baselines (`experiments/gut-split-summary.txt`).
+- Weight noise mostly breaks ties: 65% of ConceptNet links have |w| = 0.35, and 84.5% of ideas with more than 10 links have a tie at the top-10 cut. Per-start self-agreement is about the same at 5%, 1% and 0.1% noise (`experiments/results-sigma0001`). Treat perturbation seeds as samples of tie order.
+- `experiments/pairs_weights.py` reruns the 847 paired stimuli under each weight configuration and seed, with the A×2 / B×2 / A+R / B+R controls and a basin-map reachability check.

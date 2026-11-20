@@ -1,0 +1,12 @@
+[   32.9s] loaded; configs ['original']; stimuli {'bee': [('bee', 2.0)], 'flower': [('flower', 2.0)]}; 1000 starts
+[   35.2s] top-k diagnostic {}
+[   35.2s] 21 stimulus groups, 60 basin chunks to run
+[   49.2s] 50/81 task groups
+[   57.1s] 81/81 task groups
+[   58.0s] bee: original 13 attr, top [('4', 0.2), ('1', 0.2)]
+[   58.0s] flower: original 9 attr, top [('2', 0.35), ('3', 0.25)]
+[   60.9s] basins seed 0: original live 395 attr 239
+[   62.8s] basins seed 1: original live 396 attr 266
+[   64.0s] basins seed 2: original live 396 attr 237
+[   64.0s] basin self-agreement across seeds {'original': 0.669}
+[   64.6s] done

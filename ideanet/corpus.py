@@ -115,6 +115,48 @@ def read_wikitext(paths: Iterable[str]) -> Iterator[str]:
                     yield t.replace(" @-@ ", "-").replace(" @,@ ", ",").replace(" @.@ ", ".")
 
 
+def read_gutenberg(paths: Iterable[str], sentences_per_chunk: int = 20) -> Iterator[str]:
+    """Project Gutenberg books (parquet with a TEXT column). Line and paragraph breaks are unreliable
+    (hard-wrapped, often double-spaced), so each book is whitespace-normalised and yielded as chunks
+    of `sentences_per_chunk` sentences; the matcher re-splits sentences within each chunk."""
+    import pyarrow.parquet as pq
+    for p in paths:
+        for batch in pq.ParquetFile(p).iter_batches(batch_size=16, columns=["TEXT"]):
+            for book in batch.column(0).to_pylist():
+                start = book.find("*** START OF")
+                if start >= 0:
+                    book = book[book.find("\n", start) + 1:]
+                end = book.find("*** END OF")
+                if end >= 0:
+                    book = book[:end]
+                sents = SENT.split(" ".join(book.split()))
+                for i in range(0, len(sents), sentences_per_chunk):
+                    yield " ".join(sents[i:i + sentences_per_chunk])
+
+
+def read_dailydialog(paths: Iterable[str]) -> Iterator[str]:
+    """DailyDialog (parquet with an `utterances` list column); yields one utterance per paragraph."""
+    import pyarrow.parquet as pq
+    for p in paths:
+        for batch in pq.ParquetFile(p).iter_batches(batch_size=2000, columns=["utterances"]):
+            for dialog in batch.column(0).to_pylist():
+                for u in dialog:
+                    u = " ".join(u.split())
+                    if u:
+                        yield u
+
+
+def sample(paragraphs: Iterable[str], mod: int = 1, rem: int = 0) -> Iterator[str]:
+    """Deterministic disjoint subsample: keep paragraph i when i % mod == rem."""
+    for i, p in enumerate(paragraphs):
+        if i % mod == rem:
+            yield p
+
+
+def count_tokens(text: str) -> int:
+    return len(TOKEN.findall(text.lower()))
+
+
 # ---- counting --------------------------------------------------------------
 
 _W: dict = {}
@@ -192,7 +234,7 @@ def count_cooccurrence(graph: IdeaGraph, paragraphs: Iterable[str], *, window: i
         for p in paragraphs:
             if max_tokens is not None and seen >= max_tokens:
                 return
-            seen += len(p.split())
+            seen += count_tokens(p)
             yield p
 
     with Pool(workers, initializer=_init, initargs=(matcher, link_keys, proposals_min, window)) as pool:

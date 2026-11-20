@@ -1,0 +1,36 @@
+group                        basin       bee    honey      ant   flower     wolf computer
+split: wiki 48M              0.336      0.35     0.70     0.51     0.76     0.75     0.11
+split: gut 48M               0.098      0.01     0.12     0.00     0.01     0.25     0.21
+cross: wiki~gut 48M          0.116      0.02     0.00     0.00     0.02     0.32     0.09
+shuffle: gut_half0~shuf      0.072      0.01     0.01     0.00     0.10     0.35     0.48
+shuffle: shuf~gut_half1      0.063      0.01     0.00     0.00     0.00     0.22     0.14
+split: wiki 0.6M             0.740      0.78     0.93     0.85     0.93     0.87     0.74
+split: gut 0.6M              0.710      0.69     0.89     0.84     0.60     0.85     0.82
+split: dd 0.7M               0.791      0.78     0.95     0.98     0.85     0.99     0.69
+cross: wiki~gut 0.6M         0.658      0.72     0.86     0.84     0.68     0.84     0.76
+cross: wiki~dd 0.6M          0.688      0.71     0.93     0.85     0.83     0.93     0.62
+cross: gut~dd 0.6M           0.684      0.74     0.87     0.87     0.71     0.83     0.66
+orig~wiki 48M                0.179      0.27     0.42     0.40     0.39     0.63     0.10
+orig~gut 48M                 0.085      0.00     0.00     0.00     0.02     0.23     0.12
+orig~small (all)             0.749      0.77     0.90     0.89     0.82     0.91     0.75
+self-agreement across seeds (live):
+  original         0.125  basin attractors 239  ev_share 0.116
+  wiki_half0       0.226  basin attractors 289  ev_share 0.024
+  wiki_half1       0.206  basin attractors 295  ev_share 0.026
+  gut_half0        0.276  basin attractors 288  ev_share 0.081
+  gut_half1        0.194  basin attractors 292  ev_share 0.048
+  gut_half0_shuf   0.102  basin attractors 275  ev_share 0.101
+  wiki_s0          0.122  basin attractors 253  ev_share 0.001
+  wiki_s1          0.127  basin attractors 251  ev_share 0.001
+  gut_s0           0.137  basin attractors 246  ev_share 0.002
+  gut_s1           0.130  basin attractors 251  ev_share 0.002
+  dd_s0            0.133  basin attractors 258  ev_share 0.001
+  dd_s1            0.130  basin attractors 250  ev_share 0.001
+  dd_full          0.136  basin attractors 256  ev_share 0.002
+bee {'original': ['animal', 'savage'], 'wiki_half0': ['animal', 'savage'], 'wiki_half1': ['animal', 'savage'], 'gut_half0': ['larva', 'worm'], 'gut_half1': ['bee', 'pistil'], 'gut_half0_shuf': ['labor', 'appliance'], 'wiki_s0': ['animal', 'savage'], 'wiki_s1': ['animal', 'savage'], 'gut_s0': ['animal', 'savage'], 'gut_s1': ['animal', 'savage'], 'dd_s0': ['animal', 'savage'], 'dd_s1': ['animal', 'beastly'], 'dd_full': ['animal', 'brute']}
+honey {'original': ['dear', 'love'], 'wiki_half0': ['high_priced', 'expensive'], 'wiki_half1': ['favorite', 'favourite'], 'gut_half0': ['favourite', 'front_runner'], 'gut_half1': ['pour', 'pistil'], 'gut_half0_shuf': ['dear', 'expensive'], 'wiki_s0': ['dear', 'favorite'], 'wiki_s1': ['dear', 'love'], 'gut_s0': ['dear', 'love'], 'gut_s1': ['dear', 'favorite'], 'dd_s0': ['dear', 'high_priced'], 'dd_s1': ['dear', 'favorite'], 'dd_full': ['dear', 'high_priced']}
+ant {'original': ['beast', 'brute'], 'wiki_half0': ['animal', 'beastly'], 'wiki_half1': ['animal', 'brute'], 'gut_half0': ['larva', 'moth'], 'gut_half1': ['butterfly', 'larva'], 'gut_half0_shuf': ['mix', 'shuffle'], 'wiki_s0': ['beast', 'brute'], 'wiki_s1': ['beast', 'brute'], 'gut_s0': ['beast', 'brute'], 'gut_s1': ['beast', 'brute'], 'dd_s0': ['beast', 'brute'], 'dd_s1': ['beast', 'brute'], 'dd_full': ['beast', 'brutal']}
+flower {'original': ['flower', 'develop'], 'wiki_half0': ['flower', 'bloom'], 'wiki_half1': ['flower', 'blooming'], 'gut_half0': ['acme', 'angle'], 'gut_half1': ['flower', 'reproductive_structure'], 'gut_half0_shuf': ['draw', 'grain'], 'wiki_s0': ['flower', 'develop'], 'wiki_s1': ['flower', 'develop'], 'gut_s0': ['flower', 'blooming'], 'gut_s1': ['flower', 'get'], 'dd_s0': ['flower', 'raise'], 'dd_s1': ['flower', 'grow'], 'dd_full': ['flower', 'gain']}
+wolf {'original': ['man', 'dude'], 'wiki_half0': ['dude', 'chap'], 'wiki_half1': ['dude', 'chap'], 'gut_half0': ['chap', 'dude'], 'gut_half1': ['dandy', 'cove'], 'gut_half0_shuf': ['dude', 'chap'], 'wiki_s0': ['man', 'dude'], 'wiki_s1': ['dude', 'chap'], 'gut_s0': ['dude', 'chap'], 'gut_s1': ['dude', 'chap'], 'dd_s0': ['man', 'dude'], 'dd_s1': ['man', 'dude'], 'dd_full': ['man', 'dude']}
+computer worm {'original': ['part', 'bit'], 'wiki_half0': ['disunite', 'separate'], 'wiki_half1': ['change', 'commute'], 'gut_half0': ['cipher', 'aim'], 'gut_half1': ['pile', 'roll_up'], 'gut_half0_shuf': ['code', 'cipher'], 'wiki_s0': ['portion', 'share'], 'wiki_s1': ['part', 'bit'], 'gut_s0': ['portion', 'allot'], 'gut_s1': ['portion', 'share'], 'dd_s0': ['portion', 'part'], 'dd_s1': ['allot', 'portion'], 'dd_full': ['allot', 'portion']}
+{"wiki_half0": 157238, "wiki_half1": 156150, "gut_half0": 170404, "gut_half1": 124605, "wiki_s0": 3551, "wiki_s1": 3668, "gut_s0": 4000, "gut_s1": 4008, "dd_s0": 2579, "dd_s1": 2525, "dd_full": 4883}

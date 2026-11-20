@@ -89,3 +89,11 @@ PYTHONPATH=. python experiments/corpus_ensemble.py ~/data/conceptnet-en.pkl expe
     --n 200 --starts 1000 --basin-seeds 0,1,2 \
     --weights wiki_evidence=~/data/learned/wikitext103.evidence.weights.npz ... --corpus-of wiki_evidence=wiki ...
 ```
+
+### Cross-corpus comparison (WikiText-103, Project Gutenberg, DailyDialog)
+- Readers: `read_wikitext`, `read_gutenberg` (books split into 20-sentence chunks) and `read_dailydialog` (one utterance per paragraph). `learn_weights.py --sample-mod/--sample-rem` takes disjoint paragraph subsamples; `--max-tokens` caps the size.
+- `experiments/train_matched.sh` trains two size-matched samples per corpus:
+  - about 0.6M tokens each, because DailyDialog has only 1.4M tokens;
+  - 48M tokens each for WikiText and Gutenberg, where each Gutenberg half comes from a different parquet shard (a different set of books).
+- `experiments/run_corpora_ensemble.sh` runs the paired-perturbation ensemble over all of them plus a shuffled Gutenberg control.
+- `experiments/summarize_corpora.py` compares within-corpus split agreement (the noise floor) with cross-corpus agreement. Output: `experiments/results-ensemble-corpora/summary.txt`.

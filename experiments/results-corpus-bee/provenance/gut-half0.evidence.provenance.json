@@ -1,0 +1,35 @@
+{
+ "corpus": "gutenberg",
+ "files": [
+  {
+   "path": "/home/ubuntu/data/gutenberg/g0.parquet",
+   "bytes": 335520541,
+   "sha1": "6780c5b6b1189ac796bc59ecee505bd2dbf195fc"
+  }
+ ],
+ "window": 10,
+ "unit": "sentence; pairs within window matched concepts",
+ "max_tokens": 48409656,
+ "max_tokens_unit": "ideanet.corpus.TOKEN matches",
+ "sample": {
+  "mod": 1,
+  "rem": 0,
+  "unit": "paragraph index"
+ },
+ "graph": "/home/ubuntu/data/conceptnet-en.pkl",
+ "stats": {
+  "tokens": 47461683,
+  "sentences": 2773275,
+  "matched": 31173898,
+  "pairs": 194687690
+ },
+ "weighting": "PPMI, rank-matched to original |weight| distribution; sign from relation",
+ "mode": "evidence",
+ "links": 4341307,
+ "observed": 397599,
+ "evidence_links": 170404,
+ "ppmi_positive": 136661,
+ "min_count": 3,
+ "changed_links": 119239,
+ "ppmi_mean_pos": 2.8743289578989546
+}

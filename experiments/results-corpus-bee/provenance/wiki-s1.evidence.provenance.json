@@ -1,0 +1,40 @@
+{
+ "corpus": "wikitext103",
+ "files": [
+  {
+   "path": "/home/ubuntu/data/wikitext/train-00000-of-00002.parquet",
+   "bytes": 156987808,
+   "sha1": "3cbc792dfc0eeedf8d7333acdc15a9f536032d9a"
+  },
+  {
+   "path": "/home/ubuntu/data/wikitext/train-00001-of-00002.parquet",
+   "bytes": 157088770,
+   "sha1": "dbf647d24ab4662b4ee36134eb91caf58c6fb395"
+  }
+ ],
+ "window": 10,
+ "unit": "sentence; pairs within window matched concepts",
+ "max_tokens": 580000,
+ "max_tokens_unit": "ideanet.corpus.TOKEN matches",
+ "sample": {
+  "mod": 64,
+  "rem": 1,
+  "unit": "paragraph index"
+ },
+ "graph": "/home/ubuntu/data/conceptnet-en.pkl",
+ "stats": {
+  "tokens": 652537,
+  "sentences": 26787,
+  "matched": 349511,
+  "pairs": 2119862
+ },
+ "weighting": "PPMI, rank-matched to original |weight| distribution; sign from relation",
+ "mode": "evidence",
+ "links": 4341307,
+ "observed": 27336,
+ "evidence_links": 3668,
+ "ppmi_positive": 3019,
+ "min_count": 3,
+ "changed_links": 3092,
+ "ppmi_mean_pos": 2.3099441657105357
+}

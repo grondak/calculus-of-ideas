@@ -1,0 +1,45 @@
+{
+ "corpus": "dailydialog",
+ "files": [
+  {
+   "path": "/home/ubuntu/data/dailydialog/train.parquet",
+   "bytes": 3671272,
+   "sha1": "090cc1aa8ff089bb335d0614e7f505970c48e260"
+  },
+  {
+   "path": "/home/ubuntu/data/dailydialog/validation.parquet",
+   "bytes": 340255,
+   "sha1": "28da566d4b7116153fef008bbe4f4ff4b77ac397"
+  },
+  {
+   "path": "/home/ubuntu/data/dailydialog/test.parquet",
+   "bytes": 337213,
+   "sha1": "a4c0481d1894822d5605bfa7e9967871bd827c83"
+  }
+ ],
+ "window": 10,
+ "unit": "sentence; pairs within window matched concepts",
+ "max_tokens": null,
+ "max_tokens_unit": "ideanet.corpus.TOKEN matches",
+ "sample": {
+  "mod": 2,
+  "rem": 0,
+  "unit": "paragraph index"
+ },
+ "graph": "/home/ubuntu/data/conceptnet-en.pkl",
+ "stats": {
+  "tokens": 701947,
+  "sentences": 83148,
+  "matched": 397380,
+  "pairs": 1155808
+ },
+ "weighting": "PPMI, rank-matched to original |weight| distribution; sign from relation",
+ "mode": "evidence",
+ "links": 4341307,
+ "observed": 11493,
+ "evidence_links": 2579,
+ "ppmi_positive": 1600,
+ "min_count": 3,
+ "changed_links": 2261,
+ "ppmi_mean_pos": 2.3346798113020863
+}

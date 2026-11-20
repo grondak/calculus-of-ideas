@@ -1,0 +1,68 @@
+wrote /home/ubuntu/data/learned/gut-half0.evidence.shuf1.weights.npz 170404 links permuted
+[   50.6s] loaded; configs ['original', 'wiki_half0', 'wiki_half1', 'gut_half0', 'gut_half1', 'gut_half0_shuf', 'wiki_s0', 'wiki_s1', 'gut_s0', 'gut_s1', 'dd_s0', 'dd_s1', 'dd_full']; stimuli {'bee': [('bee', 2.0)], 'honey': [('honey', 2.0)], 'ant': [('ant', 2.0)], 'flower': [('flower', 2.0)], 'wolf': [('wolf', 2.0)], 'computer worm': [('computer_worm', 2.0)]}; 1000 starts
+[   70.6s] top-k diagnostic {"wiki_half0": {"evidence_links": 157238, "evidence_fraction": 0.03621904647609579, "top10_share": {"original": 0.05312852022529442, "wiki_half0": 0.05761904761904762}}, "wiki_half1": {"evidence_links": 156150, "evidence_fraction": 0.03596843070531524, "top10_share": {"original": 0.0528673835125448, "wiki_half1": 0.057386926096603515}}, "gut_half0": {"evidence_links": 170404, "evidence_fraction": 0.039251773716993524, "top10_share": {"original": 0.07038231780167264, "gut_half0": 0.07750128008192525, "gut_half0_shuf": 0.073963133640553}}, "gut_half1": {"evidence_links": 124605, "evidence_fraction": 0.028702185770322162, "top10_share": {"original": 0.04238095238095238, "gut_half1": 0.04759856630824373}}, "wiki_s0": {"evidence_links": 3551, "evidence_fraction": 0.0008179564357001244, "top10_share": {"original": 0.0013090971155487285, "wiki_s0": 0.00134152585765489}}, "wiki_s1": {"evidence_links": 3668, "evidence_fraction": 0.0008449068448741358, "top10_share": {"original": 0.0013893155828639699, "wiki_s1": 0.0014149172213688342}}, "gut_s0": {"evidence_links": 4000, "evidence_fraction": 0.0009213815102226127, "top10_share": {"original": 0.0013585936166581327, "gut_s0": 0.0013312852022529442}}, "gut_s1": {"evidence_links": 4008, "evidence_fraction": 0.0009232242732430579, "top10_share": {"original": 0.0013585936166581327, "gut_s1": 0.0013551800648574843}}, "dd_s0": {"evidence_links": 2579, "evidence_fraction": 0.0005940607287160296, "top10_share": {"original": 0.0008243727598566308, "dd_s0": 0.0008602150537634409}}, "dd_s1": {"evidence_links": 2525, "evidence_fraction": 0.0005816220783280243, "top10_share": {"original": 0.0008038914490527394, "dd_s1": 0.0007936507936507937}}, "dd_full": {"evidence_links": 4883, "evidence_fraction": 0.0011247764786042544, "top10_share": {"original": 0.0015156169994879672, "dd_full": 0.001597542242703533}}}
+[   71.0s] 2010 stimulus groups, 600 basin chunks to run
+[   86.4s] 50/2610 task groups
+[  107.4s] 100/2610 task groups
+[  125.0s] 150/2610 task groups
+[  143.0s] 200/2610 task groups
+[  161.8s] 250/2610 task groups
+[  182.2s] 300/2610 task groups
+[  201.6s] 350/2610 task groups
+[  220.0s] 400/2610 task groups
+[  235.5s] 450/2610 task groups
+[  252.6s] 500/2610 task groups
+[  270.8s] 550/2610 task groups
+[  288.7s] 600/2610 task groups
+[  296.2s] 650/2610 task groups
+[  303.5s] 700/2610 task groups
+[  310.4s] 750/2610 task groups
+[  317.2s] 800/2610 task groups
+[  324.3s] 850/2610 task groups
+[  331.6s] 900/2610 task groups
+[  338.4s] 950/2610 task groups
+[  344.3s] 1000/2610 task groups
+[  352.1s] 1050/2610 task groups
+[  359.7s] 1100/2610 task groups
+[  365.6s] 1150/2610 task groups
+[  373.0s] 1200/2610 task groups
+[  379.1s] 1250/2610 task groups
+[  385.6s] 1300/2610 task groups
+[  392.6s] 1350/2610 task groups
+[  399.3s] 1400/2610 task groups
+[  406.3s] 1450/2610 task groups
+[  412.1s] 1500/2610 task groups
+[  418.7s] 1550/2610 task groups
+[  425.1s] 1600/2610 task groups
+[  432.2s] 1650/2610 task groups
+[  438.7s] 1700/2610 task groups
+[  446.1s] 1750/2610 task groups
+[  454.4s] 1800/2610 task groups
+[  461.4s] 1850/2610 task groups
+[  468.8s] 1900/2610 task groups
+[  475.9s] 1950/2610 task groups
+[  482.8s] 2000/2610 task groups
+[  488.7s] 2050/2610 task groups
+[  495.1s] 2100/2610 task groups
+[  501.3s] 2150/2610 task groups
+[  507.8s] 2200/2610 task groups
+[  514.8s] 2250/2610 task groups
+[  522.1s] 2300/2610 task groups
+[  528.3s] 2350/2610 task groups
+[  535.5s] 2400/2610 task groups
+[  541.4s] 2450/2610 task groups
+[  548.3s] 2500/2610 task groups
+[  554.3s] 2550/2610 task groups
+[  561.2s] 2600/2610 task groups
+[  562.9s] 2610/2610 task groups
+[  595.3s] bee: original 114 attr, top [('1', 0.155), ('7', 0.035)]; wiki_half0 86 attr, top [('1', 0.125), ('38', 0.06)]; wiki_half1 85 attr, top [('1', 0.14), ('7', 0.1)]; gut_half0 35 attr, top [('2', 0.295), ('153', 0.095)]; gut_half1 46 attr, top [('20', 0.195), ('34', 0.145)]; gut_half0_shuf 158 attr, top [('35', 0.045), ('71', 0.025)]; wiki_s0 121 attr, top [('1', 0.15), ('7', 0.035)]; wiki_s1 118 attr, top [('1', 0.16), ('32', 0.045)]; gut_s0 114 attr, top [('1', 0.165), ('7', 0.04)]; gut_s1 112 attr, top [('1', 0.15), ('32', 0.04)]; dd_s0 118 attr, top [('1', 0.155), ('137', 0.04)]; dd_s1 115 attr, top [('1', 0.145), ('7', 0.045)]; dd_full 103 attr, top [('1', 0.18), ('137', 0.05)]
+[  610.8s] honey: original 21 attr, top [('1', 0.485), ('8', 0.14)]; wiki_half0 12 attr, top [('2', 0.52), ('1', 0.18)]; wiki_half1 14 attr, top [('1', 0.41), ('2', 0.39)]; gut_half0 45 attr, top [('3', 0.255), ('10', 0.2)]; gut_half1 42 attr, top [('25', 0.31), ('3', 0.095)]; gut_half0_shuf 50 attr, top [('7', 0.265), ('21', 0.12)]; wiki_s0 22 attr, top [('1', 0.455), ('8', 0.165)]; wiki_s1 22 attr, top [('1', 0.48), ('8', 0.15)]; gut_s0 18 attr, top [('1', 0.435), ('2', 0.185)]; gut_s1 21 attr, top [('1', 0.42), ('2', 0.2)]; dd_s0 21 attr, top [('1', 0.455), ('8', 0.165)]; dd_s1 21 attr, top [('1', 0.455), ('8', 0.165)]; dd_full 21 attr, top [('1', 0.45), ('8', 0.155)]
+[  632.4s] ant: original 41 attr, top [('1', 0.63), ('14', 0.06)]; wiki_half0 90 attr, top [('1', 0.3), ('18', 0.12)]; wiki_half1 37 attr, top [('1', 0.375), ('18', 0.135)]; gut_half0 14 attr, top [('2', 0.515), ('32', 0.185)]; gut_half1 10 attr, top [('3', 0.615), ('58', 0.255)]; gut_half0_shuf 156 attr, top [('13', 0.035), ('41', 0.025)]; wiki_s0 45 attr, top [('1', 0.64), ('14', 0.065)]; wiki_s1 43 attr, top [('1', 0.65), ('14', 0.07)]; gut_s0 43 attr, top [('1', 0.615), ('14', 0.055)]; gut_s1 42 attr, top [('1', 0.61), ('14', 0.065)]; dd_s0 40 attr, top [('1', 0.625), ('14', 0.065)]; dd_s1 41 attr, top [('1', 0.625), ('14', 0.065)]; dd_full 39 attr, top [('1', 0.665), ('14', 0.06)]
+[  671.3s] flower: original 76 attr, top [('2', 0.125), ('12', 0.11)]; wiki_half0 38 attr, top [('2', 0.53), ('3', 0.07)]; wiki_half1 34 attr, top [('2', 0.46), ('3', 0.16)]; gut_half0 47 attr, top [('4', 0.215), ('27', 0.15)]; gut_half1 51 attr, top [('8', 0.305), ('24', 0.175)]; gut_half0_shuf 131 attr, top [('15', 0.145), ('50', 0.04)]; wiki_s0 76 attr, top [('2', 0.14), ('12', 0.105)]; wiki_s1 78 attr, top [('2', 0.12), ('12', 0.11)]; gut_s0 84 attr, top [('12', 0.145), ('21', 0.105)]; gut_s1 83 attr, top [('12', 0.135), ('2', 0.105)]; dd_s0 87 attr, top [('2', 0.125), ('12', 0.11)]; dd_s1 85 attr, top [('12', 0.13), ('2', 0.1)]; dd_full 85 attr, top [('2', 0.125), ('12', 0.125)]
+[  681.8s] wolf: original 25 attr, top [('1', 0.47), ('3', 0.17)]; wiki_half0 25 attr, top [('1', 0.365), ('54', 0.13)]; wiki_half1 20 attr, top [('1', 0.345), ('3', 0.13)]; gut_half0 23 attr, top [('2', 0.35), ('1', 0.235)]; gut_half1 21 attr, top [('6', 0.325), ('11', 0.18)]; gut_half0_shuf 21 attr, top [('8', 0.32), ('1', 0.225)]; wiki_s0 25 attr, top [('1', 0.47), ('3', 0.165)]; wiki_s1 25 attr, top [('1', 0.42), ('3', 0.165)]; gut_s0 27 attr, top [('1', 0.38), ('3', 0.165)]; gut_s1 25 attr, top [('1', 0.38), ('3', 0.175)]; dd_s0 27 attr, top [('1', 0.47), ('3', 0.165)]; dd_s1 28 attr, top [('1', 0.47), ('3', 0.165)]; dd_full 28 attr, top [('1', 0.465), ('3', 0.17)]
+[  729.0s] computer worm: original 123 attr, top [('0', 0.09), ('8', 0.04)]; wiki_half0 104 attr, top [('0', 0.09), ('18', 0.08)]; wiki_half1 47 attr, top [('3', 0.4), ('10', 0.105)]; gut_half0 19 attr, top [('4', 0.55), ('11', 0.115)]; gut_half1 64 attr, top [('11', 0.22), ('27', 0.15)]; gut_half0_shuf 41 attr, top [('6', 0.325), ('4', 0.3)]; wiki_s0 123 attr, top [('0', 0.09), ('160', 0.045)]; wiki_s1 132 attr, top [('0', 0.09), ('160', 0.045)]; gut_s0 134 attr, top [('0', 0.09), ('8', 0.035)]; gut_s1 134 attr, top [('0', 0.09), ('8', 0.04)]; dd_s0 127 attr, top [('0', 0.09), ('8', 0.03)]; dd_s1 133 attr, top [('0', 0.09), ('87', 0.04)]; dd_full 129 attr, top [('0', 0.09), ('160', 0.035)]
+[  832.1s] basins seed 0: original live 395 attr 239; wiki_half0 live 404 attr 289; wiki_half1 live 402 attr 295; gut_half0 live 398 attr 288; gut_half1 live 394 attr 292; gut_half0_shuf live 393 attr 275; wiki_s0 live 395 attr 253; wiki_s1 live 395 attr 251; gut_s0 live 396 attr 246; gut_s1 live 395 attr 251; dd_s0 live 396 attr 258; dd_s1 live 395 attr 250; dd_full live 395 attr 256
+[  943.0s] basins seed 1: original live 390 attr 263; wiki_half0 live 399 attr 311; wiki_half1 live 397 attr 315; gut_half0 live 393 attr 293; gut_half1 live 388 attr 303; gut_half0_shuf live 390 attr 279; wiki_s0 live 390 attr 287; wiki_s1 live 390 attr 279; gut_s0 live 391 attr 275; gut_s1 live 390 attr 273; dd_s0 live 391 attr 280; dd_s1 live 390 attr 278; dd_full live 390 attr 279
+[ 1056.1s] basins seed 2: original live 395 attr 252; wiki_half0 live 404 attr 294; wiki_half1 live 402 attr 301; gut_half0 live 398 attr 295; gut_half1 live 394 attr 291; gut_half0_shuf live 395 attr 288; wiki_s0 live 395 attr 262; wiki_s1 live 395 attr 255; gut_s0 live 396 attr 263; gut_s1 live 395 attr 268; dd_s0 live 395 attr 259; dd_s1 live 395 attr 260; dd_full live 395 attr 264
+[ 1056.7s] basin self-agreement across seeds {'original': 0.655, 'wiki_half0': 0.687, 'wiki_half1': 0.681, 'gut_half0': 0.703, 'gut_half1': 0.671, 'gut_half0_shuf': 0.638, 'wiki_s0': 0.658, 'wiki_s1': 0.657, 'gut_s0': 0.666, 'gut_s1': 0.66, 'dd_s0': 0.659, 'dd_s1': 0.668, 'dd_full': 0.666}
+[ 1060.8s] done

@@ -285,3 +285,15 @@ def test_weight_table_matches_apply_weights():
     restore()
     assert [(f.time, f.idea) for f in e1.fires] == [(f.time, f.idea) for f in e2.fires]
     assert [r.potential_after for r in e1.trace] == [r.potential_after for r in e2.trace]
+
+
+def test_corpus_readers_and_sampling(tmp_path):
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+    from ideanet.corpus import read_dailydialog, read_gutenberg, sample
+    pq.write_table(pa.table({"utterances": [["Hello there .", "Bees make honey ."], ["Bye ."]]}), tmp_path / "dd.parquet")
+    assert list(read_dailydialog([str(tmp_path / "dd.parquet")])) == ["Hello there .", "Bees make honey .", "Bye ."]
+    book = "Header\r\n*** START OF THE BOOK ***\r\nThe bee\r\nflies. It makes\r\n\r\nhoney!\r\n*** END OF THE BOOK ***\r\nlicense"
+    pq.write_table(pa.table({"TEXT": [book]}), tmp_path / "g.parquet")
+    assert list(read_gutenberg([str(tmp_path / "g.parquet")], sentences_per_chunk=1)) == ["The bee flies.", "It makes honey!"]
+    assert list(sample(range(7), 3, 1)) == [1, 4]

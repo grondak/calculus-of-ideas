@@ -1,0 +1,12 @@
+[  28.2s] loaded graph: 1,120,244 ideas
+[  39.7s]   chunk 0: 228,763 tokens, 123,153 concepts
+[  44.4s]   chunk 50: 11,422,452 tokens, 6,114,819 concepts
+[  49.2s]   chunk 100: 22,637,079 tokens, 12,123,163 concepts
+[  54.1s]   chunk 150: 33,804,764 tokens, 18,107,750 concepts
+[  58.7s]   chunk 200: 45,184,152 tokens, 24,195,833 concepts
+[  64.0s]   chunk 250: 56,542,405 tokens, 30,274,143 concepts
+[  70.7s]   chunk 300: 67,778,820 tokens, 36,304,965 concepts
+[  76.5s]   chunk 350: 79,180,140 tokens, 42,406,069 concepts
+[  82.0s]   chunk 400: 90,302,685 tokens, 48,365,626 concepts
+[  90.4s] counts {'tokens': 96825494, 'sentences': 3986389, 'matched': 51856753, 'pairs': 314233132} links observed: 275,869/2,703,283
+[  99.7s] weights {'links': 4341307, 'observed': 485626, 'ppmi_positive': 187242, 'min_count': 3, 'ppmi_mean_pos': 3.1142541611916372}

@@ -1,0 +1,22 @@
+[  16.8s] loaded graph: 1,120,244 ideas
+[  17.7s] counts {'tokens': 96825494, 'sentences': 3986389, 'matched': 51856753, 'pairs': 314233132} links observed: 275,869/2,703,283
+[  25.9s] weights {'mode': 'evidence', 'links': 4341307, 'observed': 485626, 'evidence_links': 234885, 'ppmi_positive': 187242, 'min_count': 3, 'changed_links': 142129, 'ppmi_mean_pos': 3.1142541611916372}
+[  34.1s] weights {'mode': 'replace', 'links': 4341307, 'observed': 485626, 'evidence_links': 234885, 'ppmi_positive': 187242, 'min_count': 3, 'changed_links': 1637257, 'ppmi_mean_pos': 3.1142541611916372}
+[  19.1s] loaded graph: 1,120,244 ideas
+[  29.3s]   chunk 0: 228,763 tokens, 123,153 concepts
+[  34.5s]   chunk 50: 11,422,452 tokens, 6,114,819 concepts
+[  39.3s]   chunk 100: 22,637,079 tokens, 12,123,163 concepts
+[  44.0s]   chunk 150: 33,804,764 tokens, 18,107,750 concepts
+[  49.3s]   chunk 200: 45,184,152 tokens, 24,195,833 concepts
+[  53.6s] counts {'tokens': 48409656, 'sentences': 1991009, 'matched': 25928121, 'pairs': 157232642} links observed: 204,107/2,703,283
+[  67.6s] weights {'mode': 'evidence', 'links': 4341307, 'observed': 360102, 'evidence_links': 157238, 'ppmi_positive': 124571, 'min_count': 3, 'changed_links': 99454, 'ppmi_mean_pos': 2.9293559944996765}
+[  81.3s] weights {'mode': 'replace', 'links': 4341307, 'observed': 360102, 'evidence_links': 157238, 'ppmi_positive': 124571, 'min_count': 3, 'changed_links': 1600212, 'ppmi_mean_pos': 2.9293559944996765}
+[  19.7s] loaded graph: 1,120,244 ideas
+[  29.0s]   chunk 0: 256,848 tokens, 139,015 concepts
+[  33.8s]   chunk 50: 11,458,984 tokens, 6,134,268 concepts
+[  39.1s]   chunk 100: 22,678,766 tokens, 12,147,048 concepts
+[  44.7s]   chunk 150: 34,106,076 tokens, 18,267,792 concepts
+[  51.3s]   chunk 200: 45,262,254 tokens, 24,240,228 concepts
+[  56.0s] counts {'tokens': 48415838, 'sentences': 1995380, 'matched': 25928632, 'pairs': 157000490} links observed: 202,340/2,703,283
+[  65.2s] weights {'mode': 'evidence', 'links': 4341307, 'observed': 356870, 'evidence_links': 156150, 'ppmi_positive': 123363, 'min_count': 3, 'changed_links': 99047, 'ppmi_mean_pos': 2.9178697346976326}
+[  74.5s] weights {'mode': 'replace', 'links': 4341307, 'observed': 356870, 'evidence_links': 156150, 'ppmi_positive': 123363, 'min_count': 3, 'changed_links': 1599395, 'ppmi_mean_pos': 2.9178697346976326}

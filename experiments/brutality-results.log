@@ -1,0 +1,17 @@
+[  43.0s] loaded 1,120,244 ideas
+[  43.1s] baseline: 55 cluster ideas, {'fires': 1047, 'distinct': 92, 'late_fires': 573, 'late_distinct': 55, 'late_diversity': 0.096, 'reactivation': 11.38, 'max_path_diversity': 25, 'persistent': True, 'runaway': False, 'occupancy': 1.0, 'top_late': [('animal', 26), ('savage', 26), ('beastly', 26), ('barbaric', 26), ('vicious', 26)]}
+[  44.1s] repeatability {'identical_rerun': True, 'identical_other_seed': True} [('fire_gain', 1.8, 0.998), ('fire_gain', 1.9, 1.0), ('fire_gain', 2.1, 0.995), ('fire_gain', 2.2, 0.995), ('top_k', 8, 0.996), ('top_k', 12, 0.985), ('top_k', 15, 0.964), ('global_inhibition', 0.07, 0.0), ('global_inhibition', 0.13, 1.0), ('global_inhibition', 0.2, 1.0)]
+[  47.4s] basin [('bee', 1.0), ('ant', 0.998), ('flower', 0.0), ('honey', 0.002), ('computer worm', 0.0), ('wasp', 0.998), ('wolf', 0.0), ('harbor', 0.0), ('violin', 0.0), ('mathematics', 0.0), ('democracy', 0.0), ('rain', 0.0), ('kitchen', 0.0), ('justice', 0.0), ('ocean', 0.0), ('sugar', 0.01)]
+[  47.4s] basin random summary {'fires': {'mean': 895.0, 'sd': 474.704}, 'distinct': {'mean': 81.067, 'sd': 50.905}, 'late_diversity': {'mean': 0.116, 'sd': 0.025}, 'reactivation': {'mean': 10.357, 'sd': 6.709}, 'max_path_diversity': {'mean': 29.7, 'sd': 16.209}, 'occupancy': {'mean': 0.005, 'sd': 0.021}, 'persistent_frac': 0.8, 'reach_frac': 0.0}
+[ 137.9s] null global: bee {'fires': {'mean': 29.05, 'sd': 13.071}, 'distinct': {'mean': 28.8, 'sd': 12.596}, 'late_diversity': None, 'reactivation': {'mean': 1.004, 'sd': 0.016}, 'max_path_diversity': {'mean': 0.2, 'sd': 0.6}, 'occupancy': {'mean': 0.0, 'sd': 0.0}, 'persistent_frac': 0.0, 'reach_frac': 0.0}
+[ 221.0s] null relation: bee {'fires': {'mean': 101.4, 'sd': 89.064}, 'distinct': {'mean': 95.65, 'sd': 77.169}, 'late_diversity': {'mean': 0.866, 'sd': 0.229}, 'reactivation': {'mean': 1.027, 'sd': 0.118}, 'max_path_diversity': {'mean': 0.2, 'sd': 0.6}, 'occupancy': {'mean': 0.0, 'sd': 0.001}, 'persistent_frac': 0.1, 'reach_frac': 0.0}
+[ 221.7s] global:reactivation {'observed': 11.38, 'null_mean': 1.004, 'null_sd': 0.016, 'z': 663.2, 'p': 0.048}
+[ 221.7s] global:max_path_diversity {'observed': 25, 'null_mean': 0.2, 'null_sd': 0.6, 'z': 41.33, 'p': 0.048}
+[ 221.7s] global:occupancy {'observed': 1.0, 'null_mean': 0.0, 'null_sd': 0.0, 'z': None, 'p': 0.048}
+[ 221.7s] global:distinct {'observed': 92, 'null_mean': 28.8, 'null_sd': 12.596, 'z': 5.02, 'p': 0.048}
+[ 221.7s] relation:late_diversity {'observed': 0.096, 'null_mean': 0.866, 'null_sd': 0.229, 'z': -3.37, 'p': 0.2}
+[ 221.7s] relation:reactivation {'observed': 11.38, 'null_mean': 1.027, 'null_sd': 0.118, 'z': 87.97, 'p': 0.048}
+[ 221.7s] relation:max_path_diversity {'observed': 25, 'null_mean': 0.2, 'null_sd': 0.6, 'z': 41.33, 'p': 0.048}
+[ 221.7s] relation:occupancy {'observed': 1.0, 'null_mean': 0.0, 'null_sd': 0.001, 'z': 764.49, 'p': 0.048}
+[ 221.7s] relation:distinct {'observed': 92, 'null_mean': 95.65, 'null_sd': 77.169, 'z': -0.05, 'p': 0.381}
+[ 221.7s] wrote /tmp/brutality.json

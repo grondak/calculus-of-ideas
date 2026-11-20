@@ -1,0 +1,3544 @@
+{
+ "stimulus": "bee",
+ "n": 30,
+ "sigma": 0.05,
+ "labels": {
+  "0": [],
+  "1": [
+   "animal",
+   "savage",
+   "beastly",
+   "barbaric"
+  ],
+  "2": [
+   "gain",
+   "realise",
+   "make",
+   "understand"
+  ],
+  "3": [
+   "collect",
+   "assemble",
+   "accumulate",
+   "gain"
+  ],
+  "4": [
+   "receive",
+   "bear",
+   "take_up",
+   "absorb"
+  ],
+  "5": [
+   "gathering",
+   "meeting",
+   "meet",
+   "assemble"
+  ],
+  "6": [
+   "wrick",
+   "distort",
+   "flex",
+   "contort"
+  ],
+  "7": [
+   "pour",
+   "whip_down",
+   "pour_down",
+   "pelt_down"
+  ],
+  "8": [
+   "invest",
+   "dress",
+   "put",
+   "arrange"
+  ],
+  "9": [
+   "gathering",
+   "assemble",
+   "receive",
+   "make"
+  ],
+  "10": [
+   "assemble",
+   "meet",
+   "meeting",
+   "gathering"
+  ],
+  "11": [
+   "take_in",
+   "receive",
+   "take",
+   "accept"
+  ],
+  "12": [
+   "beast",
+   "animal",
+   "pour",
+   "pelt_down"
+  ],
+  "13": [
+   "collect",
+   "receive",
+   "meet",
+   "gather"
+  ],
+  "14": [
+   "gathering",
+   "meeting",
+   "accumulate",
+   "meet"
+  ],
+  "15": [
+   "meet",
+   "accumulate",
+   "collect",
+   "gather"
+  ],
+  "16": [
+   "victimize",
+   "bunco",
+   "pain_in_ass",
+   "pain_in_neck"
+  ],
+  "17": [
+   "meet",
+   "get",
+   "have",
+   "experience"
+  ],
+  "18": [
+   "assemble",
+   "accumulate",
+   "collect",
+   "gain"
+  ],
+  "19": [
+   "collect",
+   "gain",
+   "get",
+   "accept"
+  ],
+  "20": [
+   "pour",
+   "pelt_down",
+   "pour_down",
+   "whip_down"
+  ],
+  "21": [
+   "rig",
+   "fit",
+   "set_up",
+   "meet"
+  ],
+  "22": [
+   "color",
+   "colour",
+   "likeness",
+   "semblance"
+  ],
+  "23": [
+   "piquancy",
+   "clip",
+   "piquance",
+   "nip"
+  ],
+  "24": [
+   "color",
+   "colour",
+   "gloss",
+   "meet"
+  ],
+  "25": [
+   "wind",
+   "bend",
+   "eddy",
+   "twist"
+  ],
+  "26": [
+   "colour",
+   "discolor",
+   "cherry_red",
+   "red"
+  ],
+  "27": [
+   "larva",
+   "caterpillar",
+   "insect",
+   "animal"
+  ],
+  "28": [
+   "louse",
+   "insect",
+   "larva",
+   "worm"
+  ],
+  "29": [
+   "colour",
+   "color",
+   "represent",
+   "semblance"
+  ],
+  "30": [
+   "shiver",
+   "quiver",
+   "tremble",
+   "shudder"
+  ],
+  "31": [
+   "insect",
+   "dye",
+   "worm",
+   "kermes"
+  ],
+  "32": [
+   "pasture",
+   "grazing",
+   "browse",
+   "eatage"
+  ],
+  "33": [
+   "equal",
+   "constitute",
+   "stand_for",
+   "be"
+  ],
+  "34": [
+   "indigo",
+   "dye",
+   "insect",
+   "larva"
+  ],
+  "35": [
+   "screw",
+   "fuck",
+   "roll_in_hay",
+   "make_out"
+  ],
+  "36": [
+   "sprain",
+   "distort",
+   "wrench",
+   "deform"
+  ],
+  "37": [
+   "animal",
+   "roughshod",
+   "vicious",
+   "brutal"
+  ],
+  "38": [
+   "flush",
+   "efflorescence",
+   "blossom",
+   "flower"
+  ],
+  "39": [
+   "brutal",
+   "beastly",
+   "roughshod",
+   "heavy_handed"
+  ],
+  "40": [
+   "humorous",
+   "comedy",
+   "amusing",
+   "comedian"
+  ],
+  "41": [
+   "steam",
+   "increase",
+   "engine",
+   "energy"
+  ],
+  "42": [
+   "grow",
+   "seed",
+   "bird",
+   "trees"
+  ],
+  "43": [
+   "computer",
+   "box",
+   "software",
+   "package"
+  ],
+  "44": [
+   "seed",
+   "crop",
+   "farm",
+   "garden"
+  ],
+  "45": [
+   "rival",
+   "competition",
+   "compete",
+   "competitor"
+  ],
+  "46": [
+   "division",
+   "operation",
+   "operate",
+   "train"
+  ],
+  "47": [
+   "external",
+   "shell",
+   "outer",
+   "outside"
+  ],
+  "48": [
+   "chick",
+   "brood",
+   "egg",
+   "nest"
+  ],
+  "49": [
+   "laugh",
+   "humorous",
+   "wit",
+   "fun"
+  ],
+  "50": [
+   "bee",
+   "flower",
+   "pollen",
+   "colony"
+  ],
+  "51": [
+   "egg",
+   "insect",
+   "nest",
+   "flower"
+  ],
+  "52": [
+   "bee",
+   "flower",
+   "insect",
+   "pollen"
+  ],
+  "53": [
+   "nectar",
+   "pollination",
+   "bee",
+   "flower"
+  ],
+  "54": [
+   "insect",
+   "ant",
+   "bee",
+   "bug"
+  ],
+  "55": [
+   "horse",
+   "pace",
+   "gait",
+   "walk"
+  ],
+  "56": [
+   "state",
+   "new",
+   "restore",
+   "revive"
+  ],
+  "57": [
+   "aircraft",
+   "runway",
+   "airport",
+   "air"
+  ],
+  "58": [
+   "bee",
+   "gland",
+   "sting",
+   "insect"
+  ],
+  "59": [
+   "wasp",
+   "colony",
+   "animal",
+   "worker"
+  ],
+  "60": [
+   "understand",
+   "why",
+   "skill",
+   "reading"
+  ],
+  "61": [
+   "wind",
+   "aircraft",
+   "airliner",
+   "air"
+  ],
+  "62": [
+   "music",
+   "song",
+   "sing",
+   "dance"
+  ],
+  "63": [
+   "tree",
+   "nest",
+   "branches",
+   "insect"
+  ],
+  "64": [
+   "egg",
+   "brood",
+   "female",
+   "clutch"
+  ],
+  "65": [
+   "pollination",
+   "insect",
+   "pollen",
+   "wind"
+  ],
+  "66": [
+   "butterfly",
+   "larva",
+   "moth",
+   "breaststroke"
+  ],
+  "67": [
+   "development",
+   "creator",
+   "design",
+   "create"
+  ],
+  "68": [
+   "egg",
+   "ant",
+   "brood",
+   "hatch"
+  ],
+  "69": [
+   "television",
+   "computing",
+   "program",
+   "broadcast"
+  ],
+  "70": [
+   "purple",
+   "flower",
+   "red",
+   "lilac"
+  ],
+  "71": [
+   "gain",
+   "put_on",
+   "realize",
+   "realise"
+  ],
+  "72": [
+   "assemble",
+   "get_together",
+   "accumulate",
+   "roll_up"
+  ],
+  "73": [
+   "gain",
+   "meet",
+   "collect",
+   "adopt"
+  ],
+  "74": [
+   "assemble",
+   "meet",
+   "collect",
+   "accumulate"
+  ],
+  "75": [
+   "twist",
+   "wrick",
+   "wrench",
+   "flex"
+  ],
+  "76": [
+   "fulfil",
+   "fulfill",
+   "satisfy",
+   "carry_through"
+  ],
+  "77": [
+   "enliven",
+   "animate",
+   "inspire",
+   "invigorate"
+  ],
+  "78": [
+   "assemble",
+   "gain",
+   "accumulate",
+   "collect"
+  ],
+  "79": [
+   "collect",
+   "adopt",
+   "bear",
+   "assume"
+  ],
+  "80": [
+   "accumulate",
+   "meet",
+   "collect",
+   "adopt"
+  ],
+  "81": [
+   "imposter",
+   "sham",
+   "fake",
+   "fraud"
+  ],
+  "82": [
+   "victimize",
+   "bunco",
+   "fraud",
+   "misrepresentation"
+  ],
+  "83": [
+   "shot",
+   "throw",
+   "stab",
+   "labour"
+  ],
+  "84": [
+   "animal",
+   "beastly",
+   "brute",
+   "beast"
+  ],
+  "85": [
+   "accumulate",
+   "collect",
+   "gain",
+   "realise"
+  ],
+  "86": [
+   "animal",
+   "con",
+   "swindle",
+   "bunco"
+  ],
+  "87": [
+   "beast",
+   "beastly",
+   "wrench",
+   "wrick"
+  ],
+  "88": [
+   "meet",
+   "unite",
+   "collect",
+   "join"
+  ],
+  "89": [
+   "gather",
+   "meet",
+   "accumulate",
+   "roll_up"
+  ],
+  "90": [
+   "hurt",
+   "adversity",
+   "trouble",
+   "suffering"
+  ],
+  "91": [
+   "beast",
+   "animal",
+   "brute",
+   "worm"
+  ],
+  "92": [
+   "rip_off",
+   "victimize",
+   "cheat",
+   "swindle"
+  ],
+  "93": [
+   "distress",
+   "wound",
+   "injury",
+   "injure"
+  ],
+  "94": [
+   "screw",
+   "animal",
+   "fuck",
+   "roll_in_hay"
+  ],
+  "95": [
+   "swindle",
+   "victimize",
+   "bunco",
+   "cheat"
+  ],
+  "96": [
+   "bunco",
+   "scam",
+   "con",
+   "confidence_game"
+  ],
+  "97": [
+   "celebrate",
+   "celebration",
+   "birthday",
+   "ceremony"
+  ],
+  "98": [
+   "aircraft",
+   "fly",
+   "flying",
+   "wing"
+  ],
+  "99": [
+   "lunch",
+   "meal",
+   "dinner",
+   "eat"
+  ],
+  "100": [
+   "play",
+   "game",
+   "competitive",
+   "match"
+  ],
+  "101": [
+   "bird",
+   "nest",
+   "chicken",
+   "chick"
+  ],
+  "102": [
+   "site",
+   "seat",
+   "capital",
+   "albany"
+  ],
+  "103": [
+   "tree",
+   "building",
+   "nest",
+   "chicken"
+  ],
+  "104": [
+   "value",
+   "money",
+   "market",
+   "tax"
+  ],
+  "105": [
+   "bird",
+   "wing",
+   "fly",
+   "sky"
+  ],
+  "106": [
+   "efficiency",
+   "electric",
+   "power",
+   "effect"
+  ],
+  "107": [
+   "education",
+   "science",
+   "secondary_school",
+   "grammar_school"
+  ],
+  "108": [
+   "study",
+   "condition",
+   "value",
+   "psychology"
+  ],
+  "109": [
+   "chick",
+   "egg",
+   "nest",
+   "food"
+  ],
+  "110": [
+   "chick",
+   "animal",
+   "small",
+   "bird"
+  ],
+  "111": [
+   "hotel",
+   "building",
+   "city",
+   "house"
+  ],
+  "112": [
+   "martin",
+   "bird",
+   "passerine",
+   "starling"
+  ],
+  "113": [
+   "tree",
+   "plant",
+   "ground",
+   "wood"
+  ],
+  "114": [
+   "silk",
+   "insect",
+   "flight",
+   "spider"
+  ],
+  "115": [
+   "army",
+   "artillery",
+   "military",
+   "bombard"
+  ],
+  "116": [
+   "colony",
+   "ant",
+   "hatch",
+   "young"
+  ],
+  "117": [
+   "royal",
+   "monarch",
+   "duke",
+   "crown"
+  ],
+  "118": [
+   "fortress",
+   "protection",
+   "defend",
+   "castle"
+  ],
+  "119": [
+   "vegetation",
+   "wood",
+   "tree",
+   "plant"
+  ],
+  "120": [
+   "nest",
+   "forest",
+   "wood",
+   "tree"
+  ],
+  "121": [
+   "clutch",
+   "hatch",
+   "inside",
+   "egg"
+  ],
+  "122": [
+   "family",
+   "mother",
+   "brother",
+   "sister"
+  ],
+  "123": [
+   "plant",
+   "crop",
+   "grow",
+   "growth"
+  ],
+  "124": [
+   "fast",
+   "flight",
+   "quick",
+   "aircraft"
+  ],
+  "125": [
+   "brood",
+   "nest",
+   "insect",
+   "egg"
+  ],
+  "126": [
+   "bird",
+   "airplane",
+   "aircraft",
+   "wing"
+  ],
+  "127": [
+   "graphic",
+   "design",
+   "graphics",
+   "graphical"
+  ],
+  "128": [
+   "europe",
+   "australia",
+   "country",
+   "continent"
+  ],
+  "129": [
+   "progress",
+   "further",
+   "promote",
+   "growth"
+  ],
+  "130": [
+   "food",
+   "corn",
+   "grain",
+   "grass"
+  ],
+  "131": [
+   "white",
+   "pigment",
+   "pink",
+   "color"
+  ],
+  "132": [
+   "garden",
+   "crop",
+   "farm",
+   "agriculture"
+  ],
+  "133": [
+   "tree",
+   "lettuce",
+   "leaves",
+   "garden"
+  ],
+  "134": [
+   "farm",
+   "grain",
+   "plant",
+   "crop"
+  ],
+  "135": [
+   "stage",
+   "performing",
+   "performance",
+   "setting"
+  ],
+  "136": [
+   "egg",
+   "nest",
+   "chick",
+   "white"
+  ],
+  "137": [
+   "sex",
+   "men",
+   "male",
+   "gender"
+  ],
+  "138": [
+   "land",
+   "territory",
+   "ant",
+   "colony"
+  ],
+  "139": [
+   "bee",
+   "flower",
+   "nectar",
+   "pollen"
+  ],
+  "140": [
+   "bee",
+   "flower",
+   "pollen",
+   "insect"
+  ],
+  "141": [
+   "nectar",
+   "bee",
+   "style",
+   "flower"
+  ],
+  "142": [
+   "pollination",
+   "flower",
+   "ant",
+   "pollen"
+  ],
+  "143": [
+   "bee",
+   "nectar",
+   "insect",
+   "flower"
+  ],
+  "144": [
+   "opinion",
+   "remember",
+   "reason",
+   "reporter"
+  ],
+  "145": [
+   "publication",
+   "topic",
+   "newspaper",
+   "issue"
+  ],
+  "146": [
+   "colour",
+   "black",
+   "shade",
+   "dark"
+  ],
+  "147": [
+   "bee",
+   "nectar",
+   "ant",
+   "colony"
+  ],
+  "148": [
+   "pollination",
+   "bee",
+   "darling",
+   "pollen"
+  ],
+  "149": [
+   "arctic",
+   "canada",
+   "inuit",
+   "greenland"
+  ],
+  "150": [
+   "north_america",
+   "south_america",
+   "country",
+   "brazil"
+  ],
+  "151": [
+   "pollination",
+   "bee",
+   "pollen",
+   "insect"
+  ],
+  "152": [
+   "bird",
+   "wing",
+   "fly",
+   "flight"
+  ],
+  "153": [
+   "animal",
+   "adult",
+   "pupa",
+   "larva"
+  ],
+  "154": [
+   "white",
+   "color",
+   "gray",
+   "blue"
+  ],
+  "155": [
+   "stem",
+   "decurrent",
+   "stipe",
+   "attached"
+  ],
+  "156": [
+   "ant",
+   "bee",
+   "flower",
+   "nest"
+  ],
+  "157": [
+   "device",
+   "television",
+   "tv",
+   "television_set"
+  ],
+  "158": [
+   "ant",
+   "bee",
+   "wasp",
+   "colony"
+  ]
+ },
+ "occupancy": {
+  "original": {
+   "2": 0.03333333333333333,
+   "3": 0.03333333333333333,
+   "4": 0.03333333333333333,
+   "5": 0.06666666666666667,
+   "6": 0.03333333333333333,
+   "7": 0.03333333333333333,
+   "1": 0.3,
+   "8": 0.03333333333333333,
+   "9": 0.03333333333333333,
+   "10": 0.03333333333333333,
+   "11": 0.03333333333333333,
+   "12": 0.03333333333333333,
+   "13": 0.03333333333333333,
+   "14": 0.03333333333333333,
+   "15": 0.03333333333333333,
+   "16": 0.03333333333333333,
+   "17": 0.03333333333333333,
+   "18": 0.03333333333333333,
+   "19": 0.03333333333333333,
+   "20": 0.03333333333333333,
+   "21": 0.03333333333333333
+  },
+  "wiki_evidence": {
+   "23": 0.03333333333333333,
+   "24": 0.03333333333333333,
+   "25": 0.03333333333333333,
+   "7": 0.2,
+   "26": 0.06666666666666667,
+   "1": 0.03333333333333333,
+   "27": 0.03333333333333333,
+   "28": 0.1,
+   "29": 0.03333333333333333,
+   "22": 0.03333333333333333,
+   "30": 0.03333333333333333,
+   "31": 0.06666666666666667,
+   "32": 0.03333333333333333,
+   "33": 0.03333333333333333,
+   "34": 0.03333333333333333,
+   "35": 0.03333333333333333,
+   "36": 0.03333333333333333,
+   "37": 0.06666666666666667,
+   "38": 0.03333333333333333,
+   "39": 0.03333333333333333
+  },
+  "wiki_replace": {
+   "41": 0.03333333333333333,
+   "42": 0.03333333333333333,
+   "43": 0.03333333333333333,
+   "44": 0.03333333333333333,
+   "45": 0.03333333333333333,
+   "46": 0.03333333333333333,
+   "47": 0.03333333333333333,
+   "48": 0.03333333333333333,
+   "49": 0.03333333333333333,
+   "50": 0.03333333333333333,
+   "51": 0.03333333333333333,
+   "52": 0.03333333333333333,
+   "53": 0.03333333333333333,
+   "54": 0.03333333333333333,
+   "55": 0.03333333333333333,
+   "56": 0.03333333333333333,
+   "57": 0.03333333333333333,
+   "58": 0.03333333333333333,
+   "59": 0.03333333333333333,
+   "60": 0.03333333333333333,
+   "61": 0.03333333333333333,
+   "62": 0.03333333333333333,
+   "63": 0.03333333333333333,
+   "64": 0.03333333333333333,
+   "65": 0.03333333333333333,
+   "66": 0.03333333333333333,
+   "67": 0.03333333333333333,
+   "68": 0.03333333333333333,
+   "69": 0.03333333333333333,
+   "70": 0.03333333333333333
+  },
+  "wiki_half0_evidence": {
+   "71": 0.03333333333333333,
+   "72": 0.06666666666666667,
+   "73": 0.06666666666666667,
+   "74": 0.03333333333333333,
+   "12": 0.03333333333333333,
+   "7": 0.1,
+   "1": 0.16666666666666666,
+   "75": 0.03333333333333333,
+   "76": 0.03333333333333333,
+   "77": 0.03333333333333333,
+   "78": 0.06666666666666667,
+   "79": 0.03333333333333333,
+   "80": 0.03333333333333333,
+   "81": 0.03333333333333333,
+   "82": 0.03333333333333333,
+   "83": 0.03333333333333333,
+   "84": 0.03333333333333333,
+   "85": 0.03333333333333333,
+   "16": 0.03333333333333333,
+   "86": 0.03333333333333333,
+   "87": 0.03333333333333333
+  },
+  "wiki_half1_evidence": {
+   "18": 0.06666666666666667,
+   "88": 0.06666666666666667,
+   "89": 0.1,
+   "90": 0.03333333333333333,
+   "1": 0.16666666666666666,
+   "78": 0.03333333333333333,
+   "91": 0.03333333333333333,
+   "7": 0.16666666666666666,
+   "28": 0.03333333333333333,
+   "30": 0.03333333333333333,
+   "14": 0.06666666666666667,
+   "92": 0.03333333333333333,
+   "93": 0.03333333333333333,
+   "35": 0.03333333333333333,
+   "94": 0.03333333333333333,
+   "95": 0.03333333333333333,
+   "96": 0.03333333333333333
+  },
+  "wiki_half0_replace": {
+   "98": 0.03333333333333333,
+   "99": 0.03333333333333333,
+   "100": 0.03333333333333333,
+   "101": 0.03333333333333333,
+   "102": 0.03333333333333333,
+   "103": 0.03333333333333333,
+   "104": 0.03333333333333333,
+   "105": 0.03333333333333333,
+   "106": 0.03333333333333333,
+   "107": 0.03333333333333333,
+   "108": 0.03333333333333333,
+   "109": 0.03333333333333333,
+   "110": 0.03333333333333333,
+   "111": 0.03333333333333333,
+   "112": 0.03333333333333333,
+   "113": 0.03333333333333333,
+   "114": 0.03333333333333333,
+   "115": 0.03333333333333333,
+   "116": 0.03333333333333333,
+   "117": 0.03333333333333333,
+   "118": 0.03333333333333333,
+   "119": 0.03333333333333333,
+   "120": 0.03333333333333333,
+   "121": 0.03333333333333333,
+   "122": 0.03333333333333333,
+   "123": 0.03333333333333333,
+   "124": 0.03333333333333333,
+   "125": 0.03333333333333333,
+   "126": 0.03333333333333333,
+   "127": 0.03333333333333333
+  },
+  "wiki_half1_replace": {
+   "129": 0.03333333333333333,
+   "130": 0.03333333333333333,
+   "131": 0.03333333333333333,
+   "132": 0.03333333333333333,
+   "133": 0.03333333333333333,
+   "134": 0.03333333333333333,
+   "135": 0.03333333333333333,
+   "136": 0.03333333333333333,
+   "137": 0.03333333333333333,
+   "138": 0.03333333333333333,
+   "139": 0.03333333333333333,
+   "140": 0.03333333333333333,
+   "141": 0.03333333333333333,
+   "142": 0.03333333333333333,
+   "143": 0.03333333333333333,
+   "144": 0.03333333333333333,
+   "145": 0.03333333333333333,
+   "146": 0.03333333333333333,
+   "147": 0.03333333333333333,
+   "148": 0.03333333333333333,
+   "149": 0.03333333333333333,
+   "150": 0.03333333333333333,
+   "151": 0.03333333333333333,
+   "152": 0.03333333333333333,
+   "153": 0.03333333333333333,
+   "154": 0.03333333333333333,
+   "155": 0.03333333333333333,
+   "156": 0.03333333333333333,
+   "157": 0.03333333333333333,
+   "158": 0.03333333333333333
+  }
+ },
+ "runs": {
+  "original": [
+   {
+    "k": 0,
+    "attractor": 1,
+    "fires": 1047,
+    "top": [
+     "animal",
+     "savage",
+     "beastly",
+     "barbaric"
+    ]
+   },
+   {
+    "k": 1,
+    "attractor": 2,
+    "fires": 1243,
+    "top": [
+     "gain",
+     "realise",
+     "make",
+     "understand"
+    ]
+   },
+   {
+    "k": 2,
+    "attractor": 3,
+    "fires": 1356,
+    "top": [
+     "collect",
+     "assemble",
+     "accumulate",
+     "gain"
+    ]
+   },
+   {
+    "k": 3,
+    "attractor": 4,
+    "fires": 1337,
+    "top": [
+     "receive",
+     "bear",
+     "take_up",
+     "absorb"
+    ]
+   },
+   {
+    "k": 4,
+    "attractor": 5,
+    "fires": 1074,
+    "top": [
+     "gathering",
+     "meeting",
+     "meet",
+     "assemble"
+    ]
+   },
+   {
+    "k": 5,
+    "attractor": 6,
+    "fires": 1193,
+    "top": [
+     "wrick",
+     "distort",
+     "flex",
+     "contort"
+    ]
+   },
+   {
+    "k": 6,
+    "attractor": 7,
+    "fires": 1072,
+    "top": [
+     "pour",
+     "whip_down",
+     "pour_down",
+     "pelt_down"
+    ]
+   },
+   {
+    "k": 7,
+    "attractor": 1,
+    "fires": 1025,
+    "top": [
+     "animal",
+     "beast",
+     "beastly",
+     "savage"
+    ]
+   },
+   {
+    "k": 8,
+    "attractor": 1,
+    "fires": 1038,
+    "top": [
+     "brutal",
+     "beastly",
+     "beast",
+     "animal"
+    ]
+   },
+   {
+    "k": 9,
+    "attractor": 8,
+    "fires": 1267,
+    "top": [
+     "invest",
+     "dress",
+     "put",
+     "decorate"
+    ]
+   },
+   {
+    "k": 10,
+    "attractor": 9,
+    "fires": 1291,
+    "top": [
+     "gathering",
+     "assemble",
+     "receive",
+     "make"
+    ]
+   },
+   {
+    "k": 11,
+    "attractor": 10,
+    "fires": 1190,
+    "top": [
+     "assemble",
+     "meet",
+     "meeting",
+     "gathering"
+    ]
+   },
+   {
+    "k": 12,
+    "attractor": 11,
+    "fires": 1350,
+    "top": [
+     "receive",
+     "take_in",
+     "take",
+     "accept"
+    ]
+   },
+   {
+    "k": 13,
+    "attractor": 12,
+    "fires": 1203,
+    "top": [
+     "beast",
+     "animal",
+     "pour",
+     "pelt_down"
+    ]
+   },
+   {
+    "k": 14,
+    "attractor": 13,
+    "fires": 1287,
+    "top": [
+     "collect",
+     "meet",
+     "receive",
+     "gather"
+    ]
+   },
+   {
+    "k": 15,
+    "attractor": 1,
+    "fires": 1050,
+    "top": [
+     "beastly",
+     "roughshod",
+     "savage",
+     "animal"
+    ]
+   },
+   {
+    "k": 16,
+    "attractor": 14,
+    "fires": 1126,
+    "top": [
+     "gathering",
+     "meeting",
+     "accumulate",
+     "meet"
+    ]
+   },
+   {
+    "k": 17,
+    "attractor": 15,
+    "fires": 1292,
+    "top": [
+     "meet",
+     "accumulate",
+     "collect",
+     "gather"
+    ]
+   },
+   {
+    "k": 18,
+    "attractor": 16,
+    "fires": 1182,
+    "top": [
+     "victimize",
+     "bunco",
+     "pain_in_ass",
+     "pain_in_neck"
+    ]
+   },
+   {
+    "k": 19,
+    "attractor": 17,
+    "fires": 1242,
+    "top": [
+     "get",
+     "meet",
+     "have",
+     "experience"
+    ]
+   },
+   {
+    "k": 20,
+    "attractor": 1,
+    "fires": 1039,
+    "top": [
+     "animal",
+     "beastly",
+     "savage",
+     "barbaric"
+    ]
+   },
+   {
+    "k": 21,
+    "attractor": 18,
+    "fires": 1232,
+    "top": [
+     "assemble",
+     "accumulate",
+     "collect",
+     "gain"
+    ]
+   },
+   {
+    "k": 22,
+    "attractor": 1,
+    "fires": 1042,
+    "top": [
+     "animal",
+     "beastly",
+     "savage",
+     "roughshod"
+    ]
+   },
+   {
+    "k": 23,
+    "attractor": 19,
+    "fires": 1416,
+    "top": [
+     "collect",
+     "gain",
+     "get",
+     "accept"
+    ]
+   },
+   {
+    "k": 24,
+    "attractor": 20,
+    "fires": 1242,
+    "top": [
+     "pour",
+     "pelt_down",
+     "pour_down",
+     "whip_down"
+    ]
+   },
+   {
+    "k": 25,
+    "attractor": 21,
+    "fires": 1176,
+    "top": [
+     "rig",
+     "fit",
+     "set_up",
+     "meet"
+    ]
+   },
+   {
+    "k": 26,
+    "attractor": 1,
+    "fires": 1063,
+    "top": [
+     "beastly",
+     "animal",
+     "savage",
+     "roughshod"
+    ]
+   },
+   {
+    "k": 27,
+    "attractor": 1,
+    "fires": 1150,
+    "top": [
+     "animal",
+     "savage",
+     "brute",
+     "uncivilised"
+    ]
+   },
+   {
+    "k": 28,
+    "attractor": 5,
+    "fires": 1090,
+    "top": [
+     "gathering",
+     "meeting",
+     "meet",
+     "assemble"
+    ]
+   },
+   {
+    "k": 29,
+    "attractor": 1,
+    "fires": 1022,
+    "top": [
+     "animal",
+     "savage",
+     "beastly",
+     "vicious"
+    ]
+   },
+   {
+    "k": 30,
+    "attractor": 1,
+    "fires": 1119,
+    "top": [
+     "animal",
+     "savage",
+     "fiend",
+     "beastly"
+    ]
+   }
+  ],
+  "wiki_evidence": [
+   {
+    "k": 0,
+    "attractor": 22,
+    "fires": 939,
+    "top": [
+     "color",
+     "colour",
+     "likeness",
+     "semblance"
+    ]
+   },
+   {
+    "k": 1,
+    "attractor": 23,
+    "fires": 941,
+    "top": [
+     "piquancy",
+     "clip",
+     "piquance",
+     "nip"
+    ]
+   },
+   {
+    "k": 2,
+    "attractor": 24,
+    "fires": 1030,
+    "top": [
+     "color",
+     "colour",
+     "gloss",
+     "meet"
+    ]
+   },
+   {
+    "k": 3,
+    "attractor": 25,
+    "fires": 1005,
+    "top": [
+     "wind",
+     "bend",
+     "eddy",
+     "twist"
+    ]
+   },
+   {
+    "k": 4,
+    "attractor": 7,
+    "fires": 1030,
+    "top": [
+     "pour",
+     "pelt_down",
+     "teem",
+     "piss_down"
+    ]
+   },
+   {
+    "k": 5,
+    "attractor": 26,
+    "fires": 984,
+    "top": [
+     "colour",
+     "discolor",
+     "cherry_red",
+     "red"
+    ]
+   },
+   {
+    "k": 6,
+    "attractor": 7,
+    "fires": 938,
+    "top": [
+     "pour",
+     "pour_down",
+     "teem",
+     "rain_cats_and_dogs"
+    ]
+   },
+   {
+    "k": 7,
+    "attractor": 1,
+    "fires": 932,
+    "top": [
+     "brute",
+     "brutal",
+     "roughshod",
+     "inhumane"
+    ]
+   },
+   {
+    "k": 8,
+    "attractor": 27,
+    "fires": 879,
+    "top": [
+     "larva",
+     "caterpillar",
+     "insect",
+     "animal"
+    ]
+   },
+   {
+    "k": 9,
+    "attractor": 28,
+    "fires": 871,
+    "top": [
+     "louse",
+     "insect",
+     "larva",
+     "worm"
+    ]
+   },
+   {
+    "k": 10,
+    "attractor": 29,
+    "fires": 1057,
+    "top": [
+     "colour",
+     "color",
+     "represent",
+     "semblance"
+    ]
+   },
+   {
+    "k": 11,
+    "attractor": 22,
+    "fires": 952,
+    "top": [
+     "color",
+     "semblance",
+     "colour",
+     "gloss"
+    ]
+   },
+   {
+    "k": 12,
+    "attractor": 30,
+    "fires": 1123,
+    "top": [
+     "shiver",
+     "quiver",
+     "tremble",
+     "shudder"
+    ]
+   },
+   {
+    "k": 13,
+    "attractor": 7,
+    "fires": 926,
+    "top": [
+     "pullulate",
+     "pour",
+     "pour_down",
+     "whip_down"
+    ]
+   },
+   {
+    "k": 14,
+    "attractor": 31,
+    "fires": 869,
+    "top": [
+     "insect",
+     "dye",
+     "worm",
+     "kermes"
+    ]
+   },
+   {
+    "k": 15,
+    "attractor": 32,
+    "fires": 949,
+    "top": [
+     "pasture",
+     "grass",
+     "grazing",
+     "browse"
+    ]
+   },
+   {
+    "k": 16,
+    "attractor": 28,
+    "fires": 879,
+    "top": [
+     "insect",
+     "louse",
+     "animal",
+     "caterpillar"
+    ]
+   },
+   {
+    "k": 17,
+    "attractor": 33,
+    "fires": 986,
+    "top": [
+     "equal",
+     "constitute",
+     "stand_for",
+     "be"
+    ]
+   },
+   {
+    "k": 18,
+    "attractor": 34,
+    "fires": 902,
+    "top": [
+     "indigo",
+     "dye",
+     "insect",
+     "larva"
+    ]
+   },
+   {
+    "k": 19,
+    "attractor": 35,
+    "fires": 880,
+    "top": [
+     "screw",
+     "fuck",
+     "roll_in_hay",
+     "make_out"
+    ]
+   },
+   {
+    "k": 20,
+    "attractor": 31,
+    "fires": 827,
+    "top": [
+     "louse",
+     "insect",
+     "dye",
+     "worm"
+    ]
+   },
+   {
+    "k": 21,
+    "attractor": 36,
+    "fires": 1014,
+    "top": [
+     "sprain",
+     "distort",
+     "wrench",
+     "deform"
+    ]
+   },
+   {
+    "k": 22,
+    "attractor": 37,
+    "fires": 929,
+    "top": [
+     "animal",
+     "roughshod",
+     "vicious",
+     "brutal"
+    ]
+   },
+   {
+    "k": 23,
+    "attractor": 7,
+    "fires": 960,
+    "top": [
+     "pour",
+     "teem",
+     "rain_cats_and_dogs",
+     "stream"
+    ]
+   },
+   {
+    "k": 24,
+    "attractor": 7,
+    "fires": 945,
+    "top": [
+     "pour",
+     "pullulate",
+     "pelt_down",
+     "pour_down"
+    ]
+   },
+   {
+    "k": 25,
+    "attractor": 38,
+    "fires": 966,
+    "top": [
+     "flush",
+     "efflorescence",
+     "blossom",
+     "flower"
+    ]
+   },
+   {
+    "k": 26,
+    "attractor": 28,
+    "fires": 886,
+    "top": [
+     "larva",
+     "insect",
+     "animal",
+     "pupa"
+    ]
+   },
+   {
+    "k": 27,
+    "attractor": 37,
+    "fires": 921,
+    "top": [
+     "beastly",
+     "animal",
+     "brute",
+     "roughshod"
+    ]
+   },
+   {
+    "k": 28,
+    "attractor": 7,
+    "fires": 939,
+    "top": [
+     "rain_cats_and_dogs",
+     "swarm",
+     "pullulate",
+     "teem"
+    ]
+   },
+   {
+    "k": 29,
+    "attractor": 39,
+    "fires": 1054,
+    "top": [
+     "brutal",
+     "beastly",
+     "roughshod",
+     "heavy_handed"
+    ]
+   },
+   {
+    "k": 30,
+    "attractor": 26,
+    "fires": 975,
+    "top": [
+     "crimson",
+     "red",
+     "color",
+     "cherry_red"
+    ]
+   }
+  ],
+  "wiki_replace": [
+   {
+    "k": 0,
+    "attractor": 40,
+    "fires": 1377,
+    "top": [
+     "humorous",
+     "comedy",
+     "amusing",
+     "comical"
+    ]
+   },
+   {
+    "k": 1,
+    "attractor": 41,
+    "fires": 1094,
+    "top": [
+     "steam",
+     "increase",
+     "engine",
+     "energy"
+    ]
+   },
+   {
+    "k": 2,
+    "attractor": 42,
+    "fires": 1127,
+    "top": [
+     "grow",
+     "seed",
+     "bird",
+     "trees"
+    ]
+   },
+   {
+    "k": 3,
+    "attractor": 43,
+    "fires": 1065,
+    "top": [
+     "computer",
+     "box",
+     "software",
+     "package"
+    ]
+   },
+   {
+    "k": 4,
+    "attractor": 44,
+    "fires": 1445,
+    "top": [
+     "crop",
+     "farm",
+     "garden",
+     "seed"
+    ]
+   },
+   {
+    "k": 5,
+    "attractor": 45,
+    "fires": 1247,
+    "top": [
+     "rival",
+     "competition",
+     "compete",
+     "competitor"
+    ]
+   },
+   {
+    "k": 6,
+    "attractor": 46,
+    "fires": 1164,
+    "top": [
+     "division",
+     "operation",
+     "operate",
+     "train"
+    ]
+   },
+   {
+    "k": 7,
+    "attractor": 47,
+    "fires": 1204,
+    "top": [
+     "external",
+     "shell",
+     "outer",
+     "outside"
+    ]
+   },
+   {
+    "k": 8,
+    "attractor": 48,
+    "fires": 1162,
+    "top": [
+     "chick",
+     "brood",
+     "egg",
+     "nest"
+    ]
+   },
+   {
+    "k": 9,
+    "attractor": 49,
+    "fires": 1360,
+    "top": [
+     "laugh",
+     "humorous",
+     "wit",
+     "fun"
+    ]
+   },
+   {
+    "k": 10,
+    "attractor": 50,
+    "fires": 1073,
+    "top": [
+     "bee",
+     "flower",
+     "pollen",
+     "colony"
+    ]
+   },
+   {
+    "k": 11,
+    "attractor": 51,
+    "fires": 1250,
+    "top": [
+     "egg",
+     "nest",
+     "insect",
+     "flower"
+    ]
+   },
+   {
+    "k": 12,
+    "attractor": 52,
+    "fires": 1156,
+    "top": [
+     "bee",
+     "flower",
+     "insect",
+     "pollen"
+    ]
+   },
+   {
+    "k": 13,
+    "attractor": 53,
+    "fires": 1084,
+    "top": [
+     "nectar",
+     "pollination",
+     "bee",
+     "flower"
+    ]
+   },
+   {
+    "k": 14,
+    "attractor": 54,
+    "fires": 1140,
+    "top": [
+     "insect",
+     "ant",
+     "bee",
+     "flower"
+    ]
+   },
+   {
+    "k": 15,
+    "attractor": 55,
+    "fires": 1147,
+    "top": [
+     "horse",
+     "pace",
+     "walking",
+     "gait"
+    ]
+   },
+   {
+    "k": 16,
+    "attractor": 56,
+    "fires": 1092,
+    "top": [
+     "state",
+     "new",
+     "restore",
+     "revive"
+    ]
+   },
+   {
+    "k": 17,
+    "attractor": 57,
+    "fires": 1151,
+    "top": [
+     "runway",
+     "aircraft",
+     "airport",
+     "air"
+    ]
+   },
+   {
+    "k": 18,
+    "attractor": 58,
+    "fires": 1034,
+    "top": [
+     "bee",
+     "gland",
+     "sting",
+     "insect"
+    ]
+   },
+   {
+    "k": 19,
+    "attractor": 59,
+    "fires": 1130,
+    "top": [
+     "wasp",
+     "colony",
+     "animal",
+     "worker"
+    ]
+   },
+   {
+    "k": 20,
+    "attractor": 60,
+    "fires": 1274,
+    "top": [
+     "understand",
+     "why",
+     "skill",
+     "reading"
+    ]
+   },
+   {
+    "k": 21,
+    "attractor": 61,
+    "fires": 1215,
+    "top": [
+     "wind",
+     "aircraft",
+     "air",
+     "airliner"
+    ]
+   },
+   {
+    "k": 22,
+    "attractor": 62,
+    "fires": 1205,
+    "top": [
+     "music",
+     "song",
+     "sing",
+     "dance"
+    ]
+   },
+   {
+    "k": 23,
+    "attractor": 63,
+    "fires": 1182,
+    "top": [
+     "tree",
+     "nest",
+     "branches",
+     "insect"
+    ]
+   },
+   {
+    "k": 24,
+    "attractor": 64,
+    "fires": 1238,
+    "top": [
+     "egg",
+     "brood",
+     "nest",
+     "female"
+    ]
+   },
+   {
+    "k": 25,
+    "attractor": 65,
+    "fires": 1069,
+    "top": [
+     "pollination",
+     "insect",
+     "pollen",
+     "wind"
+    ]
+   },
+   {
+    "k": 26,
+    "attractor": 66,
+    "fires": 1268,
+    "top": [
+     "butterfly",
+     "larva",
+     "moth",
+     "breaststroke"
+    ]
+   },
+   {
+    "k": 27,
+    "attractor": 67,
+    "fires": 1146,
+    "top": [
+     "development",
+     "creator",
+     "design",
+     "create"
+    ]
+   },
+   {
+    "k": 28,
+    "attractor": 68,
+    "fires": 1127,
+    "top": [
+     "egg",
+     "ant",
+     "brood",
+     "hatch"
+    ]
+   },
+   {
+    "k": 29,
+    "attractor": 69,
+    "fires": 1120,
+    "top": [
+     "television",
+     "computing",
+     "program",
+     "broadcast"
+    ]
+   },
+   {
+    "k": 30,
+    "attractor": 70,
+    "fires": 1242,
+    "top": [
+     "purple",
+     "flower",
+     "red",
+     "lilac"
+    ]
+   }
+  ],
+  "wiki_half0_evidence": [
+   {
+    "k": 0,
+    "attractor": 1,
+    "fires": 1024,
+    "top": [
+     "animal",
+     "savage",
+     "beastly",
+     "vicious"
+    ]
+   },
+   {
+    "k": 1,
+    "attractor": 71,
+    "fires": 1232,
+    "top": [
+     "gain",
+     "put_on",
+     "realize",
+     "realise"
+    ]
+   },
+   {
+    "k": 2,
+    "attractor": 72,
+    "fires": 1373,
+    "top": [
+     "assemble",
+     "accumulate",
+     "roll_up",
+     "pour"
+    ]
+   },
+   {
+    "k": 3,
+    "attractor": 73,
+    "fires": 1280,
+    "top": [
+     "gain",
+     "meet",
+     "collect",
+     "adopt"
+    ]
+   },
+   {
+    "k": 4,
+    "attractor": 74,
+    "fires": 1124,
+    "top": [
+     "assemble",
+     "meet",
+     "collect",
+     "accumulate"
+    ]
+   },
+   {
+    "k": 5,
+    "attractor": 12,
+    "fires": 1106,
+    "top": [
+     "brute",
+     "animal",
+     "pour",
+     "whip_down"
+    ]
+   },
+   {
+    "k": 6,
+    "attractor": 7,
+    "fires": 990,
+    "top": [
+     "pour",
+     "teem",
+     "rain_cats_and_dogs",
+     "chuck_it_down"
+    ]
+   },
+   {
+    "k": 7,
+    "attractor": 1,
+    "fires": 1076,
+    "top": [
+     "brute",
+     "uncivilised",
+     "brutal",
+     "animal"
+    ]
+   },
+   {
+    "k": 8,
+    "attractor": 75,
+    "fires": 952,
+    "top": [
+     "twist",
+     "wrick",
+     "wrench",
+     "flex"
+    ]
+   },
+   {
+    "k": 9,
+    "attractor": 76,
+    "fires": 1240,
+    "top": [
+     "fulfil",
+     "fulfill",
+     "satisfy",
+     "accomplish"
+    ]
+   },
+   {
+    "k": 10,
+    "attractor": 77,
+    "fires": 1161,
+    "top": [
+     "enliven",
+     "animate",
+     "inspire",
+     "invigorate"
+    ]
+   },
+   {
+    "k": 11,
+    "attractor": 78,
+    "fires": 1216,
+    "top": [
+     "assemble",
+     "gain",
+     "accumulate",
+     "collect"
+    ]
+   },
+   {
+    "k": 12,
+    "attractor": 79,
+    "fires": 1344,
+    "top": [
+     "adopt",
+     "bear",
+     "assume",
+     "collect"
+    ]
+   },
+   {
+    "k": 13,
+    "attractor": 7,
+    "fires": 957,
+    "top": [
+     "pullulate",
+     "pour",
+     "pour_down",
+     "whip_down"
+    ]
+   },
+   {
+    "k": 14,
+    "attractor": 78,
+    "fires": 1204,
+    "top": [
+     "gain",
+     "meet",
+     "collect",
+     "assemble"
+    ]
+   },
+   {
+    "k": 15,
+    "attractor": 1,
+    "fires": 1024,
+    "top": [
+     "beastly",
+     "animal",
+     "roughshod",
+     "savage"
+    ]
+   },
+   {
+    "k": 16,
+    "attractor": 80,
+    "fires": 1124,
+    "top": [
+     "accumulate",
+     "meet",
+     "collect",
+     "adopt"
+    ]
+   },
+   {
+    "k": 17,
+    "attractor": 81,
+    "fires": 1261,
+    "top": [
+     "imposter",
+     "sham",
+     "fake",
+     "fraud"
+    ]
+   },
+   {
+    "k": 18,
+    "attractor": 82,
+    "fires": 1118,
+    "top": [
+     "victimize",
+     "bunco",
+     "fraud",
+     "misrepresentation"
+    ]
+   },
+   {
+    "k": 19,
+    "attractor": 83,
+    "fires": 1166,
+    "top": [
+     "shot",
+     "throw",
+     "jab",
+     "stab"
+    ]
+   },
+   {
+    "k": 20,
+    "attractor": 84,
+    "fires": 902,
+    "top": [
+     "animal",
+     "beastly",
+     "brute",
+     "beast"
+    ]
+   },
+   {
+    "k": 21,
+    "attractor": 73,
+    "fires": 1220,
+    "top": [
+     "assemble",
+     "accumulate",
+     "collect",
+     "adopt"
+    ]
+   },
+   {
+    "k": 22,
+    "attractor": 1,
+    "fires": 1049,
+    "top": [
+     "roughshod",
+     "beastly",
+     "savage",
+     "vicious"
+    ]
+   },
+   {
+    "k": 23,
+    "attractor": 85,
+    "fires": 1109,
+    "top": [
+     "accumulate",
+     "collect",
+     "gain",
+     "realise"
+    ]
+   },
+   {
+    "k": 24,
+    "attractor": 72,
+    "fires": 1302,
+    "top": [
+     "meet",
+     "collect",
+     "accumulate",
+     "pour"
+    ]
+   },
+   {
+    "k": 25,
+    "attractor": 16,
+    "fires": 1167,
+    "top": [
+     "bunco",
+     "swindle",
+     "annoyance",
+     "pain_in_neck"
+    ]
+   },
+   {
+    "k": 26,
+    "attractor": 1,
+    "fires": 1059,
+    "top": [
+     "brute",
+     "inhumane",
+     "brutal",
+     "savage"
+    ]
+   },
+   {
+    "k": 27,
+    "attractor": 86,
+    "fires": 1098,
+    "top": [
+     "animal",
+     "con",
+     "swindle",
+     "bunco"
+    ]
+   },
+   {
+    "k": 28,
+    "attractor": 7,
+    "fires": 1048,
+    "top": [
+     "shoot",
+     "teem",
+     "pour",
+     "rain_cats_and_dogs"
+    ]
+   },
+   {
+    "k": 29,
+    "attractor": 1,
+    "fires": 965,
+    "top": [
+     "animal",
+     "beastly",
+     "beast",
+     "brute"
+    ]
+   },
+   {
+    "k": 30,
+    "attractor": 87,
+    "fires": 1103,
+    "top": [
+     "beast",
+     "beastly",
+     "wrench",
+     "wrick"
+    ]
+   }
+  ],
+  "wiki_half1_evidence": [
+   {
+    "k": 0,
+    "attractor": 1,
+    "fires": 1012,
+    "top": [
+     "animal",
+     "savage",
+     "beastly",
+     "brutal"
+    ]
+   },
+   {
+    "k": 1,
+    "attractor": 18,
+    "fires": 1124,
+    "top": [
+     "assemble",
+     "gather",
+     "roll_up",
+     "meeting"
+    ]
+   },
+   {
+    "k": 2,
+    "attractor": 88,
+    "fires": 1250,
+    "top": [
+     "meet",
+     "unite",
+     "collect",
+     "join"
+    ]
+   },
+   {
+    "k": 3,
+    "attractor": 89,
+    "fires": 1102,
+    "top": [
+     "gather",
+     "meet",
+     "accumulate",
+     "roll_up"
+    ]
+   },
+   {
+    "k": 4,
+    "attractor": 90,
+    "fires": 1268,
+    "top": [
+     "hurt",
+     "adversity",
+     "trouble",
+     "anguish"
+    ]
+   },
+   {
+    "k": 5,
+    "attractor": 1,
+    "fires": 1047,
+    "top": [
+     "animal",
+     "savage",
+     "vicious",
+     "brutal"
+    ]
+   },
+   {
+    "k": 6,
+    "attractor": 78,
+    "fires": 1147,
+    "top": [
+     "collect",
+     "meet",
+     "accumulate",
+     "gather"
+    ]
+   },
+   {
+    "k": 7,
+    "attractor": 91,
+    "fires": 904,
+    "top": [
+     "beast",
+     "animal",
+     "brute",
+     "worm"
+    ]
+   },
+   {
+    "k": 8,
+    "attractor": 1,
+    "fires": 1017,
+    "top": [
+     "animal",
+     "savage",
+     "beastly",
+     "beast"
+    ]
+   },
+   {
+    "k": 9,
+    "attractor": 7,
+    "fires": 934,
+    "top": [
+     "pour",
+     "swarm",
+     "whip_down",
+     "pelt_down"
+    ]
+   },
+   {
+    "k": 10,
+    "attractor": 28,
+    "fires": 887,
+    "top": [
+     "louse",
+     "insect",
+     "animal",
+     "larva"
+    ]
+   },
+   {
+    "k": 11,
+    "attractor": 18,
+    "fires": 1153,
+    "top": [
+     "gather",
+     "get_together",
+     "roll_up",
+     "assemble"
+    ]
+   },
+   {
+    "k": 12,
+    "attractor": 30,
+    "fires": 1138,
+    "top": [
+     "frisson",
+     "agitate",
+     "stimulate",
+     "shudder"
+    ]
+   },
+   {
+    "k": 13,
+    "attractor": 7,
+    "fires": 904,
+    "top": [
+     "pour",
+     "pelt_down",
+     "pour_down",
+     "whip_down"
+    ]
+   },
+   {
+    "k": 14,
+    "attractor": 88,
+    "fires": 1263,
+    "top": [
+     "gather",
+     "roll_up",
+     "assemble",
+     "convene"
+    ]
+   },
+   {
+    "k": 15,
+    "attractor": 7,
+    "fires": 946,
+    "top": [
+     "teem",
+     "pour",
+     "chuck_it_down",
+     "piss_down"
+    ]
+   },
+   {
+    "k": 16,
+    "attractor": 14,
+    "fires": 1155,
+    "top": [
+     "gathering",
+     "collection",
+     "accumulate",
+     "meet"
+    ]
+   },
+   {
+    "k": 17,
+    "attractor": 92,
+    "fires": 1101,
+    "top": [
+     "rip_off",
+     "victimize",
+     "swindle",
+     "fraud"
+    ]
+   },
+   {
+    "k": 18,
+    "attractor": 93,
+    "fires": 1090,
+    "top": [
+     "distress",
+     "wound",
+     "injury",
+     "injure"
+    ]
+   },
+   {
+    "k": 19,
+    "attractor": 35,
+    "fires": 969,
+    "top": [
+     "screw",
+     "make_out",
+     "cope",
+     "manage"
+    ]
+   },
+   {
+    "k": 20,
+    "attractor": 94,
+    "fires": 919,
+    "top": [
+     "screw",
+     "animal",
+     "fuck",
+     "roll_in_hay"
+    ]
+   },
+   {
+    "k": 21,
+    "attractor": 89,
+    "fires": 1110,
+    "top": [
+     "assemble",
+     "meet",
+     "gathering",
+     "accumulate"
+    ]
+   },
+   {
+    "k": 22,
+    "attractor": 1,
+    "fires": 1030,
+    "top": [
+     "animal",
+     "beastly",
+     "roughshod",
+     "larva"
+    ]
+   },
+   {
+    "k": 23,
+    "attractor": 14,
+    "fires": 1144,
+    "top": [
+     "accumulate",
+     "gathering",
+     "meet",
+     "meeting"
+    ]
+   },
+   {
+    "k": 24,
+    "attractor": 7,
+    "fires": 994,
+    "top": [
+     "pullulate",
+     "pour",
+     "pelt_down",
+     "pour_down"
+    ]
+   },
+   {
+    "k": 25,
+    "attractor": 95,
+    "fires": 1047,
+    "top": [
+     "swindle",
+     "victimize",
+     "bunco",
+     "cheat"
+    ]
+   },
+   {
+    "k": 26,
+    "attractor": 1,
+    "fires": 983,
+    "top": [
+     "beastly",
+     "animal",
+     "roughshod",
+     "savage"
+    ]
+   },
+   {
+    "k": 27,
+    "attractor": 96,
+    "fires": 1006,
+    "top": [
+     "bunco",
+     "scam",
+     "con",
+     "confidence_game"
+    ]
+   },
+   {
+    "k": 28,
+    "attractor": 7,
+    "fires": 1095,
+    "top": [
+     "rain_cats_and_dogs",
+     "teem",
+     "stream",
+     "pelt"
+    ]
+   },
+   {
+    "k": 29,
+    "attractor": 1,
+    "fires": 1040,
+    "top": [
+     "beast",
+     "uncivilised",
+     "barbarian",
+     "roughshod"
+    ]
+   },
+   {
+    "k": 30,
+    "attractor": 89,
+    "fires": 1119,
+    "top": [
+     "meet",
+     "get_together",
+     "accumulate",
+     "collect"
+    ]
+   }
+  ],
+  "wiki_half0_replace": [
+   {
+    "k": 0,
+    "attractor": 97,
+    "fires": 1304,
+    "top": [
+     "celebrate",
+     "celebration",
+     "event",
+     "birthday"
+    ]
+   },
+   {
+    "k": 1,
+    "attractor": 98,
+    "fires": 1207,
+    "top": [
+     "aircraft",
+     "plane",
+     "fly",
+     "flying"
+    ]
+   },
+   {
+    "k": 2,
+    "attractor": 99,
+    "fires": 1267,
+    "top": [
+     "meal",
+     "lunch",
+     "dinner",
+     "food"
+    ]
+   },
+   {
+    "k": 3,
+    "attractor": 100,
+    "fires": 1193,
+    "top": [
+     "play",
+     "game",
+     "competitive",
+     "match"
+    ]
+   },
+   {
+    "k": 4,
+    "attractor": 101,
+    "fires": 1253,
+    "top": [
+     "bird",
+     "nest",
+     "chicken",
+     "chick"
+    ]
+   },
+   {
+    "k": 5,
+    "attractor": 102,
+    "fires": 1126,
+    "top": [
+     "site",
+     "seat",
+     "capital",
+     "state"
+    ]
+   },
+   {
+    "k": 6,
+    "attractor": 103,
+    "fires": 1235,
+    "top": [
+     "tree",
+     "building",
+     "nest",
+     "chicken"
+    ]
+   },
+   {
+    "k": 7,
+    "attractor": 104,
+    "fires": 1395,
+    "top": [
+     "value",
+     "money",
+     "market",
+     "tax"
+    ]
+   },
+   {
+    "k": 8,
+    "attractor": 105,
+    "fires": 1313,
+    "top": [
+     "bird",
+     "wing",
+     "fly",
+     "sky"
+    ]
+   },
+   {
+    "k": 9,
+    "attractor": 106,
+    "fires": 1281,
+    "top": [
+     "efficiency",
+     "electric",
+     "power",
+     "effect"
+    ]
+   },
+   {
+    "k": 10,
+    "attractor": 107,
+    "fires": 1390,
+    "top": [
+     "education",
+     "science",
+     "secondary_school",
+     "grammar_school"
+    ]
+   },
+   {
+    "k": 11,
+    "attractor": 108,
+    "fires": 1161,
+    "top": [
+     "study",
+     "condition",
+     "value",
+     "psychology"
+    ]
+   },
+   {
+    "k": 12,
+    "attractor": 109,
+    "fires": 1218,
+    "top": [
+     "chick",
+     "egg",
+     "animal",
+     "nest"
+    ]
+   },
+   {
+    "k": 13,
+    "attractor": 110,
+    "fires": 1207,
+    "top": [
+     "chick",
+     "animal",
+     "small",
+     "bird"
+    ]
+   },
+   {
+    "k": 14,
+    "attractor": 111,
+    "fires": 1139,
+    "top": [
+     "building",
+     "hotel",
+     "city",
+     "house"
+    ]
+   },
+   {
+    "k": 15,
+    "attractor": 112,
+    "fires": 1035,
+    "top": [
+     "martin",
+     "bird",
+     "passerine",
+     "starling"
+    ]
+   },
+   {
+    "k": 16,
+    "attractor": 113,
+    "fires": 1308,
+    "top": [
+     "tree",
+     "plant",
+     "ground",
+     "wood"
+    ]
+   },
+   {
+    "k": 17,
+    "attractor": 114,
+    "fires": 1163,
+    "top": [
+     "silk",
+     "insect",
+     "flight",
+     "spider"
+    ]
+   },
+   {
+    "k": 18,
+    "attractor": 115,
+    "fires": 1178,
+    "top": [
+     "army",
+     "artillery",
+     "military",
+     "attack"
+    ]
+   },
+   {
+    "k": 19,
+    "attractor": 116,
+    "fires": 1204,
+    "top": [
+     "colony",
+     "ant",
+     "hatch",
+     "young"
+    ]
+   },
+   {
+    "k": 20,
+    "attractor": 117,
+    "fires": 1224,
+    "top": [
+     "royal",
+     "monarch",
+     "duke",
+     "crown"
+    ]
+   },
+   {
+    "k": 21,
+    "attractor": 118,
+    "fires": 1293,
+    "top": [
+     "fortress",
+     "protection",
+     "defensive",
+     "defend"
+    ]
+   },
+   {
+    "k": 22,
+    "attractor": 119,
+    "fires": 1274,
+    "top": [
+     "vegetation",
+     "wood",
+     "tree",
+     "plant"
+    ]
+   },
+   {
+    "k": 23,
+    "attractor": 120,
+    "fires": 1312,
+    "top": [
+     "nest",
+     "forest",
+     "wood",
+     "tree"
+    ]
+   },
+   {
+    "k": 24,
+    "attractor": 121,
+    "fires": 1260,
+    "top": [
+     "clutch",
+     "hatch",
+     "inside",
+     "egg"
+    ]
+   },
+   {
+    "k": 25,
+    "attractor": 122,
+    "fires": 1373,
+    "top": [
+     "family",
+     "mother",
+     "brother",
+     "sister"
+    ]
+   },
+   {
+    "k": 26,
+    "attractor": 123,
+    "fires": 1363,
+    "top": [
+     "grow",
+     "plant",
+     "crop",
+     "growth"
+    ]
+   },
+   {
+    "k": 27,
+    "attractor": 124,
+    "fires": 1156,
+    "top": [
+     "fast",
+     "aircraft",
+     "flight",
+     "quick"
+    ]
+   },
+   {
+    "k": 28,
+    "attractor": 125,
+    "fires": 1185,
+    "top": [
+     "brood",
+     "nest",
+     "insect",
+     "egg"
+    ]
+   },
+   {
+    "k": 29,
+    "attractor": 126,
+    "fires": 1275,
+    "top": [
+     "bird",
+     "airplane",
+     "aircraft",
+     "wing"
+    ]
+   },
+   {
+    "k": 30,
+    "attractor": 127,
+    "fires": 1099,
+    "top": [
+     "graphic",
+     "design",
+     "graphics",
+     "graphical"
+    ]
+   }
+  ],
+  "wiki_half1_replace": [
+   {
+    "k": 0,
+    "attractor": 128,
+    "fires": 1275,
+    "top": [
+     "europe",
+     "australia",
+     "country",
+     "australian"
+    ]
+   },
+   {
+    "k": 1,
+    "attractor": 129,
+    "fires": 1139,
+    "top": [
+     "progress",
+     "further",
+     "promote",
+     "growth"
+    ]
+   },
+   {
+    "k": 2,
+    "attractor": 130,
+    "fires": 1473,
+    "top": [
+     "food",
+     "grass",
+     "corn",
+     "grain"
+    ]
+   },
+   {
+    "k": 3,
+    "attractor": 131,
+    "fires": 1276,
+    "top": [
+     "white",
+     "pigment",
+     "pink",
+     "color"
+    ]
+   },
+   {
+    "k": 4,
+    "attractor": 132,
+    "fires": 1390,
+    "top": [
+     "crop",
+     "farm",
+     "agriculture",
+     "garden"
+    ]
+   },
+   {
+    "k": 5,
+    "attractor": 133,
+    "fires": 1264,
+    "top": [
+     "tree",
+     "lettuce",
+     "leaves",
+     "garden"
+    ]
+   },
+   {
+    "k": 6,
+    "attractor": 134,
+    "fires": 1355,
+    "top": [
+     "farm",
+     "grain",
+     "plant",
+     "crop"
+    ]
+   },
+   {
+    "k": 7,
+    "attractor": 135,
+    "fires": 1275,
+    "top": [
+     "stage",
+     "performing",
+     "performance",
+     "setting"
+    ]
+   },
+   {
+    "k": 8,
+    "attractor": 136,
+    "fires": 1169,
+    "top": [
+     "egg",
+     "nest",
+     "chick",
+     "white"
+    ]
+   },
+   {
+    "k": 9,
+    "attractor": 137,
+    "fires": 1200,
+    "top": [
+     "sex",
+     "men",
+     "male",
+     "gender"
+    ]
+   },
+   {
+    "k": 10,
+    "attractor": 138,
+    "fires": 1096,
+    "top": [
+     "land",
+     "territory",
+     "ant",
+     "colony"
+    ]
+   },
+   {
+    "k": 11,
+    "attractor": 139,
+    "fires": 1129,
+    "top": [
+     "bee",
+     "flower",
+     "nectar",
+     "pollen"
+    ]
+   },
+   {
+    "k": 12,
+    "attractor": 140,
+    "fires": 1140,
+    "top": [
+     "bee",
+     "flower",
+     "pollen",
+     "insect"
+    ]
+   },
+   {
+    "k": 13,
+    "attractor": 141,
+    "fires": 1018,
+    "top": [
+     "nectar",
+     "bee",
+     "style",
+     "flower"
+    ]
+   },
+   {
+    "k": 14,
+    "attractor": 142,
+    "fires": 1278,
+    "top": [
+     "pollination",
+     "flower",
+     "ant",
+     "pollen"
+    ]
+   },
+   {
+    "k": 15,
+    "attractor": 143,
+    "fires": 1090,
+    "top": [
+     "bee",
+     "nectar",
+     "pollination",
+     "insect"
+    ]
+   },
+   {
+    "k": 16,
+    "attractor": 144,
+    "fires": 1227,
+    "top": [
+     "opinion",
+     "remember",
+     "reason",
+     "reporter"
+    ]
+   },
+   {
+    "k": 17,
+    "attractor": 145,
+    "fires": 1426,
+    "top": [
+     "publication",
+     "topic",
+     "newspaper",
+     "issue"
+    ]
+   },
+   {
+    "k": 18,
+    "attractor": 146,
+    "fires": 1140,
+    "top": [
+     "colour",
+     "black",
+     "shade",
+     "dark"
+    ]
+   },
+   {
+    "k": 19,
+    "attractor": 147,
+    "fires": 1171,
+    "top": [
+     "bee",
+     "nectar",
+     "ant",
+     "colony"
+    ]
+   },
+   {
+    "k": 20,
+    "attractor": 148,
+    "fires": 1112,
+    "top": [
+     "pollination",
+     "bee",
+     "darling",
+     "beloved"
+    ]
+   },
+   {
+    "k": 21,
+    "attractor": 149,
+    "fires": 1117,
+    "top": [
+     "arctic",
+     "greenland",
+     "canada",
+     "inuit"
+    ]
+   },
+   {
+    "k": 22,
+    "attractor": 150,
+    "fires": 1193,
+    "top": [
+     "north_america",
+     "country",
+     "south_america",
+     "latin_america"
+    ]
+   },
+   {
+    "k": 23,
+    "attractor": 151,
+    "fires": 1043,
+    "top": [
+     "pollination",
+     "bee",
+     "pollen",
+     "insect"
+    ]
+   },
+   {
+    "k": 24,
+    "attractor": 152,
+    "fires": 1199,
+    "top": [
+     "bird",
+     "wing",
+     "fly",
+     "flight"
+    ]
+   },
+   {
+    "k": 25,
+    "attractor": 153,
+    "fires": 1111,
+    "top": [
+     "animal",
+     "adult",
+     "pupa",
+     "larva"
+    ]
+   },
+   {
+    "k": 26,
+    "attractor": 154,
+    "fires": 1242,
+    "top": [
+     "white",
+     "color",
+     "gray",
+     "red"
+    ]
+   },
+   {
+    "k": 27,
+    "attractor": 155,
+    "fires": 1124,
+    "top": [
+     "stem",
+     "decurrent",
+     "stipe",
+     "attached"
+    ]
+   },
+   {
+    "k": 28,
+    "attractor": 156,
+    "fires": 1188,
+    "top": [
+     "ant",
+     "bee",
+     "flower",
+     "nest"
+    ]
+   },
+   {
+    "k": 29,
+    "attractor": 157,
+    "fires": 1173,
+    "top": [
+     "device",
+     "television",
+     "tv",
+     "television_set"
+    ]
+   },
+   {
+    "k": 30,
+    "attractor": 158,
+    "fires": 1207,
+    "top": [
+     "ant",
+     "bee",
+     "wasp",
+     "colony"
+    ]
+   }
+  ]
+ }
+}

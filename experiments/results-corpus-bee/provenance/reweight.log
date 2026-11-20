@@ -1,0 +1,12 @@
+[  17.4s] loaded graph: 1,120,244 ideas
+[  17.8s] counts {'tokens': 96825494, 'sentences': 3986389, 'matched': 51856753, 'pairs': 314233132} links observed: 275,869/2,703,283
+[  26.3s] weights {'mode': 'evidence', 'links': 4341307, 'observed': 485626, 'evidence_links': 234885, 'ppmi_positive': 187242, 'min_count': 3, 'changed_links': 152328, 'ppmi_mean_pos': 3.1142541611916372}
+[  35.3s] weights {'mode': 'replace', 'links': 4341307, 'observed': 485626, 'evidence_links': 234885, 'ppmi_positive': 187242, 'min_count': 3, 'changed_links': 945242, 'ppmi_mean_pos': 3.1142541611916372}
+[  20.3s] loaded graph: 1,120,244 ideas
+[  20.9s] counts {'tokens': 48409656, 'sentences': 1991009, 'matched': 25928121, 'pairs': 157232642} links observed: 204,107/2,703,283
+[  31.5s] weights {'mode': 'evidence', 'links': 4341307, 'observed': 360102, 'evidence_links': 157238, 'ppmi_positive': 124571, 'min_count': 3, 'changed_links': 106631, 'ppmi_mean_pos': 2.9293559944996765}
+[  43.5s] weights {'mode': 'replace', 'links': 4341307, 'observed': 360102, 'evidence_links': 157238, 'ppmi_positive': 124571, 'min_count': 3, 'changed_links': 754698, 'ppmi_mean_pos': 2.9293559944996765}
+[  18.4s] loaded graph: 1,120,244 ideas
+[  18.8s] counts {'tokens': 48415838, 'sentences': 1995380, 'matched': 25928632, 'pairs': 157000490} links observed: 202,340/2,703,283
+[  28.0s] weights {'mode': 'evidence', 'links': 4341307, 'observed': 356870, 'evidence_links': 156150, 'ppmi_positive': 123363, 'min_count': 3, 'changed_links': 106141, 'ppmi_mean_pos': 2.9178697346976326}
+[  36.7s] weights {'mode': 'replace', 'links': 4341307, 'observed': 356870, 'evidence_links': 156150, 'ppmi_positive': 123363, 'min_count': 3, 'changed_links': 750618, 'ppmi_mean_pos': 2.9178697346976326}

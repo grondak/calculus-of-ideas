@@ -1,0 +1,29 @@
+{
+ "corpus": "wikitext103",
+ "files": [
+  {
+   "path": "/home/ubuntu/data/wikitext/train-00001-of-00002.parquet",
+   "bytes": 157088770,
+   "sha1": "dbf647d24ab4662b4ee36134eb91caf58c6fb395"
+  }
+ ],
+ "window": 10,
+ "unit": "sentence; pairs within window matched concepts",
+ "max_tokens": null,
+ "graph": "/home/ubuntu/data/conceptnet-en.pkl",
+ "stats": {
+  "tokens": 48415838,
+  "sentences": 1995380,
+  "matched": 25928632,
+  "pairs": 157000490
+ },
+ "weighting": "PPMI, rank-matched to original |weight| distribution; sign from relation",
+ "mode": "evidence",
+ "links": 4341307,
+ "observed": 356870,
+ "evidence_links": 156150,
+ "ppmi_positive": 123363,
+ "min_count": 3,
+ "changed_links": 106141,
+ "ppmi_mean_pos": 2.9178697346976326
+}

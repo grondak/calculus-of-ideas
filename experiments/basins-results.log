@@ -1,0 +1,72 @@
+[   22.9s] loaded 1,120,244 ideas
+[   59.1s] 1000 starts, 238 attractors
+[   92.1s] 2000 starts, 395 attractors
+[  129.0s] 3000 starts, 519 attractors
+[  166.9s] 4000 starts, 634 attractors
+[  205.3s] 5000 starts, 724 attractors
+[  239.9s] 6000 starts, 814 attractors
+[  283.1s] 7000 starts, 878 attractors
+[  323.7s] 8000 starts, 969 attractors
+[  366.1s] 9000 starts, 1044 attractors
+[  407.4s] 10000 starts, 1119 attractors
+[  552.2s] basin summary {'n': 10000, 'threshold': 0.5, 'extinct': 5996, 'runaway': 0, 'attractors': 1119, 'singletons': 638, 'attractors_covering': {0.5: 87, 0.8: 400, 0.9: 719}, 'size_hist': {1: 638, 2: 177, 3: 77, 4: 54, 5: 25, 6: 21, 7: 17, 8: 15, 9: 13, 10: 49, 20: 15, 30: 6, 40: 5, 50: 2, 60: 1, 70: 1, 80: 2, 100: 1}, 'threshold_sensitivity': {0.3: {'attractors': 641, 'singletons': 274, 'largest': [135, 133, 123, 122, 110]}, 0.7: {'attractors': 1701, 'singletons': 1151, 'largest': [98, 71, 50, 47, 41]}}}
+[  552.2s]   A68    basin=106   ideas=54   coh=0.905 ['animal', 'beastly', 'roughshod', 'barbarian', 'beast', 'brute'] e.g. ['casemaking_clothes_moth', 'split_footed_lacewing', 'okapi', 'armadilloes']
+[  552.2s]   A21    basin=85    ideas=72   coh=0.781 ['activity', 'process', 'move', 'routine', 'action', 'act'] e.g. ['actings', 'psychomotor_development', 'biochemical_mechanism', 'turn_tail']
+[  552.2s]   A2     basin=83    ideas=86   coh=0.732 ['take', 'get', 'lend', 'convey', 'have', 'give'] e.g. ['offloads', 'seminal_duct', 'subjugations', 'preconceived']
+[  552.2s]   A34    basin=72    ideas=70   coh=0.736 ['cast', 'shape', 'model', 'modeling', 'form', 'mould'] e.g. ['planera', 'genus_anguis', 'genus_pogonia', 'genus_morone']
+[  552.2s]   A32    basin=64    ideas=77   coh=0.739 ['position', 'put', 'set', 'place', 'model', 'mold'] e.g. ['tnos', 'indiscrete_topology', 'superposed', 'toating']
+[  552.2s]   A81    basin=52    ideas=69   coh=0.698 ['part', 'piece', 'apportion', 'portion', 'share', 'distribute'] e.g. ['complexations', 'syncopic', 'keyloggers', 'particle']
+[  552.2s]   A53    basin=51    ideas=69   coh=0.794 ['end', 'ending', 'stopping_point', 'conclusion', 'close', 'finish'] e.g. ['i_timothy', 'electrocuting', 'electrocute', 'roostings']
+[  552.2s]   A65    basin=45    ideas=105  coh=0.638 ['hold', 'take', 'get', 'have', 'carry', 'receive'] e.g. ['gyromitra_brunnea', 'cottager', 'pterosauria', 'turbans']
+[  552.2s]   A43    basin=44    ideas=56   coh=0.919 ['kin', 'akin', 'related', 'folk', 'family', 'kindred'] e.g. ['family_aulostomidae', 'rafflesiaceae', 'lined_day_gecko', 'family_myctophidae']
+[  552.2s]   A15    basin=42    ideas=60   coh=0.718 ['organisation', 'administration', 'constitution', 'activity', 'organization', 'arrangement'] e.g. ['abamperes', 'biaxial', 'model_driven_architectures', 'conservatarian']
+[  552.2s]   A38    basin=40    ideas=65   coh=0.735 ['change', 'interchange', 'substitution', 'substitute', 'switch', 'exchange'] e.g. ['thingifying', 'coquilla_nut', 'upticks', 'brinded']
+[  552.2s]   A63    basin=40    ideas=89   coh=0.648 ['country', 'place', 'land', 'put', 'set', 'united_states'] e.g. ['grand_teton', 'northamptonshire', 'stagnancy', 'parvati']
+[  552.2s]   A172   basin=39    ideas=59   coh=0.674 ['combine', 'unify', 'merge', 'join', 'change', 'unite'] e.g. ['e296', 'tripalmitins', 'heptanedioic_acid', 'physostigmines']
+[  552.2s]   A58    basin=35    ideas=66   coh=0.77 ['twist', 'contort', 'wring', 'turn', 'bend', 'distort'] e.g. ['organ_pipes', 'antitrades', 'whirls', 'pantagraphs']
+[  552.2s]   A59    basin=33    ideas=119  coh=0.683 ['get', 'gain', 'take', 'have', 'acquire', 'receive'] e.g. ['comprehensors', 'goes_to', 'rug_rat', 'vertebral_foramen']
+[  552.2s]   A62    basin=32    ideas=103  coh=0.733 ['get', 'make', 'cause', 'gain', 'do', 'acquire'] e.g. ['u.s_owned_vehicle', 'white_grape_juice', 'agnomen', 'eavesdropping']
+[  552.2s]   A180   basin=32    ideas=71   coh=0.776 ['advance', 'lift', 'promote', 'rise', 'raise', 'elevate'] e.g. ['alpine_skiing', 'loopholing', 'zomi', 'menisci']
+[  552.2s]   A50    basin=30    ideas=103  coh=0.68 ['suggest', 'hint', 'intimate', 'indicate', 'private', 'insinuate'] e.g. ['kleist', 'realists', 'erik_von_willebrand', 'israeli_immigrant']
+[  552.2s]   A350   basin=28    ideas=72   coh=0.776 ['position', 'put', 'set', 'land', 'place', 'arrange'] e.g. ['ist', 'schiedea_haleakalensis', 'climatic_zone', 'chaldea']
+[  552.2s]   A122   basin=27    ideas=57   coh=0.801 ['press', 'thrust', 'drive', 'push', 'force', 'squeeze'] e.g. ['torqueing', 'companding', 'sternocleidomastoid_muscle', 'stormed']
+[  552.2s]   A153   basin=27    ideas=59   coh=0.815 ['call', 'yell', 'shout', 'exclaim', 'screeching', 'screaming'] e.g. ['biyotches', 'vsiv', 'wuthering', 'sharp_toned']
+[  552.2s]   A106   basin=26    ideas=86   coh=0.696 ['arrange', 'place', 'present', 'give', 'put', 'set'] e.g. ['thelypteris_inabonensis', "shepherd's_pouch", 'white_silk_cotton_tree', 'th_wyoming_state_tree']
+[  552.2s]   A46    basin=25    ideas=74   coh=0.866 ['categorization', 'form', 'class', 'category', 'cast', 'classification'] e.g. ['hemigalus', 'zalophus', 'paprilus', 'budorcas']
+[  552.2s]   A173   basin=25    ideas=74   coh=0.712 ['struggle', 'conflict', 'effort', 'battle', 'fight', 'attempt'] e.g. ['effort', 'foot_races', 'snake_fences', 'altercated']
+[  552.2s]   A16    basin=24    ideas=93   coh=0.747 ['yield', 'present', 'render', 'bear', 'give', 'deliver'] e.g. ['repaid', 'recurrent_event', 'concert_pitches', 'pseudofruit']
+[  552.2s] named {'bee': (68, ['animal', 'savage', 'beastly']), 'honey': (623, ['dear', 'love', 'favorite']), 'ant': (68, ['beast', 'brute', 'barbarian']), 'wasp': (68, ['beast', 'brute', 'barbarian']), 'flower': (39, ['flower', 'develop', 'raise']), 'wolf': (729, ['man', 'dude', 'chap']), 'computer worm': (81, ['part', 'bit', 'share']), 'harbor': (632, ['keep', 'hold', 'retain']), 'violin': (224, ['toy', 'goldbrick', 'victimize']), 'mathematics': (214, ['competence', 'power', 'skill']), 'democracy': (63, ['domain', 'area', 'state']), 'rain': (697, ['content', 'subject', 'theme']), 'kitchen': (373, ['abode', 'home', 'residence']), 'justice': (86, ['estimate', 'mind', 'opinion']), 'ocean': (85, ['liquid', 'silver_tongued', 'substance']), 'sugar': (640, ['kale', 'plant', 'boodle'])}
+[  647.4s] pair summary {'named': {'n': 12, 'kinds': {'dominate_a': 7, 'coexist': 2, 'dominate_b': 2, 'novel': 1}, 'novel_unmapped': 0, 'novel_known_median_basin': 10}, 'top_attractors': {'n': 435, 'kinds': {'dominate_a': 233, 'dominate_b': 93, 'novel': 86, 'coexist': 23}, 'novel_unmapped': 25, 'novel_known_median_basin': 13}, 'random': {'n': 400, 'kinds': {'dominate_a': 215, 'novel': 90, 'dominate_b': 69, 'coexist': 22, 'same': 3, 'extinct': 1}, 'novel_unmapped': 21, 'novel_known_median_basin': 10}}
+[  647.4s]   bee+honey: coexist massA=0.759 massB=0.244 other=0.0 --AAA joint=['animal', 'beastly', 'beast', 'brute', 'savage'] (attr 68, basin 106)
+[  647.4s]   bee+flower: dominate_b massA=0.0 massB=0.983 other=0.017  joint=['flower', 'develop', 'raise', 'advance', 'bloom'] (attr 39, basin 17)
+[  647.4s]   honey+wolf: dominate_a massA=0.993 massB=0.0 other=0.007  joint=['dear', 'favorite', 'favourite', 'beloved', 'darling'] (attr 623, basin 4)
+[  647.4s]   ant+honey: coexist massA=0.369 massB=0.633 other=0.003 BBB-- joint=['dear', 'favorite', 'favourite', 'animal', 'beloved'] (attr None, basin 0)
+[  647.4s]   bee+computer worm: dominate_a massA=0.996 massB=0.0 other=0.004  joint=['animal', 'brute', 'savage', 'brutal', 'vicious'] (attr 68, basin 106)
+[  647.4s]   flower+honey: dominate_a massA=0.552 massB=0.0 other=0.448  joint=['flower', 'blooming', 'blossom', 'bloom', 'flush'] (attr 37, basin 5)
+[  647.4s]   mathematics+justice: dominate_b massA=0.041 massB=0.859 other=0.114  joint=['opinion', 'sagacity', 'idea', 'judgment', 'judgement'] (attr 86, basin 15)
+[  647.4s]   harbor+ocean: dominate_a massA=1.0 massB=0.0 other=0.0  joint=['keep', 'hold', 'retain', 'check', 'arrest'] (attr 632, basin 5)
+[  647.4s]   violin+kitchen: dominate_a massA=0.997 massB=0.0 other=0.003  joint=['toy', 'goldbrick', 'bunco', 'con', 'play'] (attr 224, basin 1)
+[  647.4s]   wolf+democracy: dominate_a massA=0.993 massB=0.007 other=0.007  joint=['dude', 'bloke', 'chap', 'man', 'feller'] (attr 729, basin 4)
+[  647.4s]   rain+sugar: novel massA=0.452 massB=0.0 other=0.548  joint=['silver_tongued', 'pronounce', 'smooth', 'voice', 'facile'] (attr 85, basin 10)
+[  647.4s]   bee+mathematics: dominate_a massA=1.0 massB=0.0 other=0.0  joint=['animal', 'savage', 'beastly', 'uncivilised', 'vicious'] (attr 68, basin 106)
+[  647.4s]   UNMAPPED top_attractors tnos(['position', 'put']) + hemigalus(['categorization', 'form']) -> ['infinite', 'unlimited', 'illimitable', 'place', 'position', 'boundless']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + i_timothy(['end', 'ending']) -> ['whole', 'compound', 'complex', 'convoluted', 'composite', 'complicated']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + gyromitra_brunnea(['hold', 'take']) -> ['complex', 'convoluted', 'complicate', 'whole', 'tangle', 'entangle']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + abamperes(['organisation', 'administration']) -> ['whole', 'complex', 'convoluted', 'compound', 'complicated', 'composite']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + thingifying(['change', 'interchange']) -> ['whole', 'project', 'convoluted', 'complex', 'knotty', 'tangled']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + e296(['combine', 'unify']) -> ['whole', 'compound', 'complex', 'convoluted', 'composite', 'object']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + organ_pipes(['twist', 'contort']) -> ['compound', 'convoluted', 'complex', 'whole', 'composite', 'convolute']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + comprehensors(['get', 'gain']) -> ['whole', 'compound', 'complex', 'convoluted', 'composite', 'object']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + u.s_owned_vehicle(['get', 'make']) -> ['whole', 'compound', 'complex', 'convoluted', 'complicated', 'composite']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + alpine_skiing(['advance', 'lift']) -> ['whole', 'compound', 'complex', 'convoluted', 'complicated', 'composite']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + kleist(['suggest', 'hint']) -> ['whole', 'complex', 'convoluted', 'compound', 'complicated', 'composite']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + biyotches(['call', 'yell']) -> ['whole', 'compound', 'complex', 'convoluted', 'composite', 'object']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + thelypteris_inabonensis(['arrange', 'place']) -> ['whole', 'compound', 'complex', 'convoluted', 'complicated', 'composite']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + hemigalus(['categorization', 'form']) -> ['whole', 'complex', 'convoluted', 'compound', 'complicated', 'composite']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + daguerreotypist(['count', 'trust']) -> ['whole', 'compound', 'complex', 'convoluted', 'composite', 'complicated']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + center_line(['descent', 'declination']) -> ['convoluted', 'whole', 'complex', 'compound', 'complicated', 'object']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + first_violinists(['demonstrate', 'display']) -> ['aim', 'calculate', 'object', 'direct', 'whole', 'thing']
+[  647.4s]   UNMAPPED top_attractors complexations(['part', 'piece']) + warblers(['bird', 'dame']) -> ['whole', 'convoluted', 'complex', 'compound', 'intricate', 'knotty']
+[  647.4s]   UNMAPPED top_attractors abamperes(['organisation', 'administration']) + thingifying(['change', 'interchange']) -> ['aim', 'lead', 'go', 'direct', 'calculate', 'move']
+[  647.4s]   UNMAPPED top_attractors abamperes(['organisation', 'administration']) + e296(['combine', 'unify']) -> ['aim', 'lead', 'go', 'direct', 'calculate', 'move']
+[  647.7s] wrote /tmp/basins.json.gz

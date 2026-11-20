@@ -1,0 +1,25 @@
+[   38.5s] loaded; configs ['original', 'wiki_evidence', 'wiki_half0_evidence', 'wiki_half1_evidence', 'shuf1_evidence', 'shuf2_evidence']; stimuli {'bee': [('bee', 2.0)], 'honey': [('honey', 2.0)], 'ant': [('ant', 2.0)], 'flower': [('flower', 2.0)], 'wolf': [('wolf', 2.0)], 'computer worm': [('computer_worm', 2.0)]}; 1000 starts
+[   44.0s] top-k diagnostic {"wiki": {"evidence_links": 234885, "evidence_fraction": 0.0541046740071596, "top10_share": {"original": 0.08008875234681687, "wiki_evidence": 0.0855589691073562, "shuf1_evidence": 0.08818911076975593, "shuf2_evidence": 0.08841781874039939}}, "half0": {"evidence_links": 157238, "evidence_fraction": 0.03621904647609579, "top10_share": {"original": 0.05312852022529442, "wiki_half0_evidence": 0.05761904761904762}}, "half1": {"evidence_links": 156150, "evidence_fraction": 0.03596843070531524, "top10_share": {"original": 0.0528673835125448, "wiki_half1_evidence": 0.057386926096603515}}}
+[   44.5s] 402 stimulus groups, 120 basin chunks to run
+[   57.4s] 50/522 task groups
+[   75.2s] 100/522 task groups
+[   83.7s] 150/522 task groups
+[   89.4s] 200/522 task groups
+[   94.2s] 250/522 task groups
+[  100.3s] 300/522 task groups
+[  106.4s] 350/522 task groups
+[  113.7s] 400/522 task groups
+[  118.7s] 450/522 task groups
+[  124.3s] 500/522 task groups
+[  126.8s] 522/522 task groups
+[  138.3s] bee: original 109 attr, top [('1', 0.16), ('25', 0.035)]; wiki_evidence 72 attr, top [('14', 0.195), ('37', 0.105)]; wiki_half0_evidence 93 attr, top [('1', 0.125), ('14', 0.06)]; wiki_half1_evidence 84 attr, top [('1', 0.14), ('14', 0.125)]; shuf1_evidence 96 attr, top [('26', 0.18), ('28', 0.035)]; shuf2_evidence 138 attr, top [('14', 0.17), ('99', 0.025)]
+[  141.5s] honey: original 20 attr, top [('1', 0.48), ('7', 0.16)]; wiki_evidence 16 attr, top [('3', 0.485), ('8', 0.2)]; wiki_half0_evidence 12 attr, top [('3', 0.515), ('1', 0.18)]; wiki_half1_evidence 17 attr, top [('1', 0.405), ('3', 0.385)]; shuf1_evidence 30 attr, top [('3', 0.35), ('8', 0.125)]; shuf2_evidence 30 attr, top [('3', 0.395), ('1', 0.32)]
+[  151.0s] ant: original 39 attr, top [('1', 0.64), ('121', 0.055)]; wiki_evidence 54 attr, top [('24', 0.085), ('54', 0.085)]; wiki_half0_evidence 92 attr, top [('1', 0.305), ('129', 0.095)]; wiki_half1_evidence 39 attr, top [('1', 0.37), ('129', 0.075)]; shuf1_evidence 83 attr, top [('34', 0.185), ('6', 0.075)]; shuf2_evidence 148 attr, top [('19', 0.04), ('20', 0.03)]
+[  158.9s] flower: original 74 attr, top [('38', 0.185), ('2', 0.11)]; wiki_evidence 38 attr, top [('2', 0.515), ('3', 0.07)]; wiki_half0_evidence 46 attr, top [('2', 0.47), ('5', 0.06)]; wiki_half1_evidence 40 attr, top [('2', 0.445), ('3', 0.14)]; shuf1_evidence 90 attr, top [('3', 0.095), ('9', 0.09)]; shuf2_evidence 60 attr, top [('5', 0.23), ('2', 0.215)]
+[  161.8s] wolf: original 20 attr, top [('1', 0.475), ('3', 0.235)]; wiki_evidence 20 attr, top [('10', 0.345), ('1', 0.21)]; wiki_half0_evidence 22 attr, top [('1', 0.39), ('3', 0.14)]; wiki_half1_evidence 20 attr, top [('1', 0.36), ('3', 0.19)]; shuf1_evidence 40 attr, top [('1', 0.455), ('10', 0.16)]; shuf2_evidence 43 attr, top [('10', 0.375), ('1', 0.14)]
+[  171.5s] computer worm: original 121 attr, top [('0', 0.09), ('7', 0.035)]; wiki_evidence 79 attr, top [('0', 0.09), ('13', 0.09)]; wiki_half0_evidence 106 attr, top [('0', 0.09), ('18', 0.08)]; wiki_half1_evidence 48 attr, top [('4', 0.4), ('10', 0.105)]; shuf1_evidence 44 attr, top [('0', 0.68), ('36', 0.05)]; shuf2_evidence 98 attr, top [('0', 0.355), ('87', 0.045)]
+[  192.5s] basins seed 0: original live 395 attr 239; wiki_evidence live 403 attr 296; wiki_half0_evidence live 404 attr 296; wiki_half1_evidence live 402 attr 297; shuf1_evidence live 388 attr 285; shuf2_evidence live 393 attr 275
+[  223.2s] basins seed 1: original live 390 attr 263; wiki_evidence live 399 attr 297; wiki_half0_evidence live 399 attr 312; wiki_half1_evidence live 397 attr 315; shuf1_evidence live 386 attr 287; shuf2_evidence live 393 attr 304
+[  246.4s] basins seed 2: original live 395 attr 252; wiki_evidence live 404 attr 305; wiki_half0_evidence live 404 attr 306; wiki_half1_evidence live 402 attr 305; shuf1_evidence live 395 attr 292; shuf2_evidence live 397 attr 292
+[  246.8s] basin self-agreement across seeds {'original': 0.655, 'wiki_evidence': 0.687, 'wiki_half0_evidence': 0.687, 'wiki_half1_evidence': 0.681, 'shuf1_evidence': 0.649, 'shuf2_evidence': 0.644}
+[  248.3s] done

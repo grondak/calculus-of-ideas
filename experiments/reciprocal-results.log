@@ -1,0 +1,14 @@
+[  35.2s] loaded 1,120,244 ideas
+[  35.3s] baseline: 55 cluster ideas, {'fires': 1047, 'distinct': 92, 'late_fires': 573, 'late_distinct': 55, 'late_diversity': 0.096, 'reactivation': 11.38, 'max_path_diversity': 25, 'persistent': True, 'runaway': False, 'occupancy': 1.0, 'top_late': [('animal', 26), ('savage', 26), ('beastly', 26), ('barbaric', 26), ('vicious', 26)]}
+[  36.9s] repeatability {'identical_rerun': True, 'identical_other_seed': True} [('fire_gain', 1.8, 0.998), ('fire_gain', 1.9, 1.0), ('fire_gain', 2.1, 0.995), ('fire_gain', 2.2, 0.995), ('top_k', 8, 0.996), ('top_k', 12, 0.985), ('top_k', 15, 0.964), ('global_inhibition', 0.07, 0.0), ('global_inhibition', 0.13, 1.0), ('global_inhibition', 0.2, 1.0)]
+[  41.4s] basin [('bee', 1.0), ('ant', 0.998), ('flower', 0.0), ('honey', 0.002), ('computer worm', 0.0), ('wasp', 0.998), ('wolf', 0.0), ('harbor', 0.0), ('violin', 0.0), ('mathematics', 0.0), ('democracy', 0.0), ('rain', 0.0), ('kitchen', 0.0), ('justice', 0.0), ('ocean', 0.0), ('sugar', 0.01)]
+[  41.4s] basin random summary {'fires': {'mean': 895.0, 'sd': 474.704}, 'distinct': {'mean': 81.067, 'sd': 50.905}, 'late_diversity': {'mean': 0.116, 'sd': 0.025}, 'reactivation': {'mean': 10.357, 'sd': 6.709}, 'max_path_diversity': {'mean': 29.7, 'sd': 16.209}, 'occupancy': {'mean': 0.005, 'sd': 0.021}, 'persistent_frac': 0.8, 'reach_frac': 0.0}
+[  71.5s] null reciprocal shuffle stats {'links': 4341307, 'reciprocal_links': 3057974, 'self_loops': 163}
+[ 617.7s] null reciprocal: bee {'fires': {'mean': 694.35, 'sd': 143.735}, 'distinct': {'mean': 76.15, 'sd': 30.266}, 'late_diversity': {'mean': 0.131, 'sd': 0.048}, 'reactivation': {'mean': 10.169, 'sd': 2.894}, 'max_path_diversity': {'mean': 23.35, 'sd': 8.076}, 'occupancy': {'mean': 0.005, 'sd': 0.01}, 'persistent_frac': 1.0, 'reach_frac': 0.0}
+[ 618.8s] reciprocal:late_diversity {'observed': 0.096, 'null_mean': 0.131, 'null_sd': 0.048, 'z': -0.72, 'p': 0.143}
+[ 618.8s] reciprocal:reactivation {'observed': 11.38, 'null_mean': 10.169, 'null_sd': 2.894, 'z': 0.42, 'p': 0.333}
+[ 618.8s] reciprocal:max_path_diversity {'observed': 25, 'null_mean': 23.35, 'null_sd': 8.076, 'z': 0.2, 'p': 0.524}
+[ 618.8s] reciprocal:occupancy {'observed': 1.0, 'null_mean': 0.005, 'null_sd': 0.01, 'z': 100.69, 'p': 0.048}
+[ 618.8s] reciprocal:distinct {'observed': 92, 'null_mean': 76.15, 'null_sd': 30.266, 'z': 0.52, 'p': 0.286}
+[ 618.8s] reciprocal:fires {'observed': 1047, 'null_mean': 694.35, 'null_sd': 143.735, 'z': 2.45, 'p': 0.048}
+[ 618.8s] wrote /tmp/reciprocal.json

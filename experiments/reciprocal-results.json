@@ -1,0 +1,2986 @@
+{
+ "params": {
+  "fire_gain": 2.0,
+  "top_k": 10,
+  "global_inhibition": 0.1
+ },
+ "until": 100.0,
+ "late": 50.0,
+ "cluster": [
+  "abandoned",
+  "animal",
+  "animate_being",
+  "attacker",
+  "barbarian",
+  "barbaric",
+  "barbarous",
+  "beast",
+  "beastlike",
+  "beastly",
+  "bestial",
+  "blast",
+  "brutal",
+  "brute",
+  "brutelike",
+  "brutish",
+  "cold_blooded",
+  "creature",
+  "crucify",
+  "crude",
+  "cruel",
+  "direct",
+  "ecology",
+  "evil",
+  "fauna",
+  "fell",
+  "ferine",
+  "ferocious",
+  "fiend",
+  "fleshly",
+  "god_awful",
+  "heathen",
+  "heathenish",
+  "heavy_handed",
+  "inhumane",
+  "noncivilized",
+  "organism",
+  "pagan",
+  "peasant",
+  "person",
+  "pillory",
+  "poisonous",
+  "primitive",
+  "reprehensible",
+  "roughshod",
+  "savage",
+  "shod",
+  "uncivilised",
+  "uncivilized",
+  "unrelenting",
+  "vicious",
+  "wicked",
+  "wild",
+  "wildcat",
+  "wolf"
+ ],
+ "baseline": {
+  "fires": 1047,
+  "distinct": 92,
+  "late_fires": 573,
+  "late_distinct": 55,
+  "late_diversity": 0.096,
+  "reactivation": 11.38,
+  "max_path_diversity": 25,
+  "persistent": true,
+  "runaway": false,
+  "occupancy": 1.0,
+  "top_late": [
+   [
+    "animal",
+    26
+   ],
+   [
+    "savage",
+    26
+   ],
+   [
+    "beastly",
+    26
+   ],
+   [
+    "barbaric",
+    26
+   ],
+   [
+    "vicious",
+    26
+   ]
+  ]
+ },
+ "repeatability": {
+  "identical_rerun": true,
+  "identical_other_seed": true,
+  "jitter": [
+   {
+    "param": "fire_gain",
+    "value": 1.8,
+    "fires": 942,
+    "distinct": 87,
+    "late_fires": 532,
+    "late_distinct": 52,
+    "late_diversity": 0.098,
+    "reactivation": 10.83,
+    "max_path_diversity": 26,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 0.998,
+    "top_late": [
+     [
+      "animal",
+      26
+     ],
+     [
+      "beast",
+      26
+     ],
+     [
+      "beastly",
+      26
+     ],
+     [
+      "brutal",
+      26
+     ],
+     [
+      "barbarian",
+      26
+     ]
+    ]
+   },
+   {
+    "param": "fire_gain",
+    "value": 1.9,
+    "fires": 1002,
+    "distinct": 89,
+    "late_fires": 555,
+    "late_distinct": 52,
+    "late_diversity": 0.094,
+    "reactivation": 11.26,
+    "max_path_diversity": 29,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 1.0,
+    "top_late": [
+     [
+      "animal",
+      26
+     ],
+     [
+      "savage",
+      26
+     ],
+     [
+      "beastly",
+      26
+     ],
+     [
+      "uncivilised",
+      26
+     ],
+     [
+      "roughshod",
+      26
+     ]
+    ]
+   },
+   {
+    "param": "fire_gain",
+    "value": 2.1,
+    "fires": 1124,
+    "distinct": 95,
+    "late_fires": 608,
+    "late_distinct": 56,
+    "late_diversity": 0.092,
+    "reactivation": 11.83,
+    "max_path_diversity": 29,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 0.995,
+    "top_late": [
+     [
+      "animal",
+      26
+     ],
+     [
+      "beastly",
+      26
+     ],
+     [
+      "roughshod",
+      26
+     ],
+     [
+      "barbarian",
+      26
+     ],
+     [
+      "barbaric",
+      25
+     ]
+    ]
+   },
+   {
+    "param": "fire_gain",
+    "value": 2.2,
+    "fires": 1159,
+    "distinct": 97,
+    "late_fires": 628,
+    "late_distinct": 56,
+    "late_diversity": 0.089,
+    "reactivation": 11.95,
+    "max_path_diversity": 30,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 0.995,
+    "top_late": [
+     [
+      "animal",
+      26
+     ],
+     [
+      "beastly",
+      26
+     ],
+     [
+      "roughshod",
+      26
+     ],
+     [
+      "barbarian",
+      26
+     ],
+     [
+      "barbaric",
+      25
+     ]
+    ]
+   },
+   {
+    "param": "top_k",
+    "value": 8,
+    "fires": 1010,
+    "distinct": 83,
+    "late_fires": 543,
+    "late_distinct": 48,
+    "late_diversity": 0.088,
+    "reactivation": 12.17,
+    "max_path_diversity": 23,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 0.996,
+    "top_late": [
+     [
+      "animal",
+      26
+     ],
+     [
+      "brutal",
+      26
+     ],
+     [
+      "beast",
+      26
+     ],
+     [
+      "beastly",
+      26
+     ],
+     [
+      "savage",
+      26
+     ]
+    ]
+   },
+   {
+    "param": "top_k",
+    "value": 12,
+    "fires": 1075,
+    "distinct": 93,
+    "late_fires": 594,
+    "late_distinct": 53,
+    "late_diversity": 0.089,
+    "reactivation": 11.56,
+    "max_path_diversity": 26,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 0.985,
+    "top_late": [
+     [
+      "animal",
+      26
+     ],
+     [
+      "savage",
+      26
+     ],
+     [
+      "beastly",
+      26
+     ],
+     [
+      "vicious",
+      26
+     ],
+     [
+      "barbaric",
+      25
+     ]
+    ]
+   },
+   {
+    "param": "top_k",
+    "value": 15,
+    "fires": 1131,
+    "distinct": 94,
+    "late_fires": 610,
+    "late_distinct": 55,
+    "late_diversity": 0.09,
+    "reactivation": 12.03,
+    "max_path_diversity": 32,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 0.964,
+    "top_late": [
+     [
+      "animal",
+      26
+     ],
+     [
+      "savage",
+      26
+     ],
+     [
+      "beastly",
+      26
+     ],
+     [
+      "brutal",
+      26
+     ],
+     [
+      "uncivilised",
+      26
+     ]
+    ]
+   },
+   {
+    "param": "global_inhibition",
+    "value": 0.07,
+    "fires": 1828,
+    "distinct": 234,
+    "late_fires": 968,
+    "late_distinct": 122,
+    "late_diversity": 0.126,
+    "reactivation": 7.81,
+    "max_path_diversity": 35,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 0.0,
+    "top_late": [
+     [
+      "do",
+      26
+     ],
+     [
+      "gain",
+      26
+     ],
+     [
+      "acquire",
+      26
+     ],
+     [
+      "turn",
+      26
+     ],
+     [
+      "move",
+      26
+     ]
+    ]
+   },
+   {
+    "param": "global_inhibition",
+    "value": 0.13,
+    "fires": 871,
+    "distinct": 80,
+    "late_fires": 475,
+    "late_distinct": 46,
+    "late_diversity": 0.097,
+    "reactivation": 10.89,
+    "max_path_diversity": 20,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 1.0,
+    "top_late": [
+     [
+      "animal",
+      26
+     ],
+     [
+      "brute",
+      26
+     ],
+     [
+      "beastly",
+      26
+     ],
+     [
+      "roughshod",
+      26
+     ],
+     [
+      "barbarian",
+      25
+     ]
+    ]
+   },
+   {
+    "param": "global_inhibition",
+    "value": 0.2,
+    "fires": 560,
+    "distinct": 67,
+    "late_fires": 310,
+    "late_distinct": 37,
+    "late_diversity": 0.119,
+    "reactivation": 8.36,
+    "max_path_diversity": 31,
+    "persistent": true,
+    "runaway": false,
+    "occupancy": 1.0,
+    "top_late": [
+     [
+      "savage",
+      26
+     ],
+     [
+      "roughshod",
+      25
+     ],
+     [
+      "uncivilised",
+      24
+     ],
+     [
+      "barbarian",
+      23
+     ],
+     [
+      "barbarous",
+      18
+     ]
+    ]
+   }
+  ]
+ },
+ "basin": [
+  {
+   "start": "bee",
+   "kind": "named",
+   "matched": [
+    "bee"
+   ],
+   "fires": 1047,
+   "distinct": 92,
+   "late_fires": 573,
+   "late_distinct": 55,
+   "late_diversity": 0.096,
+   "reactivation": 11.38,
+   "max_path_diversity": 25,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 1.0,
+   "top_late": [
+    [
+     "animal",
+     26
+    ],
+    [
+     "savage",
+     26
+    ],
+    [
+     "beastly",
+     26
+    ],
+    [
+     "barbaric",
+     26
+    ],
+    [
+     "vicious",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "ant",
+   "kind": "named",
+   "matched": [
+    "ant"
+   ],
+   "fires": 1057,
+   "distinct": 91,
+   "late_fires": 582,
+   "late_distinct": 56,
+   "late_diversity": 0.096,
+   "reactivation": 11.62,
+   "max_path_diversity": 23,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.998,
+   "top_late": [
+    [
+     "beast",
+     26
+    ],
+    [
+     "brute",
+     26
+    ],
+    [
+     "barbarian",
+     26
+    ],
+    [
+     "roughshod",
+     26
+    ],
+    [
+     "animal",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "flower",
+   "kind": "named",
+   "matched": [
+    "flower"
+   ],
+   "fires": 1309,
+   "distinct": 94,
+   "late_fires": 709,
+   "late_distinct": 78,
+   "late_diversity": 0.11,
+   "reactivation": 13.93,
+   "max_path_diversity": 28,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "flower",
+     26
+    ],
+    [
+     "develop",
+     26
+    ],
+    [
+     "raise",
+     26
+    ],
+    [
+     "gain",
+     26
+    ],
+    [
+     "blossom",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "honey",
+   "kind": "named",
+   "matched": [
+    "honey"
+   ],
+   "fires": 1121,
+   "distinct": 63,
+   "late_fires": 583,
+   "late_distinct": 52,
+   "late_diversity": 0.089,
+   "reactivation": 17.79,
+   "max_path_diversity": 28,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.002,
+   "top_late": [
+    [
+     "dear",
+     26
+    ],
+    [
+     "love",
+     26
+    ],
+    [
+     "favorite",
+     26
+    ],
+    [
+     "favourite",
+     26
+    ],
+    [
+     "beloved",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "computer worm",
+   "kind": "named",
+   "matched": [
+    "computer_worm"
+   ],
+   "fires": 1174,
+   "distinct": 122,
+   "late_fires": 643,
+   "late_distinct": 69,
+   "late_diversity": 0.107,
+   "reactivation": 9.62,
+   "max_path_diversity": 37,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "part",
+     26
+    ],
+    [
+     "bit",
+     26
+    ],
+    [
+     "share",
+     26
+    ],
+    [
+     "patch",
+     26
+    ],
+    [
+     "distribute",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "wasp",
+   "kind": "named",
+   "matched": [
+    "wasp"
+   ],
+   "fires": 1077,
+   "distinct": 87,
+   "late_fires": 577,
+   "late_distinct": 55,
+   "late_diversity": 0.095,
+   "reactivation": 12.38,
+   "max_path_diversity": 27,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.998,
+   "top_late": [
+    [
+     "beast",
+     26
+    ],
+    [
+     "brute",
+     26
+    ],
+    [
+     "barbarian",
+     26
+    ],
+    [
+     "roughshod",
+     26
+    ],
+    [
+     "animal",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "wolf",
+   "kind": "named",
+   "matched": [
+    "wolf"
+   ],
+   "fires": 1142,
+   "distinct": 85,
+   "late_fires": 593,
+   "late_distinct": 58,
+   "late_diversity": 0.098,
+   "reactivation": 13.44,
+   "max_path_diversity": 37,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "man",
+     26
+    ],
+    [
+     "dude",
+     26
+    ],
+    [
+     "chap",
+     26
+    ],
+    [
+     "guy",
+     26
+    ],
+    [
+     "bruce",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "harbor",
+   "kind": "named",
+   "matched": [
+    "harbor"
+   ],
+   "fires": 1382,
+   "distinct": 132,
+   "late_fires": 725,
+   "late_distinct": 106,
+   "late_diversity": 0.146,
+   "reactivation": 10.47,
+   "max_path_diversity": 46,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "keep",
+     26
+    ],
+    [
+     "arrest",
+     25
+    ],
+    [
+     "hold",
+     25
+    ],
+    [
+     "retain",
+     25
+    ],
+    [
+     "check",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "violin",
+   "kind": "named",
+   "matched": [
+    "violin"
+   ],
+   "fires": 1127,
+   "distinct": 86,
+   "late_fires": 600,
+   "late_distinct": 63,
+   "late_diversity": 0.105,
+   "reactivation": 13.1,
+   "max_path_diversity": 46,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "toy",
+     26
+    ],
+    [
+     "victimize",
+     26
+    ],
+    [
+     "goldbrick",
+     25
+    ],
+    [
+     "act",
+     25
+    ],
+    [
+     "play",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "mathematics",
+   "kind": "named",
+   "matched": [
+    "mathematics"
+   ],
+   "fires": 973,
+   "distinct": 99,
+   "late_fires": 508,
+   "late_distinct": 49,
+   "late_diversity": 0.096,
+   "reactivation": 9.83,
+   "max_path_diversity": 43,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "competence",
+     26
+    ],
+    [
+     "power",
+     26
+    ],
+    [
+     "skill",
+     26
+    ],
+    [
+     "skillfulness",
+     26
+    ],
+    [
+     "ability",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "democracy",
+   "kind": "named",
+   "matched": [
+    "democracy"
+   ],
+   "fires": 1221,
+   "distinct": 111,
+   "late_fires": 657,
+   "late_distinct": 84,
+   "late_diversity": 0.128,
+   "reactivation": 11.0,
+   "max_path_diversity": 39,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "domain",
+     26
+    ],
+    [
+     "area",
+     26
+    ],
+    [
+     "state",
+     26
+    ],
+    [
+     "set",
+     26
+    ],
+    [
+     "sphere",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "rain",
+   "kind": "named",
+   "matched": [
+    "rain"
+   ],
+   "fires": 1002,
+   "distinct": 141,
+   "late_fires": 529,
+   "late_distinct": 95,
+   "late_diversity": 0.18,
+   "reactivation": 7.11,
+   "max_path_diversity": 31,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "content",
+     26
+    ],
+    [
+     "subject",
+     25
+    ],
+    [
+     "theme",
+     25
+    ],
+    [
+     "message",
+     17
+    ],
+    [
+     "idea",
+     17
+    ]
+   ]
+  },
+  {
+   "start": "kitchen",
+   "kind": "named",
+   "matched": [
+    "kitchen"
+   ],
+   "fires": 1182,
+   "distinct": 81,
+   "late_fires": 611,
+   "late_distinct": 59,
+   "late_diversity": 0.097,
+   "reactivation": 14.59,
+   "max_path_diversity": 38,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "abode",
+     26
+    ],
+    [
+     "home",
+     26
+    ],
+    [
+     "residence",
+     26
+    ],
+    [
+     "dwelling_place",
+     26
+    ],
+    [
+     "position",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "justice",
+   "kind": "named",
+   "matched": [
+    "justice"
+   ],
+   "fires": 1081,
+   "distinct": 77,
+   "late_fires": 556,
+   "late_distinct": 59,
+   "late_diversity": 0.106,
+   "reactivation": 14.04,
+   "max_path_diversity": 44,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "estimate",
+     26
+    ],
+    [
+     "mind",
+     26
+    ],
+    [
+     "opinion",
+     26
+    ],
+    [
+     "judge",
+     25
+    ],
+    [
+     "idea",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "ocean",
+   "kind": "named",
+   "matched": [
+    "ocean"
+   ],
+   "fires": 988,
+   "distinct": 101,
+   "late_fires": 530,
+   "late_distinct": 60,
+   "late_diversity": 0.113,
+   "reactivation": 9.78,
+   "max_path_diversity": 28,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "liquid",
+     26
+    ],
+    [
+     "silver_tongued",
+     26
+    ],
+    [
+     "substance",
+     25
+    ],
+    [
+     "fluid",
+     25
+    ],
+    [
+     "fluent",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "sugar",
+   "kind": "named",
+   "matched": [
+    "sugar"
+   ],
+   "fires": 929,
+   "distinct": 89,
+   "late_fires": 482,
+   "late_distinct": 51,
+   "late_diversity": 0.106,
+   "reactivation": 10.44,
+   "max_path_diversity": 35,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.01,
+   "top_late": [
+    [
+     "kale",
+     26
+    ],
+    [
+     "plant",
+     26
+    ],
+    [
+     "boodle",
+     25
+    ],
+    [
+     "cabbage",
+     25
+    ],
+    [
+     "vegetable",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "relegation",
+   "kind": "random",
+   "matched": [
+    "relegation"
+   ],
+   "fires": 1253,
+   "distinct": 135,
+   "late_fires": 655,
+   "late_distinct": 72,
+   "late_diversity": 0.11,
+   "reactivation": 9.28,
+   "max_path_diversity": 38,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "show",
+     26
+    ],
+    [
+     "denote",
+     26
+    ],
+    [
+     "prove",
+     26
+    ],
+    [
+     "evidence",
+     26
+    ],
+    [
+     "indicate",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "simpler",
+   "kind": "random",
+   "matched": [
+    "simpler"
+   ],
+   "fires": 1049,
+   "distinct": 95,
+   "late_fires": 552,
+   "late_distinct": 63,
+   "late_diversity": 0.114,
+   "reactivation": 11.04,
+   "max_path_diversity": 42,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.031,
+   "top_late": [
+    [
+     "bare",
+     26
+    ],
+    [
+     "plain",
+     26
+    ],
+    [
+     "unclothed",
+     26
+    ],
+    [
+     "nude",
+     26
+    ],
+    [
+     "raw",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "batrachian",
+   "kind": "random",
+   "matched": [
+    "batrachian"
+   ],
+   "fires": 838,
+   "distinct": 26,
+   "late_fires": 430,
+   "late_distinct": 26,
+   "late_diversity": 0.06,
+   "reactivation": 32.23,
+   "max_path_diversity": 11,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "batrachian",
+     26
+    ],
+    [
+     "toad",
+     26
+    ],
+    [
+     "salientian",
+     26
+    ],
+    [
+     "frog",
+     25
+    ],
+    [
+     "anuran",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "large_handed",
+   "kind": "random",
+   "matched": [
+    "large_handed"
+   ],
+   "fires": 1,
+   "distinct": 1,
+   "late_fires": 0,
+   "late_distinct": 0,
+   "late_diversity": null,
+   "reactivation": 1.0,
+   "max_path_diversity": 0,
+   "persistent": false,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": []
+  },
+  {
+   "start": "wildlife_sanctuary",
+   "kind": "random",
+   "matched": [
+    "wildlife_sanctuary"
+   ],
+   "fires": 1325,
+   "distinct": 128,
+   "late_fires": 714,
+   "late_distinct": 118,
+   "late_diversity": 0.165,
+   "reactivation": 10.35,
+   "max_path_diversity": 39,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "keep",
+     26
+    ],
+    [
+     "retain",
+     26
+    ],
+    [
+     "hold",
+     25
+    ],
+    [
+     "hold_back",
+     25
+    ],
+    [
+     "continue",
+     24
+    ]
+   ]
+  },
+  {
+   "start": "unbending",
+   "kind": "random",
+   "matched": [
+    "unbending"
+   ],
+   "fires": 1115,
+   "distinct": 131,
+   "late_fires": 567,
+   "late_distinct": 92,
+   "late_diversity": 0.162,
+   "reactivation": 8.51,
+   "max_path_diversity": 42,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "put",
+     26
+    ],
+    [
+     "arrange",
+     26
+    ],
+    [
+     "set",
+     25
+    ],
+    [
+     "place",
+     25
+    ],
+    [
+     "position",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "scintillating",
+   "kind": "random",
+   "matched": [
+    "scintillating"
+   ],
+   "fires": 1289,
+   "distinct": 89,
+   "late_fires": 647,
+   "late_distinct": 67,
+   "late_diversity": 0.104,
+   "reactivation": 14.48,
+   "max_path_diversity": 41,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "glitter",
+     26
+    ],
+    [
+     "glow",
+     26
+    ],
+    [
+     "radiance",
+     26
+    ],
+    [
+     "flash",
+     26
+    ],
+    [
+     "twinkle",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "mysterious",
+   "kind": "random",
+   "matched": [
+    "mysterious"
+   ],
+   "fires": 1175,
+   "distinct": 67,
+   "late_fires": 601,
+   "late_distinct": 50,
+   "late_diversity": 0.083,
+   "reactivation": 17.54,
+   "max_path_diversity": 42,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "mysterious",
+     26
+    ],
+    [
+     "cloak_and_dagger",
+     26
+    ],
+    [
+     "clandestine",
+     26
+    ],
+    [
+     "concealed",
+     26
+    ],
+    [
+     "secret",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "transship",
+   "kind": "random",
+   "matched": [
+    "transship"
+   ],
+   "fires": 1429,
+   "distinct": 136,
+   "late_fires": 741,
+   "late_distinct": 77,
+   "late_diversity": 0.104,
+   "reactivation": 10.51,
+   "max_path_diversity": 33,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "bring",
+     26
+    ],
+    [
+     "accept",
+     26
+    ],
+    [
+     "carry",
+     26
+    ],
+    [
+     "have",
+     26
+    ],
+    [
+     "give",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "possibility",
+   "kind": "random",
+   "matched": [
+    "possibility"
+   ],
+   "fires": 1243,
+   "distinct": 128,
+   "late_fires": 645,
+   "late_distinct": 76,
+   "late_diversity": 0.118,
+   "reactivation": 9.71,
+   "max_path_diversity": 44,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "break",
+     26
+    ],
+    [
+     "divide",
+     26
+    ],
+    [
+     "split_up",
+     26
+    ],
+    [
+     "check",
+     26
+    ],
+    [
+     "catch",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "hockey",
+   "kind": "random",
+   "matched": [
+    "hockey"
+   ],
+   "fires": 1122,
+   "distinct": 142,
+   "late_fires": 604,
+   "late_distinct": 89,
+   "late_diversity": 0.147,
+   "reactivation": 7.9,
+   "max_path_diversity": 43,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "move",
+     26
+    ],
+    [
+     "turn",
+     26
+    ],
+    [
+     "act",
+     25
+    ],
+    [
+     "go",
+     25
+    ],
+    [
+     "action",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "watching_movie",
+   "kind": "random",
+   "matched": [
+    "watching_movie"
+   ],
+   "fires": 1177,
+   "distinct": 74,
+   "late_fires": 620,
+   "late_distinct": 62,
+   "late_diversity": 0.1,
+   "reactivation": 15.91,
+   "max_path_diversity": 41,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "call",
+     26
+    ],
+    [
+     "yell",
+     26
+    ],
+    [
+     "shout",
+     26
+    ],
+    [
+     "screaming",
+     26
+    ],
+    [
+     "screech",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "dragoon",
+   "kind": "random",
+   "matched": [
+    "dragoon"
+   ],
+   "fires": 1185,
+   "distinct": 81,
+   "late_fires": 616,
+   "late_distinct": 62,
+   "late_diversity": 0.101,
+   "reactivation": 14.63,
+   "max_path_diversity": 37,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "rail",
+     26
+    ],
+    [
+     "trail",
+     26
+    ],
+    [
+     "trooper",
+     26
+    ],
+    [
+     "dragoon",
+     26
+    ],
+    [
+     "cuirassier",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "mastercard",
+   "kind": "random",
+   "matched": [
+    "mastercard"
+   ],
+   "fires": 1194,
+   "distinct": 134,
+   "late_fires": 664,
+   "late_distinct": 76,
+   "late_diversity": 0.114,
+   "reactivation": 8.91,
+   "max_path_diversity": 34,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "add",
+     26
+    ],
+    [
+     "come",
+     26
+    ],
+    [
+     "number",
+     26
+    ],
+    [
+     "give",
+     26
+    ],
+    [
+     "amount",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "dreadful",
+   "kind": "random",
+   "matched": [
+    "dreadful"
+   ],
+   "fires": 1237,
+   "distinct": 65,
+   "late_fires": 634,
+   "late_distinct": 57,
+   "late_diversity": 0.09,
+   "reactivation": 19.03,
+   "max_path_diversity": 44,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.016,
+   "top_late": [
+    [
+     "fearful",
+     26
+    ],
+    [
+     "awful",
+     26
+    ],
+    [
+     "terrible",
+     26
+    ],
+    [
+     "dreadful",
+     26
+    ],
+    [
+     "bad",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "commissure",
+   "kind": "random",
+   "matched": [
+    "commissure"
+   ],
+   "fires": 1177,
+   "distinct": 111,
+   "late_fires": 648,
+   "late_distinct": 68,
+   "late_diversity": 0.105,
+   "reactivation": 10.6,
+   "max_path_diversity": 36,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "piece",
+     26
+    ],
+    [
+     "portion",
+     26
+    ],
+    [
+     "spot",
+     26
+    ],
+    [
+     "part",
+     25
+    ],
+    [
+     "bit",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "k_line",
+   "kind": "random",
+   "matched": [
+    "k_line"
+   ],
+   "fires": 1042,
+   "distinct": 91,
+   "late_fires": 582,
+   "late_distinct": 77,
+   "late_diversity": 0.132,
+   "reactivation": 11.45,
+   "max_path_diversity": 38,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "companion",
+     26
+    ],
+    [
+     "connect",
+     26
+    ],
+    [
+     "tie",
+     26
+    ],
+    [
+     "connection",
+     26
+    ],
+    [
+     "associate",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "eggs_benedict",
+   "kind": "random",
+   "matched": [
+    "eggs_benedict"
+   ],
+   "fires": 1234,
+   "distinct": 93,
+   "late_fires": 650,
+   "late_distinct": 76,
+   "late_diversity": 0.117,
+   "reactivation": 13.27,
+   "max_path_diversity": 42,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "aid",
+     26
+    ],
+    [
+     "assist",
+     26
+    ],
+    [
+     "serve",
+     26
+    ],
+    [
+     "act",
+     26
+    ],
+    [
+     "function",
+     26
+    ]
+   ]
+  },
+  {
+   "start": "nightcrawler",
+   "kind": "random",
+   "matched": [
+    "nightcrawler"
+   ],
+   "fires": 799,
+   "distinct": 42,
+   "late_fires": 418,
+   "late_distinct": 41,
+   "late_diversity": 0.098,
+   "reactivation": 19.02,
+   "max_path_diversity": 35,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.115,
+   "top_late": [
+    [
+     "individual",
+     25
+    ],
+    [
+     "earthworm",
+     25
+    ],
+    [
+     "person",
+     25
+    ],
+    [
+     "organism",
+     20
+    ],
+    [
+     "wiggler",
+     20
+    ]
+   ]
+  },
+  {
+   "start": "conga",
+   "kind": "random",
+   "matched": [
+    "conga"
+   ],
+   "fires": 1101,
+   "distinct": 127,
+   "late_fires": 581,
+   "late_distinct": 68,
+   "late_diversity": 0.117,
+   "reactivation": 8.67,
+   "max_path_diversity": 39,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "go",
+     26
+    ],
+    [
+     "act",
+     26
+    ],
+    [
+     "run",
+     25
+    ],
+    [
+     "turn",
+     25
+    ],
+    [
+     "move",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "castanets",
+   "kind": "random",
+   "matched": [
+    "castanets"
+   ],
+   "fires": 729,
+   "distinct": 87,
+   "late_fires": 385,
+   "late_distinct": 55,
+   "late_diversity": 0.143,
+   "reactivation": 8.38,
+   "max_path_diversity": 33,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "bone",
+     26
+    ],
+    [
+     "cram",
+     25
+    ],
+    [
+     "os",
+     22
+    ],
+    [
+     "jam",
+     18
+    ],
+    [
+     "fix",
+     17
+    ]
+   ]
+  },
+  {
+   "start": "painkiller",
+   "kind": "random",
+   "matched": [
+    "painkiller"
+   ],
+   "fires": 712,
+   "distinct": 44,
+   "late_fires": 364,
+   "late_distinct": 38,
+   "late_diversity": 0.104,
+   "reactivation": 16.18,
+   "max_path_diversity": 24,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "anodyne",
+     26
+    ],
+    [
+     "analgetic",
+     26
+    ],
+    [
+     "medicine",
+     26
+    ],
+    [
+     "analgesic",
+     25
+    ],
+    [
+     "drug",
+     23
+    ]
+   ]
+  },
+  {
+   "start": "top_hat",
+   "kind": "random",
+   "matched": [
+    "top_hat"
+   ],
+   "fires": 1036,
+   "distinct": 90,
+   "late_fires": 543,
+   "late_distinct": 57,
+   "late_diversity": 0.105,
+   "reactivation": 11.51,
+   "max_path_diversity": 45,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "apex",
+     26
+    ],
+    [
+     "top",
+     26
+    ],
+    [
+     "crown",
+     26
+    ],
+    [
+     "point",
+     26
+    ],
+    [
+     "peak",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "container_drum",
+   "kind": "random",
+   "matched": [
+    "container_drum"
+   ],
+   "fires": 3,
+   "distinct": 3,
+   "late_fires": 0,
+   "late_distinct": 0,
+   "late_diversity": null,
+   "reactivation": 1.0,
+   "max_path_diversity": 0,
+   "persistent": false,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": []
+  },
+  {
+   "start": "point_of_interest",
+   "kind": "random",
+   "matched": [
+    "point_of_interest"
+   ],
+   "fires": 1,
+   "distinct": 1,
+   "late_fires": 0,
+   "late_distinct": 0,
+   "late_diversity": null,
+   "reactivation": 1.0,
+   "max_path_diversity": 0,
+   "persistent": false,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": []
+  },
+  {
+   "start": "spignel",
+   "kind": "random",
+   "matched": [
+    "spignel"
+   ],
+   "fires": 1182,
+   "distinct": 144,
+   "late_fires": 658,
+   "late_distinct": 104,
+   "late_diversity": 0.158,
+   "reactivation": 8.21,
+   "max_path_diversity": 31,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "set",
+     26
+    ],
+    [
+     "rise",
+     26
+    ],
+    [
+     "promote",
+     26
+    ],
+    [
+     "lift",
+     26
+    ],
+    [
+     "arrange",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "obed",
+   "kind": "random",
+   "matched": [
+    "obed"
+   ],
+   "fires": 1,
+   "distinct": 1,
+   "late_fires": 0,
+   "late_distinct": 0,
+   "late_diversity": null,
+   "reactivation": 1.0,
+   "max_path_diversity": 0,
+   "persistent": false,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": []
+  },
+  {
+   "start": "gup",
+   "kind": "random",
+   "matched": [
+    "gup"
+   ],
+   "fires": 1,
+   "distinct": 1,
+   "late_fires": 0,
+   "late_distinct": 0,
+   "late_diversity": null,
+   "reactivation": 1.0,
+   "max_path_diversity": 0,
+   "persistent": false,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": []
+  },
+  {
+   "start": "traumatology",
+   "kind": "random",
+   "matched": [
+    "traumatology"
+   ],
+   "fires": 1197,
+   "distinct": 162,
+   "late_fires": 701,
+   "late_distinct": 100,
+   "late_diversity": 0.143,
+   "reactivation": 7.39,
+   "max_path_diversity": 37,
+   "persistent": true,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": [
+    [
+     "do",
+     26
+    ],
+    [
+     "acquire",
+     26
+    ],
+    [
+     "turn",
+     26
+    ],
+    [
+     "cause",
+     25
+    ],
+    [
+     "get",
+     25
+    ]
+   ]
+  },
+  {
+   "start": "stonehenge",
+   "kind": "random",
+   "matched": [
+    "stonehenge"
+   ],
+   "fires": 3,
+   "distinct": 3,
+   "late_fires": 0,
+   "late_distinct": 0,
+   "late_diversity": null,
+   "reactivation": 1.0,
+   "max_path_diversity": 0,
+   "persistent": false,
+   "runaway": false,
+   "occupancy": 0.0,
+   "top_late": []
+  }
+ ],
+ "basin_named_summary": {
+  "fires": {
+   "mean": 1113.25,
+   "sd": 118.12
+  },
+  "distinct": {
+   "mean": 96.938,
+   "sd": 19.863
+  },
+  "late_diversity": {
+   "mean": 0.111,
+   "sd": 0.023
+  },
+  "reactivation": {
+   "mean": 11.908,
+   "sd": 2.461
+  },
+  "max_path_diversity": {
+   "mean": 34.688,
+   "sd": 7.456
+  },
+  "occupancy": {
+   "mean": 0.188,
+   "sd": 0.389
+  },
+  "persistent_frac": 1.0,
+  "reach_frac": 0.188
+ },
+ "basin_random_summary": {
+  "fires": {
+   "mean": 895.0,
+   "sd": 474.704
+  },
+  "distinct": {
+   "mean": 81.067,
+   "sd": 50.905
+  },
+  "late_diversity": {
+   "mean": 0.116,
+   "sd": 0.025
+  },
+  "reactivation": {
+   "mean": 10.357,
+   "sd": 6.709
+  },
+  "max_path_diversity": {
+   "mean": 29.7,
+   "sd": 16.209
+  },
+  "occupancy": {
+   "mean": 0.005,
+   "sd": 0.021
+  },
+  "persistent_frac": 0.8,
+  "reach_frac": 0.0
+ },
+ "null": {
+  "reciprocal": {
+   "bee": {
+    "fires": {
+     "mean": 694.35,
+     "sd": 143.735
+    },
+    "distinct": {
+     "mean": 76.15,
+     "sd": 30.266
+    },
+    "late_diversity": {
+     "mean": 0.131,
+     "sd": 0.048
+    },
+    "reactivation": {
+     "mean": 10.169,
+     "sd": 2.894
+    },
+    "max_path_diversity": {
+     "mean": 23.35,
+     "sd": 8.076
+    },
+    "occupancy": {
+     "mean": 0.005,
+     "sd": 0.01
+    },
+    "persistent_frac": 1.0,
+    "reach_frac": 0.0
+   },
+   "panel": {
+    "fires": {
+     "mean": 736.3,
+     "sd": 42.004
+    },
+    "distinct": {
+     "mean": 60.763,
+     "sd": 19.205
+    },
+    "late_diversity": {
+     "mean": 0.111,
+     "sd": 0.021
+    },
+    "reactivation": {
+     "mean": 13.246,
+     "sd": 3.792
+    },
+    "max_path_diversity": {
+     "mean": 24.6,
+     "sd": 7.271
+    },
+    "occupancy": {
+     "mean": 0.02,
+     "sd": 0.03
+    },
+    "persistent_frac": 1.0,
+    "reach_frac": 0.0
+   },
+   "bee_samples": [
+    {
+     "fires": 734,
+     "distinct": 66,
+     "late_fires": 377,
+     "late_distinct": 42,
+     "late_diversity": 0.111,
+     "reactivation": 11.12,
+     "max_path_diversity": 29,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "pennsylvania",
+       26
+      ],
+      [
+       "seniority",
+       26
+      ],
+      [
+       "houseleek",
+       26
+      ],
+      [
+       "ardent",
+       25
+      ],
+      [
+       "plant",
+       25
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 745,
+     "distinct": 68,
+     "late_fires": 416,
+     "late_distinct": 41,
+     "late_diversity": 0.099,
+     "reactivation": 10.96,
+     "max_path_diversity": 23,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "thinness",
+       26
+      ],
+      [
+       "campaign",
+       26
+      ],
+      [
+       "bat",
+       25
+      ],
+      [
+       "cast",
+       25
+      ],
+      [
+       "ceremonious",
+       15
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 105,
+     "distinct": 7,
+     "late_fires": 51,
+     "late_distinct": 2,
+     "late_diversity": 0.039,
+     "reactivation": 15.0,
+     "max_path_diversity": 2,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "american_centaury",
+       26
+      ],
+      [
+       "stage_setting",
+       25
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 701,
+     "distinct": 136,
+     "late_fires": 351,
+     "late_distinct": 94,
+     "late_diversity": 0.268,
+     "reactivation": 5.15,
+     "max_path_diversity": 13,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "array",
+       17
+      ],
+      [
+       "tickle",
+       13
+      ],
+      [
+       "food",
+       12
+      ],
+      [
+       "bird",
+       11
+      ],
+      [
+       "snuff",
+       11
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 723,
+     "distinct": 56,
+     "late_fires": 367,
+     "late_distinct": 40,
+     "late_diversity": 0.109,
+     "reactivation": 12.91,
+     "max_path_diversity": 29,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.011,
+     "top_late": [
+      [
+       "batswana",
+       26
+      ],
+      [
+       "movie",
+       25
+      ],
+      [
+       "spine",
+       25
+      ],
+      [
+       "deoxyribonucleic_acid",
+       16
+      ],
+      [
+       "copper_sulfate",
+       15
+      ]
+     ],
+     "sig_similarity": 0.001
+    },
+    {
+     "fires": 755,
+     "distinct": 139,
+     "late_fires": 399,
+     "late_distinct": 73,
+     "late_diversity": 0.183,
+     "reactivation": 5.43,
+     "max_path_diversity": 19,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "publish",
+       25
+      ],
+      [
+       "idolater",
+       22
+      ],
+      [
+       "accomplished",
+       21
+      ],
+      [
+       "broil",
+       19
+      ],
+      [
+       "cap",
+       19
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 820,
+     "distinct": 58,
+     "late_fires": 428,
+     "late_distinct": 43,
+     "late_diversity": 0.1,
+     "reactivation": 14.14,
+     "max_path_diversity": 27,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "gas",
+       26
+      ],
+      [
+       "period",
+       26
+      ],
+      [
+       "plane",
+       25
+      ],
+      [
+       "plant",
+       25
+      ],
+      [
+       "sugarberry",
+       14
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 703,
+     "distinct": 81,
+     "late_fires": 373,
+     "late_distinct": 60,
+     "late_diversity": 0.161,
+     "reactivation": 8.68,
+     "max_path_diversity": 32,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "film",
+       26
+      ],
+      [
+       "world_war_i",
+       24
+      ],
+      [
+       "indestructible",
+       19
+      ],
+      [
+       "conflict",
+       18
+      ],
+      [
+       "moroseness",
+       13
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 754,
+     "distinct": 64,
+     "late_fires": 407,
+     "late_distinct": 44,
+     "late_diversity": 0.108,
+     "reactivation": 11.78,
+     "max_path_diversity": 23,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "make_up",
+       26
+      ],
+      [
+       "continue",
+       25
+      ],
+      [
+       "add",
+       24
+      ],
+      [
+       "waver",
+       24
+      ],
+      [
+       "horseback",
+       17
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 629,
+     "distinct": 60,
+     "late_fires": 320,
+     "late_distinct": 32,
+     "late_diversity": 0.1,
+     "reactivation": 10.48,
+     "max_path_diversity": 14,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "submarine",
+       26
+      ],
+      [
+       "thong",
+       26
+      ],
+      [
+       "metal",
+       25
+      ],
+      [
+       "supersede",
+       17
+      ],
+      [
+       "ciliophora",
+       13
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 754,
+     "distinct": 98,
+     "late_fires": 382,
+     "late_distinct": 47,
+     "late_diversity": 0.123,
+     "reactivation": 7.69,
+     "max_path_diversity": 32,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.01,
+     "top_late": [
+      [
+       "delineate",
+       26
+      ],
+      [
+       "haunt",
+       25
+      ],
+      [
+       "quickly",
+       25
+      ],
+      [
+       "cap",
+       22
+      ],
+      [
+       "anonymous",
+       13
+      ]
+     ],
+     "sig_similarity": 0.002
+    },
+    {
+     "fires": 716,
+     "distinct": 54,
+     "late_fires": 378,
+     "late_distinct": 35,
+     "late_diversity": 0.093,
+     "reactivation": 13.26,
+     "max_path_diversity": 30,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "dreadful",
+       26
+      ],
+      [
+       "come_to_fore",
+       26
+      ],
+      [
+       "lilliputian",
+       25
+      ],
+      [
+       "undo",
+       25
+      ],
+      [
+       "jehovah",
+       25
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 776,
+     "distinct": 96,
+     "late_fires": 409,
+     "late_distinct": 45,
+     "late_diversity": 0.11,
+     "reactivation": 8.08,
+     "max_path_diversity": 21,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "complain",
+       26
+      ],
+      [
+       "abducent",
+       26
+      ],
+      [
+       "reality",
+       25
+      ],
+      [
+       "sentimental",
+       25
+      ],
+      [
+       "rip_off",
+       24
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 709,
+     "distinct": 68,
+     "late_fires": 367,
+     "late_distinct": 43,
+     "late_diversity": 0.117,
+     "reactivation": 10.43,
+     "max_path_diversity": 30,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "information",
+       26
+      ],
+      [
+       "rush",
+       26
+      ],
+      [
+       "assemblage",
+       25
+      ],
+      [
+       "delegating",
+       20
+      ],
+      [
+       "rune",
+       15
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 763,
+     "distinct": 86,
+     "late_fires": 406,
+     "late_distinct": 59,
+     "late_diversity": 0.145,
+     "reactivation": 8.87,
+     "max_path_diversity": 31,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "expose",
+       25
+      ],
+      [
+       "rock",
+       25
+      ],
+      [
+       "dot",
+       22
+      ],
+      [
+       "band",
+       20
+      ],
+      [
+       "jam_packed",
+       18
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 696,
+     "distinct": 73,
+     "late_fires": 361,
+     "late_distinct": 48,
+     "late_diversity": 0.133,
+     "reactivation": 9.53,
+     "max_path_diversity": 18,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.017,
+     "top_late": [
+      [
+       "player",
+       26
+      ],
+      [
+       "megapode",
+       25
+      ],
+      [
+       "cigarette",
+       25
+      ],
+      [
+       "boundary_line",
+       19
+      ],
+      [
+       "orangutan",
+       18
+      ]
+     ],
+     "sig_similarity": 0.001
+    },
+    {
+     "fires": 619,
+     "distinct": 64,
+     "late_fires": 286,
+     "late_distinct": 48,
+     "late_diversity": 0.168,
+     "reactivation": 9.67,
+     "max_path_diversity": 15,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.014,
+     "top_late": [
+      [
+       "ledger",
+       26
+      ],
+      [
+       "customs",
+       25
+      ],
+      [
+       "oscine",
+       18
+      ],
+      [
+       "jupiter_fulminator",
+       16
+      ],
+      [
+       "wage_scale",
+       15
+      ]
+     ],
+     "sig_similarity": 0.001
+    },
+    {
+     "fires": 738,
+     "distinct": 125,
+     "late_fires": 388,
+     "late_distinct": 82,
+     "late_diversity": 0.211,
+     "reactivation": 5.9,
+     "max_path_diversity": 25,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.041,
+     "top_late": [
+      [
+       "divine",
+       19
+      ],
+      [
+       "better",
+       18
+      ],
+      [
+       "person",
+       16
+      ],
+      [
+       "semblance",
+       15
+      ],
+      [
+       "stinking_cedar",
+       15
+      ]
+     ],
+     "sig_similarity": 0.001
+    },
+    {
+     "fires": 789,
+     "distinct": 52,
+     "late_fires": 418,
+     "late_distinct": 42,
+     "late_diversity": 0.1,
+     "reactivation": 15.17,
+     "max_path_diversity": 35,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "address",
+       26
+      ],
+      [
+       "red",
+       26
+      ],
+      [
+       "number",
+       25
+      ],
+      [
+       "descent",
+       25
+      ],
+      [
+       "narcotised",
+       17
+      ]
+     ],
+     "sig_similarity": 0.0
+    },
+    {
+     "fires": 658,
+     "distinct": 72,
+     "late_fires": 349,
+     "late_distinct": 46,
+     "late_diversity": 0.132,
+     "reactivation": 9.14,
+     "max_path_diversity": 19,
+     "persistent": true,
+     "runaway": false,
+     "occupancy": 0.0,
+     "top_late": [
+      [
+       "anger",
+       26
+      ],
+      [
+       "hawthorn",
+       25
+      ],
+      [
+       "worker",
+       25
+      ],
+      [
+       "edge",
+       18
+      ],
+      [
+       "notation",
+       15
+      ]
+     ],
+     "sig_similarity": 0.0
+    }
+   ]
+  }
+ },
+ "bee_vs_null": {
+  "reciprocal:late_diversity": {
+   "observed": 0.096,
+   "null_mean": 0.131,
+   "null_sd": 0.048,
+   "z": -0.72,
+   "p": 0.143
+  },
+  "reciprocal:reactivation": {
+   "observed": 11.38,
+   "null_mean": 10.169,
+   "null_sd": 2.894,
+   "z": 0.42,
+   "p": 0.333
+  },
+  "reciprocal:max_path_diversity": {
+   "observed": 25,
+   "null_mean": 23.35,
+   "null_sd": 8.076,
+   "z": 0.2,
+   "p": 0.524
+  },
+  "reciprocal:occupancy": {
+   "observed": 1.0,
+   "null_mean": 0.005,
+   "null_sd": 0.01,
+   "z": 100.69,
+   "p": 0.048
+  },
+  "reciprocal:distinct": {
+   "observed": 92,
+   "null_mean": 76.15,
+   "null_sd": 30.266,
+   "z": 0.52,
+   "p": 0.286
+  },
+  "reciprocal:fires": {
+   "observed": 1047,
+   "null_mean": 694.35,
+   "null_sd": 143.735,
+   "z": 2.45,
+   "p": 0.048
+  }
+ }
+}

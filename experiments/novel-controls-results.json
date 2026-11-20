@@ -1,0 +1,6101 @@
+[
+ {
+  "group": "named",
+  "a": "rain",
+  "b": "sugar",
+  "a_top": [
+   "content",
+   "subject",
+   "theme",
+   "message"
+  ],
+  "b_top": [
+   "kale",
+   "plant",
+   "boodle",
+   "cabbage"
+  ],
+  "joint_top": [
+   "silver_tongued",
+   "pronounce",
+   "smooth",
+   "voice",
+   "facile",
+   "fluent"
+  ],
+  "joint_attractor": 85,
+  "controls": {
+   "A x2": 0.096,
+   "B x2": 0.0,
+   "A + R": 0.568,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "casemaking_clothes_moth",
+  "b": "offloads",
+  "a_top": [
+   "animal",
+   "beastly",
+   "roughshod",
+   "barbarian"
+  ],
+  "b_top": [
+   "take",
+   "get",
+   "lend",
+   "convey"
+  ],
+  "joint_top": [
+   "fire",
+   "discharge",
+   "release",
+   "abandon",
+   "vacate",
+   "foreswear"
+  ],
+  "joint_attractor": 48,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.006,
+   "A + R": 0.0,
+   "B + R": 0.838
+  },
+  "explained_by": [
+   "B + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "casemaking_clothes_moth",
+  "b": "repaid",
+  "a_top": [
+   "animal",
+   "beastly",
+   "roughshod",
+   "barbarian"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "come_back",
+   "retort",
+   "response",
+   "respond",
+   "return",
+   "answer"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.011,
+   "A + R": 0.0,
+   "B + R": 0.012
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "offloads",
+  "b": "family_aulostomidae",
+  "a_top": [
+   "take",
+   "get",
+   "lend",
+   "convey"
+  ],
+  "b_top": [
+   "kin",
+   "akin",
+   "related",
+   "folk"
+  ],
+  "joint_top": [
+   "firing",
+   "discharge",
+   "kick_out",
+   "oust",
+   "boot_out",
+   "chuck_out"
+  ],
+  "joint_attractor": 223,
+  "controls": {
+   "A x2": 0.03,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "offloads",
+  "b": "abamperes",
+  "a_top": [
+   "take",
+   "get",
+   "lend",
+   "convey"
+  ],
+  "b_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "joint_top": [
+   "firing",
+   "discharge",
+   "kick_out",
+   "oust",
+   "boot_out",
+   "chuck_out"
+  ],
+  "joint_attractor": 223,
+  "controls": {
+   "A x2": 0.03,
+   "B x2": 0.0,
+   "A + R": 0.001,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "offloads",
+  "b": "ist",
+  "a_top": [
+   "take",
+   "get",
+   "lend",
+   "convey"
+  ],
+  "b_top": [
+   "position",
+   "put",
+   "set",
+   "land"
+  ],
+  "joint_top": [
+   "expel",
+   "discharge",
+   "throw_out",
+   "boot_out",
+   "firing",
+   "discard"
+  ],
+  "joint_attractor": 223,
+  "controls": {
+   "A x2": 0.03,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "offloads",
+  "b": "center_line",
+  "a_top": [
+   "take",
+   "get",
+   "lend",
+   "convey"
+  ],
+  "b_top": [
+   "descent",
+   "declination",
+   "diminution",
+   "fall"
+  ],
+  "joint_top": [
+   "firing",
+   "discharge",
+   "kick_out",
+   "oust",
+   "boot_out",
+   "chuck_out"
+  ],
+  "joint_attractor": 223,
+  "controls": {
+   "A x2": 0.03,
+   "B x2": 0.006,
+   "A + R": 0.0,
+   "B + R": 0.007
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "offloads",
+  "b": "warblers",
+  "a_top": [
+   "take",
+   "get",
+   "lend",
+   "convey"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "firing",
+   "discharge",
+   "kick_out",
+   "oust",
+   "boot_out",
+   "chuck_out"
+  ],
+  "joint_attractor": 223,
+  "controls": {
+   "A x2": 0.03,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "planera",
+  "b": "tnos",
+  "a_top": [
+   "cast",
+   "shape",
+   "model",
+   "modeling"
+  ],
+  "b_top": [
+   "position",
+   "put",
+   "set",
+   "place"
+  ],
+  "joint_top": [
+   "classification",
+   "category",
+   "form",
+   "categorization",
+   "class",
+   "kind"
+  ],
+  "joint_attractor": 46,
+  "controls": {
+   "A x2": 0.228,
+   "B x2": 0.154,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "planera",
+  "b": "complexations",
+  "a_top": [
+   "cast",
+   "shape",
+   "model",
+   "modeling"
+  ],
+  "b_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "joint_top": [
+   "classification",
+   "category",
+   "form",
+   "categorization",
+   "class",
+   "kind"
+  ],
+  "joint_attractor": 46,
+  "controls": {
+   "A x2": 0.228,
+   "B x2": 0.004,
+   "A + R": 1.0,
+   "B + R": 0.006
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "planera",
+  "b": "comprehensors",
+  "a_top": [
+   "cast",
+   "shape",
+   "model",
+   "modeling"
+  ],
+  "b_top": [
+   "get",
+   "gain",
+   "take",
+   "have"
+  ],
+  "joint_top": [
+   "classification",
+   "category",
+   "form",
+   "categorization",
+   "class",
+   "kind"
+  ],
+  "joint_attractor": 46,
+  "controls": {
+   "A x2": 0.228,
+   "B x2": 0.009,
+   "A + R": 0.004,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "planera",
+  "b": "biyotches",
+  "a_top": [
+   "cast",
+   "shape",
+   "model",
+   "modeling"
+  ],
+  "b_top": [
+   "call",
+   "yell",
+   "shout",
+   "exclaim"
+  ],
+  "joint_top": [
+   "classification",
+   "category",
+   "form",
+   "categorization",
+   "class",
+   "kind"
+  ],
+  "joint_attractor": 46,
+  "controls": {
+   "A x2": 0.228,
+   "B x2": 0.0,
+   "A + R": 0.235,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "planera",
+  "b": "repaid",
+  "a_top": [
+   "cast",
+   "shape",
+   "model",
+   "modeling"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "retort",
+   "respond",
+   "response",
+   "return",
+   "come_back",
+   "answer"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.011,
+   "A + R": 0.0,
+   "B + R": 0.486
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "planera",
+  "b": "daguerreotypist",
+  "a_top": [
+   "cast",
+   "shape",
+   "model",
+   "modeling"
+  ],
+  "b_top": [
+   "count",
+   "trust",
+   "see",
+   "think"
+  ],
+  "joint_top": [
+   "classification",
+   "category",
+   "form",
+   "categorization",
+   "class",
+   "kind"
+  ],
+  "joint_attractor": 46,
+  "controls": {
+   "A x2": 0.228,
+   "B x2": 0.002,
+   "A + R": 0.236,
+   "B + R": 0.009
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "planera",
+  "b": "first_violinists",
+  "a_top": [
+   "cast",
+   "shape",
+   "model",
+   "modeling"
+  ],
+  "b_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "indicate"
+  ],
+  "joint_top": [
+   "classification",
+   "category",
+   "form",
+   "categorization",
+   "class",
+   "kind"
+  ],
+  "joint_attractor": 46,
+  "controls": {
+   "A x2": 0.228,
+   "B x2": 0.0,
+   "A + R": 0.212,
+   "B + R": 0.171
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "tnos",
+  "b": "i_timothy",
+  "a_top": [
+   "position",
+   "put",
+   "set",
+   "place"
+  ],
+  "b_top": [
+   "end",
+   "ending",
+   "stopping_point",
+   "conclusion"
+  ],
+  "joint_top": [
+   "need",
+   "call_for",
+   "require",
+   "ask",
+   "demand",
+   "take"
+  ],
+  "joint_attractor": 266,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "tnos",
+  "b": "gyromitra_brunnea",
+  "a_top": [
+   "position",
+   "put",
+   "set",
+   "place"
+  ],
+  "b_top": [
+   "hold",
+   "take",
+   "get",
+   "have"
+  ],
+  "joint_top": [
+   "domain",
+   "country",
+   "earth",
+   "put",
+   "set",
+   "land"
+  ],
+  "joint_attractor": 294,
+  "controls": {
+   "A x2": 0.181,
+   "B x2": 0.005,
+   "A + R": 0.185,
+   "B + R": 0.36
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "tnos",
+  "b": "organ_pipes",
+  "a_top": [
+   "position",
+   "put",
+   "set",
+   "place"
+  ],
+  "b_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "joint_top": [
+   "pipe",
+   "line",
+   "tube",
+   "railway",
+   "metro",
+   "railroad"
+  ],
+  "joint_attractor": 126,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.861
+  },
+  "explained_by": [
+   "B + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "tnos",
+  "b": "hemigalus",
+  "a_top": [
+   "position",
+   "put",
+   "set",
+   "place"
+  ],
+  "b_top": [
+   "categorization",
+   "form",
+   "class",
+   "category"
+  ],
+  "joint_top": [
+   "infinite",
+   "unlimited",
+   "illimitable",
+   "place",
+   "position",
+   "boundless"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.205,
+   "B x2": 0.003,
+   "A + R": 0.205,
+   "B + R": 0.003
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "tnos",
+  "b": "repaid",
+  "a_top": [
+   "position",
+   "put",
+   "set",
+   "place"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "retort",
+   "response",
+   "come_back",
+   "return",
+   "rejoinder",
+   "answer"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.01,
+   "A + R": 0.0,
+   "B + R": 0.011
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "tnos",
+  "b": "center_line",
+  "a_top": [
+   "position",
+   "put",
+   "set",
+   "place"
+  ],
+  "b_top": [
+   "descent",
+   "declination",
+   "diminution",
+   "fall"
+  ],
+  "joint_top": [
+   "bound",
+   "limit",
+   "edge",
+   "border",
+   "boundary",
+   "bounce"
+  ],
+  "joint_attractor": 356,
+  "controls": {
+   "A x2": 0.025,
+   "B x2": 0.003,
+   "A + R": 0.0,
+   "B + R": 0.005
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "tnos",
+  "b": "warblers",
+  "a_top": [
+   "position",
+   "put",
+   "set",
+   "place"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "see",
+   "determine",
+   "learn",
+   "take",
+   "acquire",
+   "read"
+  ],
+  "joint_attractor": 611,
+  "controls": {
+   "A x2": 0.02,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "i_timothy",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "end",
+   "ending",
+   "stopping_point",
+   "conclusion"
+  ],
+  "joint_top": [
+   "whole",
+   "compound",
+   "complex",
+   "convoluted",
+   "composite",
+   "complicated"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.001,
+   "A + R": 0.899,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "gyromitra_brunnea",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "hold",
+   "take",
+   "get",
+   "have"
+  ],
+  "joint_top": [
+   "complex",
+   "convoluted",
+   "complicate",
+   "whole",
+   "tangle",
+   "entangle"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.001,
+   "A + R": 0.284,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "abamperes",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "joint_top": [
+   "whole",
+   "complex",
+   "convoluted",
+   "compound",
+   "complicated",
+   "composite"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "thingifying",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "change",
+   "interchange",
+   "substitution",
+   "substitute"
+  ],
+  "joint_top": [
+   "whole",
+   "project",
+   "convoluted",
+   "complex",
+   "knotty",
+   "tangled"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.476,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "e296",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "combine",
+   "unify",
+   "merge",
+   "join"
+  ],
+  "joint_top": [
+   "whole",
+   "compound",
+   "complex",
+   "convoluted",
+   "composite",
+   "object"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.018,
+   "A + R": 0.0,
+   "B + R": 0.018
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "organ_pipes",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "joint_top": [
+   "compound",
+   "convoluted",
+   "complex",
+   "whole",
+   "composite",
+   "convolute"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.005,
+   "A + R": 0.008,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "comprehensors",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "get",
+   "gain",
+   "take",
+   "have"
+  ],
+  "joint_top": [
+   "whole",
+   "compound",
+   "complex",
+   "convoluted",
+   "composite",
+   "object"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.2,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "u.s_owned_vehicle",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "get",
+   "make",
+   "cause",
+   "gain"
+  ],
+  "joint_top": [
+   "whole",
+   "compound",
+   "complex",
+   "convoluted",
+   "complicated",
+   "composite"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.959,
+   "B + R": 0.005
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "alpine_skiing",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "advance",
+   "lift",
+   "promote",
+   "rise"
+  ],
+  "joint_top": [
+   "whole",
+   "compound",
+   "complex",
+   "convoluted",
+   "complicated",
+   "composite"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.001,
+   "A + R": 0.9,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "kleist",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "suggest",
+   "hint",
+   "intimate",
+   "indicate"
+  ],
+  "joint_top": [
+   "whole",
+   "complex",
+   "convoluted",
+   "compound",
+   "complicated",
+   "composite"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.001,
+   "A + R": 0.911,
+   "B + R": 0.008
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "biyotches",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "call",
+   "yell",
+   "shout",
+   "exclaim"
+  ],
+  "joint_top": [
+   "whole",
+   "compound",
+   "complex",
+   "convoluted",
+   "composite",
+   "object"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.055,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "thelypteris_inabonensis",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "arrange",
+   "place",
+   "present",
+   "give"
+  ],
+  "joint_top": [
+   "whole",
+   "compound",
+   "complex",
+   "convoluted",
+   "complicated",
+   "composite"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 1.0,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "hemigalus",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "categorization",
+   "form",
+   "class",
+   "category"
+  ],
+  "joint_top": [
+   "whole",
+   "complex",
+   "convoluted",
+   "compound",
+   "complicated",
+   "composite"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.002,
+   "A + R": 0.909,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "repaid",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "come_back",
+   "retort",
+   "reply",
+   "respond",
+   "return",
+   "answer"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.01,
+   "A + R": 0.0,
+   "B + R": 0.011
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "daguerreotypist",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "count",
+   "trust",
+   "see",
+   "think"
+  ],
+  "joint_top": [
+   "whole",
+   "compound",
+   "complex",
+   "convoluted",
+   "composite",
+   "complicated"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.002,
+   "A + R": 0.115,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "center_line",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "descent",
+   "declination",
+   "diminution",
+   "fall"
+  ],
+  "joint_top": [
+   "convoluted",
+   "whole",
+   "complex",
+   "compound",
+   "complicated",
+   "object"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.711,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "first_violinists",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "indicate"
+  ],
+  "joint_top": [
+   "aim",
+   "calculate",
+   "object",
+   "direct",
+   "whole",
+   "thing"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.015,
+   "B x2": 0.001,
+   "A + R": 0.154,
+   "B + R": 0.006
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "complexations",
+  "b": "warblers",
+  "a_top": [
+   "part",
+   "piece",
+   "apportion",
+   "portion"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "whole",
+   "convoluted",
+   "complex",
+   "compound",
+   "intricate",
+   "knotty"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.004,
+   "B + R": 0.007
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "i_timothy",
+  "b": "gyromitra_brunnea",
+  "a_top": [
+   "end",
+   "ending",
+   "stopping_point",
+   "conclusion"
+  ],
+  "b_top": [
+   "hold",
+   "take",
+   "get",
+   "have"
+  ],
+  "joint_top": [
+   "demand",
+   "condition",
+   "requisite",
+   "want",
+   "necessitate",
+   "necessary"
+  ],
+  "joint_attractor": 908,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.006,
+   "A + R": 0.323,
+   "B + R": 0.007
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "i_timothy",
+  "b": "center_line",
+  "a_top": [
+   "end",
+   "ending",
+   "stopping_point",
+   "conclusion"
+  ],
+  "b_top": [
+   "descent",
+   "declination",
+   "diminution",
+   "fall"
+  ],
+  "joint_top": [
+   "need",
+   "require",
+   "demand",
+   "call_for",
+   "take",
+   "want"
+  ],
+  "joint_attractor": 266,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "i_timothy",
+  "b": "warblers",
+  "a_top": [
+   "end",
+   "ending",
+   "stopping_point",
+   "conclusion"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "require",
+   "demand",
+   "invite",
+   "take",
+   "ask",
+   "necessitate"
+  ],
+  "joint_attractor": 266,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.008,
+   "A + R": 0.0,
+   "B + R": 0.014
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "gyromitra_brunnea",
+  "b": "family_aulostomidae",
+  "a_top": [
+   "hold",
+   "take",
+   "get",
+   "have"
+  ],
+  "b_top": [
+   "kin",
+   "akin",
+   "related",
+   "folk"
+  ],
+  "joint_top": [
+   "ground",
+   "land",
+   "place",
+   "earth",
+   "put",
+   "set"
+  ],
+  "joint_attractor": 350,
+  "controls": {
+   "A x2": 0.005,
+   "B x2": 0.013,
+   "A + R": 0.005,
+   "B + R": 0.013
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "gyromitra_brunnea",
+  "b": "u.s_owned_vehicle",
+  "a_top": [
+   "hold",
+   "take",
+   "get",
+   "have"
+  ],
+  "b_top": [
+   "get",
+   "make",
+   "cause",
+   "gain"
+  ],
+  "joint_top": [
+   "area",
+   "land",
+   "domain",
+   "put",
+   "set",
+   "country"
+  ],
+  "joint_attractor": 784,
+  "controls": {
+   "A x2": 0.005,
+   "B x2": 0.005,
+   "A + R": 0.008,
+   "B + R": 0.007
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "gyromitra_brunnea",
+  "b": "alpine_skiing",
+  "a_top": [
+   "hold",
+   "take",
+   "get",
+   "have"
+  ],
+  "b_top": [
+   "advance",
+   "lift",
+   "promote",
+   "rise"
+  ],
+  "joint_top": [
+   "area",
+   "land",
+   "domain",
+   "put",
+   "set",
+   "country"
+  ],
+  "joint_attractor": 784,
+  "controls": {
+   "A x2": 0.005,
+   "B x2": 0.0,
+   "A + R": 0.007,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "gyromitra_brunnea",
+  "b": "thelypteris_inabonensis",
+  "a_top": [
+   "hold",
+   "take",
+   "get",
+   "have"
+  ],
+  "b_top": [
+   "arrange",
+   "place",
+   "present",
+   "give"
+  ],
+  "joint_top": [
+   "area",
+   "land",
+   "domain",
+   "put",
+   "set",
+   "country"
+  ],
+  "joint_attractor": 784,
+  "controls": {
+   "A x2": 0.005,
+   "B x2": 0.205,
+   "A + R": 0.005,
+   "B + R": 0.045
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "gyromitra_brunnea",
+  "b": "warblers",
+  "a_top": [
+   "hold",
+   "take",
+   "get",
+   "have"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "give",
+   "show",
+   "deliver",
+   "interpret",
+   "present",
+   "yield"
+  ],
+  "joint_attractor": 90,
+  "controls": {
+   "A x2": 0.031,
+   "B x2": 0.0,
+   "A + R": 0.053,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "abamperes",
+  "b": "thingifying",
+  "a_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "b_top": [
+   "change",
+   "interchange",
+   "substitution",
+   "substitute"
+  ],
+  "joint_top": [
+   "aim",
+   "lead",
+   "go",
+   "direct",
+   "calculate",
+   "move"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.001
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "abamperes",
+  "b": "e296",
+  "a_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "b_top": [
+   "combine",
+   "unify",
+   "merge",
+   "join"
+  ],
+  "joint_top": [
+   "aim",
+   "lead",
+   "go",
+   "direct",
+   "calculate",
+   "move"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.008,
+   "A + R": 0.0,
+   "B + R": 0.004
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "abamperes",
+  "b": "organ_pipes",
+  "a_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "b_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "joint_top": [
+   "pipe",
+   "metro",
+   "tube",
+   "railway",
+   "line",
+   "railroad"
+  ],
+  "joint_attractor": 126,
+  "controls": {
+   "A x2": 0.006,
+   "B x2": 0.0,
+   "A + R": 0.006,
+   "B + R": 0.041
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "abamperes",
+  "b": "comprehensors",
+  "a_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "b_top": [
+   "get",
+   "gain",
+   "take",
+   "have"
+  ],
+  "joint_top": [
+   "aim",
+   "lead",
+   "go",
+   "direct",
+   "calculate",
+   "move"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.025,
+   "A + R": 1.0,
+   "B + R": 0.005
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "abamperes",
+  "b": "biyotches",
+  "a_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "b_top": [
+   "call",
+   "yell",
+   "shout",
+   "exclaim"
+  ],
+  "joint_top": [
+   "aim",
+   "lead",
+   "go",
+   "direct",
+   "calculate",
+   "move"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.0,
+   "A + R": 0.079,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "abamperes",
+  "b": "hemigalus",
+  "a_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "b_top": [
+   "categorization",
+   "form",
+   "class",
+   "category"
+  ],
+  "joint_top": [
+   "part",
+   "bit",
+   "patch",
+   "allot",
+   "piece",
+   "portion"
+  ],
+  "joint_attractor": 81,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.0,
+   "A + R": 0.006,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "abamperes",
+  "b": "daguerreotypist",
+  "a_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "b_top": [
+   "count",
+   "trust",
+   "see",
+   "think"
+  ],
+  "joint_top": [
+   "aim",
+   "lead",
+   "go",
+   "direct",
+   "calculate",
+   "move"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.08,
+   "A + R": 0.0,
+   "B + R": 0.09
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "abamperes",
+  "b": "center_line",
+  "a_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "b_top": [
+   "descent",
+   "declination",
+   "diminution",
+   "fall"
+  ],
+  "joint_top": [
+   "part",
+   "bit",
+   "distribute",
+   "piece",
+   "portion",
+   "share"
+  ],
+  "joint_attractor": 81,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.0,
+   "A + R": 0.016,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "abamperes",
+  "b": "first_violinists",
+  "a_top": [
+   "organisation",
+   "administration",
+   "constitution",
+   "activity"
+  ],
+  "b_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "indicate"
+  ],
+  "joint_top": [
+   "aim",
+   "lead",
+   "go",
+   "direct",
+   "calculate",
+   "move"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.001,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "thingifying",
+  "b": "organ_pipes",
+  "a_top": [
+   "change",
+   "interchange",
+   "substitution",
+   "substitute"
+  ],
+  "b_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "joint_top": [
+   "pipe",
+   "metro",
+   "tube",
+   "underground",
+   "railway",
+   "line"
+  ],
+  "joint_attractor": 126,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "e296",
+  "b": "kleist",
+  "a_top": [
+   "combine",
+   "unify",
+   "merge",
+   "join"
+  ],
+  "b_top": [
+   "suggest",
+   "hint",
+   "intimate",
+   "indicate"
+  ],
+  "joint_top": [
+   "mortal",
+   "deathly",
+   "deadly",
+   "fatal",
+   "venomous",
+   "person"
+  ],
+  "joint_attractor": 138,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.08,
+   "A + R": 0.0,
+   "B + R": 0.007
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "e296",
+  "b": "daguerreotypist",
+  "a_top": [
+   "combine",
+   "unify",
+   "merge",
+   "join"
+  ],
+  "b_top": [
+   "count",
+   "trust",
+   "see",
+   "think"
+  ],
+  "joint_top": [
+   "design",
+   "form",
+   "mold",
+   "plan",
+   "cast",
+   "model"
+  ],
+  "joint_attractor": 245,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.03,
+   "A + R": 0.002,
+   "B + R": 0.008
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "e296",
+  "b": "first_violinists",
+  "a_top": [
+   "combine",
+   "unify",
+   "merge",
+   "join"
+  ],
+  "b_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "indicate"
+  ],
+  "joint_top": [
+   "put",
+   "place",
+   "modeling",
+   "cast",
+   "mould",
+   "position"
+  ],
+  "joint_attractor": 32,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.171,
+   "B + R": 0.829
+  },
+  "explained_by": [
+   "B + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "organ_pipes",
+  "b": "kleist",
+  "a_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "b_top": [
+   "suggest",
+   "hint",
+   "intimate",
+   "indicate"
+  ],
+  "joint_top": [
+   "pipe",
+   "metro",
+   "tube",
+   "railway",
+   "line",
+   "railroad"
+  ],
+  "joint_attractor": 126,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.691,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "organ_pipes",
+  "b": "ist",
+  "a_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "b_top": [
+   "position",
+   "put",
+   "set",
+   "land"
+  ],
+  "joint_top": [
+   "pipe",
+   "scream",
+   "screech",
+   "cry",
+   "yell",
+   "exclaim"
+  ],
+  "joint_attractor": 153,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.951,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "organ_pipes",
+  "b": "hemigalus",
+  "a_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "b_top": [
+   "categorization",
+   "form",
+   "class",
+   "category"
+  ],
+  "joint_top": [
+   "pipe",
+   "scream",
+   "screeching",
+   "call",
+   "yell",
+   "exclaim"
+  ],
+  "joint_attractor": 153,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.097,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "organ_pipes",
+  "b": "repaid",
+  "a_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "pipe",
+   "retort",
+   "reply",
+   "tube",
+   "return",
+   "answer"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.008,
+   "A + R": 0.0,
+   "B + R": 0.009
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "organ_pipes",
+  "b": "center_line",
+  "a_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "b_top": [
+   "descent",
+   "declination",
+   "diminution",
+   "fall"
+  ],
+  "joint_top": [
+   "pipe",
+   "scream",
+   "screech",
+   "cry",
+   "yell",
+   "shriek"
+  ],
+  "joint_attractor": 153,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.001,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "organ_pipes",
+  "b": "warblers",
+  "a_top": [
+   "twist",
+   "contort",
+   "wring",
+   "turn"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "pipe",
+   "scream",
+   "screech",
+   "cry",
+   "yell",
+   "shriek"
+  ],
+  "joint_attractor": 153,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.167,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "comprehensors",
+  "b": "kleist",
+  "a_top": [
+   "get",
+   "gain",
+   "take",
+   "have"
+  ],
+  "b_top": [
+   "suggest",
+   "hint",
+   "intimate",
+   "indicate"
+  ],
+  "joint_top": [
+   "mortal",
+   "deathly",
+   "deadly",
+   "fatal",
+   "venomous",
+   "person"
+  ],
+  "joint_attractor": 138,
+  "controls": {
+   "A x2": 0.001,
+   "B x2": 0.08,
+   "A + R": 0.003,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "comprehensors",
+  "b": "daguerreotypist",
+  "a_top": [
+   "get",
+   "gain",
+   "take",
+   "have"
+  ],
+  "b_top": [
+   "count",
+   "trust",
+   "see",
+   "think"
+  ],
+  "joint_top": [
+   "design",
+   "form",
+   "mold",
+   "plan",
+   "cast",
+   "model"
+  ],
+  "joint_attractor": 245,
+  "controls": {
+   "A x2": 0.006,
+   "B x2": 0.03,
+   "A + R": 0.051,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "comprehensors",
+  "b": "first_violinists",
+  "a_top": [
+   "get",
+   "gain",
+   "take",
+   "have"
+  ],
+  "b_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "indicate"
+  ],
+  "joint_top": [
+   "put",
+   "place",
+   "modeling",
+   "cast",
+   "mould",
+   "position"
+  ],
+  "joint_attractor": 32,
+  "controls": {
+   "A x2": 0.005,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "u.s_owned_vehicle",
+  "b": "kleist",
+  "a_top": [
+   "get",
+   "make",
+   "cause",
+   "gain"
+  ],
+  "b_top": [
+   "suggest",
+   "hint",
+   "intimate",
+   "indicate"
+  ],
+  "joint_top": [
+   "mortal",
+   "deathly",
+   "deadly",
+   "fatal",
+   "venomous",
+   "pestilent"
+  ],
+  "joint_attractor": 138,
+  "controls": {
+   "A x2": 0.004,
+   "B x2": 0.073,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "u.s_owned_vehicle",
+  "b": "first_violinists",
+  "a_top": [
+   "get",
+   "make",
+   "cause",
+   "gain"
+  ],
+  "b_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "indicate"
+  ],
+  "joint_top": [
+   "put",
+   "place",
+   "modeling",
+   "mold",
+   "mould",
+   "position"
+  ],
+  "joint_attractor": 32,
+  "controls": {
+   "A x2": 0.011,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "alpine_skiing",
+  "b": "repaid",
+  "a_top": [
+   "advance",
+   "lift",
+   "promote",
+   "rise"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "alpinist",
+   "mountain_climber",
+   "climber",
+   "retort",
+   "response",
+   "mountaineer"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.009,
+   "A + R": 0.0,
+   "B + R": 0.009
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "kleist",
+  "b": "biyotches",
+  "a_top": [
+   "suggest",
+   "hint",
+   "intimate",
+   "indicate"
+  ],
+  "b_top": [
+   "call",
+   "yell",
+   "shout",
+   "exclaim"
+  ],
+  "joint_top": [
+   "mortal",
+   "deathly",
+   "deadly",
+   "fatal",
+   "venomous",
+   "pestilent"
+  ],
+  "joint_attractor": 138,
+  "controls": {
+   "A x2": 0.073,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.011
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "kleist",
+  "b": "daguerreotypist",
+  "a_top": [
+   "suggest",
+   "hint",
+   "intimate",
+   "indicate"
+  ],
+  "b_top": [
+   "count",
+   "trust",
+   "see",
+   "think"
+  ],
+  "joint_top": [
+   "mortal",
+   "deathly",
+   "deadly",
+   "fatal",
+   "venomous",
+   "pestilent"
+  ],
+  "joint_attractor": 138,
+  "controls": {
+   "A x2": 0.073,
+   "B x2": 0.001,
+   "A + R": 0.073,
+   "B + R": 0.003
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "kleist",
+  "b": "first_violinists",
+  "a_top": [
+   "suggest",
+   "hint",
+   "intimate",
+   "indicate"
+  ],
+  "b_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "indicate"
+  ],
+  "joint_top": [
+   "mortal",
+   "deathly",
+   "deadly",
+   "fatal",
+   "venomous",
+   "pestilent"
+  ],
+  "joint_attractor": 138,
+  "controls": {
+   "A x2": 0.073,
+   "B x2": 0.0,
+   "A + R": 0.013,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "ist",
+  "b": "repaid",
+  "a_top": [
+   "position",
+   "put",
+   "set",
+   "land"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "come_back",
+   "retort",
+   "reply",
+   "answer",
+   "return",
+   "rejoinder"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.01,
+   "A + R": 0.0,
+   "B + R": 0.844
+  },
+  "explained_by": [
+   "B + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "top_attractors",
+  "a": "torqueing",
+  "b": "repaid",
+  "a_top": [
+   "press",
+   "thrust",
+   "drive",
+   "push"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "come_back",
+   "retort",
+   "reply",
+   "respond",
+   "return",
+   "answer"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.011,
+   "A + R": 0.0,
+   "B + R": 0.012
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "torqueing",
+  "b": "warblers",
+  "a_top": [
+   "press",
+   "thrust",
+   "drive",
+   "push"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "prove",
+   "show",
+   "attest"
+  ],
+  "joint_attractor": 226,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.007,
+   "B + R": 0.004
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "biyotches",
+  "b": "warblers",
+  "a_top": [
+   "call",
+   "yell",
+   "shout",
+   "exclaim"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "kick",
+   "recoil",
+   "motion",
+   "movement",
+   "bounce",
+   "gripe"
+  ],
+  "joint_attractor": 252,
+  "controls": {
+   "A x2": 0.009,
+   "B x2": 0.0,
+   "A + R": 0.003,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "thelypteris_inabonensis",
+  "b": "repaid",
+  "a_top": [
+   "arrange",
+   "place",
+   "present",
+   "give"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "retort",
+   "response",
+   "respond",
+   "come_back",
+   "return",
+   "rejoinder"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.009,
+   "B x2": 0.01,
+   "A + R": 0.0,
+   "B + R": 0.01
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "thelypteris_inabonensis",
+  "b": "daguerreotypist",
+  "a_top": [
+   "arrange",
+   "place",
+   "present",
+   "give"
+  ],
+  "b_top": [
+   "count",
+   "trust",
+   "see",
+   "think"
+  ],
+  "joint_top": [
+   "form",
+   "molding",
+   "mould",
+   "shape",
+   "cast",
+   "mold"
+  ],
+  "joint_attractor": 34,
+  "controls": {
+   "A x2": 0.043,
+   "B x2": 0.01,
+   "A + R": 0.045,
+   "B + R": 0.006
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "thelypteris_inabonensis",
+  "b": "warblers",
+  "a_top": [
+   "arrange",
+   "place",
+   "present",
+   "give"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "indicate",
+   "testify",
+   "prove"
+  ],
+  "joint_attractor": 226,
+  "controls": {
+   "A x2": 0.102,
+   "B x2": 0.0,
+   "A + R": 0.068,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "hemigalus",
+  "b": "repaid",
+  "a_top": [
+   "categorization",
+   "form",
+   "class",
+   "category"
+  ],
+  "b_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "joint_top": [
+   "retort",
+   "response",
+   "come_back",
+   "return",
+   "rejoinder",
+   "answer"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.011,
+   "A + R": 0.008,
+   "B + R": 0.37
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "hemigalus",
+  "b": "center_line",
+  "a_top": [
+   "categorization",
+   "form",
+   "class",
+   "category"
+  ],
+  "b_top": [
+   "descent",
+   "declination",
+   "diminution",
+   "fall"
+  ],
+  "joint_top": [
+   "exercise",
+   "model",
+   "mold",
+   "form",
+   "modeling",
+   "work"
+  ],
+  "joint_attractor": 82,
+  "controls": {
+   "A x2": 0.257,
+   "B x2": 0.0,
+   "A + R": 0.283,
+   "B + R": 0.006
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "repaid",
+  "b": "nosiness",
+  "a_top": [
+   "yield",
+   "present",
+   "render",
+   "bear"
+  ],
+  "b_top": [
+   "question",
+   "research",
+   "investigation",
+   "examination"
+  ],
+  "joint_top": [
+   "come_back",
+   "retort",
+   "respond",
+   "response",
+   "return",
+   "answer"
+  ],
+  "joint_attractor": 377,
+  "controls": {
+   "A x2": 0.01,
+   "B x2": 0.0,
+   "A + R": 0.01,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "top_attractors",
+  "a": "first_violinists",
+  "b": "warblers",
+  "a_top": [
+   "demonstrate",
+   "display",
+   "exhibit",
+   "indicate"
+  ],
+  "b_top": [
+   "bird",
+   "dame",
+   "girl",
+   "woman"
+  ],
+  "joint_top": [
+   "attraction",
+   "attractor",
+   "feature",
+   "attracter",
+   "drawing_card",
+   "property"
+  ],
+  "joint_attractor": 257,
+  "controls": {
+   "A x2": 0.005,
+   "B x2": 0.003,
+   "A + R": 0.0,
+   "B + R": 0.011
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "polar_star",
+  "b": "gives_damn",
+  "a_top": [
+   "go",
+   "act",
+   "turn",
+   "move"
+  ],
+  "b_top": [
+   "trouble",
+   "chafe",
+   "disturb",
+   "annoy"
+  ],
+  "joint_top": [
+   "go",
+   "bend",
+   "move",
+   "turn",
+   "twist",
+   "distort"
+  ],
+  "joint_attractor": 58,
+  "controls": {
+   "A x2": 0.291,
+   "B x2": 0.006,
+   "A + R": 0.03,
+   "B + R": 0.006
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "muscular_tissue",
+  "b": "dried",
+  "a_top": [
+   "authority",
+   "office",
+   "authorisation",
+   "agency"
+  ],
+  "b_top": [
+   "sluggish",
+   "slow",
+   "slack",
+   "dull"
+  ],
+  "joint_top": [
+   "jab",
+   "force",
+   "squeeze",
+   "drive",
+   "thrust",
+   "push"
+  ],
+  "joint_attractor": 122,
+  "controls": {
+   "A x2": 0.104,
+   "B x2": 0.0,
+   "A + R": 0.717,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "dolman_sleeve",
+  "b": "toll_agent",
+  "a_top": [
+   "dress_up",
+   "branch",
+   "part",
+   "dress"
+  ],
+  "b_top": [
+   "grade",
+   "place",
+   "set",
+   "class"
+  ],
+  "joint_top": [
+   "part",
+   "bit",
+   "piece",
+   "portion",
+   "share",
+   "allot"
+  ],
+  "joint_attractor": 81,
+  "controls": {
+   "A x2": 0.123,
+   "B x2": 0.006,
+   "A + R": 0.009,
+   "B + R": 0.002
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "bookwormish",
+  "b": "oenothera_biennis",
+  "a_top": [
+   "civilization",
+   "polish",
+   "civilisation",
+   "refinement"
+  ],
+  "b_top": [
+   "share",
+   "piece",
+   "enjoy",
+   "part"
+  ],
+  "joint_top": [
+   "class",
+   "level",
+   "mold",
+   "mould",
+   "grade",
+   "form"
+  ],
+  "joint_attractor": 1105,
+  "controls": {
+   "A x2": 0.004,
+   "B x2": 0.001,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "disseminated_lupus_erythematosus",
+  "b": "metamorphosed",
+  "a_top": [
+   "disease",
+   "malady",
+   "ill",
+   "badly"
+  ],
+  "b_top": [
+   "realize",
+   "gain",
+   "receive",
+   "understand"
+  ],
+  "joint_top": [
+   "disease",
+   "alter",
+   "spay",
+   "illness",
+   "malady",
+   "sickness"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.198,
+   "B x2": 0.0,
+   "A + R": 0.198,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "getting_across",
+  "b": "bluest",
+  "a_top": [
+   "crack",
+   "stop",
+   "arrest",
+   "break"
+  ],
+  "b_top": [
+   "patrician",
+   "aristocratical",
+   "blasphemous",
+   "aristocrat"
+  ],
+  "joint_top": [
+   "bring",
+   "receive",
+   "accept",
+   "impart",
+   "hold",
+   "take"
+  ],
+  "joint_attractor": 2,
+  "controls": {
+   "A x2": 0.02,
+   "B x2": 0.0,
+   "A + R": 0.228,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "genus_genista",
+  "b": "marsh_buggy",
+  "a_top": [
+   "form",
+   "mould",
+   "frame",
+   "model"
+  ],
+  "b_top": [
+   "beast",
+   "brute",
+   "brutal",
+   "savage"
+  ],
+  "joint_top": [
+   "show",
+   "display",
+   "exhibit",
+   "expose",
+   "demonstrate",
+   "indicate"
+  ],
+  "joint_attractor": 417,
+  "controls": {
+   "A x2": 0.001,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "bt",
+  "b": "dolman_sleeve",
+  "a_top": [
+   "curve",
+   "turn",
+   "distort",
+   "wrick"
+  ],
+  "b_top": [
+   "dress_up",
+   "branch",
+   "part",
+   "dress"
+  ],
+  "joint_top": [
+   "part",
+   "bit",
+   "patch",
+   "piece",
+   "spot",
+   "share"
+  ],
+  "joint_attractor": 94,
+  "controls": {
+   "A x2": 0.006,
+   "B x2": 0.13,
+   "A + R": 0.011,
+   "B + R": 0.642
+  },
+  "explained_by": [
+   "B + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "haemolysis",
+  "b": "arboraceous",
+  "a_top": [
+   "end",
+   "termination",
+   "close",
+   "stopping_point"
+  ],
+  "b_top": [
+   "arrange",
+   "put",
+   "place",
+   "set"
+  ],
+  "joint_top": [
+   "plant",
+   "arborescent",
+   "forest",
+   "wood",
+   "set",
+   "collection"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.182,
+   "A + R": 0.0,
+   "B + R": 0.283
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "perendinated",
+  "b": "agrippina_elder",
+  "a_top": [
+   "coquette",
+   "dally",
+   "act",
+   "flirt"
+  ],
+  "b_top": [
+   "present",
+   "render",
+   "bear",
+   "give"
+  ],
+  "joint_top": [
+   "dally",
+   "hold",
+   "flirt",
+   "chat_up",
+   "play",
+   "keep"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.229,
+   "B x2": 0.026,
+   "A + R": 0.229,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "fiddlefuck",
+  "b": "liparis_loeselii",
+  "a_top": [
+   "nonsense",
+   "ludicrous",
+   "preposterous",
+   "bunk"
+  ],
+  "b_top": [
+   "blossom",
+   "bloom",
+   "flush",
+   "grow"
+  ],
+  "joint_top": [
+   "place",
+   "position",
+   "put",
+   "set",
+   "run",
+   "bunk"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.116,
+   "B x2": 0.007,
+   "A + R": 0.607,
+   "B + R": 0.005
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "hebron_academy",
+  "b": "subtotaled",
+  "a_top": [
+   "polite",
+   "refinement",
+   "culture",
+   "refined"
+  ],
+  "b_top": [
+   "number",
+   "consider",
+   "reckon",
+   "count"
+  ],
+  "joint_top": [
+   "act",
+   "turn",
+   "move",
+   "come",
+   "do",
+   "go"
+  ],
+  "joint_attractor": 471,
+  "controls": {
+   "A x2": 0.009,
+   "B x2": 0.159,
+   "A + R": 0.072,
+   "B + R": 0.156
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "ladies_smocks",
+  "b": "inverted",
+  "a_top": [
+   "represent",
+   "render",
+   "arrange",
+   "put"
+  ],
+  "b_top": [
+   "disturb",
+   "overthrow",
+   "reverse",
+   "reversion"
+  ],
+  "joint_top": [
+   "action",
+   "go",
+   "move",
+   "routine",
+   "turn",
+   "act"
+  ],
+  "joint_attractor": 21,
+  "controls": {
+   "A x2": 0.003,
+   "B x2": 0.004,
+   "A + R": 0.003,
+   "B + R": 0.004
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "ken_doll",
+  "b": "fuzzy_logic",
+  "a_top": [
+   "torment",
+   "agony",
+   "anguish",
+   "hurt"
+  ],
+  "b_top": [
+   "end",
+   "termination",
+   "finish",
+   "stopping_point"
+  ],
+  "joint_top": [
+   "condition",
+   "field",
+   "domain",
+   "land",
+   "country",
+   "sphere"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.005,
+   "A + R": 0.0,
+   "B + R": 0.005
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "blab_tongues",
+  "b": "subkingdom_parazoa",
+  "a_top": [
+   "talk",
+   "chatter",
+   "gossip",
+   "spill_beans"
+  ],
+  "b_top": [
+   "action",
+   "act",
+   "procedure",
+   "function"
+  ],
+  "joint_top": [
+   "put",
+   "set",
+   "place",
+   "position",
+   "arrange",
+   "location"
+  ],
+  "joint_attractor": 67,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.008,
+   "A + R": 0.012,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "comprehensors",
+  "b": "pyas",
+  "a_top": [
+   "get",
+   "gain",
+   "take",
+   "have"
+  ],
+  "b_top": [
+   "organization",
+   "action",
+   "organisation",
+   "administration"
+  ],
+  "joint_top": [
+   "part",
+   "bit",
+   "share",
+   "patch",
+   "distribute",
+   "piece"
+  ],
+  "joint_attractor": 81,
+  "controls": {
+   "A x2": 0.005,
+   "B x2": 0.007,
+   "A + R": 0.005,
+   "B + R": 0.007
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "quartertone",
+  "b": "superfoetates",
+  "a_top": [
+   "location",
+   "position",
+   "put",
+   "set"
+  ],
+  "b_top": [
+   "see",
+   "take",
+   "get",
+   "catch"
+  ],
+  "joint_top": [
+   "determine",
+   "model",
+   "molding",
+   "moulding",
+   "modeling",
+   "mold"
+  ],
+  "joint_attractor": 765,
+  "controls": {
+   "A x2": 0.086,
+   "B x2": 0.114,
+   "A + R": 0.071,
+   "B + R": 0.121
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "chromosome_11",
+  "b": "stickweeds",
+  "a_top": [
+   "expression",
+   "construction",
+   "structure",
+   "face"
+  ],
+  "b_top": [
+   "part",
+   "bit",
+   "relish",
+   "piece"
+  ],
+  "joint_top": [
+   "torso",
+   "structure",
+   "consistency",
+   "trunk",
+   "body",
+   "substance"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.119,
+   "B x2": 0.014,
+   "A + R": 0.034,
+   "B + R": 0.014
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "transformer",
+  "b": "sexual_perversion",
+  "a_top": [
+   "curve",
+   "turn",
+   "distort",
+   "wrick"
+  ],
+  "b_top": [
+   "activity",
+   "process",
+   "move",
+   "routine"
+  ],
+  "joint_top": [
+   "dohickey",
+   "gadget",
+   "stuff",
+   "thingamajig",
+   "oojamaflip",
+   "thingamajigger"
+  ],
+  "joint_attractor": 36,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "correctable",
+  "b": "hydrocalcite",
+  "a_top": [
+   "iffy",
+   "chancy",
+   "doubtful",
+   "chanceful"
+  ],
+  "b_top": [
+   "somatic",
+   "bodily",
+   "embodied",
+   "material"
+  ],
+  "joint_top": [
+   "arrange",
+   "attire",
+   "put",
+   "place",
+   "dress",
+   "set"
+  ],
+  "joint_attractor": 170,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.001,
+   "A + R": 1.0,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "vangueria",
+  "b": "hardscrabble",
+  "a_top": [
+   "form",
+   "mould",
+   "mold",
+   "frame"
+  ],
+  "b_top": [
+   "stingy",
+   "mean",
+   "chintzy",
+   "chinchy"
+  ],
+  "joint_top": [
+   "mean",
+   "miserable",
+   "pathetic",
+   "execrable",
+   "deplorable",
+   "wretched"
+  ],
+  "joint_attractor": 316,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.096,
+   "A + R": 0.0,
+   "B + R": 0.09
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "katherine_cornell",
+  "b": "sureness",
+  "a_top": [
+   "ezra_cornell",
+   "katherine_cornell",
+   "cornell",
+   "lower_ivy"
+  ],
+  "b_top": [
+   "end",
+   "termination",
+   "close",
+   "last"
+  ],
+  "joint_top": [
+   "bear",
+   "endure",
+   "accept",
+   "take",
+   "have",
+   "get"
+  ],
+  "joint_attractor": 1085,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.005,
+   "A + R": 0.0,
+   "B + R": 0.02
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "occupier",
+  "b": "bursa_omentalis",
+  "a_top": [
+   "individual",
+   "private",
+   "intimate",
+   "person"
+  ],
+  "b_top": [
+   "decomposition",
+   "break",
+   "split",
+   "collapse"
+  ],
+  "joint_top": [
+   "doctor",
+   "caries",
+   "tooth_decay",
+   "repair",
+   "cavity",
+   "dental_caries"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.093,
+   "B x2": 0.013,
+   "A + R": 0.0,
+   "B + R": 0.013
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "jumbo_jets",
+  "b": "reconceptualizings",
+  "a_top": [
+   "flush",
+   "blossom",
+   "spurt",
+   "gush_out"
+  ],
+  "b_top": [
+   "get",
+   "gain",
+   "have",
+   "make"
+  ],
+  "joint_top": [
+   "spurt",
+   "gush",
+   "sprinkle",
+   "splash",
+   "splosh",
+   "tap"
+  ],
+  "joint_attractor": 1054,
+  "controls": {
+   "A x2": 0.255,
+   "B x2": 0.0,
+   "A + R": 0.889,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "propogation",
+  "b": "pekans",
+  "a_top": [
+   "extension",
+   "continuance",
+   "action",
+   "prolongation"
+  ],
+  "b_top": [
+   "fisher",
+   "anglerfish",
+   "goosefish",
+   "fisherman"
+  ],
+  "joint_top": [
+   "total",
+   "lend",
+   "contribute",
+   "give",
+   "number",
+   "add"
+  ],
+  "joint_attractor": 20,
+  "controls": {
+   "A x2": 0.013,
+   "B x2": 0.0,
+   "A + R": 0.015,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "homo_economicus",
+  "b": "palisadings",
+  "a_top": [
+   "represent",
+   "interpret",
+   "present",
+   "give"
+  ],
+  "b_top": [
+   "struggle",
+   "attempt",
+   "battle",
+   "fight"
+  ],
+  "joint_top": [
+   "show",
+   "attest",
+   "exhibit",
+   "denote",
+   "testify",
+   "demonstrate"
+  ],
+  "joint_attractor": 791,
+  "controls": {
+   "A x2": 0.211,
+   "B x2": 0.005,
+   "A + R": 0.0,
+   "B + R": 0.003
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "nbsp",
+  "b": "bobolink",
+  "a_top": [
+   "piece",
+   "portion",
+   "spot",
+   "allot"
+  ],
+  "b_top": [
+   "kernel",
+   "dame",
+   "center",
+   "centre"
+  ],
+  "joint_top": [
+   "girl",
+   "woman",
+   "miss",
+   "dame",
+   "female",
+   "lady"
+  ],
+  "joint_attractor": 858,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.147,
+   "A + R": 0.0,
+   "B + R": 0.147
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "electrocuting",
+  "b": "neuro_oculo_cutaneous_syndrome",
+  "a_top": [
+   "close",
+   "end",
+   "ending",
+   "stopping_point"
+  ],
+  "b_top": [
+   "disease",
+   "condition",
+   "overturn",
+   "illness"
+  ],
+  "joint_top": [
+   "kill",
+   "murder",
+   "termination",
+   "end",
+   "killing",
+   "ending"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.277,
+   "B x2": 0.0,
+   "A + R": 0.28,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "coincidence_points",
+  "b": "hematoglobuline",
+  "a_top": [
+   "put",
+   "place",
+   "arrange",
+   "concord"
+  ],
+  "b_top": [
+   "significance",
+   "substance",
+   "consequence",
+   "meaning"
+  ],
+  "joint_top": [
+   "receive",
+   "take",
+   "get",
+   "hold",
+   "accept",
+   "have"
+  ],
+  "joint_attractor": 2,
+  "controls": {
+   "A x2": 0.012,
+   "B x2": 0.0,
+   "A + R": 0.463,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "estraterrestrial_body",
+  "b": "alice_b_toklas_brownies",
+  "a_top": [
+   "piece",
+   "portion",
+   "share",
+   "allot"
+  ],
+  "b_top": [
+   "cant",
+   "common",
+   "uncouth",
+   "jargon"
+  ],
+  "joint_top": [
+   "picture",
+   "image",
+   "opinion",
+   "judgment",
+   "idea",
+   "impression"
+  ],
+  "joint_attractor": 273,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.112
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "subway_in_tokyo",
+  "b": "linear_polymer",
+  "a_top": [
+   "move",
+   "act",
+   "turn",
+   "go"
+  ],
+  "b_top": [
+   "unite",
+   "blend",
+   "unify",
+   "amalgamate"
+  ],
+  "joint_top": [
+   "track",
+   "train",
+   "tube",
+   "rail",
+   "trail",
+   "path"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.054,
+   "B x2": 0.0,
+   "A + R": 1.0,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "vide_supra",
+  "b": "regexps",
+  "a_top": [
+   "vide_supra",
+   "v.s"
+  ],
+  "b_top": [
+   "account",
+   "reckon",
+   "estimate",
+   "consider"
+  ],
+  "joint_top": [
+   "consider",
+   "see",
+   "take",
+   "receive",
+   "have",
+   "view"
+  ],
+  "joint_attractor": 108,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.19,
+   "A + R": 0.0,
+   "B + R": 0.001
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "planera",
+  "b": "echeneidids",
+  "a_top": [
+   "cast",
+   "shape",
+   "model",
+   "modeling"
+  ],
+  "b_top": [
+   "beast",
+   "barbarian",
+   "roughshod",
+   "beastly"
+  ],
+  "joint_top": [
+   "classification",
+   "category",
+   "form",
+   "categorization",
+   "class",
+   "kind"
+  ],
+  "joint_attractor": 46,
+  "controls": {
+   "A x2": 0.228,
+   "B x2": 0.0,
+   "A + R": 0.001,
+   "B + R": 0.259
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "bugun",
+  "b": "rupicola_peruviana",
+  "a_top": [
+   "deadly",
+   "fatal",
+   "venomous",
+   "mortal"
+  ],
+  "b_top": [
+   "dame",
+   "bird",
+   "meat",
+   "chicken"
+  ],
+  "joint_top": [
+   "dame",
+   "center",
+   "middle",
+   "essence",
+   "gist",
+   "centre"
+  ],
+  "joint_attractor": 507,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.15,
+   "A + R": 0.011,
+   "B + R": 0.136
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "zingerones",
+  "b": "fa\u00e7ades",
+  "a_top": [
+   "tartness",
+   "bitter",
+   "acerb",
+   "acerbic"
+  ],
+  "b_top": [
+   "look",
+   "face",
+   "expression",
+   "front"
+  ],
+  "joint_top": [
+   "raise",
+   "rise",
+   "advance",
+   "arise",
+   "promote",
+   "get_up"
+  ],
+  "joint_attractor": 180,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.058,
+   "A + R": 0.0,
+   "B + R": 0.057
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "zomi",
+  "b": "sniffler",
+  "a_top": [
+   "advance",
+   "arise",
+   "rise",
+   "raise"
+  ],
+  "b_top": [
+   "individual",
+   "intimate",
+   "private",
+   "person"
+  ],
+  "joint_top": [
+   "front",
+   "expression",
+   "face",
+   "property",
+   "dimension",
+   "characteristic"
+  ],
+  "joint_attractor": 686,
+  "controls": {
+   "A x2": 0.033,
+   "B x2": 0.001,
+   "A + R": 0.009,
+   "B + R": 0.003
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "desert_varnishes",
+  "b": "virgin_olive_oil",
+  "a_top": [
+   "sluggish",
+   "slow",
+   "slack",
+   "dull"
+  ],
+  "b_top": [
+   "beginning",
+   "firstly",
+   "first_up",
+   "first_off"
+  ],
+  "joint_top": [
+   "give_up",
+   "vacate",
+   "leave",
+   "forgo",
+   "release",
+   "renounce"
+  ],
+  "joint_attractor": 168,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.003,
+   "A + R": 0.0,
+   "B + R": 0.003
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "batik",
+  "b": "victoria_plums",
+  "a_top": [
+   "hold",
+   "accept",
+   "get",
+   "take"
+  ],
+  "b_top": [
+   "advance",
+   "climb",
+   "raise",
+   "arise"
+  ],
+  "joint_top": [
+   "boundary",
+   "border",
+   "cast",
+   "mold",
+   "modeling",
+   "form"
+  ],
+  "joint_attractor": 470,
+  "controls": {
+   "A x2": 0.043,
+   "B x2": 0.004,
+   "A + R": 1.0,
+   "B + R": 0.004
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "burlap",
+  "b": "marsh_buggy",
+  "a_top": [
+   "burn",
+   "firing",
+   "discharge",
+   "fire"
+  ],
+  "b_top": [
+   "beast",
+   "brute",
+   "brutal",
+   "savage"
+  ],
+  "joint_top": [
+   "dismissal",
+   "give_up",
+   "vacate",
+   "release",
+   "discharge",
+   "relinquish"
+  ],
+  "joint_attractor": 48,
+  "controls": {
+   "A x2": 0.229,
+   "B x2": 0.0,
+   "A + R": 1.0,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "1_maccabees",
+  "b": "collar_bone",
+  "a_top": [
+   "establishment",
+   "organisation",
+   "organization",
+   "natural_process"
+  ],
+  "b_top": [
+   "bone",
+   "fix",
+   "os",
+   "cram"
+  ],
+  "joint_top": [
+   "take",
+   "learn",
+   "see",
+   "acquire",
+   "find",
+   "receive"
+  ],
+  "joint_attractor": 108,
+  "controls": {
+   "A x2": 0.001,
+   "B x2": 0.0,
+   "A + R": 0.161,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "jangleth",
+  "b": "lumachella",
+  "a_top": [
+   "go",
+   "act",
+   "turn",
+   "move"
+  ],
+  "b_top": [
+   "calcium_hydroxide",
+   "linden",
+   "calcium_oxide",
+   "lime"
+  ],
+  "joint_top": [
+   "shout",
+   "cry",
+   "scream",
+   "call",
+   "yell",
+   "exclaim"
+  ],
+  "joint_attractor": 153,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "assayer",
+  "b": "laciest",
+  "a_top": [
+   "broad",
+   "total",
+   "wide",
+   "full"
+  ],
+  "b_top": [
+   "bend",
+   "distort",
+   "wring",
+   "curve"
+  ],
+  "joint_top": [
+   "good",
+   "correct",
+   "veracious",
+   "dependable",
+   "truthful",
+   "right"
+  ],
+  "joint_attractor": 14,
+  "controls": {
+   "A x2": 0.027,
+   "B x2": 0.0,
+   "A + R": 1.0,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "new_technology_filesystem",
+  "b": "particle",
+  "a_top": [
+   "bear",
+   "accept",
+   "hold",
+   "have"
+  ],
+  "b_top": [
+   "part",
+   "portion",
+   "share",
+   "piece"
+  ],
+  "joint_top": [
+   "essence",
+   "centre",
+   "gist",
+   "scent",
+   "fragrance",
+   "olfactory_property"
+  ],
+  "joint_attractor": 297,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.002,
+   "A + R": 0.0,
+   "B + R": 1.0
+  },
+  "explained_by": [
+   "B + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "yukking",
+  "b": "takes_hint",
+  "a_top": [
+   "choke",
+   "smother",
+   "gag",
+   "strangle"
+  ],
+  "b_top": [
+   "carry",
+   "have",
+   "bear",
+   "receive"
+  ],
+  "joint_top": [
+   "push",
+   "drive",
+   "thrust",
+   "squeeze",
+   "press",
+   "force"
+  ],
+  "joint_attractor": 122,
+  "controls": {
+   "A x2": 0.002,
+   "B x2": 0.008,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "weapon_for_sports",
+  "b": "coronary_artery_dysfunction",
+  "a_top": [
+   "track",
+   "path",
+   "trail",
+   "travel"
+  ],
+  "b_top": [
+   "disease",
+   "malady",
+   "sickness",
+   "ill"
+  ],
+  "joint_top": [
+   "instruction",
+   "action",
+   "civilization",
+   "polish",
+   "civilisation",
+   "education"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.033,
+   "B x2": 0.0,
+   "A + R": 0.126,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "acacias",
+  "b": "hydromechanics",
+  "a_top": [
+   "constitution",
+   "arrangement",
+   "administration",
+   "organisation"
+  ],
+  "b_top": [
+   "display",
+   "exhibit",
+   "show",
+   "demonstrate"
+  ],
+  "joint_top": [
+   "structure",
+   "expression",
+   "construction",
+   "face",
+   "front",
+   "building"
+  ],
+  "joint_attractor": 330,
+  "controls": {
+   "A x2": 0.017,
+   "B x2": 0.004,
+   "A + R": 0.201,
+   "B + R": 0.01
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "bell_buoy",
+  "b": "preamble",
+  "a_top": [
+   "switch",
+   "exchange",
+   "replacement",
+   "change"
+  ],
+  "b_top": [
+   "show",
+   "expose",
+   "evidence",
+   "demonstrate"
+  ],
+  "joint_top": [
+   "disclose",
+   "reveal",
+   "display",
+   "exhibit",
+   "bring_out",
+   "expose"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.002,
+   "B x2": 0.257,
+   "A + R": 0.002,
+   "B + R": 0.257
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "hrivna",
+  "b": "gunging",
+  "a_top": [
+   "organization",
+   "establishment",
+   "natural_process",
+   "organisation"
+  ],
+  "b_top": [
+   "phone",
+   "yell",
+   "exclaim",
+   "call"
+  ],
+  "joint_top": [
+   "go",
+   "act",
+   "part",
+   "turn",
+   "move",
+   "become"
+  ],
+  "joint_attractor": 121,
+  "controls": {
+   "A x2": 0.013,
+   "B x2": 0.004,
+   "A + R": 0.004,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "dowered",
+  "b": "patterned",
+  "a_top": [
+   "part",
+   "bit",
+   "patch",
+   "position"
+  ],
+  "b_top": [
+   "turn",
+   "move",
+   "change",
+   "go"
+  ],
+  "joint_top": [
+   "present",
+   "give",
+   "deliver",
+   "take",
+   "bear",
+   "give_birth"
+  ],
+  "joint_attractor": 16,
+  "controls": {
+   "A x2": 0.001,
+   "B x2": 0.008,
+   "A + R": 0.001,
+   "B + R": 0.008
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "quick_draws",
+  "b": "imho",
+  "a_top": [
+   "runner",
+   "jack",
+   "smuggler",
+   "person"
+  ],
+  "b_top": [
+   "judgement",
+   "opinion",
+   "head",
+   "judgment"
+  ],
+  "joint_top": [
+   "balance",
+   "counterweight",
+   "compensate",
+   "counterbalance",
+   "pay",
+   "equilibrium"
+  ],
+  "joint_attractor": 469,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.0,
+   "A + R": 0.007,
+   "B + R": 0.005
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "internal_organs",
+  "b": "phycobilins",
+  "a_top": [
+   "form",
+   "make",
+   "cast",
+   "create"
+  ],
+  "b_top": [
+   "colour",
+   "likeness",
+   "touch",
+   "image"
+  ],
+  "joint_top": [
+   "aid",
+   "assist",
+   "serve",
+   "work",
+   "help",
+   "function"
+  ],
+  "joint_attractor": 348,
+  "controls": {
+   "A x2": 0.027,
+   "B x2": 0.005,
+   "A + R": 0.027,
+   "B + R": 0.007
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "limited_liability_companies",
+  "b": "amperemetre",
+  "a_top": [
+   "make",
+   "take",
+   "get",
+   "acquire"
+  ],
+  "b_top": [
+   "beat",
+   "m",
+   "g",
+   "thousand"
+  ],
+  "joint_top": [
+   "resort",
+   "beat",
+   "haunt",
+   "repair",
+   "pulse",
+   "pulsate"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.115,
+   "A + R": 0.0,
+   "B + R": 0.178
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "clyde",
+  "b": "yucky",
+  "a_top": [
+   "state",
+   "ground",
+   "sphere",
+   "country"
+  ],
+  "b_top": [
+   "detestable",
+   "frightful",
+   "terrible",
+   "abominable"
+  ],
+  "joint_top": [
+   "place",
+   "position",
+   "land",
+   "set",
+   "put",
+   "country"
+  ],
+  "joint_attractor": 350,
+  "controls": {
+   "A x2": 0.323,
+   "B x2": 0.0,
+   "A + R": 0.758,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "hawklike",
+  "b": "depression_cake",
+  "a_top": [
+   "look",
+   "research",
+   "investigation",
+   "scrutiny"
+  ],
+  "b_top": [
+   "number",
+   "trust",
+   "calculate",
+   "think"
+  ],
+  "joint_top": [
+   "hold",
+   "take",
+   "bear",
+   "have",
+   "carry",
+   "conduct"
+  ],
+  "joint_attractor": 2,
+  "controls": {
+   "A x2": 0.002,
+   "B x2": 0.031,
+   "A + R": 0.002,
+   "B + R": 0.006
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "turbans",
+  "b": "roothairs",
+  "a_top": [
+   "carry",
+   "have",
+   "bear",
+   "receive"
+  ],
+  "b_top": [
+   "home",
+   "position",
+   "put",
+   "set"
+  ],
+  "joint_top": [
+   "shell",
+   "cover",
+   "case",
+   "covering",
+   "top",
+   "beat"
+  ],
+  "joint_attractor": 1046,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "empearled",
+  "b": "ring_vaccination",
+  "a_top": [
+   "cram",
+   "bone",
+   "os",
+   "jam"
+  ],
+  "b_top": [
+   "stop",
+   "arrest",
+   "control",
+   "hold"
+  ],
+  "joint_top": [
+   "form",
+   "mold",
+   "mould",
+   "modeling",
+   "shape",
+   "model"
+  ],
+  "joint_attractor": 34,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.001,
+   "A + R": 0.0,
+   "B + R": 0.449
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "coincidence_points",
+  "b": "maned_rat",
+  "a_top": [
+   "put",
+   "place",
+   "arrange",
+   "concord"
+  ],
+  "b_top": [
+   "animal",
+   "brute",
+   "savage",
+   "brutal"
+  ],
+  "joint_top": [
+   "bear",
+   "have",
+   "receive",
+   "bring",
+   "carry",
+   "hold"
+  ],
+  "joint_attractor": 2,
+  "controls": {
+   "A x2": 0.012,
+   "B x2": 0.0,
+   "A + R": 0.746,
+   "B + R": 0.668
+  },
+  "explained_by": [
+   "A + R",
+   "B + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "quick_draws",
+  "b": "silurids",
+  "a_top": [
+   "runner",
+   "jack",
+   "smuggler",
+   "person"
+  ],
+  "b_top": [
+   "position",
+   "move",
+   "place",
+   "put"
+  ],
+  "joint_top": [
+   "counterweight",
+   "compensate",
+   "jack",
+   "balance",
+   "counterbalance",
+   "pay"
+  ],
+  "joint_attractor": 469,
+  "controls": {
+   "A x2": 0.108,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.002
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "standardization",
+  "b": "assassin",
+  "a_top": [
+   "total",
+   "amount",
+   "come",
+   "calculate"
+  ],
+  "b_top": [
+   "slaughter",
+   "butchery",
+   "bloodbath",
+   "homicide"
+  ],
+  "joint_top": [
+   "carry",
+   "convey",
+   "conduct",
+   "hold",
+   "take",
+   "post"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.09,
+   "B x2": 0.0,
+   "A + R": 0.178,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "can_run_msn_messenger",
+  "b": "toldest",
+  "a_top": [
+   "calculator",
+   "machine",
+   "computer",
+   "ready_reckoner"
+  ],
+  "b_top": [
+   "turn",
+   "gain",
+   "do",
+   "go"
+  ],
+  "joint_top": [
+   "organisation",
+   "arrangement",
+   "activity",
+   "constitution",
+   "organization",
+   "administration"
+  ],
+  "joint_attractor": 15,
+  "controls": {
+   "A x2": 0.017,
+   "B x2": 0.01,
+   "A + R": 0.662,
+   "B + R": 0.01
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "syncategoreme",
+  "b": "fly_screen",
+  "a_top": [
+   "free",
+   "discharge",
+   "dismissal",
+   "liberate"
+  ],
+  "b_top": [
+   "give",
+   "yield",
+   "bear",
+   "digest"
+  ],
+  "joint_top": [
+   "word",
+   "book",
+   "bible",
+   "record",
+   "password",
+   "parole"
+  ],
+  "joint_attractor": 540,
+  "controls": {
+   "A x2": 0.004,
+   "B x2": 0.005,
+   "A + R": 0.302,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "polydeistical",
+  "b": "division_tracheophyta",
+  "a_top": [
+   "content",
+   "degenerate",
+   "dissolute",
+   "abandoned"
+  ],
+  "b_top": [
+   "turn",
+   "depart",
+   "line",
+   "part"
+  ],
+  "joint_top": [
+   "grade",
+   "class",
+   "level",
+   "part",
+   "layer",
+   "stratum"
+  ],
+  "joint_attractor": 815,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.121,
+   "A + R": 0.0,
+   "B + R": 0.811
+  },
+  "explained_by": [
+   "B + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "syringa_josikaea",
+  "b": "artiodactylous",
+  "a_top": [
+   "scrub",
+   "cancel",
+   "bush",
+   "george_herbert_walker_bush"
+  ],
+  "b_top": [
+   "animal",
+   "brute",
+   "savage",
+   "brutal"
+  ],
+  "joint_top": [
+   "mark",
+   "hit",
+   "grade",
+   "score",
+   "strike",
+   "level"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.157,
+   "B x2": 0.003,
+   "A + R": 0.01,
+   "B + R": 0.035
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "detoxing",
+  "b": "spitting_snake",
+  "a_top": [
+   "take_away",
+   "take_out",
+   "withdraw",
+   "pull"
+  ],
+  "b_top": [
+   "sphere",
+   "land",
+   "country",
+   "united_states"
+  ],
+  "joint_top": [
+   "get",
+   "arrest",
+   "hold",
+   "receive",
+   "check",
+   "catch"
+  ],
+  "joint_attractor": 65,
+  "controls": {
+   "A x2": 0.01,
+   "B x2": 0.004,
+   "A + R": 0.291,
+   "B + R": 0.003
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "double_timed",
+  "b": "sertularians",
+  "a_top": [
+   "footstep",
+   "pace",
+   "grade",
+   "step"
+  ],
+  "b_top": [
+   "weak",
+   "roughshod",
+   "barbarian",
+   "uncivilised"
+  ],
+  "joint_top": [
+   "give",
+   "yield",
+   "take",
+   "bear",
+   "have",
+   "hold"
+  ],
+  "joint_attractor": 16,
+  "controls": {
+   "A x2": 0.001,
+   "B x2": 0.0,
+   "A + R": 0.001,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "cumbered",
+  "b": "bronchitics",
+  "a_top": [
+   "keep",
+   "retain",
+   "stay",
+   "check"
+  ],
+  "b_top": [
+   "bad",
+   "ill",
+   "disease",
+   "sickness"
+  ],
+  "joint_top": [
+   "strangle",
+   "suffocate",
+   "keep",
+   "retain",
+   "choke",
+   "smother"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.29,
+   "B x2": 0.0,
+   "A + R": 0.206,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "cable_tramway",
+  "b": "sylvanites",
+  "a_top": [
+   "convey",
+   "hold",
+   "take",
+   "contribute"
+  ],
+  "b_top": [
+   "corporeal",
+   "substantial",
+   "ground",
+   "material"
+  ],
+  "joint_top": [
+   "tram",
+   "car",
+   "streetcar",
+   "tramway",
+   "tramcar",
+   "cable_car"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.005,
+   "B x2": 0.0,
+   "A + R": 1.0,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "romancings",
+  "b": "warner_sucker",
+  "a_top": [
+   "romance",
+   "new",
+   "fresh",
+   "refreshing"
+  ],
+  "b_top": [
+   "tilt",
+   "put",
+   "place",
+   "cant"
+  ],
+  "joint_top": [
+   "read",
+   "understand",
+   "see",
+   "interpret",
+   "determine",
+   "learn"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.023,
+   "B x2": 0.0,
+   "A + R": 0.019,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "apprized",
+  "b": "cupric_sulfate",
+  "a_top": [
+   "pry",
+   "honor",
+   "appreciate",
+   "honour"
+  ],
+  "b_top": [
+   "part",
+   "assign",
+   "piece",
+   "allot"
+  ],
+  "joint_top": [
+   "present",
+   "give",
+   "gift",
+   "render",
+   "yield",
+   "deliver"
+  ],
+  "joint_attractor": 924,
+  "controls": {
+   "A x2": 0.214,
+   "B x2": 0.002,
+   "A + R": 0.548,
+   "B + R": 0.004
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "setting_back",
+  "b": "beastes",
+  "a_top": [
+   "invalidate",
+   "offset",
+   "balance",
+   "counteract"
+  ],
+  "b_top": [
+   "animal",
+   "brute",
+   "savage",
+   "brutal"
+  ],
+  "joint_top": [
+   "counterweight",
+   "compensate",
+   "compensation",
+   "balance",
+   "counterbalance",
+   "pay"
+  ],
+  "joint_attractor": 469,
+  "controls": {
+   "A x2": 0.17,
+   "B x2": 0.0,
+   "A + R": 0.207,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "harvest_break",
+  "b": "colorology",
+  "a_top": [
+   "separate",
+   "collapse",
+   "divide",
+   "arrest"
+  ],
+  "b_top": [
+   "colour",
+   "tinge",
+   "color",
+   "touch"
+  ],
+  "joint_top": [
+   "education",
+   "catch",
+   "arrest",
+   "instruction",
+   "teaching",
+   "stop"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.158,
+   "B x2": 0.0,
+   "A + R": 1.0,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "jangleth",
+  "b": "darest",
+  "a_top": [
+   "go",
+   "act",
+   "turn",
+   "move"
+  ],
+  "b_top": [
+   "arrest",
+   "hold",
+   "hold_back",
+   "check"
+  ],
+  "joint_top": [
+   "go",
+   "bend",
+   "wrick",
+   "wring",
+   "turn",
+   "move"
+  ],
+  "joint_attractor": 58,
+  "controls": {
+   "A x2": 0.232,
+   "B x2": 0.0,
+   "A + R": 0.844,
+   "B + R": 0.001
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "isotopes",
+  "b": "cat_suit",
+  "a_top": [
+   "message",
+   "material",
+   "somatic",
+   "substance"
+  ],
+  "b_top": [
+   "arrange",
+   "position",
+   "set",
+   "put"
+  ],
+  "joint_top": [
+   "content",
+   "subject",
+   "theme",
+   "message",
+   "substance",
+   "idea"
+  ],
+  "joint_attractor": 697,
+  "controls": {
+   "A x2": 0.132,
+   "B x2": 0.005,
+   "A + R": 0.004,
+   "B + R": 0.002
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "jumbo_jets",
+  "b": "edit_war",
+  "a_top": [
+   "flush",
+   "blossom",
+   "spurt",
+   "gush_out"
+  ],
+  "b_top": [
+   "organisation",
+   "arrangement",
+   "activity",
+   "place"
+  ],
+  "joint_top": [
+   "spurt",
+   "gush",
+   "tap",
+   "sprinkle",
+   "splash",
+   "splosh"
+  ],
+  "joint_attractor": 1054,
+  "controls": {
+   "A x2": 0.252,
+   "B x2": 0.0,
+   "A + R": 0.879,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "throat_fucking",
+  "b": "membership_cards",
+  "a_top": [
+   "show",
+   "prove",
+   "attest",
+   "exhibit"
+  ],
+  "b_top": [
+   "total",
+   "lend",
+   "contribute",
+   "give"
+  ],
+  "joint_top": [
+   "point",
+   "action",
+   "head",
+   "activity",
+   "process",
+   "act"
+  ],
+  "joint_attractor": 21,
+  "controls": {
+   "A x2": 0.01,
+   "B x2": 0.019,
+   "A + R": 0.174,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "assayer",
+  "b": "left_auditory_meatus",
+  "a_top": [
+   "broad",
+   "total",
+   "wide",
+   "full"
+  ],
+  "b_top": [
+   "turn",
+   "act",
+   "go",
+   "move"
+  ],
+  "joint_top": [
+   "good",
+   "correct",
+   "veracious",
+   "truthful",
+   "dependable",
+   "right"
+  ],
+  "joint_attractor": 14,
+  "controls": {
+   "A x2": 0.039,
+   "B x2": 0.004,
+   "A + R": 0.825,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "renames",
+  "b": "cuticular",
+  "a_top": [
+   "cause",
+   "make",
+   "get",
+   "advance"
+  ],
+  "b_top": [
+   "skin",
+   "undress",
+   "peel",
+   "disrobe"
+  ],
+  "joint_top": [
+   "make",
+   "cast",
+   "model",
+   "form",
+   "mold",
+   "shape"
+  ],
+  "joint_attractor": 56,
+  "controls": {
+   "A x2": 0.153,
+   "B x2": 0.0,
+   "A + R": 0.708,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "hemoglobin",
+  "b": "whirls",
+  "a_top": [
+   "push",
+   "squeeze",
+   "force",
+   "press"
+  ],
+  "b_top": [
+   "turn",
+   "distort",
+   "go",
+   "bend"
+  ],
+  "joint_top": [
+   "meaning",
+   "import",
+   "significance",
+   "substance",
+   "consequence",
+   "message"
+  ],
+  "joint_attractor": 187,
+  "controls": {
+   "A x2": 0.072,
+   "B x2": 0.003,
+   "A + R": 1.0,
+   "B + R": 0.003
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "rearend",
+  "b": "torrey's_pine",
+  "a_top": [
+   "rise",
+   "promote",
+   "raise",
+   "advance"
+  ],
+  "b_top": [
+   "bother",
+   "disturb",
+   "chafe",
+   "pain_in_ass"
+  ],
+  "joint_top": [
+   "buttocks",
+   "asshole",
+   "butt",
+   "arsehole",
+   "arse",
+   "bum"
+  ],
+  "joint_attractor": 774,
+  "controls": {
+   "A x2": 0.036,
+   "B x2": 0.0,
+   "A + R": 0.886,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "lemon_wood_tree",
+  "b": "northwind",
+  "a_top": [
+   "substantial",
+   "solid",
+   "material",
+   "wood"
+  ],
+  "b_top": [
+   "turn",
+   "bend",
+   "distort",
+   "go"
+  ],
+  "joint_top": [
+   "substantial",
+   "significant",
+   "large",
+   "with_child",
+   "big",
+   "satisfying"
+  ],
+  "joint_attractor": 627,
+  "controls": {
+   "A x2": 0.215,
+   "B x2": 0.002,
+   "A + R": 0.252,
+   "B + R": 0.002
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "silurids",
+  "b": "unfocuses",
+  "a_top": [
+   "position",
+   "move",
+   "place",
+   "put"
+  ],
+  "b_top": [
+   "blur",
+   "smudge",
+   "defame",
+   "smirch"
+  ],
+  "joint_top": [
+   "catfish",
+   "flathead_catfish",
+   "person",
+   "mudcat",
+   "fish",
+   "wolffish"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.003,
+   "B x2": 0.0,
+   "A + R": 1.0,
+   "B + R": 0.0
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "uck",
+  "b": "shigellosis",
+  "a_top": [
+   "press",
+   "thrust",
+   "drive",
+   "push"
+  ],
+  "b_top": [
+   "illness",
+   "malady",
+   "sickness",
+   "condition"
+  ],
+  "joint_top": [
+   "want",
+   "demand",
+   "call_for",
+   "require",
+   "take",
+   "need"
+  ],
+  "joint_attractor": 266,
+  "controls": {
+   "A x2": 0.007,
+   "B x2": 0.03,
+   "A + R": 0.608,
+   "B + R": 0.03
+  },
+  "explained_by": [
+   "A + R"
+  ],
+  "interaction": false
+ },
+ {
+  "group": "random",
+  "a": "life_histories",
+  "b": "defenestration",
+  "a_top": [
+   "animation",
+   "exist",
+   "alive",
+   "survive"
+  ],
+  "b_top": [
+   "put",
+   "mold",
+   "place",
+   "position"
+  ],
+  "joint_top": [
+   "activity",
+   "process",
+   "turn",
+   "function",
+   "action",
+   "act"
+  ],
+  "joint_attractor": 21,
+  "controls": {
+   "A x2": 0.011,
+   "B x2": 0.002,
+   "A + R": 0.008,
+   "B + R": 0.002
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "mouse_wheels",
+  "b": "flossy_pork",
+  "a_top": [
+   "bend",
+   "distort",
+   "wrick",
+   "wring"
+  ],
+  "b_top": [
+   "speech",
+   "talk",
+   "address",
+   "lecture"
+  ],
+  "joint_top": [
+   "various",
+   "diverse",
+   "reverse",
+   "assorted",
+   "different",
+   "miscellaneous"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "highflyers",
+  "b": "whoopsadaisy",
+  "a_top": [
+   "indicate",
+   "suggest",
+   "denote",
+   "show"
+  ],
+  "b_top": [
+   "oops",
+   "whoops",
+   "error",
+   "misconception"
+  ],
+  "joint_top": [
+   "single",
+   "individual",
+   "private",
+   "intimate",
+   "exclusive",
+   "person"
+  ],
+  "joint_attractor": 51,
+  "controls": {
+   "A x2": 0.093,
+   "B x2": 0.0,
+   "A + R": 0.01,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "family_grossulariaceae",
+  "b": "arboraceous",
+  "a_top": [
+   "kin",
+   "folk",
+   "akin",
+   "related"
+  ],
+  "b_top": [
+   "arrange",
+   "put",
+   "place",
+   "set"
+  ],
+  "joint_top": [
+   "solid",
+   "substantial",
+   "satisfying",
+   "significant",
+   "firm",
+   "strong"
+  ],
+  "joint_attractor": 627,
+  "controls": {
+   "A x2": 0.003,
+   "B x2": 0.003,
+   "A + R": 0.003,
+   "B + R": 0.134
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "tallus",
+  "b": "spillways",
+  "a_top": [
+   "cram",
+   "bone",
+   "anklebone",
+   "astragalus"
+  ],
+  "b_top": [
+   "discharge",
+   "release",
+   "dismissal",
+   "give_up"
+  ],
+  "joint_top": [
+   "articulate",
+   "articulation",
+   "voice",
+   "connection",
+   "connect",
+   "associate"
+  ],
+  "joint_attractor": 775,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.0,
+   "A + R": 0.0,
+   "B + R": 0.0
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "blepharospasm",
+  "b": "instruction_execution",
+  "a_top": [
+   "disease",
+   "malady",
+   "sickness",
+   "disorder"
+  ],
+  "b_top": [
+   "performance",
+   "process",
+   "display",
+   "exhibit"
+  ],
+  "joint_top": [
+   "demonstrate",
+   "testify",
+   "raise",
+   "display",
+   "prove",
+   "show"
+  ],
+  "joint_attractor": 226,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.151,
+   "A + R": 0.005,
+   "B + R": 0.16
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "yarny",
+  "b": "decommissions",
+  "a_top": [
+   "attract",
+   "turn",
+   "twist",
+   "wring"
+  ],
+  "b_top": [
+   "recall",
+   "draw",
+   "call",
+   "remember"
+  ],
+  "joint_top": [
+   "vulgar",
+   "coarse",
+   "call",
+   "exclaim",
+   "yell",
+   "common"
+  ],
+  "joint_attractor": null,
+  "controls": {
+   "A x2": 0.0,
+   "B x2": 0.285,
+   "A + R": 0.0,
+   "B + R": 0.3
+  },
+  "explained_by": [],
+  "interaction": true
+ },
+ {
+  "group": "random",
+  "a": "forebegotten",
+  "b": "persecution",
+  "a_top": [
+   "reach",
+   "gain",
+   "get",
+   "take"
+  ],
+  "b_top": [
+   "bear",
+   "hold",
+   "accept",
+   "assume"
+  ],
+  "joint_top": [
+   "see",
+   "take",
+   "get",
+   "watch",
+   "check",
+   "receive"
+  ],
+  "joint_attractor": 108,
+  "controls": {
+   "A x2": 0.177,
+   "B x2": 0.173,
+   "A + R": 0.01,
+   "B + R": 0.002
+  },
+  "explained_by": [],
+  "interaction": true
+ }
+]

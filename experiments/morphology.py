@@ -49,7 +49,8 @@ CATEGORY = {"IsA", "InstanceOf", "MannerOf", "PartOf"}
 SHIFT = 21
 HUB = 2000
 TOPK = 40
-NULL_MODES = ("global", "relation", "reciprocal")
+ALL_MODES = ("global", "relation", "reciprocal", "strict")
+NULL_MODES = ALL_MODES[:3]
 
 
 def log(*a):
@@ -110,8 +111,26 @@ def wjaccard(M, a, b, batch=50_000):
     return wj, cont
 
 
-def shuffle_dst(src, dst, rel, mode, rng, n):
-    """numpy version of ideanet.analysis.shuffle_targets (same three modes)."""
+def shuffle_strata(src, dst, strata, rec, rng):
+    """Permute one-way targets within strata; re-pair reciprocal links within strata (u->w and w->u)."""
+    d = dst.copy()
+    idx = np.flatnonzero(~rec)
+    s = strata[idx]
+    d[idx[np.argsort(s, kind="stable")]] = dst[idx[np.lexsort((rng.random(len(idx)), s))]]
+    idx = np.flatnonzero(rec)
+    o = idx[np.lexsort((rng.random(len(idx)), strata[idx]))]
+    x, y = o[0:len(o) - 1:2], o[1::2]
+    same = strata[x] == strata[y]
+    x, y = x[same], y[same]
+    d[x], d[y] = src[y], src[x]
+    return d
+
+
+def shuffle_dst(src, dst, rel, mode, rng, n, strata=None, rec=None):
+    """numpy version of ideanet.analysis.shuffle_targets (same three modes), plus "strict": targets
+    shuffled within relation x source dataset x reciprocity x source/target degree-class strata."""
+    if mode == "strict":
+        return shuffle_strata(src, dst, strata, rec, rng)
     d = dst.copy()
     if mode == "global":
         return rng.permutation(d)
@@ -149,15 +168,15 @@ def global_stats(A, rows, min_deg=5):
 _G: dict = {}
 
 
-def _null_init(src, dst, rel, cmask, vis, n, pa, pb, rows):
-    _G.update(src=src, dst=dst, rel=rel, cmask=cmask, vis=vis, n=n, pa=pa, pb=pb, rows=rows)
+def _null_init(src, dst, rel, cmask, vis, n, pa, pb, rows, strata=None, rec=None):
+    _G.update(src=src, dst=dst, rel=rel, cmask=cmask, vis=vis, n=n, pa=pa, pb=pb, rows=rows, strata=strata, rec=rec)
 
 
 def _null_task(args):
     mode, seed = args
     g = _G
-    rng = np.random.default_rng(1000 * (NULL_MODES.index(mode) + 1) + seed)
-    d = shuffle_dst(g["src"], g["dst"], g["rel"], mode, rng, g["n"])
+    rng = np.random.default_rng(1000 * (ALL_MODES.index(mode) + 1) + seed)
+    d = shuffle_dst(g["src"], g["dst"], g["rel"], mode, rng, g["n"], g["strata"], g["rec"])
     A = binary(g["n"], g["src"][g["cmask"]], d[g["cmask"]], g["vis"])
     return mode, seed, rowdot(A, g["pa"], g["pb"]).astype(np.float32), global_stats(A, g["rows"])
 
@@ -167,7 +186,7 @@ def _null_task(args):
 def features(sim, tsim, cn, d1, d2):
     lo, hi = np.minimum(d1, d2), np.maximum(d1, d2)
     return np.column_stack([np.ones(len(sim)), np.log(sim + 1e-3), np.log(tsim + 1e-3),
-                            np.log1p(cn), np.log(lo), np.log(hi)])
+                            np.log1p(cn), np.log(np.maximum(lo, 1)), np.log(np.maximum(hi, 1))])
 
 
 def fit_logistic(X, y, iters=25, ridge=1e-6):
@@ -187,7 +206,27 @@ def predict(beta, X):
     return 1 / (1 + np.exp(-np.clip(X @ beta, -30, 30)))
 
 
+def null_strata(src, dst, rel, n, R, ds=None, bins=None):
+    """Strata for the strict null: relation x dataset x reciprocity x degree class (source; target too for one-way)."""
+    rec = np.isin((dst.astype(np.int64) * n + src) * R + rel, (src.astype(np.int64) * n + dst) * R + rel) & (src != dst)
+    tot = np.bincount(src, minlength=n) + np.bincount(dst, minlength=n)
+    b = np.minimum(np.log2(np.maximum(tot, 1)).astype(np.int64), 15) if bins is None else bins
+    dcode = np.zeros(len(src), np.int64) if ds is None else np.unique(ds, return_inverse=True)[1]
+    st = ((rel.astype(np.int64) * (dcode.max() + 1) + dcode) * 2 + rec) * 256 + b[src] * 16 + np.where(rec, 0, b[dst])
+    return np.unique(st, return_inverse=True)[1], rec
+
+
+def hole_shape(A, deg, v):
+    nb = A.indices[A.indptr[v]:A.indptr[v + 1]]
+    nb = nb[deg[nb] >= 3]
+    if len(nb) < 2:
+        return dict(neighbours=int(len(nb)), components=[])
+    nc, lab = connected_components(A[nb][:, nb], directed=False)
+    return dict(neighbours=int(len(nb)), components=sorted(np.bincount(lab).tolist(), reverse=True)[:8])
+
+
 def main():
+    global NULL_MODES
     ap = argparse.ArgumentParser()
     ap.add_argument("arrays", help="graph-arrays.npz (src,dst,rel,w,ids,rels aligned to graph.links)")
     ap.add_argument("out")
@@ -198,7 +237,12 @@ def main():
     ap.add_argument("--min-degree", type=int, default=5)
     ap.add_argument("--min-unigram", type=int, default=20)
     ap.add_argument("--top", type=int, default=60)
+    ap.add_argument("--keep", help="npz with boolean 'keep' over links (e.g. drop Wiktionary-only links)")
+    ap.add_argument("--sources", help="link-datasets.npz from link_sources.py (strata for the strict null)")
+    ap.add_argument("--null-modes", default=",".join(NULL_MODES), help=f"comma list from {ALL_MODES}")
+    ap.add_argument("--track", help="text file: 'a b' pairs or single hole centres to report regardless of rank")
     a = ap.parse_args()
+    NULL_MODES = tuple(a.null_modes.split(","))
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
 
@@ -206,6 +250,9 @@ def main():
     src, dst, rel, w0 = z["src"], z["dst"], z["rel"], z["w"]
     ids, rels = [str(x) for x in z["ids"]], [str(x) for x in z["rels"]]
     n, R = len(ids), len(rels)
+    keep = np.load(a.keep)["keep"] if a.keep else np.ones(len(src), bool)
+    ds = np.load(a.sources)["mask"][keep] if a.sources else None
+    src, dst, rel, w0 = src[keep], dst[keep], rel[keep], w0[keep]
     cmask = ~np.isin(rel, [rels.index(r) for r in LEX if r in rels])
     amask = np.isin(rel, [rels.index(r) for r in ALIAS if r in rels])
 
@@ -233,7 +280,7 @@ def main():
     W = {"original": weighted(n, cs, ct, w0[cmask], vis)}
     for spec in a.weights:
         name, path = spec.split("=", 1)
-        W[name] = weighted(n, cs, ct, np.load(path, allow_pickle=True)["weights"][cmask], vis)
+        W[name] = weighted(n, cs, ct, np.load(path, allow_pickle=True)["weights"][keep][cmask], vis)
 
     ci = np.flatnonzero(vis & (deg >= a.min_degree))
     log(f"core: {len(ci):,} ideas (visible conceptual degree >= {a.min_degree})")
@@ -264,8 +311,19 @@ def main():
                 cols = cols[np.argpartition(-vals, TOPK)[:TOPK]]
             pa.append(np.full(len(cols), ci[i + r]))
             pb.append(ci[cols])
-    k = np.unique(pair_key(np.concatenate(pa), np.concatenate(pb)))
+    idx_of = {t: i for i, t in enumerate(ids)}
+    track_pairs, track_holes = [], []
+    if a.track:
+        for line in open(a.track):
+            f_ = line.split()
+            if len(f_) == 2 and all(t in idx_of for t in f_):
+                track_pairs.append((idx_of[f_[0]], idx_of[f_[1]]))
+            elif len(f_) == 1 and f_[0] in idx_of:
+                track_holes.append(idx_of[f_[0]])
+    tk = pair_key(np.array([p_[0] for p_ in track_pairs], np.int64), np.array([p_[1] for p_ in track_pairs], np.int64))
+    k = np.unique(np.r_[pair_key(np.concatenate(pa), np.concatenate(pb)), tk])
     pa, pb = unkey(k)
+    tracked = np.isin(k, tk)
     log(f"{len(pa):,} candidate pairs")
 
     def pair_stats(x, y):
@@ -306,10 +364,10 @@ def main():
     nested_ok = (cont_s >= 0.5) & (cont_l <= 0.25) & (np.minimum(deg[pa], deg[pb]) >= 8)
     interesting = ~linked & ((p_link["original"] >= 0.05) | nested_ok)
     lex = np.zeros(len(pa), bool)
-    for i in np.flatnonzero(interesting):
+    for i in np.flatnonzero(interesting | tracked):
         lex[i] = lexvar(ids[pa[i]], ids[pb[i]])
     explained = np.zeros(len(pa), bool)
-    ii = np.flatnonzero(interesting & ~lex)
+    ii = np.flatnonzero((interesting | tracked) & ~lex)
     explained[ii] = (rowdot(Syn, pa[ii], pb[ii], Aany) + rowdot(Syn, pb[ii], pa[ii], Aany)) > 0
     gap_mask = interesting & ~lex & ~explained
     log(f"{(~linked).sum():,} unlinked candidates; {interesting.sum():,} similar or nested; "
@@ -351,7 +409,7 @@ def main():
     log(f"{len(holes):,} fragmented neighbourhoods, {len(hpa):,} cross-cluster pairs")
 
     # ---- nulls -----------------------------------------------------------------------------
-    test_idx = np.flatnonzero(gap_mask)
+    test_idx = np.flatnonzero(gap_mask | tracked)
     hsel = np.flatnonzero(hscore > 0.05)
     na, nbb = np.r_[pa[test_idx], hpa[hsel]], np.r_[pb[test_idx], hpb[hsel]]
     obs_cn = np.r_[cn[test_idx], hst["cn"][hsel]]
@@ -360,7 +418,8 @@ def main():
     log(f"nulls: {len(na):,} pairs x {a.nulls} x {len(NULL_MODES)}; real {real_glob}")
     null_cn = {m: np.zeros((a.nulls, len(na)), np.float32) for m in NULL_MODES}
     null_glob = {m: [] for m in NULL_MODES}
-    with Pool(a.workers, initializer=_null_init, initargs=(src, dst, rel, cmask, vis, n, na, nbb, rows)) as pool:
+    with Pool(a.workers, initializer=_null_init, initargs=(src, dst, rel, cmask, vis, n, na, nbb, rows,
+                                                                     *(null_strata(src, dst, rel, n, R, ds) if "strict" in NULL_MODES else (None, None)))) as pool:
         for mode, seed, cnv, glob in pool.imap_unordered(_null_task, [(m, s) for m in NULL_MODES for s in range(a.nulls)]):
             null_cn[mode][seed] = cnv
             null_glob[mode].append(glob)
@@ -428,7 +487,7 @@ def main():
         return dict(
             kind=kind, a=ids[x], b=ids[y], deg=[int(deg[x]), int(deg[y])],
             common_neighbours=int(cn[t]), jaccard=round(float(J[t]), 3), typed_jaccard=round(float(tJ[t]), 3),
-            containment=[round(float(cn[t] / deg[x]), 3), round(float(cn[t] / deg[y]), 3)],
+            containment=[round(float(cn[t] / max(deg[x], 1)), 3), round(float(cn[t] / max(deg[y], 1)), 3)],
             weighted_jaccard={nm: round(float(wj[nm][t]), 3) for nm in W},
             p_linked_comparable={nm: round(float(p_link[nm][t]), 3) for nm in W},
             gap_score=round(float(gap_score[t]), 3),
@@ -448,7 +507,7 @@ def main():
         "graph": dict(ideas=n, visible=int(vis.sum()), conceptual_links=int(cmask.sum()), core=len(ci),
                       candidates=len(pa), unlinked=int((~linked).sum()), interesting=int(interesting.sum()),
                       lexical=int(lex[interesting].sum()), explained=int(explained.sum()), gap_pairs=int(gap_mask.sum()),
-                      gap_pairs_null_significant=int((pmax[:len(test_idx)] <= floor).sum()),
+                      gap_pairs_null_significant=int(((pmax[:len(test_idx)] <= floor) & gap_mask[test_idx]).sum()),
                       holes=len(holes)),
         "model": {nm: np.round(beta[nm], 4).tolist() for nm in W},
         "global": {"real": real_glob, **null_glob},
@@ -480,7 +539,15 @@ def main():
                 break
         return chosen, skipped
 
-    sig = pmax[:len(test_idx)] <= floor
+    sig = (pmax[:len(test_idx)] <= floor) & gap_mask[test_idx]
+    results["tracked"] = []
+    for t in np.flatnonzero(tracked):
+        d_ = describe_pair(int(t), "tracked")
+        d_.update(linked=bool(linked[t]), conceptually_linked=bool(clinked[t]), lexical=bool(lex[t]),
+                  alias_explained=bool(explained[t]), gap=bool(gap_mask[t]),
+                  null_significant_all=bool(pmax[tidx[int(t)]] <= floor), null_p_max=round(float(pmax[tidx[int(t)]]), 4))
+        results["tracked"].append(d_)
+    results["tracked_holes"] = [dict(centre=ids[v], deg=int(deg[v]), **hole_shape(A, deg, v)) for v in track_holes]
     log("describing pairs")
     ml = test_idx[sig & ~nested_ok[test_idx]]
     ml = ml[np.argsort(-gap_score[ml])]

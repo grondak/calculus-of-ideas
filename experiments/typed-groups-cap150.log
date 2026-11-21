@@ -1,0 +1,20 @@
+19:04:58 variant links 689,944 of 4,341,307; visible ideas 1,120,244; frame relations ['AtLocation', 'CapableOf', 'Causes', 'CausesDesire', 'CreatedBy', 'DefinedAs', 'Desires', 'Entails', 'HasA', 'HasFirstSubevent', 'HasLastSubevent', 'HasPrerequisite', 'HasProperty', 'HasSubevent', 'LocatedNear', 'MadeOf', 'MotivatedByGoal', 'NotCapableOf', 'NotDesires', 'NotHasProperty', 'ReceivesAction', 'SymbolOf', 'UsedFor']
+19:04:58 members limited to ideas with <= 150 typed features: 1,120,234 eligible
+19:04:58 typed features: 19,369 columns, 209,681 incidences, 109,606 rows
+19:05:36 mined 4,009 groups
+19:05:50   subsample 0: 2,119 groups
+19:06:05   subsample 1: 2,178 groups
+19:06:18   subsample 2: 2,220 groups
+19:06:32   subsample 3: 2,166 groups
+19:06:46   subsample 4: 2,194 groups
+19:06:46   null 0/400
+19:06:47   null 50/400
+19:06:48   null 100/400
+19:06:51   null 150/400
+19:08:34   null 200/400
+19:08:39   null 250/400
+19:08:49   null 300/400
+19:08:53   null 350/400
+19:11:08 {"real": {"groups": 4009, "size_ge_6": 1690, "size_ge_10": 459}, "global": {"groups": [241, 262, 273, 313], "size_ge_6": [92, 122, 122, 151], "size_ge_10": [9, 14, 15, 19]}, "relation": {"groups": [2849, 2774, 2740, 2597], "size_ge_6": [1492, 1438, 1372, 1309], "size_ge_10": [613, 620, 598, 543]}, "reciprocal": {"groups": [2802, 2742, 2790, 2626], "size_ge_6": [1475, 1373, 1379, 1315], "size_ge_10": [676, 643, 602, 625]}, "strict": {"groups": [1777, 1788, 1841, 1867], "size_ge_6": [453, 458, 466, 460], "size_ge_10": [60, 51, 48, 57]}}
+19:11:08 significant in all nulls 2503, robust 986, tiers {'crosscutting': 267, 'partly_named': 203, 'uncategorised': 379, 'named': 137}
+19:11:09 done

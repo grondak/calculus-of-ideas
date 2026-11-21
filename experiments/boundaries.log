@@ -1,0 +1,24 @@
+21:43:06 real: 1,511 groups, 6,347 candidate pairs, 183 boundaries; share of candidate pairs linked 0.643
+21:43:10   null 0/400
+21:43:37   null 20/400
+21:44:05   null 40/400
+21:44:32   null 60/400
+21:44:59   null 80/400
+21:45:25   null 100/400
+21:45:52   null 120/400
+21:46:19   null 140/400
+21:46:47   null 160/400
+21:47:15   null 180/400
+21:47:46   null 200/400
+21:48:13   null 220/400
+21:48:46   null 240/400
+21:49:17   null 260/400
+21:49:43   null 280/400
+21:50:11   null 300/400
+21:50:37   null 320/400
+21:51:02   null 340/400
+21:51:29   null 360/400
+21:51:57   null 380/400
+21:52:31 {"real": {"groups": 1511, "pairs": 6347, "boundaries": 183, "rate": 0.0288, "cand_linked": 0.643}, "relation": {"groups": 748.03, "pairs": 2381.27, "boundaries_mean": 46.4, "boundaries_max": 167, "p_real_le_null": 0.0099, "rate_mean": 0.0194, "rate_min": 0.0039, "rate_max": 0.0654, "p_rate_real_ge_null": 0.1386, "p_rate_real_le_null": 0.8713, "cand_linked": 0.98, "p_unlinked_real_ge_null": 0.0099}, "strict": {"groups": 358.63, "pairs": 508.0, "boundaries_mean": 21.7, "boundaries_max": 46, "p_real_le_null": 0.0099, "rate_mean": 0.0425, "rate_min": 0.0049, "rate_max": 0.0842, "p_rate_real_ge_null": 0.8317, "p_rate_real_le_null": 0.1782, "cand_linked": 0.784, "p_unlinked_real_ge_null": 0.0099}, "profile": {"groups": 572.6, "pairs": 1240.08, "boundaries_mean": 73.6, "boundaries_max": 142, "p_real_le_null": 0.0099, "rate_mean": 0.0592, "rate_min": 0.0307, "rate_max": 0.105, "p_rate_real_ge_null": 1.0, "p_rate_real_le_null": 0.0099, "cand_linked": 0.928, "p_unlinked_real_ge_null": 0.0099}, "profile2": {"groups": 770.82, "pairs": 2178.65, "boundaries_mean": 116.1, "boundaries_max": 173, "p_real_le_null": 0.0099, "rate_mean": 0.0534, "rate_min": 0.0331, "rate_max": 0.0799, "p_rate_real_ge_null": 1.0, "p_rate_real_le_null": 0.0099, "cand_linked": 0.93, "p_unlinked_real_ge_null": 0.0099}}
+21:52:31 boundaries unexpected under both profile nulls: 1 of 183
+21:52:31 done

@@ -1,0 +1,26 @@
+19:22:32 re-mined 1,511 real groups (identical to experiments/results-typed-groups/typed-groups.json.gz)
+19:22:34 profile {'classes': 223, 'one_way_strata': 32319, 'two_way_strata': 12865, 'typed_one_way_links_in_singleton_strata': 0.037, 'two_way_pairs_in_singleton_strata': 0.067}
+19:22:36 profile2 {'classes': 1879, 'one_way_strata': 67842, 'two_way_strata': 22266, 'typed_one_way_links_in_singleton_strata': 0.121, 'two_way_pairs_in_singleton_strata': 0.144}
+19:22:39   null 0/400
+19:22:56   null 20/400
+19:23:15   null 40/400
+19:23:33   null 60/400
+19:23:50   null 80/400
+19:24:07   null 100/400
+19:24:23   null 120/400
+19:24:38   null 140/400
+19:24:56   null 160/400
+19:25:12   null 180/400
+19:25:28   null 200/400
+19:25:46   null 220/400
+19:26:04   null 240/400
+19:26:22   null 260/400
+19:26:38   null 280/400
+19:26:55   null 300/400
+19:27:10   null 320/400
+19:27:26   null 340/400
+19:27:44   null 360/400
+19:28:01   null 380/400
+19:28:20 {"real": {"size_ge_4": 1511, "size_ge_6": 571, "size_ge_10": 155, "size_ge_20": 18, "named_ge_6": 42, "partly_named_ge_6": 106, "uncategorised_ge_6": 147, "crosscutting_ge_6": 276, "unnamed_ge_6": 423}, "relation": {"size_ge_4": {"mean": 751.7, "min": 658, "max": 834, "p_real_le_null": 0.0099}, "size_ge_6": {"mean": 200.2, "min": 148, "max": 255, "p_real_le_null": 0.0099}, "size_ge_10": {"mean": 15.3, "min": 4, "max": 31, "p_real_le_null": 0.0099}, "size_ge_20": {"mean": 0.0, "min": 0, "max": 1, "p_real_le_null": 0.0099}, "named_ge_6": {"mean": 0.3, "min": 0, "max": 2, "p_real_le_null": 0.0099}, "partly_named_ge_6": {"mean": 34.6, "min": 18, "max": 56, "p_real_le_null": 0.0099}, "uncategorised_ge_6": {"mean": 14.7, "min": 5, "max": 26, "p_real_le_null": 0.0099}, "crosscutting_ge_6": {"mean": 150.6, "min": 104, "max": 192, "p_real_le_null": 0.0099}, "unnamed_ge_6": {"mean": 165.3, "min": 118, "max": 209, "p_real_le_null": 0.0099}, "retained_incidences": 0.006}, "strict": {"size_ge_4": {"mean": 355.0, "min": 300, "max": 415, "p_real_le_null": 0.0099}, "size_ge_6": {"mean": 59.9, "min": 46, "max": 81, "p_real_le_null": 0.0099}, "size_ge_10": {"mean": 4.2, "min": 1, "max": 9, "p_real_le_null": 0.0099}, "size_ge_20": {"mean": 0.2, "min": 0, "max": 1, "p_real_le_null": 0.0099}, "named_ge_6": {"mean": 1.4, "min": 0, "max": 4, "p_real_le_null": 0.0099}, "partly_named_ge_6": {"mean": 10.6, "min": 5, "max": 16, "p_real_le_null": 0.0099}, "uncategorised_ge_6": {"mean": 10.5, "min": 3, "max": 23, "p_real_le_null": 0.0099}, "crosscutting_ge_6": {"mean": 37.5, "min": 26, "max": 51, "p_real_le_null": 0.0099}, "unnamed_ge_6": {"mean": 48.0, "min": 33, "max": 66, "p_real_le_null": 0.0099}, "retained_incidences": 0.043}, "profile": {"size_ge_4": {"mean": 569.8, "min": 532, "max": 613, "p_real_le_null": 0.0099}, "size_ge_6": {"mean": 145.7, "min": 126, "max": 168, "p_real_le_null": 0.0099}, "size_ge_10": {"mean": 14.2, "min": 8, "max": 21, "p_real_le_null": 0.0099}, "size_ge_20": {"mean": 1.1, "min": 1, "max": 2, "p_real_le_null": 0.0099}, "named_ge_6": {"mean": 3.6, "min": 0, "max": 9, "p_real_le_null": 0.0099}, "partly_named_ge_6": {"mean": 26.4, "min": 15, "max": 41, "p_real_le_null": 0.0099}, "uncategorised_ge_6": {"mean": 34.5, "min": 24, "max": 48, "p_real_le_null": 0.0099}, "crosscutting_ge_6": {"mean": 81.2, "min": 61, "max": 106, "p_real_le_null": 0.0099}, "unnamed_ge_6": {"mean": 115.7, "min": 95, "max": 144, "p_real_le_null": 0.0099}, "retained_incidences": 0.133}, "profile2": {"size_ge_4": {"mean": 772.4, "min": 730, "max": 820, "p_real_le_null": 0.0099}, "size_ge_6": {"mean": 244.6, "min": 222, "max": 269, "p_real_le_null": 0.0099}, "size_ge_10": {"mean": 38.0, "min": 29, "max": 50, "p_real_le_null": 0.0099}, "size_ge_20": {"mean": 2.3, "min": 2, "max": 4, "p_real_le_null": 0.0099}, "named_ge_6": {"mean": 20.2, "min": 14, "max": 28, "p_real_le_null": 0.0099}, "partly_named_ge_6": {"mean": 50.3, "min": 34, "max": 73, "p_real_le_null": 0.0099}, "uncategorised_ge_6": {"mean": 54.8, "min": 46, "max": 66, "p_real_le_null": 0.0099}, "crosscutting_ge_6": {"mean": 119.3, "min": 102, "max": 139, "p_real_le_null": 0.0099}, "unnamed_ge_6": {"mean": 174.1, "min": 154, "max": 199, "p_real_le_null": 0.0099}, "retained_incidences": 0.317}}
+19:28:20 survive profile nulls 749, + selection 89; {'survives_profile': {'crosscutting': 236, 'partly_named': 119, 'named': 79, 'uncategorised': 315}, 'survives_selection': {'crosscutting': 17, 'partly_named': 4, 'uncategorised': 68}}
+19:28:20 done

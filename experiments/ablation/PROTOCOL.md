@@ -72,3 +72,10 @@ scores only (inferred profile, candidate profile) pairs, so it cannot test which
 - Stage 2 (blind): stratified random sample (by intact degree) of held-out concepts with intact degree 10-500,
   >= 5 surviving core neighbours and family size <= 200, excluding Stage 1 and dev concepts and their families;
   sampler, seed and analysis frozen and committed before the run.
+
+## Frozen before any Stage 1 result was seen
+- Stage 2 list: `stage2.txt` (stage2_sample.py, seed 20261122); `ablate.py --limit 200 --max-family 200 --seed 3`
+  keeps the first 200 eligible concepts. For compute, Stage 2 detection pools use 10 (not 30) affected seeds per
+  concept (`make_tasks.py --pool-per-concept 10`). Recovery for Stage 2 batches the RA/PPR/SPEC/LANG queries
+  (numerically identical to Stage 1's per-seed loop: max score difference < 3e-7, identical top-200 sets).
+- Dev run (`dev.txt`) was used only to debug the scorer; it was stopped after two worlds.

@@ -81,21 +81,25 @@ class World:
     def scores(self, method, seeds_list):
         if method == "GEO":
             return self.geo_query(seeds_list)
-        out = np.zeros((len(seeds_list), self.n), np.float32)
+        m = len(seeds_list)
+        Sm = sp.csr_matrix((np.concatenate([np.full(len(S), 1 / len(S)) for S in seeds_list]),
+                            (np.repeat(np.arange(m), [len(S) for S in seeds_list]), np.concatenate(seeds_list))),
+                           shape=(m, self.n), dtype=np.float32)
+        if method == "RA":
+            Sd = Sm.multiply(1 / np.maximum(self.deg, 1)[None]).multiply(np.asarray([[len(S)] for S in seeds_list]))
+            out = np.asarray((Sd @ self.A).todense()) + 1e-6 * self.deg / self.deg.max()
+        elif method == "PPR":
+            e = Sm.T.toarray(); x = e.copy()
+            for _ in range(10):
+                x = 0.3 * e + 0.7 * (self.PT @ x)
+            out = x.T
+        elif method == "SPEC":
+            out = (Sm @ self.spec) @ self.spec.T
+        else:
+            c = norm_rows(np.asarray(Sm @ self.lang)); out = c @ self.lang.T; out[:, ~self.lang_ok] = -np.inf
+        out = np.ascontiguousarray(out, dtype=np.float32); out[:, ~self.present] = -np.inf
         for i, S in enumerate(seeds_list):
-            S = np.asarray(S)
-            if method == "RA":
-                x = np.asarray(self.A[S].T @ (1 / np.maximum(self.deg[S], 1))).ravel() + 1e-6 * self.deg / self.deg.max()
-            elif method == "PPR":
-                e = np.zeros(self.n, np.float32); e[S] = 1 / len(S); x = e.copy()
-                for _ in range(10):
-                    x = 0.3 * e + 0.7 * (self.PT @ x)
-            elif method == "SPEC":
-                x = self.spec @ self.spec[S].mean(0)
-            else:
-                x = self.lang @ norm_rows(self.lang[S].mean(0)); x[~self.lang_ok] = -np.inf
-            x = x.astype(np.float32); x[~self.present] = -np.inf; x[S] = -np.inf
-            out[i] = x
+            out[i, S] = -np.inf
         return out, None
 
     def coherence(self, method, H):

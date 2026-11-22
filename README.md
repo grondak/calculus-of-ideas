@@ -111,3 +111,23 @@ PYTHONPATH=. python experiments/corpus_ensemble.py ~/data/conceptnet-en.pkl expe
 ### Paraphrase-merged mining and sparse boundaries
 
 `experiments/run_merged.sh` runs the pipeline. `embed_ideas.py` + `paraphrase_pairs.py` propose candidate paraphrases (embedding neighbours, Synonym/SimilarTo/FormOf) and score both directions with an NLI cross-encoder; `paraphrase_rescore.py` re-judges them with a larger NLI model. `anchor_classes.py` builds bounded complete-linkage equivalence classes from mutual entailment or FormOf, excluding Antonym/DistinctFrom pairs, contradictions, asymmetric negation, one-way entailment and entity/activity extensions (chess / play_chess). The class map (`experiments/results-merged/classes.json.gz`) is reversible; the graph arrays are untouched. `profile_null.py --merge` and `boundaries.py --merge` contract the real graph and every null graph (generated at original-ID level) with the same map and re-mine them with the identical procedure. `fixed_regions.py` re-checks the fixed real group pairs in 1,000 nulls per mode. See `experiments/results-merged/SUMMARY.md`.
+
+## Collection-unit nulls and merge sensitivity
+
+```bash
+export PYTHONPATH=.; D=/home/ubuntu/data; K="--keep $D/morph/keep-no-wiktionary.npz"; S="--sources $D/morph/link-datasets.npz"
+python experiments/extract_provenance.py $D/conceptnet-5.7.csv.gz $D/collect/provenance.tsv.gz
+python experiments/collection_null.py $D/morph/graph-arrays.npz experiments/results-typed-groups/typed-groups.json.gz \
+  experiments/results-collection $K $S --merge $D/merge/classes.npz --provenance $D/collect/provenance.tsv.gz --nulls 1000
+python experiments/collection_null.py $D/morph/graph-arrays.npz experiments/results-typed-groups/typed-groups.json.gz \
+  experiments/results-collection-causes $K $S --merge $D/merge/classes.npz --nulls 1000 --extra-units Causes \
+  --modes "strict,profile,profile2,strict|units:Causes,profile|units:Causes,profile2|units:Causes"
+python experiments/merge_sensitivity.py $D/morph/graph-arrays.npz experiments/results-typed-groups/typed-groups.json.gz \
+  experiments/results-merge-sensitivity $K $S --classes $D/merge/classes --pairs $D/merge/nli-pairs.npz --nulls 200 --reps 5
+python experiments/collection_groups.py $D/collect/provenance.tsv.gz experiments/results-collection/dense-survivors.md \
+  cap30=experiments/results-merged/profile-null.json.gz cap150=experiments/results-merged-cap150/profile-null.json.gz
+```
+
+Collection-unit nulls hold each event's HasPrerequisite list (and links inside it) fixed and shuffle the rest;
+`merge_sensitivity.py` rebuilds groups and the fixed-core test under alternative and randomly degraded class maps.
+Results: `experiments/results-collection/SUMMARY.md`.

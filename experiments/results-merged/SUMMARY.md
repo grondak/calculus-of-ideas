@@ -20,6 +20,14 @@ No edges are added and nothing is named. Structural anomalies here are evidence 
 - Only one survivor spans ≥ 2 relation types and ≥ 2 independent anchor neighbourhoods: musical instruments AtLocation band / orchestra / music_store and UsedFor making_music.
 - Most other survivors are answer lists to one event; the "independent neighbourhood" count still overstates independence where anchor paraphrases were missed.
 
+## Dense groups after merging (cap 150, `../results-merged-cap150/report.md`)
+
+- 5,050 real groups (unmerged 4,009); size ≥ 10: real 651 vs profile 377 [max 421], profile2 463 [508], relation null 971 (the relation null still produces more large groups than the real graph).
+- 1,405 pass both profile nulls; 19 pass the full selection control (unmerged 53). Of the 53 earlier selection survivors: 10 survive, 29 pass profile nulls only, 13 found but not significant, 1 gone.
+- Survivors are almost all exercise/fitness/health answer lists, movie/TV/internet prerequisites, city locations and military prerequisites; one spans ≥ 2 relation types and ≥ 2 independent neighbourhoods (lose_weight / stay_fit / maintain_good_health: HasPrerequisite exercise, UsedFor< going_for_run / eating_healthily).
+- Anomaly 18: 69 merged groups contain ≥ 2 of its activities (UsedFor fun / enjoyment / entertainment / relaxation); 3 pass the profile nulls, none passes selection.
+- 264 groups pass the profile nulls with ≥ 2 relation types and ≥ 2 independent neighbourhoods but fail selection (the null-mined groups of the same shape are as large), e.g. instruments at band / orchestra / music store; activities that Cause injury, need practice and skill, and are UsedFor pleasure / earning money.
+
 ## Sparse boundaries (`../results-boundaries-merged/`)
 
 - Real: 4,667 candidate pairs (top 1% context similarity, disjoint cores), 227 boundaries (no links where comparable pairs are linked).

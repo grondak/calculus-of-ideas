@@ -82,7 +82,7 @@ Held-out worlds are never seen during discovery.
 - `stat_lr`: logistic regression on 58 pair features: relation indicators, in/out degrees, unary attributes and all
   depth-2 path counts.
 - `stat_gbm`: gradient boosting on those features plus all 216 depth-3 path counts (feature construction).
-- `oracle_primitive`: L0 plus the generator's true primitive. This is an upper bound used for evaluation only.
+- `oracle_primitive`: L0 plus the correct operator instance for the family (e.g. `TC` of the true parent relation; for `block`, the `BLOCK` spectral split of the assortative relation, not the hidden labels). It is the best the invention menu could supply, used for evaluation only; it is not access to the latent ground truth.
 
 **Controls.**
 - **Definability probe:** relabel the training worlds with the invented relation as target, fit L0 at depth 5, and

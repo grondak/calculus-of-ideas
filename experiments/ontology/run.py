@@ -156,7 +156,8 @@ def main():
     os.makedirs(a.out, exist_ok=True)
     jobs = [(s, f, a.n_train, a.n_test) for s in range(a.seeds) for f in a.families.split(",")]
     path = os.path.join(a.out, "runs.jsonl")
-    with Pool(a.workers) as pool, open(path, "w") as fh:
+    tmp = path + ".partial"
+    with Pool(a.workers) as pool, open(tmp, "w") as fh:
         for rec in pool.imap_unordered(run_one, jobs):
             fh.write(json.dumps(rec) + "\n")
             fh.flush()
@@ -164,6 +165,7 @@ def main():
             print(f"seed {rec['seed']} {rec['family']:17s} inv={rec['accepted_ops']} "
                   f"invent={r['invent']['large']['mcc']:.3f} L0d5={r['L0_d5']['large']['mcc']:.3f} "
                   f"gbm={r['stat_gbm']['large']['mcc']:.3f} ({rec['secs']:.0f}s)", flush=True)
+    os.replace(tmp, path)
 
 
 if __name__ == "__main__":

@@ -131,3 +131,7 @@ python experiments/collection_groups.py $D/collect/provenance.tsv.gz experiments
 Collection-unit nulls hold each event's HasPrerequisite list (and links inside it) fixed and shuffle the rest;
 `merge_sensitivity.py` rebuilds groups and the fixed-core test under alternative and randomly degraded class maps.
 Results: `experiments/results-collection/SUMMARY.md`.
+
+## Conceptual ablation and recovery
+
+Remove a known idea (and, increasingly strictly, its family and dependent links), then ask blind recovery methods whether the remaining graph shows the hole, where it is, what links it had, and which candidate it was. Geometry did not beat ordinary link prediction or name similarity on any of the four questions; see [experiments/ablation/results](experiments/ablation/results/README.md) and the protocol in [experiments/ablation/PROTOCOL.md](experiments/ablation/PROTOCOL.md).

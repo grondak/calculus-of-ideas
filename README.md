@@ -131,3 +131,9 @@ python experiments/collection_groups.py $D/collect/provenance.tsv.gz experiments
 Collection-unit nulls hold each event's HasPrerequisite list (and links inside it) fixed and shuffle the rest;
 `merge_sensitivity.py` rebuilds groups and the fixed-core test under alternative and randomly degraded class maps.
 Results: `experiments/results-collection/SUMMARY.md`.
+
+## Final round (separate): relational primitive invention
+
+A separate, synthetic-only round asks whether a learner can detect that its relational vocabulary is inadequate and
+invent a new primitive. It does not revise the ConceptNet findings above. Code, literature review, results and
+disposition ("Already understood"): `experiments/ontology/` (start with `experiments/ontology/FINAL_SUMMARY.md`).

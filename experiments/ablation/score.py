@@ -41,7 +41,16 @@ def rank_of_true(scores, labels, keep):
     return 1 + gt + eq / 2, len(idx)
 
 
-# ---- reconstruction, relation types, identification
+def random_ap(T, N, K):
+    """Expected AP@K (normalised by min(T, K)) of a uniformly random ranking of N ideas containing T targets."""
+    if T == 0:
+        return 0.0
+    r = np.arange(1, min(K, N) + 1)
+    return float((T / N) * ((1 + (r - 1) * (T - 1) / max(N - 1, 1)) / r).sum() / min(T, K))
+
+
+# ---- reconstruction, relation types, identification (method rankings restricted, like RANDOM and the targets, to
+# ideas with surviving degree >= 2)
 for tid, k in tk["seeded"].items():
     t = T[tid]; wid = t["world"]; c = k["concept"]
     if wid not in preds:
@@ -51,9 +60,9 @@ for tid, k in tk["seeded"].items():
     truth = set(tg) - set(t["seeds"])
     _, dg = world_core(wid); ncore = int((dg >= 2).sum()) - len(t["seeds"])
     g = (k["kind"], k["k"])
-    R["recon"][g + ("RANDOM",)].append((len(truth) / ncore, min(1.0, 50 / ncore)))
+    R["recon"][g + ("RANDOM",)].append((random_ap(len(truth), ncore, len(pr["GEO"]["top"])), min(1.0, 50 / ncore)))
     for m in M:
-        top = pr[m]["top"]; hit = np.array([int(v) in truth for v in top])
+        top = [v for v in pr[m]["top"] if dg[int(v)] >= 2]; hit = np.array([int(v) in truth for v in top], bool)
         ap_ = (np.cumsum(hit) / np.arange(1, len(hit) + 1))[hit].sum() / max(1, min(len(truth), len(top)))
         r50 = hit[:50].sum() / max(1, len(truth))
         R["recon"][g + (m,)].append((ap_, r50)); R["per"][(c, k["kind"], k["k"])][m + ":ap"] = ap_
@@ -66,7 +75,7 @@ for tid, k in tk["seeded"].items():
         R["per"][(c, k["kind"], k["k"])][f"LANG-NAME:{lab}"] = float(rk <= 1)
         R["ident"][g + (lab, "RANDOM")].append((1 / nn, np.mean(1 / np.arange(1, nn + 1))))
     top = pr["GEO"]["top"]
-    for j, v in enumerate(top):
+    for j, v in enumerate(top):  # relation types: GEO's own list (index j aligns with pr["GEO"]["rel"])
         if int(v) in truth:
             want = {rels.index(r) * 2 + (0 if out else 1) for r, out in tg[int(v)]}
             R["rel"][(k["kind"], "GEO")].append(pr["GEO"]["rel"][j] in want)
@@ -105,17 +114,17 @@ for b, kinds in byb.items():
         if kind in ("ND0", "ND", "NI1", "NI2", "NI3", "SHAM-ND"):
             for m in M:
                 for wk, P_ in ((kind, pool), ("INTACT", preds[INTACT]["pool"])):
-                    order = sorted((s for s in nodes if s in P_), key=lambda s: -P_[s][m][0])
-                    isbg = {s for s in bg}
+                    order = sorted((s for s in dict.fromkeys(nodes) if s in P_), key=lambda s: -P_[s][m][0])
+                    isbg = set(bg) - set(aff); nbg = sum(s in isbg for s in order)
                     for c, kc in C.items():
                         if kc["batch"] != b:
                             continue
-                        nb = {int(x) for x in kc["targets"][kinds["ND"]]}
+                        nb = {int(x) for x in kc["targets"][kinds["ND" if kind == "SHAM-ND" else kind]]}
                         above = 0; pct = 1.0
                         for s in order:
                             H = P_[s][m][3]
                             if np.mean([int(h) in nb for h in H]) >= 0.3:
-                                pct = above / max(1, len(isbg)); break
+                                pct = above / max(1, nbg); break
                             above += s in isbg
                         LOC[(kind, wk, m)].append(pct)
                         if wk == kind:

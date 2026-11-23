@@ -66,10 +66,14 @@ def main(path, out):
           "Target = the invented relation itself; learned on training worlds, scored on held-out worlds.", "",
           "| family | operator | n | probe MCC train | probe MCC iid | probe MCC large | large worlds reproduced exactly |", "|---|---|---|---|---|---|---|"]
     for f in fams:
-        g = defaultdict(list)
+        per_seed = defaultdict(list)
         for r in by[f]:
             for s, p in r.get("probe", {}).items():
-                g[s.split(",")[0].strip("(' ")].append(p)
+                per_seed[(s.split(",")[0].strip("(' "), r["seed"])].append(p)
+        g = defaultdict(list)
+        for (op, _), ps in per_seed.items():
+            g[op].append({k: {m: float(np.mean([p[k][m] for p in ps])) for m in ("mcc", "exact")}
+                          for k in ("train", "iid", "large")})
         for op, ps in sorted(g.items()):
             L.append(f"| {f} | {op} | {len(ps)} | {ci([p['train']['mcc'] for p in ps])} | {ci([p['iid']['mcc'] for p in ps])} | "
                      f"{ci([p['large']['mcc'] for p in ps])} | {np.mean([p['large']['exact'] for p in ps]):.2f} |")

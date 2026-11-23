@@ -154,21 +154,28 @@ def enumerate_literals(worlds, inv, depth, cache, extra_chains=()):
         cols.append(col)
         return True
 
-    frontier = []
+    # Prefixes are deduplicated on full matrices (including the diagonal): a prefix that is empty or
+    # redundant off-diagonal can still extend to a new chain.
+    frontier, seen_full = [], set()
+
+    def extend(chain, mats):
+        add(("chain", chain), np.concatenate([flat(m) for m in mats]))
+        h = b"".join(m.tobytes() for m in mats)
+        if h in seen_full or not any(m.any() for m in mats):
+            return
+        seen_full.add(h)
+        nxt.append((chain, mats))
+
     per_world = [atoms(w, inv, cache) for w in worlds]
+    nxt = []
     for i in range(n_atoms):
-        mats = [pw[i] for pw in per_world]
-        col = np.concatenate([flat(m) for m in mats])
-        if add(("chain", (i,)), col):
-            frontier.append(((i,), mats))
+        extend((i,), [pw[i] for pw in per_world])
+    frontier = nxt
     for _ in range(depth - 1):
         nxt = []
         for chain, mats in frontier:
             for i in range(n_atoms):
-                m2 = [_mm(m, pw[i]) for m, pw in zip(mats, per_world)]
-                col = np.concatenate([flat(m) for m in m2])
-                if add(("chain", chain + (i,)), col):
-                    nxt.append((chain + (i,), m2))
+                extend(chain + (i,), [_mm(m, pw[i]) for m, pw in zip(mats, per_world)])
         frontier = nxt
     for chain in extra_chains:
         lit = ("chain", chain)
